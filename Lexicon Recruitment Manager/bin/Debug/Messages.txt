@@ -1,0 +1,141 @@
+	
+MESSAGE CENTRE / RECENT SYSTEM UPDATES
+----------------------------------------
+---------------------------------
+Live 2.2 (Dev Versoin)
+------------------------------------
+Extended Rules and Details Box
+
+---------------------------------
+Live 2.1 (Current Versoin)
+------------------------------------
+Added Splash screen so users know the application is loading.
+Added Wait Forms so users know the application is doing something when switching between screens
+ 	-added waitform on save button on plan so user knows its saving
+Redone Security Procedure
+	- previously showed a blank string which caused an issue when we switched over to displaying - from no rights.
+	- Caused a few users to be able to lock plan when they shouldnt of been able to
+
+
+
+---------------------------------
+Live 2.0 (Previous Versoins)
+------------------------------------
+Added New Areas
+-Canvass Register Module (In Dev)
+-Holiday Module
+
+Changed Controls and look and feel
+-Main Screen
+	-Now has a tabbed Interface so finding windows is easier
+	-Integrated Menu that you can hide for navigation added icons for relevent areas
+	-changed the top toolbar so the items that didnt work are no longer visible
+	-also added icons to navigation drop down
+-Login Screen
+	-Changed Buttons to have icons
+-Plan Screen
+	-Changed Buttons
+	-Only Loads one record at a time instead of filtering a table brought down from the network
+	-Gridview's
+		-upgraded gridview
+		-Colored Rows: Applyed conditional formatting for different systemtypes
+			-Green = LP
+			-Orange = L
+			-OrangeRed = U
+			-White = Nothing
+	-Company Dropdown
+		-Only shows companys if the clients status is'OK' or'blank' 
+		-Upgraded to Multi Collumn
+
+-Clients Screen
+	-Created New Head Office Tab
+		-Moved Sage Ref to this tab
+		-Contains Client Status, Client Status Reason and the option to email allusers
+	-Added 2 new fields
+		Client Status
+			-Pick from Blacklist,On-Stop,Archive,OK
+		Client Status Reason
+			-Reason for putting client on Blacklist,On-Stop,Archive,OK
+	-Added option to send e-mail alert to all users
+	-Changed Gridview
+		-Colored Rows: Applyed conditional formatting for different systemtypes
+			-Green = LP
+			-Orange = L
+			-OrangeRed = U
+			-White = Nothing
+-Fixed Email Scheduling System
+
+-Added Skins
+
+
+
+---------------------------------
+Live 1.30 (Previous Versoins)
+------------------------------------
+Reports:
+- Each Report on the system now has a button to email the report to the email address of the current logged in user.
+
+Employees Screen:
+- changed 537 Lines of code to make readability easier and also makes it easier to make changes to the employee record
+	- Left in the old code commented out, after a few more updates this code will be removed
+- Removed Sql Adapters and replaced With LinQ
+- Extra Validation Added to prevent Text from being entered into CoRegNo and VATNumber
+- Upgrading an employee to Completed now fires an automatic email off to Liquidity of the scheme begins with LIQ
+
+Bug Fix's:
+- Employees screen wouldnt save on new record
+- Plan Screen Set Change rate on rate 1 to the charge rate on rate2
+
+
+---------------------------------
+Live 1.29 (Previous Versoins)
+------------------------------------
+- Database now runs on new Server
+
+Job Cat Screen:
+now has a paste button next tpo rules and details, pressing this button will add what ever text is in your clipboard to the end of the textbox
+
+
+---------------------------------
+Live 1.28  (Previous Versoins)
+------------------------------------
+Employee Screen:
+- Now Flags up error message when saving a new employee with an existing Ni Number
+
+Plan Screen:
+- Doesnt allow you to save unless theres a valid date in weekendingdate field
+
+
+-----------------------
+Pre Live 1.27 (Previous Versoins)
+------------------------
+Employee Screen:
+- The post code in the employees section Now allows more characters
+
+
+Reports:
+- Sat Charge appeard in Sun charge on the Validation report - This is now Fixed
+
+- The Follow up report now does not show any records that have a "week ending if late" date 
+  As these wont need following up anyway. 
+
+- When you now produce the Validation report it will only show "L" status records 
+  i.e. it will only show records that are locked, as any unlocked recordes are deemed to be un complete 
+
+
+The Main PLAN screen:
+- When The follow up button is pressed to follow up workers from one week to the next it now does not 
+  copy over to the following week any records that has "Week ending if late" date 
+  (the reason for this is beacuse any "week ending if late" records shoudl be payrolled in that week and are 
+   only manually placed onto the following week if the pay issue is still not resolved. 
+
+- On the plan you can now filter by client - this has been included so that you can just see all temps that are in at the one client only. 
+  You can then filter on the next client ect, - this makes it easier for when your entering hours on a Tuesday 
+  (Note to get it back to see the whole plan you would need to close the plan screen and re open)
+ 
+
+TIPS / THINGS TO REMEMBER 
+
+The system does not like blanks!!! if in doubt place a 0
+The system does not auto save - every change you make enure your press "Save" 
+If you go into a record on the plan and change the Rate schedule or job cat or client you may need to re enter the pay and hours - just remember to allways double check if you are ammendeding a record 

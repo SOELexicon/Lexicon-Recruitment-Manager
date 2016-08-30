@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lexicon Recruitment Manager", "Lexicon Recruitment Manager.vbproj", "{1959776D-19FF-4E09-A3E2-9A91AB25D3C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1959776D-19FF-4E09-A3E2-9A91AB25D3C9}.Debug|x86.ActiveCfg = Debug|x86
+		{1959776D-19FF-4E09-A3E2-9A91AB25D3C9}.Debug|x86.Build.0 = Debug|x86
+		{1959776D-19FF-4E09-A3E2-9A91AB25D3C9}.Release|x86.ActiveCfg = Release|x86
+		{1959776D-19FF-4E09-A3E2-9A91AB25D3C9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

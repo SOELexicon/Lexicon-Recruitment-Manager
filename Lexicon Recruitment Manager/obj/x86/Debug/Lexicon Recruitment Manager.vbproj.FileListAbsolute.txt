@@ -1,0 +1,597 @@
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.config
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DataGridViewExtender.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbprojResolveAssemblyReference.cache
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.ClientEdit.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Clients.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_NetMarginReport.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.InvoiceItemsAdd.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Invoices.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanClientCosting.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanSchemeCosting.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_BlockTimesheet.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanValidation.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_ConfirmationOfRates.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanFollowup.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_Planview.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Plan.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.UserSecurity.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SearchDialog.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.EmployeeEdit.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CustomerContact.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.frmClientDetails.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.FrmLogin.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Main.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Resources.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Web.resources
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbproj.GenerateResource.Cache
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.cache
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.compiled
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.TrustInfo.xml
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\Documents\Visual Studio 2012\Projects\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Holidays.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.config
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbprojResolveAssemblyReference.cache
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CanvassRegister.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.ClientEdit.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Clients.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.DialogPostcodeCheck.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Holidays.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_NetMarginReport.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.InvoiceItemsAdd.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanClientCosting.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanSchemeCosting.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_BlockTimesheet.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanValidation.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_ConfirmationOfRates.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanFollowup.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_Planview.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Plan.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.UserSecurity.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SearchDialog.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.EmployeeEdit.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CustomerContact.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.frmClientDetails.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.FrmLogin.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Main.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Resources.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Web.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbproj.GenerateResource.Cache
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.licenses
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.cache
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.compiled
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.TrustInfo.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Activity.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Consultants.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Security.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.BonusSkins.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.DataAccess.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Images.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Utils.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Xpo.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraBars.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.UI.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Win.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGrid.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraLayout.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraNavBar.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraPrinting.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraRichEdit.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Core.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Reporting.Extensions.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.DataAccess.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Utils.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.Xpo.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraBars.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.UI.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Core.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Win.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGrid.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraLayout.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraNavBar.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraPrinting.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraRichEdit.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Reporting.Extensions.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Core.xml
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Branchs.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Controls.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.PlanTypes.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Schemes.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SplashScreen.resources
+C:\Users\craigwright\SkyDrive Pro\Lexicon\Lexicon Recruitment Manager\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.WaitForm1.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.config
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.BonusSkins.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Charts.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Data.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.DataAccess.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Images.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Office.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Printing.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Utils.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Xpo.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraBars.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.UI.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraEditors.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Win.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGrid.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraLayout.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraNavBar.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraPrinting.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraRichEdit.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Core.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Reporting.Extensions.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Data.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.DataAccess.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Office.v15.1.Core.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Printing.v15.1.Core.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Utils.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.Xpo.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraBars.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.UI.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.1.Wizard.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraEditors.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Core.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.1.Win.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGrid.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraLayout.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraNavBar.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraPrinting.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraRichEdit.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Reporting.Extensions.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.1.Core.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.DataAccess.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Xpo.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraBars.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraCharts.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraCharts.v15.1.Wizard.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraGrid.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraLayout.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraNavBar.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraPrinting.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraRichEdit.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraScheduler.v15.1.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraScheduler.v15.1.Core.resources.dll
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbprojResolveAssemblyReference.cache
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Activity.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Consultants.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Branchs.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Controls.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Employees.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Plan_Import.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.PlanTypes.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Schemes.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Security.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CanvassRegister.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.ClientEdit.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Clients.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.DialogPostcodeCheck.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Holidays.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_NetMarginReport.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.InvoiceItemsAdd.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanClientCosting.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanSchemeCosting.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_BlockTimesheet.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanValidation.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_ConfirmationOfRates.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanFollowup.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_Planview.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Plan.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SplashScreen.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.UserSecurity.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SearchDialog.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.EmployeeEdit.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CustomerContact.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.frmClientDetails.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.FrmLogin.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Main.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Resources.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.WaitForm1.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Web.resources
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbproj.GenerateResource.Cache
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.licenses
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.cache
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.compiled
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.TrustInfo.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright.PURESTAFF\OneDrive for Business\Lexicon\Lexicon Recruitment Manager - Backup\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.config
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.application
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.exe
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.pdb
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\Lexicon Recruitment Manager.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.BonusSkins.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Charts.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Data.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.DataAccess.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Images.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Utils.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Xpo.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.2.UI.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.2.Win.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGrid.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraNavBar.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraRichEdit.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.2.Core.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.2.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.2.Reporting.Extensions.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.DataAccess.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.Xpo.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.2.UI.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.2.Core.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGauges.v15.2.Win.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraGrid.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraNavBar.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraRichEdit.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.2.Reporting.Extensions.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.2.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\DevExpress.XtraScheduler.v15.2.Core.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.DataAccess.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.DataAccess.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.DataAccess.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.DataAccess.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.Xpo.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.Xpo.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.Xpo.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.Xpo.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraCharts.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraCharts.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraCharts.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraCharts.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraGauges.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraGauges.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraGauges.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraGauges.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraGrid.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraNavBar.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraNavBar.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraNavBar.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraNavBar.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraRichEdit.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraRichEdit.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraRichEdit.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraRichEdit.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraScheduler.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraScheduler.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraScheduler.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraScheduler.v15.2.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\de\DevExpress.XtraScheduler.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\es\DevExpress.XtraScheduler.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ja\DevExpress.XtraScheduler.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\bin\Debug\ru\DevExpress.XtraScheduler.v15.2.Core.resources.dll
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbprojResolveAssemblyReference.cache
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Activity.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Consultants.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Branchs.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Controls.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Employees.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Plan_Import.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.PlanTypes.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Schemes.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Security.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CanvassRegister.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.ClientEdit.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Clients.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.DialogPostcodeCheck.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Holidays.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_NetMarginReport.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.InvoiceItemsAdd.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanClientCosting.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanSchemeCosting.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_BlockTimesheet.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanValidation.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_ConfirmationOfRates.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_PlanFollowup.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Reports_Planview.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Plan.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SplashScreen.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.UserSecurity.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.SearchDialog.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.EmployeeEdit.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.CustomerContact.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.frmClientDetails.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.FrmLogin.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Main.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Resources.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.WaitForm1.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexrecmgr.Web.resources
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.vbproj.GenerateResource.Cache
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.licenses
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.cache
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\RdlCompile.compiled
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.TrustInfo.xml
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.exe.manifest
+C:\Users\craigwright\Documents\lex\Lexicon\backup2\Lexicon Recruitment Manager\obj\x86\Debug\Lexicon Recruitment Manager.application
