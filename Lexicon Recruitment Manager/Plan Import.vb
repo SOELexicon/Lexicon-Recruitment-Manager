@@ -305,7 +305,14 @@ Public Class Plan_Import
             Label1.Text = "Errors: " + errors.ToString
             MsgBox("Import has " + errors.ToString + " Errors, please check fix where needed and retry")
         Else
-            LanderSubmit()
+            Try
+                LanderSubmit()
+            Catch ex As Exception
+                MsgBox(ex.ToString)
+            Finally
+                MsgBox("Import has completed")
+            End Try
+
         End If
 
     End Sub

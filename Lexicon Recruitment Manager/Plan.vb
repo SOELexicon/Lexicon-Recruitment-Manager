@@ -289,7 +289,7 @@ endofsave:
             End If
 
         Catch ex As Exception
-            MsgBox(ex.ToString)
+            '' MsgBox(ex.ToString)
         End Try
     End Sub
     Private Sub WeekSelect_SelectedIndexChanged(sender As Object, e As EventArgs)
@@ -997,6 +997,7 @@ Finishlok:
                 MinCharge.ReadOnly = False
                 MinCharge.Text = JobCatLinq.MinChargePerDay
                 MinCharge.ReadOnly = True
+                TextBox21.Text = JobCatLinq.StartOfWeek
                 If PlanIDTextBox.Text > 0  Then
                     PlanTypeIdComboBox.Enabled = False
                     BranchIdComboBox.Enabled = False

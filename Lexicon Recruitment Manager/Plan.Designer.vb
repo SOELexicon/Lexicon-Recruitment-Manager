@@ -277,22 +277,9 @@ Partial Class Plan
         Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem1 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem20 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem16 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem17 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem10 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem12 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem14 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem15 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem13 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem11 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem25 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem26 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem27 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem2 = New DevExpress.XtraLayout.EmptySpaceItem()
-        Me.EmptySpaceItem9 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.WeekLabel23 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem5 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem84 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -307,6 +294,17 @@ Partial Class Plan
         Me.LayoutControlItem22 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem23 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem24 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem16 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem17 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem10 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem12 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem15 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem13 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem11 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem4 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem14 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup4 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlGroup5 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem47 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -384,6 +382,7 @@ Partial Class Plan
         Me.LayoutControlItem35 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem36 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem34 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem2 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.Plan2PerRecordTableAdapter = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.Plan2PerRecordTableAdapter()
         Me.Plan2PerRecordTableAdapter1 = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.Plan2PerRecordTableAdapter()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
@@ -439,22 +438,9 @@ Partial Class Plan
         CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem25, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem26, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem27, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WeekLabel23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem84, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -469,6 +455,17 @@ Partial Class Plan
         CType(Me.LayoutControlItem22, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem23, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem47, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -546,6 +543,7 @@ Partial Class Plan
         CType(Me.LayoutControlItem35, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem36, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PlanViewBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WeeknumbersBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.WeeknumbersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -612,10 +610,10 @@ Partial Class Plan
         Me.ComboBox1.DataSource = Me.DataTable2BindingSource
         Me.ComboBox1.DisplayMember = "ClientCode"
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(607, 79)
+        Me.ComboBox1.Location = New System.Drawing.Point(622, 79)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(191, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(196, 24)
         Me.ComboBox1.TabIndex = 5
         Me.ComboBox1.ValueMember = "CompanyId"
         Me.ComboBox1.Visible = False
@@ -634,7 +632,7 @@ Partial Class Plan
         Me.BranchSelect.Location = New System.Drawing.Point(16, 79)
         Me.BranchSelect.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchSelect.Name = "BranchSelect"
-        Me.BranchSelect.Size = New System.Drawing.Size(191, 24)
+        Me.BranchSelect.Size = New System.Drawing.Size(196, 24)
         Me.BranchSelect.TabIndex = 2
         Me.BranchSelect.ValueMember = "BranchID"
         '
@@ -654,10 +652,10 @@ Partial Class Plan
         Me.WeekSelect.DisplayMember = "WeekEndingDate"
         Me.WeekSelect.FormatString = "D"
         Me.WeekSelect.FormattingEnabled = True
-        Me.WeekSelect.Location = New System.Drawing.Point(410, 79)
+        Me.WeekSelect.Location = New System.Drawing.Point(420, 79)
         Me.WeekSelect.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WeekSelect.Name = "WeekSelect"
-        Me.WeekSelect.Size = New System.Drawing.Size(191, 24)
+        Me.WeekSelect.Size = New System.Drawing.Size(196, 24)
         Me.WeekSelect.TabIndex = 4
         Me.WeekSelect.ValueMember = "WeekEndingDate"
         '
@@ -671,10 +669,10 @@ Partial Class Plan
         Me.PlanSelect.DataSource = Me.PlanTypesBindingSource1
         Me.PlanSelect.DisplayMember = "PlanName"
         Me.PlanSelect.FormattingEnabled = True
-        Me.PlanSelect.Location = New System.Drawing.Point(213, 79)
+        Me.PlanSelect.Location = New System.Drawing.Point(218, 79)
         Me.PlanSelect.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanSelect.Name = "PlanSelect"
-        Me.PlanSelect.Size = New System.Drawing.Size(191, 24)
+        Me.PlanSelect.Size = New System.Drawing.Size(196, 24)
         Me.PlanSelect.TabIndex = 3
         Me.PlanSelect.ValueMember = "PlanTypeID"
         '
@@ -686,11 +684,11 @@ Partial Class Plan
         'TextBox22
         '
         Me.TextBox22.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SystemType", True))
-        Me.TextBox22.Location = New System.Drawing.Point(848, 373)
+        Me.TextBox22.Location = New System.Drawing.Point(875, 336)
         Me.TextBox22.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.ReadOnly = True
-        Me.TextBox22.Size = New System.Drawing.Size(191, 25)
+        Me.TextBox22.Size = New System.Drawing.Size(197, 25)
         Me.TextBox22.TabIndex = 1
         '
         'PlanBindingSource
@@ -706,11 +704,11 @@ Partial Class Plan
         'TextBox21
         '
         Me.TextBox21.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.JobCategoryBindingSource, "StartOfWeek", True))
-        Me.TextBox21.Location = New System.Drawing.Point(377, 178)
+        Me.TextBox21.Location = New System.Drawing.Point(385, 178)
         Me.TextBox21.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.ReadOnly = True
-        Me.TextBox21.Size = New System.Drawing.Size(167, 42)
+        Me.TextBox21.Size = New System.Drawing.Size(172, 32)
         Me.TextBox21.TabIndex = 1
         '
         'JobCategoryBindingSource
@@ -725,10 +723,10 @@ Partial Class Plan
         Me.BranchIdComboBox.DisplayMember = "Branch"
         Me.BranchIdComboBox.Enabled = False
         Me.BranchIdComboBox.FormattingEnabled = True
-        Me.BranchIdComboBox.Location = New System.Drawing.Point(204, 178)
+        Me.BranchIdComboBox.Location = New System.Drawing.Point(208, 178)
         Me.BranchIdComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchIdComboBox.Name = "BranchIdComboBox"
-        Me.BranchIdComboBox.Size = New System.Drawing.Size(167, 24)
+        Me.BranchIdComboBox.Size = New System.Drawing.Size(171, 24)
         Me.BranchIdComboBox.TabIndex = 1
         Me.BranchIdComboBox.ValueMember = "BranchID"
         '
@@ -740,37 +738,37 @@ Partial Class Plan
         'PlanIDTextBox
         '
         Me.PlanIDTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "PlanID", True))
-        Me.PlanIDTextBox.Location = New System.Drawing.Point(1045, 373)
+        Me.PlanIDTextBox.Location = New System.Drawing.Point(1078, 336)
         Me.PlanIDTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanIDTextBox.Name = "PlanIDTextBox"
         Me.PlanIDTextBox.ReadOnly = True
-        Me.PlanIDTextBox.Size = New System.Drawing.Size(191, 25)
+        Me.PlanIDTextBox.Size = New System.Drawing.Size(258, 25)
         Me.PlanIDTextBox.TabIndex = 1
         '
         'TextBox20
         '
         Me.TextBox20.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "LastModifiedDate", True))
-        Me.TextBox20.Location = New System.Drawing.Point(491, 373)
+        Me.TextBox20.Location = New System.Drawing.Point(506, 336)
         Me.TextBox20.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.ReadOnly = True
-        Me.TextBox20.Size = New System.Drawing.Size(351, 25)
+        Me.TextBox20.Size = New System.Drawing.Size(363, 25)
         Me.TextBox20.TabIndex = 1
         '
         'LastModifiedUserTextBox
         '
         Me.LastModifiedUserTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "LastModifiedUser", True))
-        Me.LastModifiedUserTextBox.Location = New System.Drawing.Point(31, 373)
+        Me.LastModifiedUserTextBox.Location = New System.Drawing.Point(31, 336)
         Me.LastModifiedUserTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedUserTextBox.Name = "LastModifiedUserTextBox"
         Me.LastModifiedUserTextBox.ReadOnly = True
-        Me.LastModifiedUserTextBox.Size = New System.Drawing.Size(454, 25)
+        Me.LastModifiedUserTextBox.Size = New System.Drawing.Size(469, 25)
         Me.LastModifiedUserTextBox.TabIndex = 1
         '
         'POAElseWhereTextBox
         '
         Me.POAElseWhereTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "POAElseWhere", True))
-        Me.POAElseWhereTextBox.Location = New System.Drawing.Point(622, 296)
+        Me.POAElseWhereTextBox.Location = New System.Drawing.Point(622, 286)
         Me.POAElseWhereTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.POAElseWhereTextBox.Name = "POAElseWhereTextBox"
         Me.POAElseWhereTextBox.Size = New System.Drawing.Size(191, 25)
@@ -779,7 +777,7 @@ Partial Class Plan
         'HoursWorkedElseWhereTextBox
         '
         Me.HoursWorkedElseWhereTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "HoursWorkedElseWhere", True))
-        Me.HoursWorkedElseWhereTextBox.Location = New System.Drawing.Point(425, 296)
+        Me.HoursWorkedElseWhereTextBox.Location = New System.Drawing.Point(425, 286)
         Me.HoursWorkedElseWhereTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HoursWorkedElseWhereTextBox.Name = "HoursWorkedElseWhereTextBox"
         Me.HoursWorkedElseWhereTextBox.Size = New System.Drawing.Size(191, 25)
@@ -788,7 +786,7 @@ Partial Class Plan
         'POATextBox
         '
         Me.POATextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "POA", True))
-        Me.POATextBox.Location = New System.Drawing.Point(228, 296)
+        Me.POATextBox.Location = New System.Drawing.Point(228, 286)
         Me.POATextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.POATextBox.Name = "POATextBox"
         Me.POATextBox.Size = New System.Drawing.Size(191, 25)
@@ -797,7 +795,7 @@ Partial Class Plan
         'PoNumberTextBox
         '
         Me.PoNumberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "PoNumber", True))
-        Me.PoNumberTextBox.Location = New System.Drawing.Point(31, 296)
+        Me.PoNumberTextBox.Location = New System.Drawing.Point(31, 286)
         Me.PoNumberTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PoNumberTextBox.Name = "PoNumberTextBox"
         Me.PoNumberTextBox.Size = New System.Drawing.Size(191, 25)
@@ -806,19 +804,19 @@ Partial Class Plan
         'WeekEndingDateTextBox
         '
         Me.WeekEndingDateTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "WeekEndingDate", True))
-        Me.WeekEndingDateTextBox.Location = New System.Drawing.Point(31, 245)
+        Me.WeekEndingDateTextBox.Location = New System.Drawing.Point(31, 235)
         Me.WeekEndingDateTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WeekEndingDateTextBox.Name = "WeekEndingDateTextBox"
-        Me.WeekEndingDateTextBox.Size = New System.Drawing.Size(191, 25)
+        Me.WeekEndingDateTextBox.Size = New System.Drawing.Size(196, 25)
         Me.WeekEndingDateTextBox.TabIndex = 1
         '
         'WeekEndingDateIfLateTextBox
         '
         Me.WeekEndingDateIfLateTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "WeekEndingDateIfLate", True))
-        Me.WeekEndingDateIfLateTextBox.Location = New System.Drawing.Point(228, 245)
+        Me.WeekEndingDateIfLateTextBox.Location = New System.Drawing.Point(233, 235)
         Me.WeekEndingDateIfLateTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WeekEndingDateIfLateTextBox.Name = "WeekEndingDateIfLateTextBox"
-        Me.WeekEndingDateIfLateTextBox.Size = New System.Drawing.Size(171, 26)
+        Me.WeekEndingDateIfLateTextBox.Size = New System.Drawing.Size(175, 26)
         Me.WeekEndingDateIfLateTextBox.TabIndex = 1
         '
         'FridayCheckBox
@@ -826,11 +824,11 @@ Partial Class Plan
         Me.FridayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.FridayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Friday", True))
         Me.FridayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FridayCheckBox.Location = New System.Drawing.Point(834, 315)
+        Me.FridayCheckBox.Location = New System.Drawing.Point(819, 267)
         Me.FridayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FridayCheckBox.MinimumSize = New System.Drawing.Size(48, 25)
         Me.FridayCheckBox.Name = "FridayCheckBox"
-        Me.FridayCheckBox.Size = New System.Drawing.Size(48, 25)
+        Me.FridayCheckBox.Size = New System.Drawing.Size(48, 44)
         Me.FridayCheckBox.TabIndex = 1
         Me.FridayCheckBox.Text = "Fri"
         Me.FridayCheckBox.UseVisualStyleBackColor = False
@@ -840,11 +838,11 @@ Partial Class Plan
         Me.SaturdayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.SaturdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Saturday", True))
         Me.SaturdayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SaturdayCheckBox.Location = New System.Drawing.Point(879, 315)
+        Me.SaturdayCheckBox.Location = New System.Drawing.Point(873, 267)
         Me.SaturdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SaturdayCheckBox.MinimumSize = New System.Drawing.Size(58, 25)
         Me.SaturdayCheckBox.Name = "SaturdayCheckBox"
-        Me.SaturdayCheckBox.Size = New System.Drawing.Size(58, 25)
+        Me.SaturdayCheckBox.Size = New System.Drawing.Size(58, 44)
         Me.SaturdayCheckBox.TabIndex = 1
         Me.SaturdayCheckBox.Text = "Sat"
         Me.SaturdayCheckBox.UseVisualStyleBackColor = False
@@ -854,11 +852,11 @@ Partial Class Plan
         Me.SundayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.SundayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Sunday", True))
         Me.SundayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SundayCheckBox.Location = New System.Drawing.Point(929, 315)
+        Me.SundayCheckBox.Location = New System.Drawing.Point(937, 267)
         Me.SundayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SundayCheckBox.MinimumSize = New System.Drawing.Size(58, 25)
         Me.SundayCheckBox.Name = "SundayCheckBox"
-        Me.SundayCheckBox.Size = New System.Drawing.Size(58, 25)
+        Me.SundayCheckBox.Size = New System.Drawing.Size(58, 44)
         Me.SundayCheckBox.TabIndex = 1
         Me.SundayCheckBox.Text = "Sun"
         Me.SundayCheckBox.UseVisualStyleBackColor = False
@@ -868,11 +866,11 @@ Partial Class Plan
         Me.MondayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.MondayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Monday", True))
         Me.MondayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MondayCheckBox.Location = New System.Drawing.Point(979, 315)
+        Me.MondayCheckBox.Location = New System.Drawing.Point(1001, 267)
         Me.MondayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MondayCheckBox.MinimumSize = New System.Drawing.Size(58, 25)
         Me.MondayCheckBox.Name = "MondayCheckBox"
-        Me.MondayCheckBox.Size = New System.Drawing.Size(58, 25)
+        Me.MondayCheckBox.Size = New System.Drawing.Size(58, 44)
         Me.MondayCheckBox.TabIndex = 1
         Me.MondayCheckBox.Text = "Mon"
         Me.MondayCheckBox.UseVisualStyleBackColor = False
@@ -882,13 +880,13 @@ Partial Class Plan
         Me.TuesdayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.TuesdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Tuesday", True))
         Me.TuesdayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TuesdayCheckBox.Location = New System.Drawing.Point(1031, 315)
+        Me.TuesdayCheckBox.Location = New System.Drawing.Point(1065, 267)
         Me.TuesdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TuesdayCheckBox.MinimumSize = New System.Drawing.Size(48, 25)
         Me.TuesdayCheckBox.Name = "TuesdayCheckBox"
-        Me.TuesdayCheckBox.Size = New System.Drawing.Size(48, 25)
+        Me.TuesdayCheckBox.Size = New System.Drawing.Size(54, 44)
         Me.TuesdayCheckBox.TabIndex = 1
-        Me.TuesdayCheckBox.Text = "Tue"
+        Me.TuesdayCheckBox.Text = "Tue" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.TuesdayCheckBox.UseVisualStyleBackColor = False
         '
         'WednesdayCheckBox
@@ -896,11 +894,11 @@ Partial Class Plan
         Me.WednesdayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.WednesdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Wednesday", True))
         Me.WednesdayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WednesdayCheckBox.Location = New System.Drawing.Point(1079, 315)
+        Me.WednesdayCheckBox.Location = New System.Drawing.Point(1125, 267)
         Me.WednesdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WednesdayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
         Me.WednesdayCheckBox.Name = "WednesdayCheckBox"
-        Me.WednesdayCheckBox.Size = New System.Drawing.Size(56, 25)
+        Me.WednesdayCheckBox.Size = New System.Drawing.Size(56, 44)
         Me.WednesdayCheckBox.TabIndex = 1
         Me.WednesdayCheckBox.Text = "Wed"
         Me.WednesdayCheckBox.UseVisualStyleBackColor = False
@@ -910,11 +908,11 @@ Partial Class Plan
         Me.ThursdayCheckBox.BackColor = System.Drawing.Color.Transparent
         Me.ThursdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Thursday", True))
         Me.ThursdayCheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ThursdayCheckBox.Location = New System.Drawing.Point(1128, 315)
+        Me.ThursdayCheckBox.Location = New System.Drawing.Point(1187, 267)
         Me.ThursdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ThursdayCheckBox.MinimumSize = New System.Drawing.Size(58, 25)
         Me.ThursdayCheckBox.Name = "ThursdayCheckBox"
-        Me.ThursdayCheckBox.Size = New System.Drawing.Size(58, 25)
+        Me.ThursdayCheckBox.Size = New System.Drawing.Size(58, 44)
         Me.ThursdayCheckBox.TabIndex = 1
         Me.ThursdayCheckBox.Text = "Thur"
         Me.ThursdayCheckBox.UseVisualStyleBackColor = False
@@ -924,11 +922,11 @@ Partial Class Plan
         Me.Friday2CheckBox.BackColor = System.Drawing.Color.Transparent
         Me.Friday2CheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Friday2", True))
         Me.Friday2CheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Friday2CheckBox.Location = New System.Drawing.Point(1182, 315)
+        Me.Friday2CheckBox.Location = New System.Drawing.Point(1251, 267)
         Me.Friday2CheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Friday2CheckBox.MinimumSize = New System.Drawing.Size(48, 25)
         Me.Friday2CheckBox.Name = "Friday2CheckBox"
-        Me.Friday2CheckBox.Size = New System.Drawing.Size(48, 25)
+        Me.Friday2CheckBox.Size = New System.Drawing.Size(48, 44)
         Me.Friday2CheckBox.TabIndex = 1
         Me.Friday2CheckBox.Text = "Fri"
         Me.Friday2CheckBox.UseVisualStyleBackColor = False
@@ -938,11 +936,11 @@ Partial Class Plan
         Me.Saturday2CheckBox.BackColor = System.Drawing.Color.Transparent
         Me.Saturday2CheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Saturday2", True))
         Me.Saturday2CheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Saturday2CheckBox.Location = New System.Drawing.Point(1223, 315)
+        Me.Saturday2CheckBox.Location = New System.Drawing.Point(1305, 267)
         Me.Saturday2CheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Saturday2CheckBox.MinimumSize = New System.Drawing.Size(48, 25)
         Me.Saturday2CheckBox.Name = "Saturday2CheckBox"
-        Me.Saturday2CheckBox.Size = New System.Drawing.Size(48, 25)
+        Me.Saturday2CheckBox.Size = New System.Drawing.Size(48, 44)
         Me.Saturday2CheckBox.TabIndex = 1
         Me.Saturday2CheckBox.Text = "Sat"
         Me.Saturday2CheckBox.UseVisualStyleBackColor = False
@@ -952,11 +950,11 @@ Partial Class Plan
         Me.Sunday2CheckBox.BackColor = System.Drawing.Color.Transparent
         Me.Sunday2CheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.PlanBindingSource, "Sunday2", True))
         Me.Sunday2CheckBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Sunday2CheckBox.Location = New System.Drawing.Point(1269, 315)
+        Me.Sunday2CheckBox.Location = New System.Drawing.Point(1359, 267)
         Me.Sunday2CheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Sunday2CheckBox.MinimumSize = New System.Drawing.Size(58, 25)
         Me.Sunday2CheckBox.Name = "Sunday2CheckBox"
-        Me.Sunday2CheckBox.Size = New System.Drawing.Size(58, 25)
+        Me.Sunday2CheckBox.Size = New System.Drawing.Size(58, 44)
         Me.Sunday2CheckBox.TabIndex = 1
         Me.Sunday2CheckBox.Text = "Sun"
         Me.Sunday2CheckBox.UseVisualStyleBackColor = False
@@ -968,10 +966,10 @@ Partial Class Plan
         Me.PlanTypeIdComboBox.DisplayMember = "PlanName"
         Me.PlanTypeIdComboBox.Enabled = False
         Me.PlanTypeIdComboBox.FormattingEnabled = True
-        Me.PlanTypeIdComboBox.Location = New System.Drawing.Point(405, 245)
+        Me.PlanTypeIdComboBox.Location = New System.Drawing.Point(414, 235)
         Me.PlanTypeIdComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanTypeIdComboBox.Name = "PlanTypeIdComboBox"
-        Me.PlanTypeIdComboBox.Size = New System.Drawing.Size(191, 24)
+        Me.PlanTypeIdComboBox.Size = New System.Drawing.Size(196, 24)
         Me.PlanTypeIdComboBox.TabIndex = 1
         Me.PlanTypeIdComboBox.ValueMember = "PlanTypeID"
         '
@@ -992,54 +990,54 @@ Partial Class Plan
         Me.DateAddedDateTimePicker.Location = New System.Drawing.Point(31, 178)
         Me.DateAddedDateTimePicker.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateAddedDateTimePicker.Name = "DateAddedDateTimePicker"
-        Me.DateAddedDateTimePicker.Size = New System.Drawing.Size(167, 23)
+        Me.DateAddedDateTimePicker.Size = New System.Drawing.Size(171, 23)
         Me.DateAddedDateTimePicker.TabIndex = 1
         '
         'tbEndTime
         '
-        Me.tbEndTime.Location = New System.Drawing.Point(675, 377)
+        Me.tbEndTime.Location = New System.Drawing.Point(691, 377)
         Me.tbEndTime.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.tbEndTime.Name = "tbEndTime"
         Me.tbEndTime.ReadOnly = True
-        Me.tbEndTime.Size = New System.Drawing.Size(54, 25)
+        Me.tbEndTime.Size = New System.Drawing.Size(55, 25)
         Me.tbEndTime.TabIndex = 172
         '
         'tbStartTime
         '
-        Me.tbStartTime.Location = New System.Drawing.Point(615, 377)
+        Me.tbStartTime.Location = New System.Drawing.Point(630, 377)
         Me.tbStartTime.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.tbStartTime.Name = "tbStartTime"
         Me.tbStartTime.ReadOnly = True
-        Me.tbStartTime.Size = New System.Drawing.Size(54, 25)
+        Me.tbStartTime.Size = New System.Drawing.Size(55, 25)
         Me.tbStartTime.TabIndex = 170
         '
         'RulesOrDetailsRichTextBox
         '
         Me.RulesOrDetailsRichTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "RulesOrDetails", True))
-        Me.RulesOrDetailsRichTextBox.Location = New System.Drawing.Point(896, 263)
+        Me.RulesOrDetailsRichTextBox.Location = New System.Drawing.Point(917, 263)
         Me.RulesOrDetailsRichTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RulesOrDetailsRichTextBox.Name = "RulesOrDetailsRichTextBox"
         Me.RulesOrDetailsRichTextBox.ReadOnly = True
-        Me.RulesOrDetailsRichTextBox.Size = New System.Drawing.Size(498, 145)
+        Me.RulesOrDetailsRichTextBox.Size = New System.Drawing.Size(510, 145)
         Me.RulesOrDetailsRichTextBox.TabIndex = 169
         Me.RulesOrDetailsRichTextBox.Text = ""
         '
         'TextBox18
         '
         Me.TextBox18.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "PostTaxDeductions", True))
-        Me.TextBox18.Location = New System.Drawing.Point(326, 377)
+        Me.TextBox18.Location = New System.Drawing.Point(333, 377)
         Me.TextBox18.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(74, 25)
+        Me.TextBox18.Size = New System.Drawing.Size(77, 25)
         Me.TextBox18.TabIndex = 56
         '
         'TextBox19
         '
         Me.TextBox19.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "PostTaxNotes", True))
-        Me.TextBox19.Location = New System.Drawing.Point(406, 377)
+        Me.TextBox19.Location = New System.Drawing.Point(416, 377)
         Me.TextBox19.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(191, 25)
+        Me.TextBox19.Size = New System.Drawing.Size(196, 25)
         Me.TextBox19.TabIndex = 58
         '
         'TextBox16
@@ -1048,167 +1046,167 @@ Partial Class Plan
         Me.TextBox16.Location = New System.Drawing.Point(37, 377)
         Me.TextBox16.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(74, 25)
+        Me.TextBox16.Size = New System.Drawing.Size(76, 25)
         Me.TextBox16.TabIndex = 56
         '
         'TextBox17
         '
         Me.TextBox17.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "PreTaxNotes", True))
-        Me.TextBox17.Location = New System.Drawing.Point(117, 377)
+        Me.TextBox17.Location = New System.Drawing.Point(119, 377)
         Me.TextBox17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(191, 25)
+        Me.TextBox17.Size = New System.Drawing.Size(196, 25)
         Me.TextBox17.TabIndex = 58
         '
         'TextBox13
         '
         Me.TextBox13.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "ExpensesPostPay", True))
-        Me.TextBox13.Location = New System.Drawing.Point(563, 292)
+        Me.TextBox13.Location = New System.Drawing.Point(576, 292)
         Me.TextBox13.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(54, 25)
+        Me.TextBox13.Size = New System.Drawing.Size(55, 25)
         Me.TextBox13.TabIndex = 56
         '
         'TextBox14
         '
         Me.TextBox14.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "ExpensesPostNotes", True))
-        Me.TextBox14.Location = New System.Drawing.Point(683, 292)
+        Me.TextBox14.Location = New System.Drawing.Point(698, 292)
         Me.TextBox14.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(191, 25)
+        Me.TextBox14.Size = New System.Drawing.Size(197, 25)
         Me.TextBox14.TabIndex = 58
         '
         'TextBox15
         '
         Me.TextBox15.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "ExpensesPostCharge", True))
-        Me.TextBox15.Location = New System.Drawing.Point(623, 292)
+        Me.TextBox15.Location = New System.Drawing.Point(637, 292)
         Me.TextBox15.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(54, 25)
+        Me.TextBox15.Size = New System.Drawing.Size(55, 25)
         Me.TextBox15.TabIndex = 57
         '
         'ExpensesPrePayTextBox
         '
         Me.ExpensesPrePayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "ExpensesPrePay", True))
-        Me.ExpensesPrePayTextBox.Location = New System.Drawing.Point(361, 292)
+        Me.ExpensesPrePayTextBox.Location = New System.Drawing.Point(369, 292)
         Me.ExpensesPrePayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ExpensesPrePayTextBox.Name = "ExpensesPrePayTextBox"
-        Me.ExpensesPrePayTextBox.Size = New System.Drawing.Size(54, 25)
+        Me.ExpensesPrePayTextBox.Size = New System.Drawing.Size(55, 25)
         Me.ExpensesPrePayTextBox.TabIndex = 56
         '
         'ExpensesPreNotesTextBox
         '
         Me.ExpensesPreNotesTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "ExpensesPreNotes", True))
-        Me.ExpensesPreNotesTextBox.Location = New System.Drawing.Point(481, 292)
+        Me.ExpensesPreNotesTextBox.Location = New System.Drawing.Point(491, 292)
         Me.ExpensesPreNotesTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ExpensesPreNotesTextBox.Name = "ExpensesPreNotesTextBox"
-        Me.ExpensesPreNotesTextBox.Size = New System.Drawing.Size(64, 25)
+        Me.ExpensesPreNotesTextBox.Size = New System.Drawing.Size(67, 25)
         Me.ExpensesPreNotesTextBox.TabIndex = 58
         '
         'ExpensesPreChargeTextBox
         '
         Me.ExpensesPreChargeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "ExpensesPreCharge", True))
-        Me.ExpensesPreChargeTextBox.Location = New System.Drawing.Point(421, 292)
+        Me.ExpensesPreChargeTextBox.Location = New System.Drawing.Point(430, 292)
         Me.ExpensesPreChargeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ExpensesPreChargeTextBox.Name = "ExpensesPreChargeTextBox"
-        Me.ExpensesPreChargeTextBox.Size = New System.Drawing.Size(54, 25)
+        Me.ExpensesPreChargeTextBox.Size = New System.Drawing.Size(55, 25)
         Me.ExpensesPreChargeTextBox.TabIndex = 57
         '
         'OT2ChargeTextBox
         '
         Me.OT2ChargeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT2Charge", True))
-        Me.OT2ChargeTextBox.Location = New System.Drawing.Point(764, 207)
+        Me.OT2ChargeTextBox.Location = New System.Drawing.Point(783, 207)
         Me.OT2ChargeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT2ChargeTextBox.Name = "OT2ChargeTextBox"
         Me.OT2ChargeTextBox.ReadOnly = True
-        Me.OT2ChargeTextBox.Size = New System.Drawing.Size(27, 25)
+        Me.OT2ChargeTextBox.Size = New System.Drawing.Size(28, 25)
         Me.OT2ChargeTextBox.TabIndex = 57
         '
         'OT2HoursTextBox
         '
         Me.OT2HoursTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT2Hours", True))
-        Me.OT2HoursTextBox.Location = New System.Drawing.Point(664, 207)
+        Me.OT2HoursTextBox.Location = New System.Drawing.Point(680, 207)
         Me.OT2HoursTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT2HoursTextBox.Name = "OT2HoursTextBox"
-        Me.OT2HoursTextBox.Size = New System.Drawing.Size(44, 25)
+        Me.OT2HoursTextBox.Size = New System.Drawing.Size(45, 25)
         Me.OT2HoursTextBox.TabIndex = 22
         Me.OT2HoursTextBox.Text = "0"
         '
         'OT2PayTextBox
         '
         Me.OT2PayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT2Pay", True))
-        Me.OT2PayTextBox.Location = New System.Drawing.Point(714, 207)
+        Me.OT2PayTextBox.Location = New System.Drawing.Point(731, 207)
         Me.OT2PayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT2PayTextBox.Name = "OT2PayTextBox"
-        Me.OT2PayTextBox.Size = New System.Drawing.Size(44, 25)
+        Me.OT2PayTextBox.Size = New System.Drawing.Size(46, 25)
         Me.OT2PayTextBox.TabIndex = 23
         '
         'OT3ChargeTextBox
         '
         Me.OT3ChargeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT3Charge", True))
-        Me.OT3ChargeTextBox.Location = New System.Drawing.Point(889, 207)
+        Me.OT3ChargeTextBox.Location = New System.Drawing.Point(911, 207)
         Me.OT3ChargeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT3ChargeTextBox.Name = "OT3ChargeTextBox"
-        Me.OT3ChargeTextBox.Size = New System.Drawing.Size(44, 25)
+        Me.OT3ChargeTextBox.Size = New System.Drawing.Size(45, 25)
         Me.OT3ChargeTextBox.TabIndex = 58
         '
         'OT3HoursTextBox
         '
         Me.OT3HoursTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT3Hours", True))
-        Me.OT3HoursTextBox.Location = New System.Drawing.Point(809, 207)
+        Me.OT3HoursTextBox.Location = New System.Drawing.Point(829, 207)
         Me.OT3HoursTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT3HoursTextBox.MinimumSize = New System.Drawing.Size(4, 25)
         Me.OT3HoursTextBox.Name = "OT3HoursTextBox"
-        Me.OT3HoursTextBox.Size = New System.Drawing.Size(34, 25)
+        Me.OT3HoursTextBox.Size = New System.Drawing.Size(35, 25)
         Me.OT3HoursTextBox.TabIndex = 56
         Me.OT3HoursTextBox.Text = "0"
         '
         'OT3PayTextBox
         '
         Me.OT3PayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT3Pay", True))
-        Me.OT3PayTextBox.Location = New System.Drawing.Point(849, 207)
+        Me.OT3PayTextBox.Location = New System.Drawing.Point(870, 207)
         Me.OT3PayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT3PayTextBox.Name = "OT3PayTextBox"
-        Me.OT3PayTextBox.Size = New System.Drawing.Size(34, 25)
+        Me.OT3PayTextBox.Size = New System.Drawing.Size(35, 25)
         Me.OT3PayTextBox.TabIndex = 57
         '
         'NightsOutCharge
         '
         Me.NightsOutCharge.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "NightsOutCharge", True))
-        Me.NightsOutCharge.Location = New System.Drawing.Point(299, 292)
+        Me.NightsOutCharge.Location = New System.Drawing.Point(306, 292)
         Me.NightsOutCharge.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NightsOutCharge.Name = "NightsOutCharge"
         Me.NightsOutCharge.ReadOnly = True
-        Me.NightsOutCharge.Size = New System.Drawing.Size(44, 25)
+        Me.NightsOutCharge.Size = New System.Drawing.Size(45, 25)
         Me.NightsOutCharge.TabIndex = 56
         '
         'TextBox11
         '
         Me.TextBox11.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "NightsOutHours", True))
-        Me.TextBox11.Location = New System.Drawing.Point(199, 292)
+        Me.TextBox11.Location = New System.Drawing.Point(203, 292)
         Me.TextBox11.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(44, 25)
+        Me.TextBox11.Size = New System.Drawing.Size(45, 25)
         Me.TextBox11.TabIndex = 51
         Me.TextBox11.Text = "0"
         '
         'NightsPay
         '
         Me.NightsPay.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "NightsOutPay", True))
-        Me.NightsPay.Location = New System.Drawing.Point(249, 292)
+        Me.NightsPay.Location = New System.Drawing.Point(254, 292)
         Me.NightsPay.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NightsPay.Name = "NightsPay"
-        Me.NightsPay.Size = New System.Drawing.Size(44, 25)
+        Me.NightsPay.Size = New System.Drawing.Size(46, 25)
         Me.NightsPay.TabIndex = 53
         '
         'BankCharge
         '
         Me.BankCharge.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "BankCharge", True))
-        Me.BankCharge.Location = New System.Drawing.Point(137, 292)
+        Me.BankCharge.Location = New System.Drawing.Point(140, 292)
         Me.BankCharge.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BankCharge.Name = "BankCharge"
         Me.BankCharge.ReadOnly = True
-        Me.BankCharge.Size = New System.Drawing.Size(44, 25)
+        Me.BankCharge.Size = New System.Drawing.Size(45, 25)
         Me.BankCharge.TabIndex = 56
         '
         'BankHours
@@ -1217,43 +1215,43 @@ Partial Class Plan
         Me.BankHours.Location = New System.Drawing.Point(37, 292)
         Me.BankHours.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BankHours.Name = "BankHours"
-        Me.BankHours.Size = New System.Drawing.Size(44, 25)
+        Me.BankHours.Size = New System.Drawing.Size(45, 25)
         Me.BankHours.TabIndex = 51
         Me.BankHours.Text = "0"
         '
         'BankPay
         '
         Me.BankPay.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "BankPay", True))
-        Me.BankPay.Location = New System.Drawing.Point(87, 292)
+        Me.BankPay.Location = New System.Drawing.Point(88, 292)
         Me.BankPay.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BankPay.Name = "BankPay"
-        Me.BankPay.Size = New System.Drawing.Size(44, 25)
+        Me.BankPay.Size = New System.Drawing.Size(46, 25)
         Me.BankPay.TabIndex = 53
         '
         'SundayCharge
         '
         Me.SundayCharge.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SundayCharge", True))
-        Me.SundayCharge.Location = New System.Drawing.Point(1299, 207)
+        Me.SundayCharge.Location = New System.Drawing.Point(1329, 207)
         Me.SundayCharge.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SundayCharge.Name = "SundayCharge"
         Me.SundayCharge.ReadOnly = True
-        Me.SundayCharge.Size = New System.Drawing.Size(54, 25)
+        Me.SundayCharge.Size = New System.Drawing.Size(56, 25)
         Me.SundayCharge.TabIndex = 56
         '
         'SundayHours
         '
         Me.SundayHours.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SundayHours", True))
-        Me.SundayHours.Location = New System.Drawing.Point(1209, 207)
+        Me.SundayHours.Location = New System.Drawing.Point(1238, 207)
         Me.SundayHours.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SundayHours.Name = "SundayHours"
-        Me.SundayHours.Size = New System.Drawing.Size(34, 25)
+        Me.SundayHours.Size = New System.Drawing.Size(35, 25)
         Me.SundayHours.TabIndex = 51
         Me.SundayHours.Text = "0"
         '
         'SundayPay
         '
         Me.SundayPay.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SundayPay", True))
-        Me.SundayPay.Location = New System.Drawing.Point(1249, 207)
+        Me.SundayPay.Location = New System.Drawing.Point(1279, 207)
         Me.SundayPay.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SundayPay.Name = "SundayPay"
         Me.SundayPay.Size = New System.Drawing.Size(44, 25)
@@ -1262,125 +1260,125 @@ Partial Class Plan
         'SatCharge
         '
         Me.SatCharge.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SaturdayCharge", True))
-        Me.SatCharge.Location = New System.Drawing.Point(1147, 207)
+        Me.SatCharge.Location = New System.Drawing.Point(1175, 207)
         Me.SatCharge.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SatCharge.Name = "SatCharge"
         Me.SatCharge.ReadOnly = True
-        Me.SatCharge.Size = New System.Drawing.Size(44, 25)
+        Me.SatCharge.Size = New System.Drawing.Size(45, 25)
         Me.SatCharge.TabIndex = 56
         '
         'SatHours
         '
         Me.SatHours.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SaturdayHours", True))
-        Me.SatHours.Location = New System.Drawing.Point(1067, 207)
+        Me.SatHours.Location = New System.Drawing.Point(1093, 207)
         Me.SatHours.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SatHours.Name = "SatHours"
-        Me.SatHours.Size = New System.Drawing.Size(34, 25)
+        Me.SatHours.Size = New System.Drawing.Size(35, 25)
         Me.SatHours.TabIndex = 51
         Me.SatHours.Text = "0"
         '
         'SatPay
         '
         Me.SatPay.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "SaturdayPay", True))
-        Me.SatPay.Location = New System.Drawing.Point(1107, 207)
+        Me.SatPay.Location = New System.Drawing.Point(1134, 207)
         Me.SatPay.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SatPay.Name = "SatPay"
-        Me.SatPay.Size = New System.Drawing.Size(34, 25)
+        Me.SatPay.Size = New System.Drawing.Size(35, 25)
         Me.SatPay.TabIndex = 53
         '
         'OT1ChargeTextBox
         '
         Me.OT1ChargeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT1Charge", True))
-        Me.OT1ChargeTextBox.Location = New System.Drawing.Point(602, 207)
+        Me.OT1ChargeTextBox.Location = New System.Drawing.Point(616, 207)
         Me.OT1ChargeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT1ChargeTextBox.Name = "OT1ChargeTextBox"
         Me.OT1ChargeTextBox.ReadOnly = True
-        Me.OT1ChargeTextBox.Size = New System.Drawing.Size(44, 25)
+        Me.OT1ChargeTextBox.Size = New System.Drawing.Size(46, 25)
         Me.OT1ChargeTextBox.TabIndex = 21
         '
         'OT1HoursTextBox
         '
         Me.OT1HoursTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT1Hours", True))
-        Me.OT1HoursTextBox.Location = New System.Drawing.Point(522, 207)
+        Me.OT1HoursTextBox.Location = New System.Drawing.Point(534, 207)
         Me.OT1HoursTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT1HoursTextBox.Name = "OT1HoursTextBox"
-        Me.OT1HoursTextBox.Size = New System.Drawing.Size(34, 25)
+        Me.OT1HoursTextBox.Size = New System.Drawing.Size(35, 25)
         Me.OT1HoursTextBox.TabIndex = 19
         Me.OT1HoursTextBox.Text = "0"
         '
         'OT1PayTextBox
         '
         Me.OT1PayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "OT1Pay", True))
-        Me.OT1PayTextBox.Location = New System.Drawing.Point(562, 207)
+        Me.OT1PayTextBox.Location = New System.Drawing.Point(575, 207)
         Me.OT1PayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OT1PayTextBox.Name = "OT1PayTextBox"
-        Me.OT1PayTextBox.Size = New System.Drawing.Size(34, 25)
+        Me.OT1PayTextBox.Size = New System.Drawing.Size(35, 25)
         Me.OT1PayTextBox.TabIndex = 20
         '
         'MinCharge
         '
-        Me.MinCharge.Location = New System.Drawing.Point(442, 205)
+        Me.MinCharge.Location = New System.Drawing.Point(451, 205)
         Me.MinCharge.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MinCharge.Name = "MinCharge"
         Me.MinCharge.ReadOnly = True
-        Me.MinCharge.Size = New System.Drawing.Size(64, 29)
+        Me.MinCharge.Size = New System.Drawing.Size(67, 29)
         Me.MinCharge.TabIndex = 18
         '
         'SWHTextBox
         '
-        Me.SWHTextBox.Location = New System.Drawing.Point(382, 205)
+        Me.SWHTextBox.Location = New System.Drawing.Point(390, 205)
         Me.SWHTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SWHTextBox.Name = "SWHTextBox"
         Me.SWHTextBox.ReadOnly = True
-        Me.SWHTextBox.Size = New System.Drawing.Size(54, 29)
+        Me.SWHTextBox.Size = New System.Drawing.Size(55, 29)
         Me.SWHTextBox.TabIndex = 17
         '
         'DHHTextBox
         '
         Me.DHHTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "DHH", True))
-        Me.DHHTextBox.Location = New System.Drawing.Point(332, 205)
+        Me.DHHTextBox.Location = New System.Drawing.Point(338, 205)
         Me.DHHTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DHHTextBox.Name = "DHHTextBox"
         Me.DHHTextBox.ReadOnly = True
-        Me.DHHTextBox.Size = New System.Drawing.Size(44, 29)
+        Me.DHHTextBox.Size = New System.Drawing.Size(46, 29)
         Me.DHHTextBox.TabIndex = 16
         '
         'ChargeTextBox
         '
         Me.ChargeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "Charge", True))
-        Me.ChargeTextBox.Location = New System.Drawing.Point(272, 205)
+        Me.ChargeTextBox.Location = New System.Drawing.Point(277, 205)
         Me.ChargeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ChargeTextBox.Name = "ChargeTextBox"
         Me.ChargeTextBox.ReadOnly = True
-        Me.ChargeTextBox.Size = New System.Drawing.Size(54, 29)
+        Me.ChargeTextBox.Size = New System.Drawing.Size(55, 29)
         Me.ChargeTextBox.TabIndex = 15
         '
         'HolidayPayTextBox
         '
         Me.HolidayPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "HolidayPay", True))
-        Me.HolidayPayTextBox.Location = New System.Drawing.Point(205, 205)
+        Me.HolidayPayTextBox.Location = New System.Drawing.Point(208, 205)
         Me.HolidayPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HolidayPayTextBox.Name = "HolidayPayTextBox"
         Me.HolidayPayTextBox.ReadOnly = True
-        Me.HolidayPayTextBox.Size = New System.Drawing.Size(61, 29)
+        Me.HolidayPayTextBox.Size = New System.Drawing.Size(63, 29)
         Me.HolidayPayTextBox.TabIndex = 14
         '
         'PayTextBox
         '
         Me.PayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "Pay", True))
-        Me.PayTextBox.Location = New System.Drawing.Point(155, 205)
+        Me.PayTextBox.Location = New System.Drawing.Point(157, 205)
         Me.PayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PayTextBox.Name = "PayTextBox"
-        Me.PayTextBox.Size = New System.Drawing.Size(44, 29)
+        Me.PayTextBox.Size = New System.Drawing.Size(45, 29)
         Me.PayTextBox.TabIndex = 13
         '
         'HoursTextBox
         '
         Me.HoursTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanBindingSource, "Hours", True))
-        Me.HoursTextBox.Location = New System.Drawing.Point(105, 205)
+        Me.HoursTextBox.Location = New System.Drawing.Point(106, 205)
         Me.HoursTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HoursTextBox.Name = "HoursTextBox"
-        Me.HoursTextBox.Size = New System.Drawing.Size(44, 29)
+        Me.HoursTextBox.Size = New System.Drawing.Size(45, 29)
         Me.HoursTextBox.TabIndex = 12
         '
         'PlanBindingNavigator
@@ -1400,7 +1398,7 @@ Partial Class Plan
         Me.PlanBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.PlanBindingNavigator.Name = "PlanBindingNavigator"
         Me.PlanBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.PlanBindingNavigator.Size = New System.Drawing.Size(1393, 38)
+        Me.PlanBindingNavigator.Size = New System.Drawing.Size(1426, 38)
         Me.PlanBindingNavigator.TabIndex = 0
         Me.PlanBindingNavigator.Text = "BindingNavigator1"
         '
@@ -1959,7 +1957,7 @@ Partial Class Plan
         '
         Me.JobCategoryIdComboBox.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.PlanBindingSource, "JobCategoryId", True))
         Me.JobCategoryIdComboBox.EditValue = ""
-        Me.JobCategoryIdComboBox.Location = New System.Drawing.Point(996, 245)
+        Me.JobCategoryIdComboBox.Location = New System.Drawing.Point(1020, 235)
         Me.JobCategoryIdComboBox.Name = "JobCategoryIdComboBox"
         Me.JobCategoryIdComboBox.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.JobCategoryIdComboBox.Properties.Columns.AddRange(New DevExpress.XtraEditors.Controls.LookUpColumnInfo() {New DevExpress.XtraEditors.Controls.LookUpColumnInfo("JobCategory", "Job Category", 84, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("ShiftName", "Shift Name", 73, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near), New DevExpress.XtraEditors.Controls.LookUpColumnInfo("U25Rate", "U25Rate", 58, DevExpress.Utils.FormatType.None, "", True, DevExpress.Utils.HorzAlignment.Near)})
@@ -1967,32 +1965,32 @@ Partial Class Plan
         Me.JobCategoryIdComboBox.Properties.DisplayMember = "Job"
         Me.JobCategoryIdComboBox.Properties.NullText = ""
         Me.JobCategoryIdComboBox.Properties.ValueMember = "JobCatId"
-        Me.JobCategoryIdComboBox.Size = New System.Drawing.Size(191, 22)
+        Me.JobCategoryIdComboBox.Size = New System.Drawing.Size(195, 22)
         Me.JobCategoryIdComboBox.StyleController = Me.LayoutControl1
         Me.JobCategoryIdComboBox.TabIndex = 187
         '
         'BreakDeductedCB
         '
-        Me.BreakDeductedCB.Location = New System.Drawing.Point(747, 377)
+        Me.BreakDeductedCB.Location = New System.Drawing.Point(764, 377)
         Me.BreakDeductedCB.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BreakDeductedCB.Name = "BreakDeductedCB"
         Me.BreakDeductedCB.Properties.Caption = ""
-        Me.BreakDeductedCB.Size = New System.Drawing.Size(54, 19)
+        Me.BreakDeductedCB.Size = New System.Drawing.Size(57, 19)
         Me.BreakDeductedCB.StyleController = Me.LayoutControl1
         Me.BreakDeductedCB.TabIndex = 185
         '
         'EntitlementTB
         '
-        Me.EntitlementTB.Location = New System.Drawing.Point(807, 377)
+        Me.EntitlementTB.Location = New System.Drawing.Point(827, 377)
         Me.EntitlementTB.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EntitlementTB.Name = "EntitlementTB"
-        Me.EntitlementTB.Size = New System.Drawing.Size(54, 25)
+        Me.EntitlementTB.Size = New System.Drawing.Size(55, 25)
         Me.EntitlementTB.TabIndex = 184
         '
         'EmployeeIdComboBox
         '
         Me.EmployeeIdComboBox.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.PlanBindingSource, "EmployeeId", True))
-        Me.EmployeeIdComboBox.Location = New System.Drawing.Point(799, 245)
+        Me.EmployeeIdComboBox.Location = New System.Drawing.Point(818, 235)
         Me.EmployeeIdComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmployeeIdComboBox.Name = "EmployeeIdComboBox"
         Me.EmployeeIdComboBox.Properties.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup
@@ -2002,7 +2000,7 @@ Partial Class Plan
         Me.EmployeeIdComboBox.Properties.DisplayMember = "EmployeeCode"
         Me.EmployeeIdComboBox.Properties.NullText = ""
         Me.EmployeeIdComboBox.Properties.ValueMember = "EmployeeID"
-        Me.EmployeeIdComboBox.Size = New System.Drawing.Size(191, 22)
+        Me.EmployeeIdComboBox.Size = New System.Drawing.Size(196, 22)
         Me.EmployeeIdComboBox.StyleController = Me.LayoutControl1
         Me.EmployeeIdComboBox.TabIndex = 183
         '
@@ -2014,7 +2012,7 @@ Partial Class Plan
         Me.GridControl2.MainView = Me.GridView2
         Me.GridControl2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl2.Name = "GridControl2"
-        Me.GridControl2.Size = New System.Drawing.Size(1363, 249)
+        Me.GridControl2.Size = New System.Drawing.Size(1396, 249)
         Me.GridControl2.TabIndex = 182
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -2214,7 +2212,7 @@ Partial Class Plan
         Me.Ratecombo.Name = "Ratecombo"
         Me.Ratecombo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.Ratecombo.Properties.Items.AddRange(New Object() {"Rate 1", "Rate 2", "Rate 3", "Rate 4"})
-        Me.Ratecombo.Size = New System.Drawing.Size(64, 22)
+        Me.Ratecombo.Size = New System.Drawing.Size(65, 22)
         Me.Ratecombo.StyleController = Me.LayoutControl1
         Me.Ratecombo.TabIndex = 180
         '
@@ -2222,7 +2220,7 @@ Partial Class Plan
         '
         Me.CompanyLookUpEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.PlanBindingSource, "CompanyId", True))
         Me.CompanyLookUpEdit1.Enabled = False
-        Me.CompanyLookUpEdit1.Location = New System.Drawing.Point(602, 245)
+        Me.CompanyLookUpEdit1.Location = New System.Drawing.Point(616, 235)
         Me.CompanyLookUpEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CompanyLookUpEdit1.Name = "CompanyLookUpEdit1"
         Me.CompanyLookUpEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2232,7 +2230,7 @@ Partial Class Plan
         Me.CompanyLookUpEdit1.Properties.NullText = ""
         Me.CompanyLookUpEdit1.Properties.PopupFormMinSize = New System.Drawing.Size(700, 0)
         Me.CompanyLookUpEdit1.Properties.ValueMember = "CompanyID"
-        Me.CompanyLookUpEdit1.Size = New System.Drawing.Size(191, 22)
+        Me.CompanyLookUpEdit1.Size = New System.Drawing.Size(196, 22)
         Me.CompanyLookUpEdit1.StyleController = Me.LayoutControl1
         Me.CompanyLookUpEdit1.TabIndex = 179
         '
@@ -2242,12 +2240,12 @@ Partial Class Plan
         Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
         GridLevelNode1.RelationName = "Level1"
         Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1})
-        Me.GridControl1.Location = New System.Drawing.Point(16, 429)
+        Me.GridControl1.Location = New System.Drawing.Point(16, 439)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
         Me.GridControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemButtonEdit1})
-        Me.GridControl1.Size = New System.Drawing.Size(1393, 447)
+        Me.GridControl1.Size = New System.Drawing.Size(1426, 437)
         Me.GridControl1.TabIndex = 178
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -2601,10 +2599,10 @@ Partial Class Plan
         '
         Me.SimpleButton4.Image = CType(resources.GetObject("SimpleButton4.Image"), System.Drawing.Image)
         Me.SimpleButton4.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter
-        Me.SimpleButton4.Location = New System.Drawing.Point(804, 60)
+        Me.SimpleButton4.Location = New System.Drawing.Point(824, 60)
         Me.SimpleButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(84, 45)
+        Me.SimpleButton4.Size = New System.Drawing.Size(86, 45)
         Me.SimpleButton4.StyleController = Me.LayoutControl1
         Me.SimpleButton4.TabIndex = 177
         Me.SimpleButton4.Text = "Lock Plan"
@@ -2613,10 +2611,10 @@ Partial Class Plan
         '
         Me.SimpleButton3.Image = CType(resources.GetObject("SimpleButton3.Image"), System.Drawing.Image)
         Me.SimpleButton3.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter
-        Me.SimpleButton3.Location = New System.Drawing.Point(894, 60)
+        Me.SimpleButton3.Location = New System.Drawing.Point(916, 60)
         Me.SimpleButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(80, 45)
+        Me.SimpleButton3.Size = New System.Drawing.Size(81, 45)
         Me.SimpleButton3.StyleController = Me.LayoutControl1
         Me.SimpleButton3.TabIndex = 176
         Me.SimpleButton3.Text = "Unlock Plan"
@@ -2625,10 +2623,10 @@ Partial Class Plan
         '
         Me.SimpleButton2.Image = CType(resources.GetObject("SimpleButton2.Image"), System.Drawing.Image)
         Me.SimpleButton2.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleRight
-        Me.SimpleButton2.Location = New System.Drawing.Point(980, 60)
+        Me.SimpleButton2.Location = New System.Drawing.Point(1003, 60)
         Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(87, 45)
+        Me.SimpleButton2.Size = New System.Drawing.Size(89, 45)
         Me.SimpleButton2.StyleController = Me.LayoutControl1
         Me.SimpleButton2.TabIndex = 175
         Me.SimpleButton2.Text = "Archive Plan"
@@ -2637,10 +2635,10 @@ Partial Class Plan
         '
         Me.SimpleButton1.Image = CType(resources.GetObject("SimpleButton1.Image"), System.Drawing.Image)
         Me.SimpleButton1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter
-        Me.SimpleButton1.Location = New System.Drawing.Point(1073, 60)
+        Me.SimpleButton1.Location = New System.Drawing.Point(1098, 60)
         Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(91, 45)
+        Me.SimpleButton1.Size = New System.Drawing.Size(94, 45)
         Me.SimpleButton1.StyleController = Me.LayoutControl1
         Me.SimpleButton1.TabIndex = 174
         Me.SimpleButton1.Text = "Create Follow Up"
@@ -2648,7 +2646,7 @@ Partial Class Plan
         'WeekLabel
         '
         Me.WeekLabel.Appearance.Font = New System.Drawing.Font("Tahoma", 18.0!)
-        Me.WeekLabel.Location = New System.Drawing.Point(1242, 354)
+        Me.WeekLabel.Location = New System.Drawing.Point(1342, 317)
         Me.WeekLabel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WeekLabel.Name = "WeekLabel"
         Me.WeekLabel.Size = New System.Drawing.Size(85, 36)
@@ -2660,22 +2658,22 @@ Partial Class Plan
         '
         Me.WeekendingdateiflatereasonTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.PlanBindingSource, "Weekendingdateiflatereason", True))
         Me.WeekendingdateiflatereasonTextEdit.EditValue = ""
-        Me.WeekendingdateiflatereasonTextEdit.Location = New System.Drawing.Point(1193, 245)
+        Me.WeekendingdateiflatereasonTextEdit.Location = New System.Drawing.Point(1221, 235)
         Me.WeekendingdateiflatereasonTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WeekendingdateiflatereasonTextEdit.Name = "WeekendingdateiflatereasonTextEdit"
         Me.WeekendingdateiflatereasonTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.WeekendingdateiflatereasonTextEdit.Size = New System.Drawing.Size(191, 22)
+        Me.WeekendingdateiflatereasonTextEdit.Size = New System.Drawing.Size(196, 22)
         Me.WeekendingdateiflatereasonTextEdit.StyleController = Me.LayoutControl1
         Me.WeekendingdateiflatereasonTextEdit.TabIndex = 181
         '
         'ComboBoxEdit1
         '
         Me.ComboBoxEdit1.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.PlanBindingSource, "OT3Reason", True))
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(939, 207)
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(962, 207)
         Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit1.Size = New System.Drawing.Size(110, 22)
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(113, 22)
         Me.ComboBoxEdit1.StyleController = Me.LayoutControl1
         Me.ComboBoxEdit1.TabIndex = 186
         '
@@ -2704,10 +2702,10 @@ Partial Class Plan
         '
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup1.GroupBordersVisible = False
-        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.TabbedControlGroup1, Me.SplitterItem2, Me.LayoutControlItem39, Me.LayoutControlItem33, Me.LayoutControlItem32, Me.LayoutControlItem31, Me.LayoutControlItem30, Me.EmptySpaceItem7, Me.LayoutControlItem28, Me.LayoutControlItem37, Me.LayoutControlItem35, Me.LayoutControlItem36, Me.LayoutControlItem34})
+        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.TabbedControlGroup1, Me.SplitterItem2, Me.LayoutControlItem39, Me.LayoutControlItem33, Me.LayoutControlItem32, Me.LayoutControlItem31, Me.LayoutControlItem30, Me.EmptySpaceItem7, Me.LayoutControlItem28, Me.LayoutControlItem37, Me.LayoutControlItem35, Me.LayoutControlItem36, Me.LayoutControlItem34, Me.EmptySpaceItem2})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1425, 892)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1458, 892)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'TabbedControlGroup1
@@ -2716,21 +2714,21 @@ Partial Class Plan
         Me.TabbedControlGroup1.Name = "TabbedControlGroup1"
         Me.TabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup3
         Me.TabbedControlGroup1.SelectedTabPageIndex = 0
-        Me.TabbedControlGroup1.Size = New System.Drawing.Size(1399, 312)
+        Me.TabbedControlGroup1.Size = New System.Drawing.Size(1432, 312)
         Me.TabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup3, Me.LayoutControlGroup4, Me.LayoutControlGroup6})
         '
         'LayoutControlGroup3
         '
-        Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem3, Me.LayoutControlItem1, Me.LayoutControlItem3, Me.EmptySpaceItem1, Me.LayoutControlItem20, Me.LayoutControlGroup2, Me.LayoutControlItem25, Me.LayoutControlItem26, Me.LayoutControlItem27, Me.EmptySpaceItem2, Me.EmptySpaceItem9, Me.WeekLabel23, Me.EmptySpaceItem5, Me.LayoutControlItem84, Me.LayoutControlItem50, Me.LayoutControlItem8, Me.LayoutControlItem9, Me.LayoutControlItem83, Me.LayoutControlItem4, Me.LayoutControlItem2, Me.LayoutControlItem87, Me.LayoutControlItem21, Me.LayoutControlItem22, Me.LayoutControlItem23, Me.LayoutControlItem24})
+        Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.EmptySpaceItem3, Me.LayoutControlItem1, Me.LayoutControlItem3, Me.EmptySpaceItem1, Me.LayoutControlItem20, Me.LayoutControlItem25, Me.LayoutControlItem26, Me.LayoutControlItem27, Me.WeekLabel23, Me.EmptySpaceItem5, Me.LayoutControlItem84, Me.LayoutControlItem50, Me.LayoutControlItem8, Me.LayoutControlItem9, Me.LayoutControlItem83, Me.LayoutControlItem4, Me.LayoutControlItem2, Me.LayoutControlItem87, Me.LayoutControlItem21, Me.LayoutControlItem22, Me.LayoutControlItem23, Me.LayoutControlItem24, Me.LayoutControlItem16, Me.LayoutControlItem17, Me.LayoutControlItem10, Me.LayoutControlItem12, Me.LayoutControlItem15, Me.LayoutControlItem13, Me.LayoutControlItem18, Me.LayoutControlItem19, Me.LayoutControlItem11, Me.EmptySpaceItem4, Me.LayoutControlItem14})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(1369, 255)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(1402, 255)
         Me.LayoutControlGroup3.Text = "Details"
         '
         'EmptySpaceItem3
         '
         Me.EmptySpaceItem3.AllowHotTrack = False
-        Me.EmptySpaceItem3.Location = New System.Drawing.Point(1359, 67)
+        Me.EmptySpaceItem3.Location = New System.Drawing.Point(1392, 57)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
         Me.EmptySpaceItem3.Size = New System.Drawing.Size(10, 51)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
@@ -2741,7 +2739,7 @@ Partial Class Plan
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem1.MinSize = New System.Drawing.Size(173, 50)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(173, 67)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(177, 57)
         Me.LayoutControlItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem1.Text = "Date Added:"
         Me.LayoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top
@@ -2750,10 +2748,10 @@ Partial Class Plan
         'LayoutControlItem3
         '
         Me.LayoutControlItem3.Control = Me.TextBox21
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(346, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(354, 0)
         Me.LayoutControlItem3.MinSize = New System.Drawing.Size(173, 50)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(173, 67)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(178, 57)
         Me.LayoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem3.Text = "Start Of Week:"
         Me.LayoutControlItem3.TextLocation = DevExpress.Utils.Locations.Top
@@ -2762,157 +2760,29 @@ Partial Class Plan
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(519, 0)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(532, 0)
         Me.EmptySpaceItem1.MinSize = New System.Drawing.Size(106, 26)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(850, 67)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(870, 57)
         Me.EmptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem20
         '
         Me.LayoutControlItem20.Control = Me.PoNumberTextBox
-        Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 118)
+        Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 108)
         Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(197, 77)
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(197, 50)
         Me.LayoutControlItem20.Text = "Po Number:"
         Me.LayoutControlItem20.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem20.TextSize = New System.Drawing.Size(191, 16)
         '
-        'LayoutControlGroup2
-        '
-        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem16, Me.LayoutControlItem17, Me.LayoutControlItem10, Me.LayoutControlItem12, Me.LayoutControlItem14, Me.LayoutControlItem15, Me.LayoutControlItem13, Me.LayoutControlItem18, Me.LayoutControlItem19, Me.LayoutControlItem11})
-        Me.LayoutControlGroup2.Location = New System.Drawing.Point(788, 118)
-        Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(514, 77)
-        Me.LayoutControlGroup2.Text = "Days"
-        '
-        'LayoutControlItem16
-        '
-        Me.LayoutControlItem16.Control = Me.ThursdayCheckBox
-        Me.LayoutControlItem16.Location = New System.Drawing.Point(294, 0)
-        Me.LayoutControlItem16.MaxSize = New System.Drawing.Size(54, 0)
-        Me.LayoutControlItem16.MinSize = New System.Drawing.Size(54, 24)
-        Me.LayoutControlItem16.Name = "LayoutControlItem16"
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(54, 24)
-        Me.LayoutControlItem16.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem16.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem16.TextVisible = False
-        '
-        'LayoutControlItem17
-        '
-        Me.LayoutControlItem17.Control = Me.Friday2CheckBox
-        Me.LayoutControlItem17.Location = New System.Drawing.Point(348, 0)
-        Me.LayoutControlItem17.MaxSize = New System.Drawing.Size(41, 0)
-        Me.LayoutControlItem17.MinSize = New System.Drawing.Size(41, 24)
-        Me.LayoutControlItem17.Name = "LayoutControlItem17"
-        Me.LayoutControlItem17.Size = New System.Drawing.Size(41, 24)
-        Me.LayoutControlItem17.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem17.TextVisible = False
-        '
-        'LayoutControlItem10
-        '
-        Me.LayoutControlItem10.Control = Me.FridayCheckBox
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem10.MaxSize = New System.Drawing.Size(45, 24)
-        Me.LayoutControlItem10.MinSize = New System.Drawing.Size(45, 24)
-        Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(45, 24)
-        Me.LayoutControlItem10.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem10.TextVisible = False
-        '
-        'LayoutControlItem12
-        '
-        Me.LayoutControlItem12.Control = Me.SundayCheckBox
-        Me.LayoutControlItem12.Location = New System.Drawing.Point(95, 0)
-        Me.LayoutControlItem12.MaxSize = New System.Drawing.Size(50, 0)
-        Me.LayoutControlItem12.MinSize = New System.Drawing.Size(50, 24)
-        Me.LayoutControlItem12.Name = "LayoutControlItem12"
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(50, 24)
-        Me.LayoutControlItem12.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem12.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem12.TextVisible = False
-        '
-        'LayoutControlItem14
-        '
-        Me.LayoutControlItem14.Control = Me.TuesdayCheckBox
-        Me.LayoutControlItem14.Location = New System.Drawing.Point(197, 0)
-        Me.LayoutControlItem14.MaxSize = New System.Drawing.Size(48, 0)
-        Me.LayoutControlItem14.MinSize = New System.Drawing.Size(48, 24)
-        Me.LayoutControlItem14.Name = "LayoutControlItem14"
-        Me.LayoutControlItem14.Size = New System.Drawing.Size(48, 24)
-        Me.LayoutControlItem14.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem14.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem14.TextVisible = False
-        '
-        'LayoutControlItem15
-        '
-        Me.LayoutControlItem15.Control = Me.WednesdayCheckBox
-        Me.LayoutControlItem15.Location = New System.Drawing.Point(245, 0)
-        Me.LayoutControlItem15.MaxSize = New System.Drawing.Size(49, 0)
-        Me.LayoutControlItem15.MinSize = New System.Drawing.Size(49, 24)
-        Me.LayoutControlItem15.Name = "LayoutControlItem15"
-        Me.LayoutControlItem15.Size = New System.Drawing.Size(49, 24)
-        Me.LayoutControlItem15.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem15.TextVisible = False
-        '
-        'LayoutControlItem13
-        '
-        Me.LayoutControlItem13.Control = Me.MondayCheckBox
-        Me.LayoutControlItem13.Location = New System.Drawing.Point(145, 0)
-        Me.LayoutControlItem13.MaxSize = New System.Drawing.Size(52, 0)
-        Me.LayoutControlItem13.MinSize = New System.Drawing.Size(52, 24)
-        Me.LayoutControlItem13.Name = "LayoutControlItem13"
-        Me.LayoutControlItem13.Size = New System.Drawing.Size(52, 24)
-        Me.LayoutControlItem13.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem13.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem13.TextVisible = False
-        '
-        'LayoutControlItem18
-        '
-        Me.LayoutControlItem18.Control = Me.Saturday2CheckBox
-        Me.LayoutControlItem18.Location = New System.Drawing.Point(389, 0)
-        Me.LayoutControlItem18.MaxSize = New System.Drawing.Size(46, 24)
-        Me.LayoutControlItem18.MinSize = New System.Drawing.Size(46, 24)
-        Me.LayoutControlItem18.Name = "LayoutControlItem18"
-        Me.LayoutControlItem18.Size = New System.Drawing.Size(46, 24)
-        Me.LayoutControlItem18.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem18.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem18.TextVisible = False
-        '
-        'LayoutControlItem19
-        '
-        Me.LayoutControlItem19.Control = Me.Sunday2CheckBox
-        Me.LayoutControlItem19.Location = New System.Drawing.Point(435, 0)
-        Me.LayoutControlItem19.MaxSize = New System.Drawing.Size(49, 24)
-        Me.LayoutControlItem19.MinSize = New System.Drawing.Size(49, 24)
-        Me.LayoutControlItem19.Name = "LayoutControlItem19"
-        Me.LayoutControlItem19.Size = New System.Drawing.Size(49, 24)
-        Me.LayoutControlItem19.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem19.TextVisible = False
-        '
-        'LayoutControlItem11
-        '
-        Me.LayoutControlItem11.Control = Me.SaturdayCheckBox
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(45, 0)
-        Me.LayoutControlItem11.MaxSize = New System.Drawing.Size(50, 24)
-        Me.LayoutControlItem11.MinSize = New System.Drawing.Size(50, 24)
-        Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(50, 24)
-        Me.LayoutControlItem11.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
-        Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem11.TextVisible = False
-        '
         'LayoutControlItem25
         '
         Me.LayoutControlItem25.Control = Me.TextBox20
-        Me.LayoutControlItem25.Location = New System.Drawing.Point(460, 195)
+        Me.LayoutControlItem25.Location = New System.Drawing.Point(475, 158)
         Me.LayoutControlItem25.Name = "LayoutControlItem25"
-        Me.LayoutControlItem25.Size = New System.Drawing.Size(357, 50)
+        Me.LayoutControlItem25.Size = New System.Drawing.Size(369, 50)
         Me.LayoutControlItem25.Text = "Last Modified Date:"
         Me.LayoutControlItem25.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem25.TextSize = New System.Drawing.Size(191, 16)
@@ -2920,9 +2790,9 @@ Partial Class Plan
         'LayoutControlItem26
         '
         Me.LayoutControlItem26.Control = Me.TextBox22
-        Me.LayoutControlItem26.Location = New System.Drawing.Point(817, 195)
+        Me.LayoutControlItem26.Location = New System.Drawing.Point(844, 158)
         Me.LayoutControlItem26.Name = "LayoutControlItem26"
-        Me.LayoutControlItem26.Size = New System.Drawing.Size(197, 50)
+        Me.LayoutControlItem26.Size = New System.Drawing.Size(203, 50)
         Me.LayoutControlItem26.Text = "System Type:"
         Me.LayoutControlItem26.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem26.TextSize = New System.Drawing.Size(191, 16)
@@ -2930,33 +2800,17 @@ Partial Class Plan
         'LayoutControlItem27
         '
         Me.LayoutControlItem27.Control = Me.PlanIDTextBox
-        Me.LayoutControlItem27.Location = New System.Drawing.Point(1014, 195)
+        Me.LayoutControlItem27.Location = New System.Drawing.Point(1047, 158)
         Me.LayoutControlItem27.Name = "LayoutControlItem27"
-        Me.LayoutControlItem27.Size = New System.Drawing.Size(197, 50)
+        Me.LayoutControlItem27.Size = New System.Drawing.Size(264, 50)
         Me.LayoutControlItem27.Text = "Plan ID:"
         Me.LayoutControlItem27.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem27.TextSize = New System.Drawing.Size(191, 16)
         '
-        'EmptySpaceItem2
-        '
-        Me.EmptySpaceItem2.AllowHotTrack = False
-        Me.EmptySpaceItem2.Location = New System.Drawing.Point(1302, 195)
-        Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(67, 50)
-        Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
-        '
-        'EmptySpaceItem9
-        '
-        Me.EmptySpaceItem9.AllowHotTrack = False
-        Me.EmptySpaceItem9.Location = New System.Drawing.Point(1302, 118)
-        Me.EmptySpaceItem9.Name = "EmptySpaceItem9"
-        Me.EmptySpaceItem9.Size = New System.Drawing.Size(67, 77)
-        Me.EmptySpaceItem9.TextSize = New System.Drawing.Size(0, 0)
-        '
         'WeekLabel23
         '
         Me.WeekLabel23.Control = Me.WeekLabel
-        Me.WeekLabel23.Location = New System.Drawing.Point(1211, 195)
+        Me.WeekLabel23.Location = New System.Drawing.Point(1311, 158)
         Me.WeekLabel23.Name = "WeekLabel23"
         Me.WeekLabel23.Size = New System.Drawing.Size(91, 50)
         Me.WeekLabel23.Text = "Week:"
@@ -2966,17 +2820,17 @@ Partial Class Plan
         'EmptySpaceItem5
         '
         Me.EmptySpaceItem5.AllowHotTrack = False
-        Me.EmptySpaceItem5.Location = New System.Drawing.Point(0, 245)
+        Me.EmptySpaceItem5.Location = New System.Drawing.Point(0, 208)
         Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
-        Me.EmptySpaceItem5.Size = New System.Drawing.Size(1369, 10)
+        Me.EmptySpaceItem5.Size = New System.Drawing.Size(1402, 47)
         Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem84
         '
         Me.LayoutControlItem84.Control = Me.WeekendingdateiflatereasonTextEdit
-        Me.LayoutControlItem84.Location = New System.Drawing.Point(1162, 67)
+        Me.LayoutControlItem84.Location = New System.Drawing.Point(1190, 57)
         Me.LayoutControlItem84.Name = "LayoutControlItem84"
-        Me.LayoutControlItem84.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem84.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem84.Text = "WeekEnding Date If Late Reason:"
         Me.LayoutControlItem84.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem84.TextSize = New System.Drawing.Size(191, 16)
@@ -2984,9 +2838,9 @@ Partial Class Plan
         'LayoutControlItem50
         '
         Me.LayoutControlItem50.Control = Me.EmployeeIdComboBox
-        Me.LayoutControlItem50.Location = New System.Drawing.Point(768, 67)
+        Me.LayoutControlItem50.Location = New System.Drawing.Point(787, 57)
         Me.LayoutControlItem50.Name = "LayoutControlItem50"
-        Me.LayoutControlItem50.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem50.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem50.Text = "Employee:"
         Me.LayoutControlItem50.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem50.TextSize = New System.Drawing.Size(191, 16)
@@ -2994,9 +2848,9 @@ Partial Class Plan
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.WeekEndingDateTextBox
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 67)
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 57)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem8.Text = "Week Endng Date:"
         Me.LayoutControlItem8.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(191, 16)
@@ -3004,10 +2858,10 @@ Partial Class Plan
         'LayoutControlItem9
         '
         Me.LayoutControlItem9.Control = Me.WeekEndingDateIfLateTextBox
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(197, 67)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(202, 57)
         Me.LayoutControlItem9.MinSize = New System.Drawing.Size(177, 50)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(177, 51)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(181, 51)
         Me.LayoutControlItem9.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem9.Text = "Week Ending Date If Late:"
         Me.LayoutControlItem9.TextLocation = DevExpress.Utils.Locations.Top
@@ -3016,9 +2870,9 @@ Partial Class Plan
         'LayoutControlItem83
         '
         Me.LayoutControlItem83.Control = Me.CompanyLookUpEdit1
-        Me.LayoutControlItem83.Location = New System.Drawing.Point(571, 67)
+        Me.LayoutControlItem83.Location = New System.Drawing.Point(585, 57)
         Me.LayoutControlItem83.Name = "LayoutControlItem83"
-        Me.LayoutControlItem83.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem83.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem83.Text = "Company:"
         Me.LayoutControlItem83.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem83.TextSize = New System.Drawing.Size(191, 16)
@@ -3026,9 +2880,9 @@ Partial Class Plan
         'LayoutControlItem4
         '
         Me.LayoutControlItem4.Control = Me.PlanTypeIdComboBox
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(374, 67)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(383, 57)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem4.Text = "Plan Type:"
         Me.LayoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(191, 16)
@@ -3036,10 +2890,10 @@ Partial Class Plan
         'LayoutControlItem2
         '
         Me.LayoutControlItem2.Control = Me.BranchIdComboBox
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(173, 0)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(177, 0)
         Me.LayoutControlItem2.MinSize = New System.Drawing.Size(173, 51)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(173, 67)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(177, 57)
         Me.LayoutControlItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem2.Text = "Branch:"
         Me.LayoutControlItem2.TextLocation = DevExpress.Utils.Locations.Top
@@ -3048,9 +2902,9 @@ Partial Class Plan
         'LayoutControlItem87
         '
         Me.LayoutControlItem87.Control = Me.JobCategoryIdComboBox
-        Me.LayoutControlItem87.Location = New System.Drawing.Point(965, 67)
+        Me.LayoutControlItem87.Location = New System.Drawing.Point(989, 57)
         Me.LayoutControlItem87.Name = "LayoutControlItem87"
-        Me.LayoutControlItem87.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem87.Size = New System.Drawing.Size(201, 51)
         Me.LayoutControlItem87.Text = "Job Category"
         Me.LayoutControlItem87.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem87.TextSize = New System.Drawing.Size(191, 16)
@@ -3058,9 +2912,9 @@ Partial Class Plan
         'LayoutControlItem21
         '
         Me.LayoutControlItem21.Control = Me.POATextBox
-        Me.LayoutControlItem21.Location = New System.Drawing.Point(197, 118)
+        Me.LayoutControlItem21.Location = New System.Drawing.Point(197, 108)
         Me.LayoutControlItem21.Name = "LayoutControlItem21"
-        Me.LayoutControlItem21.Size = New System.Drawing.Size(197, 77)
+        Me.LayoutControlItem21.Size = New System.Drawing.Size(197, 50)
         Me.LayoutControlItem21.Text = "POA:"
         Me.LayoutControlItem21.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem21.TextSize = New System.Drawing.Size(191, 16)
@@ -3068,9 +2922,9 @@ Partial Class Plan
         'LayoutControlItem22
         '
         Me.LayoutControlItem22.Control = Me.HoursWorkedElseWhereTextBox
-        Me.LayoutControlItem22.Location = New System.Drawing.Point(394, 118)
+        Me.LayoutControlItem22.Location = New System.Drawing.Point(394, 108)
         Me.LayoutControlItem22.Name = "LayoutControlItem22"
-        Me.LayoutControlItem22.Size = New System.Drawing.Size(197, 77)
+        Me.LayoutControlItem22.Size = New System.Drawing.Size(197, 50)
         Me.LayoutControlItem22.Text = "Hours Worked Else Where:"
         Me.LayoutControlItem22.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem22.TextSize = New System.Drawing.Size(191, 16)
@@ -3078,9 +2932,9 @@ Partial Class Plan
         'LayoutControlItem23
         '
         Me.LayoutControlItem23.Control = Me.POAElseWhereTextBox
-        Me.LayoutControlItem23.Location = New System.Drawing.Point(591, 118)
+        Me.LayoutControlItem23.Location = New System.Drawing.Point(591, 108)
         Me.LayoutControlItem23.Name = "LayoutControlItem23"
-        Me.LayoutControlItem23.Size = New System.Drawing.Size(197, 77)
+        Me.LayoutControlItem23.Size = New System.Drawing.Size(197, 50)
         Me.LayoutControlItem23.Text = "POAElse Where:"
         Me.LayoutControlItem23.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem23.TextSize = New System.Drawing.Size(191, 16)
@@ -3088,12 +2942,130 @@ Partial Class Plan
         'LayoutControlItem24
         '
         Me.LayoutControlItem24.Control = Me.LastModifiedUserTextBox
-        Me.LayoutControlItem24.Location = New System.Drawing.Point(0, 195)
+        Me.LayoutControlItem24.Location = New System.Drawing.Point(0, 158)
         Me.LayoutControlItem24.Name = "LayoutControlItem24"
-        Me.LayoutControlItem24.Size = New System.Drawing.Size(460, 50)
+        Me.LayoutControlItem24.Size = New System.Drawing.Size(475, 50)
         Me.LayoutControlItem24.Text = "Last Modified User:"
         Me.LayoutControlItem24.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem24.TextSize = New System.Drawing.Size(191, 16)
+        '
+        'LayoutControlItem16
+        '
+        Me.LayoutControlItem16.Control = Me.ThursdayCheckBox
+        Me.LayoutControlItem16.Location = New System.Drawing.Point(1156, 108)
+        Me.LayoutControlItem16.MinSize = New System.Drawing.Size(64, 31)
+        Me.LayoutControlItem16.Name = "LayoutControlItem16"
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(64, 50)
+        Me.LayoutControlItem16.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem16.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem16.TextVisible = False
+        '
+        'LayoutControlItem17
+        '
+        Me.LayoutControlItem17.Control = Me.Friday2CheckBox
+        Me.LayoutControlItem17.Location = New System.Drawing.Point(1220, 108)
+        Me.LayoutControlItem17.MinSize = New System.Drawing.Size(54, 31)
+        Me.LayoutControlItem17.Name = "LayoutControlItem17"
+        Me.LayoutControlItem17.Size = New System.Drawing.Size(54, 50)
+        Me.LayoutControlItem17.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem17.TextVisible = False
+        '
+        'LayoutControlItem10
+        '
+        Me.LayoutControlItem10.Control = Me.FridayCheckBox
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(788, 108)
+        Me.LayoutControlItem10.MinSize = New System.Drawing.Size(54, 31)
+        Me.LayoutControlItem10.Name = "LayoutControlItem10"
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(54, 50)
+        Me.LayoutControlItem10.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem10.TextVisible = False
+        '
+        'LayoutControlItem12
+        '
+        Me.LayoutControlItem12.Control = Me.SundayCheckBox
+        Me.LayoutControlItem12.Location = New System.Drawing.Point(906, 108)
+        Me.LayoutControlItem12.MinSize = New System.Drawing.Size(64, 31)
+        Me.LayoutControlItem12.Name = "LayoutControlItem12"
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(64, 50)
+        Me.LayoutControlItem12.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem12.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem12.TextVisible = False
+        '
+        'LayoutControlItem15
+        '
+        Me.LayoutControlItem15.Control = Me.WednesdayCheckBox
+        Me.LayoutControlItem15.Location = New System.Drawing.Point(1094, 108)
+        Me.LayoutControlItem15.MinSize = New System.Drawing.Size(62, 31)
+        Me.LayoutControlItem15.Name = "LayoutControlItem15"
+        Me.LayoutControlItem15.Size = New System.Drawing.Size(62, 50)
+        Me.LayoutControlItem15.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem15.TextVisible = False
+        '
+        'LayoutControlItem13
+        '
+        Me.LayoutControlItem13.Control = Me.MondayCheckBox
+        Me.LayoutControlItem13.Location = New System.Drawing.Point(970, 108)
+        Me.LayoutControlItem13.MinSize = New System.Drawing.Size(64, 31)
+        Me.LayoutControlItem13.Name = "LayoutControlItem13"
+        Me.LayoutControlItem13.Size = New System.Drawing.Size(64, 50)
+        Me.LayoutControlItem13.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem13.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem13.TextVisible = False
+        '
+        'LayoutControlItem18
+        '
+        Me.LayoutControlItem18.Control = Me.Saturday2CheckBox
+        Me.LayoutControlItem18.Location = New System.Drawing.Point(1274, 108)
+        Me.LayoutControlItem18.MinSize = New System.Drawing.Size(54, 31)
+        Me.LayoutControlItem18.Name = "LayoutControlItem18"
+        Me.LayoutControlItem18.Size = New System.Drawing.Size(54, 50)
+        Me.LayoutControlItem18.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem18.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem18.TextVisible = False
+        '
+        'LayoutControlItem19
+        '
+        Me.LayoutControlItem19.Control = Me.Sunday2CheckBox
+        Me.LayoutControlItem19.Location = New System.Drawing.Point(1328, 108)
+        Me.LayoutControlItem19.MinSize = New System.Drawing.Size(64, 31)
+        Me.LayoutControlItem19.Name = "LayoutControlItem19"
+        Me.LayoutControlItem19.Size = New System.Drawing.Size(64, 50)
+        Me.LayoutControlItem19.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem19.TextVisible = False
+        '
+        'LayoutControlItem11
+        '
+        Me.LayoutControlItem11.Control = Me.SaturdayCheckBox
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(842, 108)
+        Me.LayoutControlItem11.MinSize = New System.Drawing.Size(64, 31)
+        Me.LayoutControlItem11.Name = "LayoutControlItem11"
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(64, 50)
+        Me.LayoutControlItem11.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem11.TextVisible = False
+        '
+        'EmptySpaceItem4
+        '
+        Me.EmptySpaceItem4.AllowHotTrack = False
+        Me.EmptySpaceItem4.Location = New System.Drawing.Point(1392, 108)
+        Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
+        Me.EmptySpaceItem4.Size = New System.Drawing.Size(10, 50)
+        Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlItem14
+        '
+        Me.LayoutControlItem14.Control = Me.TuesdayCheckBox
+        Me.LayoutControlItem14.Location = New System.Drawing.Point(1034, 108)
+        Me.LayoutControlItem14.MinSize = New System.Drawing.Size(60, 31)
+        Me.LayoutControlItem14.Name = "LayoutControlItem14"
+        Me.LayoutControlItem14.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem14.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
+        Me.LayoutControlItem14.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem14.TextVisible = False
         '
         'LayoutControlGroup4
         '
@@ -3101,7 +3073,7 @@ Partial Class Plan
         Me.LayoutControlGroup4.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup5, Me.EmptySpaceItem8, Me.LayoutControlGroup7, Me.EmptySpaceItem10, Me.EmptySpaceItem6, Me.LayoutControlGroup8, Me.LayoutControlGroup9, Me.LayoutControlGroup12, Me.LayoutControlGroup13, Me.LayoutControlItem73, Me.LayoutControlGroup10, Me.LayoutControlGroup11, Me.LayoutControlGroup14, Me.LayoutControlGroup15, Me.LayoutControlGroup16, Me.LayoutControlGroup17, Me.LayoutControlGroup18, Me.LayoutControlGroup19})
         Me.LayoutControlGroup4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup4.Name = "LayoutControlGroup4"
-        Me.LayoutControlGroup4.Size = New System.Drawing.Size(1369, 255)
+        Me.LayoutControlGroup4.Size = New System.Drawing.Size(1402, 255)
         Me.LayoutControlGroup4.Text = "Rates"
         '
         'LayoutControlGroup5
@@ -3110,17 +3082,17 @@ Partial Class Plan
         Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
         Me.LayoutControlGroup5.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(485, 85)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(497, 85)
         Me.LayoutControlGroup5.Spacing = New DevExpress.XtraLayout.Utils.Padding(1, 1, 1, 1)
         Me.LayoutControlGroup5.Text = "Basic"
         '
         'LayoutControlItem47
         '
         Me.LayoutControlItem47.Control = Me.MinCharge
-        Me.LayoutControlItem47.Location = New System.Drawing.Point(407, 0)
+        Me.LayoutControlItem47.Location = New System.Drawing.Point(416, 0)
         Me.LayoutControlItem47.MinSize = New System.Drawing.Size(70, 40)
         Me.LayoutControlItem47.Name = "LayoutControlItem47"
-        Me.LayoutControlItem47.Size = New System.Drawing.Size(70, 54)
+        Me.LayoutControlItem47.Size = New System.Drawing.Size(73, 54)
         Me.LayoutControlItem47.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem47.Text = "Min Charge:"
         Me.LayoutControlItem47.TextLocation = DevExpress.Utils.Locations.Top
@@ -3129,10 +3101,10 @@ Partial Class Plan
         'LayoutControlItem46
         '
         Me.LayoutControlItem46.Control = Me.SWHTextBox
-        Me.LayoutControlItem46.Location = New System.Drawing.Point(347, 0)
+        Me.LayoutControlItem46.Location = New System.Drawing.Point(355, 0)
         Me.LayoutControlItem46.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem46.Name = "LayoutControlItem46"
-        Me.LayoutControlItem46.Size = New System.Drawing.Size(60, 54)
+        Me.LayoutControlItem46.Size = New System.Drawing.Size(61, 54)
         Me.LayoutControlItem46.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem46.Text = "SWH:"
         Me.LayoutControlItem46.TextLocation = DevExpress.Utils.Locations.Top
@@ -3141,10 +3113,10 @@ Partial Class Plan
         'LayoutControlItem45
         '
         Me.LayoutControlItem45.Control = Me.DHHTextBox
-        Me.LayoutControlItem45.Location = New System.Drawing.Point(297, 0)
+        Me.LayoutControlItem45.Location = New System.Drawing.Point(303, 0)
         Me.LayoutControlItem45.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem45.Name = "LayoutControlItem45"
-        Me.LayoutControlItem45.Size = New System.Drawing.Size(50, 54)
+        Me.LayoutControlItem45.Size = New System.Drawing.Size(52, 54)
         Me.LayoutControlItem45.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem45.Text = "DHH:"
         Me.LayoutControlItem45.TextLocation = DevExpress.Utils.Locations.Top
@@ -3153,10 +3125,10 @@ Partial Class Plan
         'LayoutControlItem44
         '
         Me.LayoutControlItem44.Control = Me.ChargeTextBox
-        Me.LayoutControlItem44.Location = New System.Drawing.Point(237, 0)
+        Me.LayoutControlItem44.Location = New System.Drawing.Point(242, 0)
         Me.LayoutControlItem44.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem44.Name = "LayoutControlItem44"
-        Me.LayoutControlItem44.Size = New System.Drawing.Size(60, 54)
+        Me.LayoutControlItem44.Size = New System.Drawing.Size(61, 54)
         Me.LayoutControlItem44.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem44.Text = "Charge:"
         Me.LayoutControlItem44.TextLocation = DevExpress.Utils.Locations.Top
@@ -3165,10 +3137,10 @@ Partial Class Plan
         'LayoutControlItem43
         '
         Me.LayoutControlItem43.Control = Me.HolidayPayTextBox
-        Me.LayoutControlItem43.Location = New System.Drawing.Point(170, 0)
+        Me.LayoutControlItem43.Location = New System.Drawing.Point(173, 0)
         Me.LayoutControlItem43.MinSize = New System.Drawing.Size(67, 40)
         Me.LayoutControlItem43.Name = "LayoutControlItem43"
-        Me.LayoutControlItem43.Size = New System.Drawing.Size(67, 54)
+        Me.LayoutControlItem43.Size = New System.Drawing.Size(69, 54)
         Me.LayoutControlItem43.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem43.Text = "Holiday Pay:"
         Me.LayoutControlItem43.TextLocation = DevExpress.Utils.Locations.Top
@@ -3177,10 +3149,10 @@ Partial Class Plan
         'LayoutControlItem42
         '
         Me.LayoutControlItem42.Control = Me.PayTextBox
-        Me.LayoutControlItem42.Location = New System.Drawing.Point(120, 0)
+        Me.LayoutControlItem42.Location = New System.Drawing.Point(122, 0)
         Me.LayoutControlItem42.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem42.Name = "LayoutControlItem42"
-        Me.LayoutControlItem42.Size = New System.Drawing.Size(50, 54)
+        Me.LayoutControlItem42.Size = New System.Drawing.Size(51, 54)
         Me.LayoutControlItem42.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem42.Text = "Pay:"
         Me.LayoutControlItem42.TextLocation = DevExpress.Utils.Locations.Top
@@ -3189,10 +3161,10 @@ Partial Class Plan
         'LayoutControlItem41
         '
         Me.LayoutControlItem41.Control = Me.HoursTextBox
-        Me.LayoutControlItem41.Location = New System.Drawing.Point(70, 0)
+        Me.LayoutControlItem41.Location = New System.Drawing.Point(71, 0)
         Me.LayoutControlItem41.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem41.Name = "LayoutControlItem41"
-        Me.LayoutControlItem41.Size = New System.Drawing.Size(50, 54)
+        Me.LayoutControlItem41.Size = New System.Drawing.Size(51, 54)
         Me.LayoutControlItem41.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem41.Text = "Hours:"
         Me.LayoutControlItem41.TextLocation = DevExpress.Utils.Locations.Top
@@ -3204,7 +3176,7 @@ Partial Class Plan
         Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem5.MinSize = New System.Drawing.Size(70, 40)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(70, 54)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(71, 54)
         Me.LayoutControlItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem5.Text = "Rate:"
         Me.LayoutControlItem5.TextLocation = DevExpress.Utils.Locations.Top
@@ -3213,7 +3185,7 @@ Partial Class Plan
         'EmptySpaceItem8
         '
         Me.EmptySpaceItem8.AllowHotTrack = False
-        Me.EmptySpaceItem8.Location = New System.Drawing.Point(842, 170)
+        Me.EmptySpaceItem8.Location = New System.Drawing.Point(863, 170)
         Me.EmptySpaceItem8.Name = "EmptySpaceItem8"
         Me.EmptySpaceItem8.Size = New System.Drawing.Size(23, 85)
         Me.EmptySpaceItem8.TextSize = New System.Drawing.Size(0, 0)
@@ -3221,19 +3193,19 @@ Partial Class Plan
         'LayoutControlGroup7
         '
         Me.LayoutControlGroup7.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem51, Me.LayoutControlItem49, Me.LayoutControlItem48})
-        Me.LayoutControlGroup7.Location = New System.Drawing.Point(485, 0)
+        Me.LayoutControlGroup7.Location = New System.Drawing.Point(497, 0)
         Me.LayoutControlGroup7.Name = "LayoutControlGroup7"
         Me.LayoutControlGroup7.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup7.Size = New System.Drawing.Size(142, 85)
+        Me.LayoutControlGroup7.Size = New System.Drawing.Size(146, 85)
         Me.LayoutControlGroup7.Text = "OT1"
         '
         'LayoutControlItem51
         '
         Me.LayoutControlItem51.Control = Me.OT1ChargeTextBox
-        Me.LayoutControlItem51.Location = New System.Drawing.Point(80, 0)
+        Me.LayoutControlItem51.Location = New System.Drawing.Point(82, 0)
         Me.LayoutControlItem51.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem51.Name = "LayoutControlItem51"
-        Me.LayoutControlItem51.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem51.Size = New System.Drawing.Size(52, 50)
         Me.LayoutControlItem51.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem51.Text = "Charge:"
         Me.LayoutControlItem51.TextLocation = DevExpress.Utils.Locations.Top
@@ -3242,10 +3214,10 @@ Partial Class Plan
         'LayoutControlItem49
         '
         Me.LayoutControlItem49.Control = Me.OT1PayTextBox
-        Me.LayoutControlItem49.Location = New System.Drawing.Point(40, 0)
+        Me.LayoutControlItem49.Location = New System.Drawing.Point(41, 0)
         Me.LayoutControlItem49.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem49.Name = "LayoutControlItem49"
-        Me.LayoutControlItem49.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem49.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem49.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem49.Text = "Pay:"
         Me.LayoutControlItem49.TextLocation = DevExpress.Utils.Locations.Top
@@ -3257,7 +3229,7 @@ Partial Class Plan
         Me.LayoutControlItem48.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem48.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem48.Name = "LayoutControlItem48"
-        Me.LayoutControlItem48.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem48.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem48.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem48.Text = "Hours:"
         Me.LayoutControlItem48.TextLocation = DevExpress.Utils.Locations.Top
@@ -3266,7 +3238,7 @@ Partial Class Plan
         'EmptySpaceItem10
         '
         Me.EmptySpaceItem10.AllowHotTrack = False
-        Me.EmptySpaceItem10.Location = New System.Drawing.Point(855, 85)
+        Me.EmptySpaceItem10.Location = New System.Drawing.Point(876, 85)
         Me.EmptySpaceItem10.Name = "EmptySpaceItem10"
         Me.EmptySpaceItem10.Size = New System.Drawing.Size(10, 85)
         Me.EmptySpaceItem10.TextSize = New System.Drawing.Size(0, 0)
@@ -3274,27 +3246,27 @@ Partial Class Plan
         'EmptySpaceItem6
         '
         Me.EmptySpaceItem6.AllowHotTrack = False
-        Me.EmptySpaceItem6.Location = New System.Drawing.Point(1334, 0)
+        Me.EmptySpaceItem6.Location = New System.Drawing.Point(1366, 0)
         Me.EmptySpaceItem6.Name = "EmptySpaceItem6"
-        Me.EmptySpaceItem6.Size = New System.Drawing.Size(35, 85)
+        Me.EmptySpaceItem6.Size = New System.Drawing.Size(36, 85)
         Me.EmptySpaceItem6.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup8
         '
         Me.LayoutControlGroup8.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem54, Me.LayoutControlItem53, Me.LayoutControlItem52})
-        Me.LayoutControlGroup8.Location = New System.Drawing.Point(627, 0)
+        Me.LayoutControlGroup8.Location = New System.Drawing.Point(643, 0)
         Me.LayoutControlGroup8.Name = "LayoutControlGroup8"
         Me.LayoutControlGroup8.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup8.Size = New System.Drawing.Size(145, 85)
+        Me.LayoutControlGroup8.Size = New System.Drawing.Size(149, 85)
         Me.LayoutControlGroup8.Text = "OT2"
         '
         'LayoutControlItem54
         '
         Me.LayoutControlItem54.Control = Me.OT2ChargeTextBox
-        Me.LayoutControlItem54.Location = New System.Drawing.Point(100, 0)
+        Me.LayoutControlItem54.Location = New System.Drawing.Point(103, 0)
         Me.LayoutControlItem54.MinSize = New System.Drawing.Size(33, 50)
         Me.LayoutControlItem54.Name = "LayoutControlItem54"
-        Me.LayoutControlItem54.Size = New System.Drawing.Size(33, 50)
+        Me.LayoutControlItem54.Size = New System.Drawing.Size(34, 50)
         Me.LayoutControlItem54.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem54.Text = "Charge:"
         Me.LayoutControlItem54.TextLocation = DevExpress.Utils.Locations.Top
@@ -3303,10 +3275,10 @@ Partial Class Plan
         'LayoutControlItem53
         '
         Me.LayoutControlItem53.Control = Me.OT2PayTextBox
-        Me.LayoutControlItem53.Location = New System.Drawing.Point(50, 0)
+        Me.LayoutControlItem53.Location = New System.Drawing.Point(51, 0)
         Me.LayoutControlItem53.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem53.Name = "LayoutControlItem53"
-        Me.LayoutControlItem53.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem53.Size = New System.Drawing.Size(52, 50)
         Me.LayoutControlItem53.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem53.Text = "Pay:"
         Me.LayoutControlItem53.TextLocation = DevExpress.Utils.Locations.Top
@@ -3318,7 +3290,7 @@ Partial Class Plan
         Me.LayoutControlItem52.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem52.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem52.Name = "LayoutControlItem52"
-        Me.LayoutControlItem52.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem52.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem52.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem52.Text = "Hours:"
         Me.LayoutControlItem52.TextLocation = DevExpress.Utils.Locations.Top
@@ -3327,19 +3299,19 @@ Partial Class Plan
         'LayoutControlGroup9
         '
         Me.LayoutControlGroup9.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem57, Me.LayoutControlItem56, Me.LayoutControlItem55, Me.LayoutControlItem86})
-        Me.LayoutControlGroup9.Location = New System.Drawing.Point(772, 0)
+        Me.LayoutControlGroup9.Location = New System.Drawing.Point(792, 0)
         Me.LayoutControlGroup9.Name = "LayoutControlGroup9"
         Me.LayoutControlGroup9.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup9.Size = New System.Drawing.Size(258, 85)
+        Me.LayoutControlGroup9.Size = New System.Drawing.Size(264, 85)
         Me.LayoutControlGroup9.Text = "OT3"
         '
         'LayoutControlItem57
         '
         Me.LayoutControlItem57.Control = Me.OT3ChargeTextBox
-        Me.LayoutControlItem57.Location = New System.Drawing.Point(80, 0)
+        Me.LayoutControlItem57.Location = New System.Drawing.Point(82, 0)
         Me.LayoutControlItem57.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem57.Name = "LayoutControlItem57"
-        Me.LayoutControlItem57.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem57.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem57.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem57.Text = "Charge:"
         Me.LayoutControlItem57.TextLocation = DevExpress.Utils.Locations.Top
@@ -3348,10 +3320,10 @@ Partial Class Plan
         'LayoutControlItem56
         '
         Me.LayoutControlItem56.Control = Me.OT3PayTextBox
-        Me.LayoutControlItem56.Location = New System.Drawing.Point(40, 0)
+        Me.LayoutControlItem56.Location = New System.Drawing.Point(41, 0)
         Me.LayoutControlItem56.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem56.Name = "LayoutControlItem56"
-        Me.LayoutControlItem56.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem56.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem56.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem56.Text = "Pay:"
         Me.LayoutControlItem56.TextLocation = DevExpress.Utils.Locations.Top
@@ -3364,7 +3336,7 @@ Partial Class Plan
         Me.LayoutControlItem55.MaxSize = New System.Drawing.Size(133, 40)
         Me.LayoutControlItem55.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem55.Name = "LayoutControlItem55"
-        Me.LayoutControlItem55.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem55.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem55.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem55.Text = "Hours:"
         Me.LayoutControlItem55.TextLocation = DevExpress.Utils.Locations.Top
@@ -3373,10 +3345,10 @@ Partial Class Plan
         'LayoutControlItem86
         '
         Me.LayoutControlItem86.Control = Me.ComboBoxEdit1
-        Me.LayoutControlItem86.Location = New System.Drawing.Point(130, 0)
+        Me.LayoutControlItem86.Location = New System.Drawing.Point(133, 0)
         Me.LayoutControlItem86.MinSize = New System.Drawing.Size(50, 25)
         Me.LayoutControlItem86.Name = "LayoutControlItem86"
-        Me.LayoutControlItem86.Size = New System.Drawing.Size(116, 50)
+        Me.LayoutControlItem86.Size = New System.Drawing.Size(119, 50)
         Me.LayoutControlItem86.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem86.Text = "Reason"
         Me.LayoutControlItem86.TextLocation = DevExpress.Utils.Locations.Top
@@ -3388,16 +3360,16 @@ Partial Class Plan
         Me.LayoutControlGroup12.Location = New System.Drawing.Point(0, 85)
         Me.LayoutControlGroup12.Name = "LayoutControlGroup12"
         Me.LayoutControlGroup12.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup12.Size = New System.Drawing.Size(162, 85)
+        Me.LayoutControlGroup12.Size = New System.Drawing.Size(166, 85)
         Me.LayoutControlGroup12.Text = "Bank Holiday:"
         '
         'LayoutControlItem66
         '
         Me.LayoutControlItem66.Control = Me.BankCharge
-        Me.LayoutControlItem66.Location = New System.Drawing.Point(100, 0)
+        Me.LayoutControlItem66.Location = New System.Drawing.Point(103, 0)
         Me.LayoutControlItem66.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem66.Name = "LayoutControlItem66"
-        Me.LayoutControlItem66.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem66.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem66.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem66.Text = "Charge:"
         Me.LayoutControlItem66.TextLocation = DevExpress.Utils.Locations.Top
@@ -3406,10 +3378,10 @@ Partial Class Plan
         'LayoutControlItem65
         '
         Me.LayoutControlItem65.Control = Me.BankPay
-        Me.LayoutControlItem65.Location = New System.Drawing.Point(50, 0)
+        Me.LayoutControlItem65.Location = New System.Drawing.Point(51, 0)
         Me.LayoutControlItem65.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem65.Name = "LayoutControlItem65"
-        Me.LayoutControlItem65.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem65.Size = New System.Drawing.Size(52, 50)
         Me.LayoutControlItem65.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem65.Text = "Pay:"
         Me.LayoutControlItem65.TextLocation = DevExpress.Utils.Locations.Top
@@ -3421,7 +3393,7 @@ Partial Class Plan
         Me.LayoutControlItem64.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem64.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem64.Name = "LayoutControlItem64"
-        Me.LayoutControlItem64.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem64.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem64.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem64.Text = "Hours:"
         Me.LayoutControlItem64.TextLocation = DevExpress.Utils.Locations.Top
@@ -3430,19 +3402,19 @@ Partial Class Plan
         'LayoutControlGroup13
         '
         Me.LayoutControlGroup13.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem69, Me.LayoutControlItem68, Me.LayoutControlItem67})
-        Me.LayoutControlGroup13.Location = New System.Drawing.Point(162, 85)
+        Me.LayoutControlGroup13.Location = New System.Drawing.Point(166, 85)
         Me.LayoutControlGroup13.Name = "LayoutControlGroup13"
         Me.LayoutControlGroup13.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup13.Size = New System.Drawing.Size(162, 85)
+        Me.LayoutControlGroup13.Size = New System.Drawing.Size(166, 85)
         Me.LayoutControlGroup13.Text = "Nights Out:"
         '
         'LayoutControlItem69
         '
         Me.LayoutControlItem69.Control = Me.NightsOutCharge
-        Me.LayoutControlItem69.Location = New System.Drawing.Point(100, 0)
+        Me.LayoutControlItem69.Location = New System.Drawing.Point(103, 0)
         Me.LayoutControlItem69.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem69.Name = "LayoutControlItem69"
-        Me.LayoutControlItem69.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem69.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem69.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem69.Text = "Charge:"
         Me.LayoutControlItem69.TextLocation = DevExpress.Utils.Locations.Top
@@ -3451,10 +3423,10 @@ Partial Class Plan
         'LayoutControlItem68
         '
         Me.LayoutControlItem68.Control = Me.NightsPay
-        Me.LayoutControlItem68.Location = New System.Drawing.Point(50, 0)
+        Me.LayoutControlItem68.Location = New System.Drawing.Point(51, 0)
         Me.LayoutControlItem68.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem68.Name = "LayoutControlItem68"
-        Me.LayoutControlItem68.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem68.Size = New System.Drawing.Size(52, 50)
         Me.LayoutControlItem68.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem68.Text = "Pay:"
         Me.LayoutControlItem68.TextLocation = DevExpress.Utils.Locations.Top
@@ -3466,7 +3438,7 @@ Partial Class Plan
         Me.LayoutControlItem67.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem67.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem67.Name = "LayoutControlItem67"
-        Me.LayoutControlItem67.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem67.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem67.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem67.Text = "Hours:"
         Me.LayoutControlItem67.TextLocation = DevExpress.Utils.Locations.Top
@@ -3475,10 +3447,10 @@ Partial Class Plan
         'LayoutControlItem73
         '
         Me.LayoutControlItem73.Control = Me.RulesOrDetailsRichTextBox
-        Me.LayoutControlItem73.Location = New System.Drawing.Point(865, 85)
+        Me.LayoutControlItem73.Location = New System.Drawing.Point(886, 85)
         Me.LayoutControlItem73.MinSize = New System.Drawing.Size(133, 40)
         Me.LayoutControlItem73.Name = "LayoutControlItem73"
-        Me.LayoutControlItem73.Size = New System.Drawing.Size(504, 170)
+        Me.LayoutControlItem73.Size = New System.Drawing.Size(516, 170)
         Me.LayoutControlItem73.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem73.Text = "Rules Or Details"
         Me.LayoutControlItem73.TextLocation = DevExpress.Utils.Locations.Top
@@ -3487,19 +3459,19 @@ Partial Class Plan
         'LayoutControlGroup10
         '
         Me.LayoutControlGroup10.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem60, Me.LayoutControlItem59, Me.LayoutControlItem58})
-        Me.LayoutControlGroup10.Location = New System.Drawing.Point(1030, 0)
+        Me.LayoutControlGroup10.Location = New System.Drawing.Point(1056, 0)
         Me.LayoutControlGroup10.Name = "LayoutControlGroup10"
         Me.LayoutControlGroup10.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup10.Size = New System.Drawing.Size(142, 85)
+        Me.LayoutControlGroup10.Size = New System.Drawing.Size(145, 85)
         Me.LayoutControlGroup10.Text = "Saturday"
         '
         'LayoutControlItem60
         '
         Me.LayoutControlItem60.Control = Me.SatCharge
-        Me.LayoutControlItem60.Location = New System.Drawing.Point(80, 0)
+        Me.LayoutControlItem60.Location = New System.Drawing.Point(82, 0)
         Me.LayoutControlItem60.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem60.Name = "LayoutControlItem60"
-        Me.LayoutControlItem60.Size = New System.Drawing.Size(50, 50)
+        Me.LayoutControlItem60.Size = New System.Drawing.Size(51, 50)
         Me.LayoutControlItem60.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem60.Text = "Charge:"
         Me.LayoutControlItem60.TextLocation = DevExpress.Utils.Locations.Top
@@ -3508,10 +3480,10 @@ Partial Class Plan
         'LayoutControlItem59
         '
         Me.LayoutControlItem59.Control = Me.SatPay
-        Me.LayoutControlItem59.Location = New System.Drawing.Point(40, 0)
+        Me.LayoutControlItem59.Location = New System.Drawing.Point(41, 0)
         Me.LayoutControlItem59.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem59.Name = "LayoutControlItem59"
-        Me.LayoutControlItem59.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem59.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem59.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem59.Text = "Pay:"
         Me.LayoutControlItem59.TextLocation = DevExpress.Utils.Locations.Top
@@ -3523,7 +3495,7 @@ Partial Class Plan
         Me.LayoutControlItem58.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem58.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem58.Name = "LayoutControlItem58"
-        Me.LayoutControlItem58.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem58.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem58.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem58.Text = "Hours:"
         Me.LayoutControlItem58.TextLocation = DevExpress.Utils.Locations.Top
@@ -3532,19 +3504,19 @@ Partial Class Plan
         'LayoutControlGroup11
         '
         Me.LayoutControlGroup11.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem63, Me.LayoutControlItem62, Me.LayoutControlItem61})
-        Me.LayoutControlGroup11.Location = New System.Drawing.Point(1172, 0)
+        Me.LayoutControlGroup11.Location = New System.Drawing.Point(1201, 0)
         Me.LayoutControlGroup11.Name = "LayoutControlGroup11"
         Me.LayoutControlGroup11.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup11.Size = New System.Drawing.Size(162, 85)
+        Me.LayoutControlGroup11.Size = New System.Drawing.Size(165, 85)
         Me.LayoutControlGroup11.Text = "Sunday"
         '
         'LayoutControlItem63
         '
         Me.LayoutControlItem63.Control = Me.SundayCharge
-        Me.LayoutControlItem63.Location = New System.Drawing.Point(90, 0)
+        Me.LayoutControlItem63.Location = New System.Drawing.Point(91, 0)
         Me.LayoutControlItem63.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem63.Name = "LayoutControlItem63"
-        Me.LayoutControlItem63.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem63.Size = New System.Drawing.Size(62, 50)
         Me.LayoutControlItem63.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem63.Text = "Charge:"
         Me.LayoutControlItem63.TextLocation = DevExpress.Utils.Locations.Top
@@ -3553,7 +3525,7 @@ Partial Class Plan
         'LayoutControlItem62
         '
         Me.LayoutControlItem62.Control = Me.SundayPay
-        Me.LayoutControlItem62.Location = New System.Drawing.Point(40, 0)
+        Me.LayoutControlItem62.Location = New System.Drawing.Point(41, 0)
         Me.LayoutControlItem62.MinSize = New System.Drawing.Size(50, 40)
         Me.LayoutControlItem62.Name = "LayoutControlItem62"
         Me.LayoutControlItem62.Size = New System.Drawing.Size(50, 50)
@@ -3568,7 +3540,7 @@ Partial Class Plan
         Me.LayoutControlItem61.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem61.MinSize = New System.Drawing.Size(40, 40)
         Me.LayoutControlItem61.Name = "LayoutControlItem61"
-        Me.LayoutControlItem61.Size = New System.Drawing.Size(40, 50)
+        Me.LayoutControlItem61.Size = New System.Drawing.Size(41, 50)
         Me.LayoutControlItem61.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem61.Text = "Hours"
         Me.LayoutControlItem61.TextLocation = DevExpress.Utils.Locations.Top
@@ -3577,19 +3549,19 @@ Partial Class Plan
         'LayoutControlGroup14
         '
         Me.LayoutControlGroup14.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem72, Me.LayoutControlItem71, Me.LayoutControlItem70})
-        Me.LayoutControlGroup14.Location = New System.Drawing.Point(324, 85)
+        Me.LayoutControlGroup14.Location = New System.Drawing.Point(332, 85)
         Me.LayoutControlGroup14.Name = "LayoutControlGroup14"
         Me.LayoutControlGroup14.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup14.Size = New System.Drawing.Size(202, 85)
+        Me.LayoutControlGroup14.Size = New System.Drawing.Size(207, 85)
         Me.LayoutControlGroup14.Text = "Expenses Pre:"
         '
         'LayoutControlItem72
         '
         Me.LayoutControlItem72.Control = Me.ExpensesPreNotesTextBox
-        Me.LayoutControlItem72.Location = New System.Drawing.Point(120, 0)
+        Me.LayoutControlItem72.Location = New System.Drawing.Point(122, 0)
         Me.LayoutControlItem72.MinSize = New System.Drawing.Size(70, 40)
         Me.LayoutControlItem72.Name = "LayoutControlItem72"
-        Me.LayoutControlItem72.Size = New System.Drawing.Size(70, 50)
+        Me.LayoutControlItem72.Size = New System.Drawing.Size(73, 50)
         Me.LayoutControlItem72.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem72.Text = "Notes:"
         Me.LayoutControlItem72.TextLocation = DevExpress.Utils.Locations.Top
@@ -3598,10 +3570,10 @@ Partial Class Plan
         'LayoutControlItem71
         '
         Me.LayoutControlItem71.Control = Me.ExpensesPreChargeTextBox
-        Me.LayoutControlItem71.Location = New System.Drawing.Point(60, 0)
+        Me.LayoutControlItem71.Location = New System.Drawing.Point(61, 0)
         Me.LayoutControlItem71.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem71.Name = "LayoutControlItem71"
-        Me.LayoutControlItem71.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem71.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem71.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem71.Text = "Charge:"
         Me.LayoutControlItem71.TextLocation = DevExpress.Utils.Locations.Top
@@ -3613,7 +3585,7 @@ Partial Class Plan
         Me.LayoutControlItem70.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem70.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem70.Name = "LayoutControlItem70"
-        Me.LayoutControlItem70.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem70.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem70.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem70.Text = "Pay"
         Me.LayoutControlItem70.TextLocation = DevExpress.Utils.Locations.Top
@@ -3622,18 +3594,18 @@ Partial Class Plan
         'LayoutControlGroup15
         '
         Me.LayoutControlGroup15.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem76, Me.LayoutControlItem75, Me.LayoutControlItem74})
-        Me.LayoutControlGroup15.Location = New System.Drawing.Point(526, 85)
+        Me.LayoutControlGroup15.Location = New System.Drawing.Point(539, 85)
         Me.LayoutControlGroup15.Name = "LayoutControlGroup15"
         Me.LayoutControlGroup15.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup15.Size = New System.Drawing.Size(329, 85)
+        Me.LayoutControlGroup15.Size = New System.Drawing.Size(337, 85)
         Me.LayoutControlGroup15.Text = "Expenses Post"
         '
         'LayoutControlItem76
         '
         Me.LayoutControlItem76.Control = Me.TextBox14
-        Me.LayoutControlItem76.Location = New System.Drawing.Point(120, 0)
+        Me.LayoutControlItem76.Location = New System.Drawing.Point(122, 0)
         Me.LayoutControlItem76.Name = "LayoutControlItem76"
-        Me.LayoutControlItem76.Size = New System.Drawing.Size(197, 50)
+        Me.LayoutControlItem76.Size = New System.Drawing.Size(203, 50)
         Me.LayoutControlItem76.Text = "Notes:"
         Me.LayoutControlItem76.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem76.TextSize = New System.Drawing.Size(191, 16)
@@ -3641,10 +3613,10 @@ Partial Class Plan
         'LayoutControlItem75
         '
         Me.LayoutControlItem75.Control = Me.TextBox15
-        Me.LayoutControlItem75.Location = New System.Drawing.Point(60, 0)
+        Me.LayoutControlItem75.Location = New System.Drawing.Point(61, 0)
         Me.LayoutControlItem75.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem75.Name = "LayoutControlItem75"
-        Me.LayoutControlItem75.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem75.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem75.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem75.Text = "Charge:"
         Me.LayoutControlItem75.TextLocation = DevExpress.Utils.Locations.Top
@@ -3656,7 +3628,7 @@ Partial Class Plan
         Me.LayoutControlItem74.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem74.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem74.Name = "LayoutControlItem74"
-        Me.LayoutControlItem74.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem74.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem74.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem74.Text = "Pay:"
         Me.LayoutControlItem74.TextLocation = DevExpress.Utils.Locations.Top
@@ -3669,15 +3641,15 @@ Partial Class Plan
         Me.LayoutControlGroup16.Location = New System.Drawing.Point(0, 170)
         Me.LayoutControlGroup16.Name = "LayoutControlGroup16"
         Me.LayoutControlGroup16.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup16.Size = New System.Drawing.Size(289, 85)
+        Me.LayoutControlGroup16.Size = New System.Drawing.Size(296, 85)
         Me.LayoutControlGroup16.Text = "Pre Tax"
         '
         'LayoutControlItem78
         '
         Me.LayoutControlItem78.Control = Me.TextBox17
-        Me.LayoutControlItem78.Location = New System.Drawing.Point(80, 0)
+        Me.LayoutControlItem78.Location = New System.Drawing.Point(82, 0)
         Me.LayoutControlItem78.Name = "LayoutControlItem78"
-        Me.LayoutControlItem78.Size = New System.Drawing.Size(197, 50)
+        Me.LayoutControlItem78.Size = New System.Drawing.Size(202, 50)
         Me.LayoutControlItem78.Text = "Notes:"
         Me.LayoutControlItem78.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem78.TextSize = New System.Drawing.Size(191, 16)
@@ -3688,7 +3660,7 @@ Partial Class Plan
         Me.LayoutControlItem77.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem77.MinSize = New System.Drawing.Size(80, 40)
         Me.LayoutControlItem77.Name = "LayoutControlItem77"
-        Me.LayoutControlItem77.Size = New System.Drawing.Size(80, 50)
+        Me.LayoutControlItem77.Size = New System.Drawing.Size(82, 50)
         Me.LayoutControlItem77.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem77.Text = "Deductions:"
         Me.LayoutControlItem77.TextLocation = DevExpress.Utils.Locations.Top
@@ -3697,18 +3669,18 @@ Partial Class Plan
         'LayoutControlGroup17
         '
         Me.LayoutControlGroup17.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem80, Me.LayoutControlItem79})
-        Me.LayoutControlGroup17.Location = New System.Drawing.Point(289, 170)
+        Me.LayoutControlGroup17.Location = New System.Drawing.Point(296, 170)
         Me.LayoutControlGroup17.Name = "LayoutControlGroup17"
         Me.LayoutControlGroup17.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup17.Size = New System.Drawing.Size(289, 85)
+        Me.LayoutControlGroup17.Size = New System.Drawing.Size(297, 85)
         Me.LayoutControlGroup17.Text = "Post Tax"
         '
         'LayoutControlItem80
         '
         Me.LayoutControlItem80.Control = Me.TextBox19
-        Me.LayoutControlItem80.Location = New System.Drawing.Point(80, 0)
+        Me.LayoutControlItem80.Location = New System.Drawing.Point(83, 0)
         Me.LayoutControlItem80.Name = "LayoutControlItem80"
-        Me.LayoutControlItem80.Size = New System.Drawing.Size(197, 50)
+        Me.LayoutControlItem80.Size = New System.Drawing.Size(202, 50)
         Me.LayoutControlItem80.Text = "Notes:"
         Me.LayoutControlItem80.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem80.TextSize = New System.Drawing.Size(191, 16)
@@ -3719,7 +3691,7 @@ Partial Class Plan
         Me.LayoutControlItem79.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem79.MinSize = New System.Drawing.Size(80, 40)
         Me.LayoutControlItem79.Name = "LayoutControlItem79"
-        Me.LayoutControlItem79.Size = New System.Drawing.Size(80, 50)
+        Me.LayoutControlItem79.Size = New System.Drawing.Size(83, 50)
         Me.LayoutControlItem79.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem79.Text = "Deductions:"
         Me.LayoutControlItem79.TextLocation = DevExpress.Utils.Locations.Top
@@ -3728,19 +3700,19 @@ Partial Class Plan
         'LayoutControlGroup18
         '
         Me.LayoutControlGroup18.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem82, Me.LayoutControlItem81})
-        Me.LayoutControlGroup18.Location = New System.Drawing.Point(578, 170)
+        Me.LayoutControlGroup18.Location = New System.Drawing.Point(593, 170)
         Me.LayoutControlGroup18.Name = "LayoutControlGroup18"
         Me.LayoutControlGroup18.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup18.Size = New System.Drawing.Size(132, 85)
+        Me.LayoutControlGroup18.Size = New System.Drawing.Size(134, 85)
         Me.LayoutControlGroup18.Text = "Typical Start/End Times:"
         '
         'LayoutControlItem82
         '
         Me.LayoutControlItem82.Control = Me.tbEndTime
-        Me.LayoutControlItem82.Location = New System.Drawing.Point(60, 0)
+        Me.LayoutControlItem82.Location = New System.Drawing.Point(61, 0)
         Me.LayoutControlItem82.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem82.Name = "LayoutControlItem82"
-        Me.LayoutControlItem82.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem82.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem82.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem82.Text = "End Time:"
         Me.LayoutControlItem82.TextLocation = DevExpress.Utils.Locations.Top
@@ -3752,7 +3724,7 @@ Partial Class Plan
         Me.LayoutControlItem81.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem81.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem81.Name = "LayoutControlItem81"
-        Me.LayoutControlItem81.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem81.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem81.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem81.Text = "Start Time:"
         Me.LayoutControlItem81.TextLocation = DevExpress.Utils.Locations.Top
@@ -3761,10 +3733,10 @@ Partial Class Plan
         'LayoutControlGroup19
         '
         Me.LayoutControlGroup19.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem85, Me.LayoutControlItem6})
-        Me.LayoutControlGroup19.Location = New System.Drawing.Point(710, 170)
+        Me.LayoutControlGroup19.Location = New System.Drawing.Point(727, 170)
         Me.LayoutControlGroup19.Name = "LayoutControlGroup19"
         Me.LayoutControlGroup19.Padding = New DevExpress.XtraLayout.Utils.Padding(2, 2, 2, 2)
-        Me.LayoutControlGroup19.Size = New System.Drawing.Size(132, 85)
+        Me.LayoutControlGroup19.Size = New System.Drawing.Size(136, 85)
         Me.LayoutControlGroup19.Text = "Breaks"
         '
         'LayoutControlItem85
@@ -3773,7 +3745,7 @@ Partial Class Plan
         Me.LayoutControlItem85.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem85.MinSize = New System.Drawing.Size(60, 39)
         Me.LayoutControlItem85.Name = "LayoutControlItem85"
-        Me.LayoutControlItem85.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem85.Size = New System.Drawing.Size(63, 50)
         Me.LayoutControlItem85.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem85.Text = "Deducted"
         Me.LayoutControlItem85.TextLocation = DevExpress.Utils.Locations.Top
@@ -3782,10 +3754,10 @@ Partial Class Plan
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.EntitlementTB
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(60, 0)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(63, 0)
         Me.LayoutControlItem6.MinSize = New System.Drawing.Size(60, 40)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(60, 50)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(61, 50)
         Me.LayoutControlItem6.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem6.Text = "Enititlement"
         Me.LayoutControlItem6.TextLocation = DevExpress.Utils.Locations.Top
@@ -3796,7 +3768,7 @@ Partial Class Plan
         Me.LayoutControlGroup6.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem40})
         Me.LayoutControlGroup6.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup6.Name = "LayoutControlGroup6"
-        Me.LayoutControlGroup6.Size = New System.Drawing.Size(1369, 255)
+        Me.LayoutControlGroup6.Size = New System.Drawing.Size(1402, 255)
         Me.LayoutControlGroup6.Text = "Audit History"
         '
         'LayoutControlItem40
@@ -3804,7 +3776,7 @@ Partial Class Plan
         Me.LayoutControlItem40.Control = Me.GridControl2
         Me.LayoutControlItem40.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem40.Name = "LayoutControlItem40"
-        Me.LayoutControlItem40.Size = New System.Drawing.Size(1369, 255)
+        Me.LayoutControlItem40.Size = New System.Drawing.Size(1402, 255)
         Me.LayoutControlItem40.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem40.TextVisible = False
         '
@@ -3813,23 +3785,23 @@ Partial Class Plan
         Me.SplitterItem2.AllowHotTrack = True
         Me.SplitterItem2.Location = New System.Drawing.Point(0, 95)
         Me.SplitterItem2.Name = "SplitterItem2"
-        Me.SplitterItem2.Size = New System.Drawing.Size(1399, 6)
+        Me.SplitterItem2.Size = New System.Drawing.Size(1432, 6)
         '
         'LayoutControlItem39
         '
         Me.LayoutControlItem39.Control = Me.PlanBindingNavigator
         Me.LayoutControlItem39.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem39.Name = "LayoutControlItem39"
-        Me.LayoutControlItem39.Size = New System.Drawing.Size(1399, 44)
+        Me.LayoutControlItem39.Size = New System.Drawing.Size(1432, 44)
         Me.LayoutControlItem39.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem39.TextVisible = False
         '
         'LayoutControlItem33
         '
         Me.LayoutControlItem33.Control = Me.ComboBox1
-        Me.LayoutControlItem33.Location = New System.Drawing.Point(591, 44)
+        Me.LayoutControlItem33.Location = New System.Drawing.Point(606, 44)
         Me.LayoutControlItem33.Name = "LayoutControlItem33"
-        Me.LayoutControlItem33.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem33.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem33.Text = "Client"
         Me.LayoutControlItem33.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem33.TextSize = New System.Drawing.Size(191, 16)
@@ -3838,9 +3810,9 @@ Partial Class Plan
         'LayoutControlItem32
         '
         Me.LayoutControlItem32.Control = Me.WeekSelect
-        Me.LayoutControlItem32.Location = New System.Drawing.Point(394, 44)
+        Me.LayoutControlItem32.Location = New System.Drawing.Point(404, 44)
         Me.LayoutControlItem32.Name = "LayoutControlItem32"
-        Me.LayoutControlItem32.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem32.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem32.Text = "Week Ending Date:"
         Me.LayoutControlItem32.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem32.TextSize = New System.Drawing.Size(191, 16)
@@ -3848,9 +3820,9 @@ Partial Class Plan
         'LayoutControlItem31
         '
         Me.LayoutControlItem31.Control = Me.PlanSelect
-        Me.LayoutControlItem31.Location = New System.Drawing.Point(197, 44)
+        Me.LayoutControlItem31.Location = New System.Drawing.Point(202, 44)
         Me.LayoutControlItem31.Name = "LayoutControlItem31"
-        Me.LayoutControlItem31.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem31.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem31.Text = "Plan Type"
         Me.LayoutControlItem31.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem31.TextSize = New System.Drawing.Size(191, 16)
@@ -3860,7 +3832,7 @@ Partial Class Plan
         Me.LayoutControlItem30.Control = Me.BranchSelect
         Me.LayoutControlItem30.Location = New System.Drawing.Point(0, 44)
         Me.LayoutControlItem30.Name = "LayoutControlItem30"
-        Me.LayoutControlItem30.Size = New System.Drawing.Size(197, 51)
+        Me.LayoutControlItem30.Size = New System.Drawing.Size(202, 51)
         Me.LayoutControlItem30.Text = "Branch"
         Me.LayoutControlItem30.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem30.TextSize = New System.Drawing.Size(191, 16)
@@ -3868,18 +3840,18 @@ Partial Class Plan
         'EmptySpaceItem7
         '
         Me.EmptySpaceItem7.AllowHotTrack = False
-        Me.EmptySpaceItem7.Location = New System.Drawing.Point(1154, 44)
+        Me.EmptySpaceItem7.Location = New System.Drawing.Point(1182, 44)
         Me.EmptySpaceItem7.Name = "EmptySpaceItem7"
-        Me.EmptySpaceItem7.Size = New System.Drawing.Size(245, 51)
+        Me.EmptySpaceItem7.Size = New System.Drawing.Size(250, 51)
         Me.EmptySpaceItem7.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem28
         '
         Me.LayoutControlItem28.Control = Me.SimpleButton1
-        Me.LayoutControlItem28.Location = New System.Drawing.Point(1057, 44)
+        Me.LayoutControlItem28.Location = New System.Drawing.Point(1082, 44)
         Me.LayoutControlItem28.MinSize = New System.Drawing.Size(81, 26)
         Me.LayoutControlItem28.Name = "LayoutControlItem28"
-        Me.LayoutControlItem28.Size = New System.Drawing.Size(97, 51)
+        Me.LayoutControlItem28.Size = New System.Drawing.Size(100, 51)
         Me.LayoutControlItem28.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem28.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem28.TextVisible = False
@@ -3887,10 +3859,10 @@ Partial Class Plan
         'LayoutControlItem37
         '
         Me.LayoutControlItem37.Control = Me.SimpleButton2
-        Me.LayoutControlItem37.Location = New System.Drawing.Point(964, 44)
+        Me.LayoutControlItem37.Location = New System.Drawing.Point(987, 44)
         Me.LayoutControlItem37.MinSize = New System.Drawing.Size(72, 26)
         Me.LayoutControlItem37.Name = "LayoutControlItem37"
-        Me.LayoutControlItem37.Size = New System.Drawing.Size(93, 51)
+        Me.LayoutControlItem37.Size = New System.Drawing.Size(95, 51)
         Me.LayoutControlItem37.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem37.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem37.TextVisible = False
@@ -3898,10 +3870,10 @@ Partial Class Plan
         'LayoutControlItem35
         '
         Me.LayoutControlItem35.Control = Me.SimpleButton3
-        Me.LayoutControlItem35.Location = New System.Drawing.Point(878, 44)
+        Me.LayoutControlItem35.Location = New System.Drawing.Point(900, 44)
         Me.LayoutControlItem35.MinSize = New System.Drawing.Size(67, 26)
         Me.LayoutControlItem35.Name = "LayoutControlItem35"
-        Me.LayoutControlItem35.Size = New System.Drawing.Size(86, 51)
+        Me.LayoutControlItem35.Size = New System.Drawing.Size(87, 51)
         Me.LayoutControlItem35.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem35.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem35.TextVisible = False
@@ -3909,10 +3881,10 @@ Partial Class Plan
         'LayoutControlItem36
         '
         Me.LayoutControlItem36.Control = Me.SimpleButton4
-        Me.LayoutControlItem36.Location = New System.Drawing.Point(788, 44)
+        Me.LayoutControlItem36.Location = New System.Drawing.Point(808, 44)
         Me.LayoutControlItem36.MinSize = New System.Drawing.Size(57, 26)
         Me.LayoutControlItem36.Name = "LayoutControlItem36"
-        Me.LayoutControlItem36.Size = New System.Drawing.Size(90, 51)
+        Me.LayoutControlItem36.Size = New System.Drawing.Size(92, 51)
         Me.LayoutControlItem36.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem36.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem36.TextVisible = False
@@ -3920,12 +3892,20 @@ Partial Class Plan
         'LayoutControlItem34
         '
         Me.LayoutControlItem34.Control = Me.GridControl1
-        Me.LayoutControlItem34.Location = New System.Drawing.Point(0, 413)
+        Me.LayoutControlItem34.Location = New System.Drawing.Point(0, 423)
         Me.LayoutControlItem34.Name = "LayoutControlItem34"
-        Me.LayoutControlItem34.Size = New System.Drawing.Size(1399, 453)
+        Me.LayoutControlItem34.Size = New System.Drawing.Size(1432, 443)
         Me.LayoutControlItem34.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem34.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem34.TextVisible = False
+        '
+        'EmptySpaceItem2
+        '
+        Me.EmptySpaceItem2.AllowHotTrack = False
+        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 413)
+        Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(1432, 10)
+        Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'Plan2PerRecordTableAdapter
         '
@@ -4055,22 +4035,9 @@ Partial Class Plan
         CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem25, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem26, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem27, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WeekLabel23, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem84, System.ComponentModel.ISupportInitialize).EndInit()
@@ -4085,6 +4052,17 @@ Partial Class Plan
         CType(Me.LayoutControlItem22, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem23, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem47, System.ComponentModel.ISupportInitialize).EndInit()
@@ -4162,6 +4140,7 @@ Partial Class Plan
         CType(Me.LayoutControlItem35, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem36, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PlanViewBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WeeknumbersBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.WeeknumbersBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
@@ -4303,23 +4282,11 @@ Partial Class Plan
     Friend WithEvents LayoutControlItem21 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem22 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem23 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlGroup2 As DevExpress.XtraLayout.LayoutControlGroup
-    Friend WithEvents LayoutControlItem16 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem17 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem10 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem12 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem14 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem15 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem13 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem18 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem19 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem11 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem24 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem25 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem26 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem27 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents EmptySpaceItem2 As DevExpress.XtraLayout.EmptySpaceItem
-    Friend WithEvents EmptySpaceItem9 As DevExpress.XtraLayout.EmptySpaceItem
     Friend WithEvents LayoutControlGroup4 As DevExpress.XtraLayout.LayoutControlGroup
     Friend WithEvents LayoutControlGroup5 As DevExpress.XtraLayout.LayoutControlGroup
     Friend WithEvents LayoutControlItem47 As DevExpress.XtraLayout.LayoutControlItem
@@ -4537,4 +4504,15 @@ Partial Class Plan
     Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.MemoExEdit
     Friend WithEvents JobCategoryIdComboBox As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents LayoutControlItem87 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem16 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem17 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem10 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem12 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem15 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem13 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem18 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem19 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem11 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents EmptySpaceItem4 As DevExpress.XtraLayout.EmptySpaceItem
+    Friend WithEvents LayoutControlItem14 As DevExpress.XtraLayout.LayoutControlItem
 End Class

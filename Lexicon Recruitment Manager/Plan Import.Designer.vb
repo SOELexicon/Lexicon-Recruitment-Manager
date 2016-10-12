@@ -70,10 +70,12 @@ Partial Class Plan_Import
         '
         'GridImport
         '
-        Me.GridImport.Location = New System.Drawing.Point(24, 137)
+        Me.GridImport.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.GridImport.Location = New System.Drawing.Point(31, 161)
         Me.GridImport.MainView = Me.GridView1
+        Me.GridImport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridImport.Name = "GridImport"
-        Me.GridImport.Size = New System.Drawing.Size(759, 239)
+        Me.GridImport.Size = New System.Drawing.Size(879, 299)
         Me.GridImport.TabIndex = 0
         Me.GridImport.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -85,11 +87,12 @@ Partial Class Plan_Import
         '
         'ImportRoutine
         '
-        Me.ImportRoutine.Location = New System.Drawing.Point(87, 12)
+        Me.ImportRoutine.Location = New System.Drawing.Point(104, 16)
+        Me.ImportRoutine.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ImportRoutine.Name = "ImportRoutine"
         Me.ImportRoutine.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ImportRoutine.Properties.Items.AddRange(New Object() {"Lander"})
-        Me.ImportRoutine.Size = New System.Drawing.Size(315, 20)
+        Me.ImportRoutine.Size = New System.Drawing.Size(364, 22)
         Me.ImportRoutine.StyleController = Me.LayoutControl1
         Me.ImportRoutine.TabIndex = 1
         '
@@ -106,62 +109,69 @@ Partial Class Plan_Import
         Me.LayoutControl1.Controls.Add(Me.ImportRoutine)
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(559, 227, 250, 350)
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(807, 426)
+        Me.LayoutControl1.Size = New System.Drawing.Size(941, 524)
         Me.LayoutControl1.TabIndex = 3
         Me.LayoutControl1.Text = "LayoutControl1"
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(12, 38)
+        Me.Label1.Location = New System.Drawing.Point(16, 44)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(390, 22)
+        Me.Label1.Size = New System.Drawing.Size(452, 27)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Errors: "
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(406, 38)
+        Me.SimpleButton1.Location = New System.Drawing.Point(474, 44)
+        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(389, 22)
+        Me.SimpleButton1.Size = New System.Drawing.Size(451, 27)
         Me.SimpleButton1.StyleController = Me.LayoutControl1
         Me.SimpleButton1.TabIndex = 8
         Me.SimpleButton1.Text = "Submit"
         '
         'LabelControl1
         '
-        Me.LabelControl1.Location = New System.Drawing.Point(12, 64)
+        Me.LabelControl1.Location = New System.Drawing.Point(16, 77)
+        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(46, 13)
+        Me.LabelControl1.Size = New System.Drawing.Size(55, 16)
         Me.LabelControl1.StyleController = Me.LayoutControl1
         Me.LabelControl1.TabIndex = 7
         Me.LabelControl1.Text = "Progress:"
         '
         'ProgressBarControl1
         '
-        Me.ProgressBarControl1.Location = New System.Drawing.Point(62, 64)
+        Me.ProgressBarControl1.Location = New System.Drawing.Point(77, 77)
+        Me.ProgressBarControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ProgressBarControl1.Name = "ProgressBarControl1"
-        Me.ProgressBarControl1.Size = New System.Drawing.Size(733, 16)
+        Me.ProgressBarControl1.Size = New System.Drawing.Size(848, 17)
         Me.ProgressBarControl1.StyleController = Me.LayoutControl1
         Me.ProgressBarControl1.TabIndex = 6
         '
         'btnExport
         '
-        Me.btnExport.Location = New System.Drawing.Point(24, 380)
+        Me.btnExport.Location = New System.Drawing.Point(31, 466)
+        Me.btnExport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnExport.Name = "btnExport"
-        Me.btnExport.Size = New System.Drawing.Size(759, 22)
+        Me.btnExport.Size = New System.Drawing.Size(879, 27)
         Me.btnExport.StyleController = Me.LayoutControl1
         Me.btnExport.TabIndex = 5
         Me.btnExport.Text = "Export Grid To Excel"
         '
         'GridControl2
         '
-        Me.GridControl2.Location = New System.Drawing.Point(24, 121)
+        Me.GridControl2.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.GridControl2.Location = New System.Drawing.Point(31, 142)
         Me.GridControl2.MainView = Me.GridView2
+        Me.GridControl2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl2.Name = "GridControl2"
-        Me.GridControl2.Size = New System.Drawing.Size(759, 281)
+        Me.GridControl2.Size = New System.Drawing.Size(879, 351)
         Me.GridControl2.TabIndex = 4
         Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -172,9 +182,10 @@ Partial Class Plan_Import
         '
         'btnImport
         '
-        Me.btnImport.Location = New System.Drawing.Point(406, 12)
+        Me.btnImport.Location = New System.Drawing.Point(474, 16)
+        Me.btnImport.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btnImport.Name = "btnImport"
-        Me.btnImport.Size = New System.Drawing.Size(389, 22)
+        Me.btnImport.Size = New System.Drawing.Size(451, 22)
         Me.btnImport.StyleController = Me.LayoutControl1
         Me.btnImport.TabIndex = 2
         Me.btnImport.Text = "Import"
@@ -186,7 +197,7 @@ Partial Class Plan_Import
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem2, Me.LayoutControlItem3, Me.TabbedControlGroup1, Me.LayoutControlItem7, Me.LayoutControlItem6, Me.LayoutControlItem8, Me.LayoutControlItem9})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(807, 426)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(941, 524)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem2
@@ -194,28 +205,28 @@ Partial Class Plan_Import
         Me.LayoutControlItem2.Control = Me.ImportRoutine
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(394, 26)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(458, 28)
         Me.LayoutControlItem2.Text = "Import Routine"
-        Me.LayoutControlItem2.TextSize = New System.Drawing.Size(72, 13)
+        Me.LayoutControlItem2.TextSize = New System.Drawing.Size(85, 16)
         '
         'LayoutControlItem3
         '
         Me.LayoutControlItem3.Control = Me.btnImport
-        Me.LayoutControlItem3.Location = New System.Drawing.Point(394, 0)
+        Me.LayoutControlItem3.Location = New System.Drawing.Point(458, 0)
         Me.LayoutControlItem3.MinSize = New System.Drawing.Size(47, 26)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(393, 26)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(457, 28)
         Me.LayoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
         '
         'TabbedControlGroup1
         '
-        Me.TabbedControlGroup1.Location = New System.Drawing.Point(0, 72)
+        Me.TabbedControlGroup1.Location = New System.Drawing.Point(0, 84)
         Me.TabbedControlGroup1.Name = "TabbedControlGroup1"
         Me.TabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup2
         Me.TabbedControlGroup1.SelectedTabPageIndex = 0
-        Me.TabbedControlGroup1.Size = New System.Drawing.Size(787, 334)
+        Me.TabbedControlGroup1.Size = New System.Drawing.Size(915, 414)
         Me.TabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup2, Me.LayoutControlGroup3})
         '
         'LayoutControlGroup2
@@ -223,7 +234,7 @@ Partial Class Plan_Import
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem5})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(763, 285)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(885, 357)
         Me.LayoutControlGroup2.Text = "Import Data"
         '
         'LayoutControlItem1
@@ -231,18 +242,18 @@ Partial Class Plan_Import
         Me.LayoutControlItem1.Control = Me.GridImport
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(763, 259)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(885, 324)
         Me.LayoutControlItem1.Text = "Import Grid"
         Me.LayoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(72, 13)
+        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(85, 16)
         '
         'LayoutControlItem5
         '
         Me.LayoutControlItem5.Control = Me.btnExport
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 259)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 324)
         Me.LayoutControlItem5.MinSize = New System.Drawing.Size(112, 26)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(763, 26)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(885, 33)
         Me.LayoutControlItem5.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem5.TextVisible = False
@@ -252,7 +263,7 @@ Partial Class Plan_Import
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem4})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(763, 285)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(885, 357)
         Me.LayoutControlGroup3.Text = "Split Hours"
         '
         'LayoutControlItem4
@@ -260,43 +271,43 @@ Partial Class Plan_Import
         Me.LayoutControlItem4.Control = Me.GridControl2
         Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(763, 285)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(885, 357)
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem4.TextVisible = False
         '
         'LayoutControlItem7
         '
         Me.LayoutControlItem7.Control = Me.LabelControl1
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 52)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(0, 61)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(50, 20)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(61, 23)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.ProgressBarControl1
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(50, 52)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(61, 61)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(737, 20)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(854, 23)
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem6.TextVisible = False
         '
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.SimpleButton1
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(394, 26)
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(458, 28)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(393, 26)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(457, 33)
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem8.TextVisible = False
         '
         'LayoutControlItem9
         '
         Me.LayoutControlItem9.Control = Me.Label1
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 26)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 28)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(394, 26)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(458, 33)
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem9.TextVisible = False
         '
@@ -306,10 +317,11 @@ Partial Class Plan_Import
         '
         'Plan_Import
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(807, 426)
+        Me.ClientSize = New System.Drawing.Size(941, 524)
         Me.Controls.Add(Me.LayoutControl1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Plan_Import"
         Me.Text = "Plan_Import"
         CType(Me.GridImport, System.ComponentModel.ISupportInitialize).EndInit()

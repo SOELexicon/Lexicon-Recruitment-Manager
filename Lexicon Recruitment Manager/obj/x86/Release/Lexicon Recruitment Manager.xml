@@ -6,7 +6,520 @@ LexiconRecruitmentManager
 </name>
 </assembly>
 <members>
-<member name="T:Lexrecmgr.LexiconRecManagerDataSet.BranchDataTable">
+<member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ConsultantsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ActivityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.InterviewsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.VisitsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.WarningsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.NewCompaniesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.AssetsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ConsultantsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ActivityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.InterviewsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.VisitsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.WarningsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.NewCompaniesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.AssetsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ConsultantsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ActivityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.InterviewsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.VisitsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.WarningsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.NewCompaniesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.AssetsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.ConsultantsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.ActivityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.InterviewsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.VisitsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.WarningsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.NewCompaniesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.AssetsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lexrecmgr.LexiconManagemnetToolsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Lexrecmgr.LexiconManagemnetToolsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Lexrecmgr.LexiconManagemnetToolsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateAll(Lexrecmgr.LexiconManagemnetToolsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Lexrecmgr.Sites.SitesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.EmployeesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlanTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CompanyContactsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.JobCategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidaysDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HollidayGridViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidaysWeekendingDropdownDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidayEmployeeDropdownDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlansAuditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.DailyTempsOnPlanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesCurrentWeekDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesPriorWeekDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.EmployeesMoneyOwedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.BanksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.SitesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.EmployeesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlanTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CompanyContactsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.JobCategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidaysRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HollidayGridViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidaysWeekendingDropdownRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidayEmployeeDropdownRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlansAuditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.DailyTempsOnPlanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesCurrentWeekRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesPriorWeekRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.EmployeesMoneyOwedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.BanksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Lexrecmgr.Sites.SitesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.EmployeesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlanTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CompanyContactsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.JobCategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidaysRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HollidayGridViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidaysWeekendingDropdownRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.HolidayEmployeeDropdownRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.PlansAuditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.DailyTempsOnPlanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesCurrentWeekRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesPriorWeekRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.EmployeesMoneyOwedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites.BanksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Lexrecmgr.Sites">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.SitesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.EmployeesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.PlanTypesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.PlanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.CompanyContactsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.JobCategoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.DataTable1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.HolidaysTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.HollidayGridViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.HolidaysWeekendingDropdownTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.HolidayEmployeeDropdownTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.PlansAuditTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.DailyTempsOnPlanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.CountOfEmployeesCurrentWeekTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.CountOfEmployeesPriorWeekTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.EmployeesMoneyOwedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.BanksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lexrecmgr.Sites,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateInsertedRows(Lexrecmgr.Sites,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateDeletedRows(Lexrecmgr.Sites,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateAll(Lexrecmgr.Sites)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Lexrecmgr.SitesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.Lexicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.Login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.padlock_closed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.padlock_open">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.purestaff">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.PurestaffNoBackground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Lexrecmgr.My.Resources.Resources.refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Lexrecmgr.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Lexrecmgr.LexiconRecManagerDataSet.BranchDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -827,519 +1340,6 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member><member name="T:Lexrecmgr.LexiconRecManagerDataSetTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.Lexicon">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.Login">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.padlock_closed">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.padlock_open">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.purestaff">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.PurestaffNoBackground">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Lexrecmgr.My.Resources.Resources.refresh">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:Lexrecmgr.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.SitesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.EmployeesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlanTypesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlanDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.UsersDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CompanyContactsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.JobCategoryDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.DataTable1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidaysDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HollidayGridViewDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidaysWeekendingDropdownDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidayEmployeeDropdownDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlansAuditDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.DailyTempsOnPlanDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesCurrentWeekDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesPriorWeekDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.EmployeesMoneyOwedDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.BanksDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.SitesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.EmployeesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlanTypesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlanRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.UsersRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CompanyContactsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.JobCategoryRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.DataTable1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidaysRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HollidayGridViewRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidaysWeekendingDropdownRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidayEmployeeDropdownRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlansAuditRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.DailyTempsOnPlanRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesCurrentWeekRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesPriorWeekRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.EmployeesMoneyOwedRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.BanksRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.Sites.SitesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.EmployeesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlanTypesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlanRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.UsersRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CompanyContactsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.JobCategoryRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.DataTable1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidaysRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HollidayGridViewRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidaysWeekendingDropdownRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.HolidayEmployeeDropdownRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.PlansAuditRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.DailyTempsOnPlanRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesCurrentWeekRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.CountOfEmployeesPriorWeekRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.EmployeesMoneyOwedRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites.BanksRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.Sites">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.SitesTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.EmployeesTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.PlanTypesTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.PlanTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.UsersTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.CompanyContactsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.JobCategoryTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.DataTable1TableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.HolidaysTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.HollidayGridViewTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.HolidaysWeekendingDropdownTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.HolidayEmployeeDropdownTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.PlansAuditTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.DailyTempsOnPlanTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.CountOfEmployeesCurrentWeekTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.CountOfEmployeesPriorWeekTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.EmployeesMoneyOwedTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.BanksTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lexrecmgr.Sites,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateInsertedRows(Lexrecmgr.Sites,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateDeletedRows(Lexrecmgr.Sites,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateAll(Lexrecmgr.Sites)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Lexrecmgr.SitesTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ConsultantsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ActivityDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.InterviewsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.VisitsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.WarningsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.NewCompaniesDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.AssetsDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ConsultantsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ActivityRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.InterviewsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.VisitsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.WarningsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.NewCompaniesRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.AssetsRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ConsultantsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.ActivityRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.InterviewsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.VisitsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.WarningsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.NewCompaniesRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet.AssetsRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSet">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.ConsultantsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.ActivityTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.InterviewsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.VisitsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.WarningsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.NewCompaniesTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.AssetsTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Lexrecmgr.LexiconManagemnetToolsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Lexrecmgr.LexiconManagemnetToolsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Lexrecmgr.LexiconManagemnetToolsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateAll(Lexrecmgr.LexiconManagemnetToolsDataSet)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:Lexrecmgr.LexiconManagemnetToolsDataSetTableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
