@@ -4,6 +4,17 @@ Partial Public Class LexiconRecManagerDataSet
 
 
 
+    Partial Class Plan1DataTable
+
+        Private Sub Plan1DataTable_ColumnChanging(sender As Object, e As DataColumnChangeEventArgs) Handles Me.ColumnChanging
+            If (e.Column.ColumnName = Me.RateColumn.ColumnName) Then
+                'Add user code here
+            End If
+
+        End Sub
+
+    End Class
+
     Partial Class Plan2PerRecordDataTable
 
         Private Sub Plan2PerRecordDataTable_Plan2PerRecordRowChanging(sender As Object, e As Plan2PerRecordRowChangeEvent) Handles Me.Plan2PerRecordRowChanging

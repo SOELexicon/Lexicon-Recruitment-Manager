@@ -857,7 +857,7 @@ Finishlok:
         Try
             If EmployeeIdComboBox.EditValue.ToString = "" Then
                 If loaded = True And Me.CompanyLookUpEdit1.EditValue.ToString <> "" Then
-                    JobCategoryBindingSource.Filter = "CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                    JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
                 End If
 
             Else
@@ -876,20 +876,20 @@ Finishlok:
                                                "dd/MM/yyyy",
                                                CultureInfo.GetCultureInfo("en-GB"))
                         If GetCurrentAge(DateofBirthcheck, todayweekend) >= 25 Then
-                            JobCategoryBindingSource.Filter = "IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                            JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
 
                         Else
-                            JobCategoryBindingSource.Filter = "CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                            JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
                         End If
                     Else
                         todayweekend = DateTime.ParseExact(WeekEndingDateIfLateTextBox.Text,
                                               "dd/MM/yyyy",
                                               CultureInfo.GetCultureInfo("en-GB"))
                         If GetCurrentAge(DateofBirthcheck, todayweekend) >= 25 Then
-                            JobCategoryBindingSource.Filter = "IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                            JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
 
                         Else
-                            JobCategoryBindingSource.Filter = "CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                            JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
                         End If
                     End If
                 End If
@@ -1081,20 +1081,20 @@ Finishlok:
                                              "dd/MM/yyyy",
                                              CultureInfo.GetCultureInfo("en-GB"))
                 If GetCurrentAge(DateofBirthcheck, todayweekend) >= 25 Then
-                    JobCategoryBindingSource.Filter = "IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                    JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
 
                 Else
-                    JobCategoryBindingSource.Filter = "CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                    JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
                 End If
             Else
                 todayweekend = DateTime.ParseExact(WeekEndingDateIfLateTextBox.Text,
                                       "dd/MM/yyyy",
                                       CultureInfo.GetCultureInfo("en-GB"))
                 If GetCurrentAge(DateofBirthcheck, todayweekend) >= 25 Then
-                    JobCategoryBindingSource.Filter = "IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                    JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and IsNull(U25Rate,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
 
                 Else
-                    JobCategoryBindingSource.Filter = "CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
+                    JobCategoryBindingSource.Filter = "IsNull(Archive,0) = 0 and CompanyId = " + CompanyLookUpEdit1.EditValue.ToString
                 End If
             End If
             If LinqMoneyOwed3 > 0 Then
