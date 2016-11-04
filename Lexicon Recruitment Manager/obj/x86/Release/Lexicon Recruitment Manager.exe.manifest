@@ -1915,14 +1915,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lexicon Recruitment Manager.exe" size="13085696">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lexicon Recruitment Manager.exe" size="13086208">
       <assemblyIdentity name="Lexicon Recruitment Manager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>A5XGS09DuPayMLFV/eBUDiYKRlI=</dsig:DigestValue>
+        <dsig:DigestValue>W1uk2lJqUOrrz7nxoAJVGu0hS/k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
