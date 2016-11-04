@@ -16,11 +16,11 @@ Public Class Web
 
       
         'TODO: This line of code loads data into the 'Sites1.DailyTempsOnPlan' table. You can move, or remove it, as needed.
-            Me.DailyTempsOnPlanTableAdapter1.Fill(Me.Sites1.DailyTempsOnPlan)
+            '  Me.DailyTempsOnPlanTableAdapter1.Fill(Me.Sites1.DailyTempsOnPlan)
         'TODO: This line of code loads data into the 'Sites.DailyTempsOnPlan' table. You can move, or remove it, as needed.
         '   Me.DailyTempsOnPlanTableAdapter.Fill(Me.Sites.DailyTempsOnPlan)
         'TODO: This line of code loads data into the 'LexiconRecManagerDataSet.TempsOnPlanArchiveHistory' table. You can move, or remove it, as needed.
-            Me.TempsOnPlanArchiveHistoryTableAdapter.Fill(Me.LexiconRecManagerDataSet.TempsOnPlanArchiveHistory)
+            '  Me.TempsOnPlanArchiveHistoryTableAdapter.Fill(Me.LexiconRecManagerDataSet.TempsOnPlanArchiveHistory)
             CountOfEmployeesCurrentWeekTableAdapter1.Fill(Sites2.CountOfEmployeesCurrentWeek)
             Label1.Text = "Welcome: " + FrmLogin.UsernameTextBox.Text
             Dim strPath As String = System.IO.Path.GetDirectoryName( _

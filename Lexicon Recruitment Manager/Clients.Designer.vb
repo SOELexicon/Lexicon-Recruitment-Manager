@@ -827,7 +827,7 @@ Partial Class Clients
         '
         'SwedishderogationPureContractedLabel
         '
-        SwedishderogationPureContractedLabel.Location = New System.Drawing.Point(16, 285)
+        SwedishderogationPureContractedLabel.Location = New System.Drawing.Point(16, 283)
         SwedishderogationPureContractedLabel.Name = "SwedishderogationPureContractedLabel"
         SwedishderogationPureContractedLabel.Size = New System.Drawing.Size(1543, 19)
         SwedishderogationPureContractedLabel.TabIndex = 1
@@ -1087,7 +1087,7 @@ Partial Class Clients
         'GLAClientCheckEdit
         '
         Me.GLAClientCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "GLAClient", True))
-        Me.GLAClientCheckEdit.Location = New System.Drawing.Point(855, 310)
+        Me.GLAClientCheckEdit.Location = New System.Drawing.Point(855, 308)
         Me.GLAClientCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GLAClientCheckEdit.Name = "GLAClientCheckEdit"
         Me.GLAClientCheckEdit.Properties.Caption = "GLA Client"
@@ -1100,10 +1100,10 @@ Partial Class Clients
         Me.DataNavigator1.Buttons.CancelEdit.Visible = False
         Me.DataNavigator1.Buttons.EndEdit.Visible = False
         Me.DataNavigator1.DataSource = Me.CompanyContactsBindingSource
-        Me.DataNavigator1.Location = New System.Drawing.Point(16, 423)
+        Me.DataNavigator1.Location = New System.Drawing.Point(16, 421)
         Me.DataNavigator1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataNavigator1.Name = "DataNavigator1"
-        Me.DataNavigator1.Size = New System.Drawing.Size(1543, 69)
+        Me.DataNavigator1.Size = New System.Drawing.Size(1543, 71)
         Me.DataNavigator1.StyleController = Me.LayoutControl1
         Me.DataNavigator1.TabIndex = 1
         Me.DataNavigator1.Text = "DataNavigator1"
@@ -1223,7 +1223,7 @@ Partial Class Clients
         'DNICheckBox
         '
         Me.DNICheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.SitesBindingSource, "DNI", True))
-        Me.DNICheckBox.Location = New System.Drawing.Point(790, 341)
+        Me.DNICheckBox.Location = New System.Drawing.Point(790, 339)
         Me.DNICheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DNICheckBox.Name = "DNICheckBox"
         Me.DNICheckBox.Size = New System.Drawing.Size(769, 25)
@@ -1257,7 +1257,7 @@ Partial Class Clients
         'OtherTextBox
         '
         Me.OtherTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Other", True))
-        Me.OtherTextBox.Location = New System.Drawing.Point(179, 341)
+        Me.OtherTextBox.Location = New System.Drawing.Point(179, 339)
         Me.OtherTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OtherTextBox.Name = "OtherTextBox"
         Me.OtherTextBox.Size = New System.Drawing.Size(605, 25)
@@ -1332,7 +1332,7 @@ Partial Class Clients
         'TBCompanyId
         '
         Me.TBCompanyId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "CompanyID", True))
-        Me.TBCompanyId.Location = New System.Drawing.Point(182, 391)
+        Me.TBCompanyId.Location = New System.Drawing.Point(182, 389)
         Me.TBCompanyId.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TBCompanyId.Name = "TBCompanyId"
         Me.TBCompanyId.ReadOnly = True
@@ -1356,7 +1356,7 @@ Partial Class Clients
         Me.ComboBox2.DataSource = Me.ConsultantsBindingSource
         Me.ComboBox2.DisplayMember = "ConsultantCode"
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(16, 391)
+        Me.ComboBox2.Location = New System.Drawing.Point(16, 389)
         Me.ComboBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(160, 24)
@@ -1387,7 +1387,7 @@ Partial Class Clients
         'PayParityPureEmbraceCheckBox
         '
         Me.PayParityPureEmbraceCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.SitesBindingSource, "PayParityPureEmbrace", True))
-        Me.PayParityPureEmbraceCheckBox.Location = New System.Drawing.Point(16, 310)
+        Me.PayParityPureEmbraceCheckBox.Location = New System.Drawing.Point(16, 308)
         Me.PayParityPureEmbraceCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PayParityPureEmbraceCheckBox.Name = "PayParityPureEmbraceCheckBox"
         Me.PayParityPureEmbraceCheckBox.Size = New System.Drawing.Size(510, 25)
@@ -1398,7 +1398,7 @@ Partial Class Clients
         'SwedishderogationPureContractedCheckBox
         '
         Me.SwedishderogationPureContractedCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.SitesBindingSource, "SwedishderogationPureContracted", True))
-        Me.SwedishderogationPureContractedCheckBox.Location = New System.Drawing.Point(532, 310)
+        Me.SwedishderogationPureContractedCheckBox.Location = New System.Drawing.Point(532, 308)
         Me.SwedishderogationPureContractedCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SwedishderogationPureContractedCheckBox.Name = "SwedishderogationPureContractedCheckBox"
         Me.SwedishderogationPureContractedCheckBox.Size = New System.Drawing.Size(317, 25)
@@ -1421,7 +1421,7 @@ Partial Class Clients
         Me.CreatedByTimeEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "CreatedBy", True))
         Me.CreatedByTimeEdit.EditValue = ""
         Me.CreatedByTimeEdit.Enabled = False
-        Me.CreatedByTimeEdit.Location = New System.Drawing.Point(348, 391)
+        Me.CreatedByTimeEdit.Location = New System.Drawing.Point(348, 389)
         Me.CreatedByTimeEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CreatedByTimeEdit.Name = "CreatedByTimeEdit"
         Me.CreatedByTimeEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered
@@ -1435,7 +1435,7 @@ Partial Class Clients
         '
         Me.CreatedDateDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "CreatedDate", True))
         Me.CreatedDateDateEdit.Enabled = False
-        Me.CreatedDateDateEdit.Location = New System.Drawing.Point(679, 391)
+        Me.CreatedDateDateEdit.Location = New System.Drawing.Point(679, 389)
         Me.CreatedDateDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CreatedDateDateEdit.Name = "CreatedDateDateEdit"
         Me.CreatedDateDateEdit.Properties.DisplayFormat.FormatString = "d"
@@ -1453,7 +1453,7 @@ Partial Class Clients
         Me.LastModifiedUserTimeEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "LastModifiedUser", True))
         Me.LastModifiedUserTimeEdit.EditValue = ""
         Me.LastModifiedUserTimeEdit.Enabled = False
-        Me.LastModifiedUserTimeEdit.Location = New System.Drawing.Point(924, 391)
+        Me.LastModifiedUserTimeEdit.Location = New System.Drawing.Point(924, 389)
         Me.LastModifiedUserTimeEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedUserTimeEdit.Name = "LastModifiedUserTimeEdit"
         Me.LastModifiedUserTimeEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered
@@ -1467,7 +1467,7 @@ Partial Class Clients
         '
         Me.LastModifiedDateDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "LastModifiedDate", True))
         Me.LastModifiedDateDateEdit.Enabled = False
-        Me.LastModifiedDateDateEdit.Location = New System.Drawing.Point(1249, 391)
+        Me.LastModifiedDateDateEdit.Location = New System.Drawing.Point(1249, 389)
         Me.LastModifiedDateDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedDateDateEdit.Name = "LastModifiedDateDateEdit"
         Me.LastModifiedDateDateEdit.Properties.DisplayFormat.FormatString = "d"
@@ -1598,7 +1598,7 @@ Partial Class Clients
         'LayoutControlItem13
         '
         Me.LayoutControlItem13.Control = SwedishderogationPureContractedLabel
-        Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 269)
+        Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 267)
         Me.LayoutControlItem13.MaxSize = New System.Drawing.Size(0, 25)
         Me.LayoutControlItem13.MinSize = New System.Drawing.Size(24, 25)
         Me.LayoutControlItem13.Name = "LayoutControlItem13"
@@ -1610,7 +1610,7 @@ Partial Class Clients
         'LayoutControlItem15
         '
         Me.LayoutControlItem15.Control = Me.PayParityPureEmbraceCheckBox
-        Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 294)
+        Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 292)
         Me.LayoutControlItem15.Name = "LayoutControlItem15"
         Me.LayoutControlItem15.Size = New System.Drawing.Size(516, 31)
         Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
@@ -1621,12 +1621,12 @@ Partial Class Clients
         Me.SimpleSeparator1.AllowHotTrack = False
         Me.SimpleSeparator1.Location = New System.Drawing.Point(0, 266)
         Me.SimpleSeparator1.Name = "SimpleSeparator1"
-        Me.SimpleSeparator1.Size = New System.Drawing.Size(1549, 3)
+        Me.SimpleSeparator1.Size = New System.Drawing.Size(1549, 1)
         '
         'LayoutControlItem14
         '
         Me.LayoutControlItem14.Control = Me.SwedishderogationPureContractedCheckBox
-        Me.LayoutControlItem14.Location = New System.Drawing.Point(516, 294)
+        Me.LayoutControlItem14.Location = New System.Drawing.Point(516, 292)
         Me.LayoutControlItem14.Name = "LayoutControlItem14"
         Me.LayoutControlItem14.Size = New System.Drawing.Size(323, 31)
         Me.LayoutControlItem14.TextSize = New System.Drawing.Size(0, 0)
@@ -1635,7 +1635,7 @@ Partial Class Clients
         'LayoutControlItem19
         '
         Me.LayoutControlItem19.Control = Me.TBCompanyId
-        Me.LayoutControlItem19.Location = New System.Drawing.Point(166, 356)
+        Me.LayoutControlItem19.Location = New System.Drawing.Point(166, 354)
         Me.LayoutControlItem19.Name = "LayoutControlItem19"
         Me.LayoutControlItem19.Size = New System.Drawing.Size(166, 51)
         Me.LayoutControlItem19.Text = "CompanyId"
@@ -1645,7 +1645,7 @@ Partial Class Clients
         'LayoutControlItem18
         '
         Me.LayoutControlItem18.Control = Me.ComboBox2
-        Me.LayoutControlItem18.Location = New System.Drawing.Point(0, 356)
+        Me.LayoutControlItem18.Location = New System.Drawing.Point(0, 354)
         Me.LayoutControlItem18.Name = "LayoutControlItem18"
         Me.LayoutControlItem18.Size = New System.Drawing.Size(166, 51)
         Me.LayoutControlItem18.Text = "Converted By:"
@@ -1655,7 +1655,7 @@ Partial Class Clients
         'LayoutControlItem16
         '
         Me.LayoutControlItem16.Control = Me.OtherTextBox
-        Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 325)
+        Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 323)
         Me.LayoutControlItem16.Name = "LayoutControlItem16"
         Me.LayoutControlItem16.Size = New System.Drawing.Size(774, 31)
         Me.LayoutControlItem16.Text = "Other"
@@ -1674,10 +1674,10 @@ Partial Class Clients
         'LayoutControlItem158
         '
         Me.LayoutControlItem158.Control = Me.DataNavigator1
-        Me.LayoutControlItem158.Location = New System.Drawing.Point(0, 407)
+        Me.LayoutControlItem158.Location = New System.Drawing.Point(0, 405)
         Me.LayoutControlItem158.MinSize = New System.Drawing.Size(166, 23)
         Me.LayoutControlItem158.Name = "LayoutControlItem158"
-        Me.LayoutControlItem158.Size = New System.Drawing.Size(1549, 75)
+        Me.LayoutControlItem158.Size = New System.Drawing.Size(1549, 77)
         Me.LayoutControlItem158.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem158.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem158.TextVisible = False
@@ -1685,7 +1685,7 @@ Partial Class Clients
         'LayoutControlItem161
         '
         Me.LayoutControlItem161.Control = Me.CreatedByTimeEdit
-        Me.LayoutControlItem161.Location = New System.Drawing.Point(332, 356)
+        Me.LayoutControlItem161.Location = New System.Drawing.Point(332, 354)
         Me.LayoutControlItem161.Name = "LayoutControlItem161"
         Me.LayoutControlItem161.Size = New System.Drawing.Size(331, 51)
         Me.LayoutControlItem161.Text = "Created By:"
@@ -1695,7 +1695,7 @@ Partial Class Clients
         'LayoutControlItem162
         '
         Me.LayoutControlItem162.Control = Me.CreatedDateDateEdit
-        Me.LayoutControlItem162.Location = New System.Drawing.Point(663, 356)
+        Me.LayoutControlItem162.Location = New System.Drawing.Point(663, 354)
         Me.LayoutControlItem162.Name = "LayoutControlItem162"
         Me.LayoutControlItem162.Size = New System.Drawing.Size(245, 51)
         Me.LayoutControlItem162.Text = "Created Date:"
@@ -1705,7 +1705,7 @@ Partial Class Clients
         'LayoutControlItem17
         '
         Me.LayoutControlItem17.Control = Me.DNICheckBox
-        Me.LayoutControlItem17.Location = New System.Drawing.Point(774, 325)
+        Me.LayoutControlItem17.Location = New System.Drawing.Point(774, 323)
         Me.LayoutControlItem17.Name = "LayoutControlItem17"
         Me.LayoutControlItem17.Size = New System.Drawing.Size(775, 31)
         Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
@@ -1714,7 +1714,7 @@ Partial Class Clients
         'LayoutControlItem163
         '
         Me.LayoutControlItem163.Control = Me.LastModifiedDateDateEdit
-        Me.LayoutControlItem163.Location = New System.Drawing.Point(1233, 356)
+        Me.LayoutControlItem163.Location = New System.Drawing.Point(1233, 354)
         Me.LayoutControlItem163.Name = "LayoutControlItem163"
         Me.LayoutControlItem163.Size = New System.Drawing.Size(316, 51)
         Me.LayoutControlItem163.Text = "Last Modified Date:"
@@ -1724,7 +1724,7 @@ Partial Class Clients
         'LayoutControlItem164
         '
         Me.LayoutControlItem164.Control = Me.LastModifiedUserTimeEdit
-        Me.LayoutControlItem164.Location = New System.Drawing.Point(908, 356)
+        Me.LayoutControlItem164.Location = New System.Drawing.Point(908, 354)
         Me.LayoutControlItem164.Name = "LayoutControlItem164"
         Me.LayoutControlItem164.Size = New System.Drawing.Size(325, 51)
         Me.LayoutControlItem164.Text = "Last Modified User:"
@@ -1734,7 +1734,7 @@ Partial Class Clients
         'LayoutControlItem168
         '
         Me.LayoutControlItem168.Control = Me.GLAClientCheckEdit
-        Me.LayoutControlItem168.Location = New System.Drawing.Point(839, 294)
+        Me.LayoutControlItem168.Location = New System.Drawing.Point(839, 292)
         Me.LayoutControlItem168.Name = "LayoutControlItem168"
         Me.LayoutControlItem168.Size = New System.Drawing.Size(710, 31)
         Me.LayoutControlItem168.Text = "GLAClient:"
@@ -1791,7 +1791,7 @@ Partial Class Clients
         'InvoicingMethodTextBox
         '
         Me.InvoicingMethodTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvoicingMethod", True))
-        Me.InvoicingMethodTextBox.Location = New System.Drawing.Point(928, 311)
+        Me.InvoicingMethodTextBox.Location = New System.Drawing.Point(928, 312)
         Me.InvoicingMethodTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvoicingMethodTextBox.Name = "InvoicingMethodTextBox"
         Me.InvoicingMethodTextBox.Properties.AllowMouseWheel = False
@@ -1805,7 +1805,7 @@ Partial Class Clients
         'AddressTextBox
         '
         Me.AddressTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Address", True))
-        Me.AddressTextBox.Location = New System.Drawing.Point(135, 92)
+        Me.AddressTextBox.Location = New System.Drawing.Point(135, 93)
         Me.AddressTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AddressTextBox.Name = "AddressTextBox"
         Me.AddressTextBox.Size = New System.Drawing.Size(653, 25)
@@ -1814,7 +1814,7 @@ Partial Class Clients
         'Address2TextBox
         '
         Me.Address2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Address2", True))
-        Me.Address2TextBox.Location = New System.Drawing.Point(135, 123)
+        Me.Address2TextBox.Location = New System.Drawing.Point(135, 124)
         Me.Address2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address2TextBox.Name = "Address2TextBox"
         Me.Address2TextBox.Size = New System.Drawing.Size(653, 25)
@@ -1823,7 +1823,7 @@ Partial Class Clients
         'TownTextBox
         '
         Me.TownTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Town", True))
-        Me.TownTextBox.Location = New System.Drawing.Point(135, 154)
+        Me.TownTextBox.Location = New System.Drawing.Point(135, 155)
         Me.TownTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TownTextBox.Name = "TownTextBox"
         Me.TownTextBox.Size = New System.Drawing.Size(653, 25)
@@ -1833,7 +1833,7 @@ Partial Class Clients
         '
         Me.CountyComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "County", True))
         Me.CountyComboBox.FormattingEnabled = True
-        Me.CountyComboBox.Location = New System.Drawing.Point(135, 185)
+        Me.CountyComboBox.Location = New System.Drawing.Point(135, 186)
         Me.CountyComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CountyComboBox.Name = "CountyComboBox"
         Me.CountyComboBox.Size = New System.Drawing.Size(653, 24)
@@ -1843,7 +1843,7 @@ Partial Class Clients
         '
         Me.CountryComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Country", True))
         Me.CountryComboBox.FormattingEnabled = True
-        Me.CountryComboBox.Location = New System.Drawing.Point(135, 217)
+        Me.CountryComboBox.Location = New System.Drawing.Point(135, 218)
         Me.CountryComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CountryComboBox.Name = "CountryComboBox"
         Me.CountryComboBox.Size = New System.Drawing.Size(653, 24)
@@ -1852,7 +1852,7 @@ Partial Class Clients
         'PostalCodeTextBox
         '
         Me.PostalCodeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "PostalCode", True))
-        Me.PostalCodeTextBox.Location = New System.Drawing.Point(135, 249)
+        Me.PostalCodeTextBox.Location = New System.Drawing.Point(135, 250)
         Me.PostalCodeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PostalCodeTextBox.Name = "PostalCodeTextBox"
         Me.PostalCodeTextBox.Size = New System.Drawing.Size(653, 25)
@@ -1861,7 +1861,7 @@ Partial Class Clients
         'EmailTextBox
         '
         Me.EmailTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Email", True))
-        Me.EmailTextBox.Location = New System.Drawing.Point(135, 280)
+        Me.EmailTextBox.Location = New System.Drawing.Point(135, 281)
         Me.EmailTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmailTextBox.Name = "EmailTextBox"
         Me.EmailTextBox.Size = New System.Drawing.Size(653, 25)
@@ -1870,7 +1870,7 @@ Partial Class Clients
         'Telephone1TextBox
         '
         Me.Telephone1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Telephone1", True))
-        Me.Telephone1TextBox.Location = New System.Drawing.Point(135, 311)
+        Me.Telephone1TextBox.Location = New System.Drawing.Point(135, 312)
         Me.Telephone1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Telephone1TextBox.Name = "Telephone1TextBox"
         Me.Telephone1TextBox.Size = New System.Drawing.Size(653, 25)
@@ -1879,7 +1879,7 @@ Partial Class Clients
         'Telephone2TextBox
         '
         Me.Telephone2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Telephone2", True))
-        Me.Telephone2TextBox.Location = New System.Drawing.Point(135, 342)
+        Me.Telephone2TextBox.Location = New System.Drawing.Point(135, 343)
         Me.Telephone2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Telephone2TextBox.Name = "Telephone2TextBox"
         Me.Telephone2TextBox.Size = New System.Drawing.Size(653, 25)
@@ -1888,7 +1888,7 @@ Partial Class Clients
         'FaxTextBox
         '
         Me.FaxTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "Fax", True))
-        Me.FaxTextBox.Location = New System.Drawing.Point(135, 373)
+        Me.FaxTextBox.Location = New System.Drawing.Point(135, 374)
         Me.FaxTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FaxTextBox.Name = "FaxTextBox"
         Me.FaxTextBox.Size = New System.Drawing.Size(653, 25)
@@ -1897,7 +1897,7 @@ Partial Class Clients
         'InvPostCodeTextBox
         '
         Me.InvPostCodeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvPostCode", True))
-        Me.InvPostCodeTextBox.Location = New System.Drawing.Point(928, 280)
+        Me.InvPostCodeTextBox.Location = New System.Drawing.Point(928, 281)
         Me.InvPostCodeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvPostCodeTextBox.Name = "InvPostCodeTextBox"
         Me.InvPostCodeTextBox.Size = New System.Drawing.Size(616, 25)
@@ -1907,7 +1907,7 @@ Partial Class Clients
         '
         Me.InvCountryComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvCountry", True))
         Me.InvCountryComboBox.FormattingEnabled = True
-        Me.InvCountryComboBox.Location = New System.Drawing.Point(928, 248)
+        Me.InvCountryComboBox.Location = New System.Drawing.Point(928, 249)
         Me.InvCountryComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvCountryComboBox.Name = "InvCountryComboBox"
         Me.InvCountryComboBox.Size = New System.Drawing.Size(616, 24)
@@ -1927,7 +1927,7 @@ Partial Class Clients
         '
         Me.InvCountyComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvCounty", True))
         Me.InvCountyComboBox.FormattingEnabled = True
-        Me.InvCountyComboBox.Location = New System.Drawing.Point(928, 216)
+        Me.InvCountyComboBox.Location = New System.Drawing.Point(928, 217)
         Me.InvCountyComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvCountyComboBox.Name = "InvCountyComboBox"
         Me.InvCountyComboBox.Size = New System.Drawing.Size(616, 24)
@@ -1936,7 +1936,7 @@ Partial Class Clients
         'InvoiceToTextBox
         '
         Me.InvoiceToTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvoiceTo", True))
-        Me.InvoiceToTextBox.Location = New System.Drawing.Point(928, 92)
+        Me.InvoiceToTextBox.Location = New System.Drawing.Point(928, 93)
         Me.InvoiceToTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvoiceToTextBox.Name = "InvoiceToTextBox"
         Me.InvoiceToTextBox.Size = New System.Drawing.Size(616, 25)
@@ -1956,7 +1956,7 @@ Partial Class Clients
         'InvTownTextBox
         '
         Me.InvTownTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvTown", True))
-        Me.InvTownTextBox.Location = New System.Drawing.Point(928, 185)
+        Me.InvTownTextBox.Location = New System.Drawing.Point(928, 186)
         Me.InvTownTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvTownTextBox.Name = "InvTownTextBox"
         Me.InvTownTextBox.Size = New System.Drawing.Size(616, 25)
@@ -1965,7 +1965,7 @@ Partial Class Clients
         'InvAddressTextBox
         '
         Me.InvAddressTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvAddress", True))
-        Me.InvAddressTextBox.Location = New System.Drawing.Point(928, 123)
+        Me.InvAddressTextBox.Location = New System.Drawing.Point(928, 124)
         Me.InvAddressTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InvAddressTextBox.Name = "InvAddressTextBox"
         Me.InvAddressTextBox.Size = New System.Drawing.Size(616, 25)
@@ -1974,7 +1974,7 @@ Partial Class Clients
         'OrderNumberReq1CheckBox
         '
         Me.OrderNumberReq1CheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.SitesBindingSource, "OrderNumberReq1", True))
-        Me.OrderNumberReq1CheckBox.Location = New System.Drawing.Point(824, 339)
+        Me.OrderNumberReq1CheckBox.Location = New System.Drawing.Point(824, 340)
         Me.OrderNumberReq1CheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OrderNumberReq1CheckBox.Name = "OrderNumberReq1CheckBox"
         Me.OrderNumberReq1CheckBox.Size = New System.Drawing.Size(720, 25)
@@ -1985,7 +1985,7 @@ Partial Class Clients
         'Address3TextBox
         '
         Me.Address3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.SitesBindingSource, "InvAddress2", True))
-        Me.Address3TextBox.Location = New System.Drawing.Point(928, 154)
+        Me.Address3TextBox.Location = New System.Drawing.Point(928, 155)
         Me.Address3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address3TextBox.Name = "Address3TextBox"
         Me.Address3TextBox.Size = New System.Drawing.Size(616, 25)
@@ -1994,7 +1994,7 @@ Partial Class Clients
         'POtypeTextEdit
         '
         Me.POtypeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "POtype", True))
-        Me.POtypeTextEdit.Location = New System.Drawing.Point(928, 370)
+        Me.POtypeTextEdit.Location = New System.Drawing.Point(928, 371)
         Me.POtypeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.POtypeTextEdit.Name = "POtypeTextEdit"
         Me.POtypeTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2007,7 +2007,7 @@ Partial Class Clients
         '
         Me.BankIDSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "BankID", True))
         Me.BankIDSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.BankIDSpinEdit.Location = New System.Drawing.Point(135, 404)
+        Me.BankIDSpinEdit.Location = New System.Drawing.Point(135, 405)
         Me.BankIDSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BankIDSpinEdit.Name = "BankIDSpinEdit"
         Me.BankIDSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2067,7 +2067,7 @@ Partial Class Clients
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem32, Me.LayoutControlItem31, Me.LayoutControlItem30, Me.LayoutControlItem29, Me.LayoutControlItem28, Me.LayoutControlItem27, Me.LayoutControlItem26, Me.LayoutControlItem25, Me.LayoutControlItem23, Me.LayoutControlItem22, Me.LayoutControlItem167})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 38)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(793, 393)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(793, 394)
         Me.LayoutControlGroup3.Text = "Supply Address:"
         '
         'LayoutControlItem32
@@ -2174,7 +2174,7 @@ Partial Class Clients
         Me.LayoutControlGroup4.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem40, Me.LayoutControlItem39, Me.LayoutControlItem38, Me.LayoutControlItem37, Me.LayoutControlItem36, Me.LayoutControlItem35, Me.LayoutControlItem34, Me.LayoutControlItem33, Me.LayoutControlItem166, Me.asdas})
         Me.LayoutControlGroup4.Location = New System.Drawing.Point(793, 38)
         Me.LayoutControlGroup4.Name = "LayoutControlGroup4"
-        Me.LayoutControlGroup4.Size = New System.Drawing.Size(756, 393)
+        Me.LayoutControlGroup4.Size = New System.Drawing.Size(756, 394)
         Me.LayoutControlGroup4.Text = "Invoice Details:"
         '
         'LayoutControlItem40
@@ -2270,9 +2270,9 @@ Partial Class Clients
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 431)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 432)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1549, 196)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1549, 195)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'TabPage3
@@ -2311,7 +2311,7 @@ Partial Class Clients
         Me.HolidayEntitlementTextBox.Location = New System.Drawing.Point(258, 140)
         Me.HolidayEntitlementTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HolidayEntitlementTextBox.Name = "HolidayEntitlementTextBox"
-        Me.HolidayEntitlementTextBox.Size = New System.Drawing.Size(204, 25)
+        Me.HolidayEntitlementTextBox.Size = New System.Drawing.Size(195, 25)
         Me.HolidayEntitlementTextBox.TabIndex = 5
         '
         'HowArePermanentVacanciesDisplayedTextBox
@@ -2320,7 +2320,7 @@ Partial Class Clients
         Me.HowArePermanentVacanciesDisplayedTextBox.Location = New System.Drawing.Point(258, 171)
         Me.HowArePermanentVacanciesDisplayedTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HowArePermanentVacanciesDisplayedTextBox.Name = "HowArePermanentVacanciesDisplayedTextBox"
-        Me.HowArePermanentVacanciesDisplayedTextBox.Size = New System.Drawing.Size(204, 25)
+        Me.HowArePermanentVacanciesDisplayedTextBox.Size = New System.Drawing.Size(195, 25)
         Me.HowArePermanentVacanciesDisplayedTextBox.TabIndex = 6
         '
         'CanteenAvailableCheckBox
@@ -2329,7 +2329,7 @@ Partial Class Clients
         Me.CanteenAvailableCheckBox.Location = New System.Drawing.Point(16, 16)
         Me.CanteenAvailableCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CanteenAvailableCheckBox.Name = "CanteenAvailableCheckBox"
-        Me.CanteenAvailableCheckBox.Size = New System.Drawing.Size(446, 25)
+        Me.CanteenAvailableCheckBox.Size = New System.Drawing.Size(437, 25)
         Me.CanteenAvailableCheckBox.TabIndex = 0
         Me.CanteenAvailableCheckBox.Text = "Canteen Available:"
         Me.CanteenAvailableCheckBox.UseVisualStyleBackColor = True
@@ -2340,7 +2340,7 @@ Partial Class Clients
         Me.OtherFacilitiesTextBox.Location = New System.Drawing.Point(258, 109)
         Me.OtherFacilitiesTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OtherFacilitiesTextBox.Name = "OtherFacilitiesTextBox"
-        Me.OtherFacilitiesTextBox.Size = New System.Drawing.Size(204, 25)
+        Me.OtherFacilitiesTextBox.Size = New System.Drawing.Size(195, 25)
         Me.OtherFacilitiesTextBox.TabIndex = 4
         '
         'SmokingAreaAvailableCheckBox
@@ -2349,7 +2349,7 @@ Partial Class Clients
         Me.SmokingAreaAvailableCheckBox.Location = New System.Drawing.Point(16, 47)
         Me.SmokingAreaAvailableCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SmokingAreaAvailableCheckBox.Name = "SmokingAreaAvailableCheckBox"
-        Me.SmokingAreaAvailableCheckBox.Size = New System.Drawing.Size(446, 25)
+        Me.SmokingAreaAvailableCheckBox.Size = New System.Drawing.Size(437, 25)
         Me.SmokingAreaAvailableCheckBox.TabIndex = 2
         Me.SmokingAreaAvailableCheckBox.Text = "Smoking Area Available:"
         Me.SmokingAreaAvailableCheckBox.UseVisualStyleBackColor = True
@@ -2360,7 +2360,7 @@ Partial Class Clients
         Me.ParkingAvailableCheckBox.Location = New System.Drawing.Point(16, 78)
         Me.ParkingAvailableCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ParkingAvailableCheckBox.Name = "ParkingAvailableCheckBox"
-        Me.ParkingAvailableCheckBox.Size = New System.Drawing.Size(446, 25)
+        Me.ParkingAvailableCheckBox.Size = New System.Drawing.Size(437, 25)
         Me.ParkingAvailableCheckBox.TabIndex = 3
         Me.ParkingAvailableCheckBox.Text = "Parking Available:"
         Me.ParkingAvailableCheckBox.UseVisualStyleBackColor = True
@@ -2380,7 +2380,7 @@ Partial Class Clients
         Me.LayoutControlItem111.Control = Me.CanteenAvailableCheckBox
         Me.LayoutControlItem111.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem111.Name = "LayoutControlItem111"
-        Me.LayoutControlItem111.Size = New System.Drawing.Size(452, 31)
+        Me.LayoutControlItem111.Size = New System.Drawing.Size(443, 31)
         Me.LayoutControlItem111.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem111.TextVisible = False
         '
@@ -2389,7 +2389,7 @@ Partial Class Clients
         Me.LayoutControlItem132.Control = Me.SmokingAreaAvailableCheckBox
         Me.LayoutControlItem132.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem132.Name = "LayoutControlItem132"
-        Me.LayoutControlItem132.Size = New System.Drawing.Size(452, 31)
+        Me.LayoutControlItem132.Size = New System.Drawing.Size(443, 31)
         Me.LayoutControlItem132.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem132.TextVisible = False
         '
@@ -2398,7 +2398,7 @@ Partial Class Clients
         Me.LayoutControlItem133.Control = Me.ParkingAvailableCheckBox
         Me.LayoutControlItem133.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem133.Name = "LayoutControlItem133"
-        Me.LayoutControlItem133.Size = New System.Drawing.Size(452, 31)
+        Me.LayoutControlItem133.Size = New System.Drawing.Size(443, 31)
         Me.LayoutControlItem133.Text = "Parking Available:"
         Me.LayoutControlItem133.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem133.TextVisible = False
@@ -2408,7 +2408,7 @@ Partial Class Clients
         Me.LayoutControlItem134.Control = Me.OtherFacilitiesTextBox
         Me.LayoutControlItem134.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem134.Name = "LayoutControlItem134"
-        Me.LayoutControlItem134.Size = New System.Drawing.Size(452, 31)
+        Me.LayoutControlItem134.Size = New System.Drawing.Size(443, 31)
         Me.LayoutControlItem134.Text = "Other Facilities:"
         Me.LayoutControlItem134.TextSize = New System.Drawing.Size(239, 16)
         '
@@ -2417,7 +2417,7 @@ Partial Class Clients
         Me.LayoutControlItem135.Control = Me.HolidayEntitlementTextBox
         Me.LayoutControlItem135.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem135.Name = "LayoutControlItem135"
-        Me.LayoutControlItem135.Size = New System.Drawing.Size(452, 31)
+        Me.LayoutControlItem135.Size = New System.Drawing.Size(443, 31)
         Me.LayoutControlItem135.Text = "Holiday Entitlement:"
         Me.LayoutControlItem135.TextSize = New System.Drawing.Size(239, 16)
         '
@@ -2426,7 +2426,7 @@ Partial Class Clients
         Me.LayoutControlItem136.Control = Me.HowArePermanentVacanciesDisplayedTextBox
         Me.LayoutControlItem136.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem136.Name = "LayoutControlItem136"
-        Me.LayoutControlItem136.Size = New System.Drawing.Size(452, 31)
+        Me.LayoutControlItem136.Size = New System.Drawing.Size(443, 31)
         Me.LayoutControlItem136.Text = "How Are Permanent Vacancies Displayed:"
         Me.LayoutControlItem136.TextSize = New System.Drawing.Size(239, 16)
         '
@@ -2435,7 +2435,7 @@ Partial Class Clients
         Me.EmptySpaceItem3.AllowHotTrack = False
         Me.EmptySpaceItem3.Location = New System.Drawing.Point(0, 186)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(452, 441)
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(443, 441)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem4
@@ -2449,9 +2449,9 @@ Partial Class Clients
         'SplitterItem3
         '
         Me.SplitterItem3.AllowHotTrack = True
-        Me.SplitterItem3.Location = New System.Drawing.Point(452, 0)
+        Me.SplitterItem3.Location = New System.Drawing.Point(443, 0)
         Me.SplitterItem3.Name = "SplitterItem3"
-        Me.SplitterItem3.Size = New System.Drawing.Size(6, 627)
+        Me.SplitterItem3.Size = New System.Drawing.Size(15, 627)
         '
         'TabPage4
         '
@@ -2976,10 +2976,10 @@ Partial Class Clients
         'CheckBox1
         '
         Me.CheckBox1.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.FKJobCategorySitesBindingSource, "U25Rate", True))
-        Me.CheckBox1.Location = New System.Drawing.Point(672, 243)
+        Me.CheckBox1.Location = New System.Drawing.Point(680, 243)
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(161, 25)
+        Me.CheckBox1.Size = New System.Drawing.Size(159, 25)
         Me.CheckBox1.TabIndex = 28
         Me.CheckBox1.Text = "U25 Rate"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -2992,11 +2992,11 @@ Partial Class Clients
         'ArchiveCheckEdit
         '
         Me.ArchiveCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.FKJobCategorySitesBindingSource, "Archive", True))
-        Me.ArchiveCheckEdit.Location = New System.Drawing.Point(652, 678)
+        Me.ArchiveCheckEdit.Location = New System.Drawing.Point(661, 678)
         Me.ArchiveCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ArchiveCheckEdit.Name = "ArchiveCheckEdit"
         Me.ArchiveCheckEdit.Properties.Caption = ""
-        Me.ArchiveCheckEdit.Size = New System.Drawing.Size(181, 19)
+        Me.ArchiveCheckEdit.Size = New System.Drawing.Size(178, 19)
         Me.ArchiveCheckEdit.StyleController = Me.LayoutControl3
         Me.ArchiveCheckEdit.TabIndex = 42
         '
@@ -3005,11 +3005,11 @@ Partial Class Clients
         Me.JobCatIdSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.FKJobCategorySitesBindingSource, "JobCatId", True))
         Me.JobCatIdSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
         Me.JobCatIdSpinEdit.Enabled = False
-        Me.JobCatIdSpinEdit.Location = New System.Drawing.Point(652, 60)
+        Me.JobCatIdSpinEdit.Location = New System.Drawing.Point(661, 60)
         Me.JobCatIdSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JobCatIdSpinEdit.Name = "JobCatIdSpinEdit"
         Me.JobCatIdSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.JobCatIdSpinEdit.Size = New System.Drawing.Size(181, 22)
+        Me.JobCatIdSpinEdit.Size = New System.Drawing.Size(178, 22)
         Me.JobCatIdSpinEdit.StyleController = Me.LayoutControl3
         Me.JobCatIdSpinEdit.TabIndex = 3
         '
@@ -3070,19 +3070,19 @@ Partial Class Clients
         'MinChargePerDayTextBox
         '
         Me.MinChargePerDayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "MinChargePerDay", True))
-        Me.MinChargePerDayTextBox.Location = New System.Drawing.Point(652, 463)
+        Me.MinChargePerDayTextBox.Location = New System.Drawing.Point(661, 463)
         Me.MinChargePerDayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MinChargePerDayTextBox.Name = "MinChargePerDayTextBox"
-        Me.MinChargePerDayTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.MinChargePerDayTextBox.Size = New System.Drawing.Size(178, 25)
         Me.MinChargePerDayTextBox.TabIndex = 35
         '
         'TempToPermAfterTextBox
         '
         Me.TempToPermAfterTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "TempToPermAfter", True))
-        Me.TempToPermAfterTextBox.Location = New System.Drawing.Point(652, 494)
+        Me.TempToPermAfterTextBox.Location = New System.Drawing.Point(661, 494)
         Me.TempToPermAfterTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TempToPermAfterTextBox.Name = "TempToPermAfterTextBox"
-        Me.TempToPermAfterTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.TempToPermAfterTextBox.Size = New System.Drawing.Size(178, 25)
         Me.TempToPermAfterTextBox.TabIndex = 36
         '
         'BindingNavigator1
@@ -3208,29 +3208,29 @@ Partial Class Clients
         'NotesForTimeSheetTextBox
         '
         Me.NotesForTimeSheetTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "NotesForTimeSheet", True))
-        Me.NotesForTimeSheetTextBox.Location = New System.Drawing.Point(652, 369)
+        Me.NotesForTimeSheetTextBox.Location = New System.Drawing.Point(661, 369)
         Me.NotesForTimeSheetTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NotesForTimeSheetTextBox.Name = "NotesForTimeSheetTextBox"
-        Me.NotesForTimeSheetTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.NotesForTimeSheetTextBox.Size = New System.Drawing.Size(178, 25)
         Me.NotesForTimeSheetTextBox.TabIndex = 32
         '
         'MemoEdit4
         '
         Me.MemoEdit4.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "RulesorDetails3", True))
-        Me.MemoEdit4.Location = New System.Drawing.Point(854, 422)
+        Me.MemoEdit4.Location = New System.Drawing.Point(860, 426)
         Me.MemoEdit4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MemoEdit4.Name = "MemoEdit4"
-        Me.MemoEdit4.Size = New System.Drawing.Size(690, 260)
+        Me.MemoEdit4.Size = New System.Drawing.Size(684, 256)
         Me.MemoEdit4.StyleController = Me.LayoutControl3
         Me.MemoEdit4.TabIndex = 1
         '
         'MemoEdit3
         '
         Me.MemoEdit3.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "RulesorDetails2", True))
-        Me.MemoEdit3.Location = New System.Drawing.Point(854, 422)
+        Me.MemoEdit3.Location = New System.Drawing.Point(860, 426)
         Me.MemoEdit3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MemoEdit3.Name = "MemoEdit3"
-        Me.MemoEdit3.Size = New System.Drawing.Size(690, 260)
+        Me.MemoEdit3.Size = New System.Drawing.Size(684, 256)
         Me.MemoEdit3.StyleController = Me.LayoutControl3
         Me.MemoEdit3.TabIndex = 1
         '
@@ -3239,67 +3239,67 @@ Partial Class Clients
         Me.TimesheetTypeComboBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "TimesheetType", True))
         Me.TimesheetTypeComboBox.FormattingEnabled = True
         Me.TimesheetTypeComboBox.Items.AddRange(New Object() {"Single to temp ", "Single to client ", "Be-Spoke", "Block Timesheet "})
-        Me.TimesheetTypeComboBox.Location = New System.Drawing.Point(652, 337)
+        Me.TimesheetTypeComboBox.Location = New System.Drawing.Point(661, 337)
         Me.TimesheetTypeComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TimesheetTypeComboBox.Name = "TimesheetTypeComboBox"
-        Me.TimesheetTypeComboBox.Size = New System.Drawing.Size(181, 24)
+        Me.TimesheetTypeComboBox.Size = New System.Drawing.Size(178, 24)
         Me.TimesheetTypeComboBox.TabIndex = 31
         '
         'MemoEdit2
         '
         Me.MemoEdit2.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "RulesorDetails1", True))
-        Me.MemoEdit2.Location = New System.Drawing.Point(854, 422)
+        Me.MemoEdit2.Location = New System.Drawing.Point(860, 426)
         Me.MemoEdit2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MemoEdit2.Name = "MemoEdit2"
-        Me.MemoEdit2.Size = New System.Drawing.Size(690, 260)
+        Me.MemoEdit2.Size = New System.Drawing.Size(684, 256)
         Me.MemoEdit2.StyleController = Me.LayoutControl3
         Me.MemoEdit2.TabIndex = 1
         '
         'C4NightsOutTextBox
         '
         Me.C4NightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4NightsOut", True))
-        Me.C4NightsOutTextBox.Location = New System.Drawing.Point(1356, 357)
+        Me.C4NightsOutTextBox.Location = New System.Drawing.Point(1359, 361)
         Me.C4NightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4NightsOutTextBox.Name = "C4NightsOutTextBox"
-        Me.C4NightsOutTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4NightsOutTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4NightsOutTextBox.TabIndex = 1
         '
         'TimeSheetSentViaTextBox
         '
         Me.TimeSheetSentViaTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "TimeSheetSentVia", True))
-        Me.TimeSheetSentViaTextBox.Location = New System.Drawing.Point(652, 306)
+        Me.TimeSheetSentViaTextBox.Location = New System.Drawing.Point(661, 306)
         Me.TimeSheetSentViaTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TimeSheetSentViaTextBox.Name = "TimeSheetSentViaTextBox"
-        Me.TimeSheetSentViaTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.TimeSheetSentViaTextBox.Size = New System.Drawing.Size(178, 25)
         Me.TimeSheetSentViaTextBox.TabIndex = 30
         '
         'SWHTextBox
         '
         Me.SWHTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "SWH", True))
-        Me.SWHTextBox.Location = New System.Drawing.Point(652, 525)
+        Me.SWHTextBox.Location = New System.Drawing.Point(661, 525)
         Me.SWHTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SWHTextBox.Name = "SWHTextBox"
-        Me.SWHTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.SWHTextBox.Size = New System.Drawing.Size(178, 25)
         Me.SWHTextBox.TabIndex = 37
         '
         'LastModifiedDateTextBox
         '
         Me.LastModifiedDateTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "LastModifiedDate", True))
-        Me.LastModifiedDateTextBox.Location = New System.Drawing.Point(652, 587)
+        Me.LastModifiedDateTextBox.Location = New System.Drawing.Point(661, 587)
         Me.LastModifiedDateTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedDateTextBox.Name = "LastModifiedDateTextBox"
         Me.LastModifiedDateTextBox.ReadOnly = True
-        Me.LastModifiedDateTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.LastModifiedDateTextBox.Size = New System.Drawing.Size(178, 25)
         Me.LastModifiedDateTextBox.TabIndex = 39
         '
         'LastModifiedUserTextBox
         '
         Me.LastModifiedUserTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "LastModifiedUser", True))
-        Me.LastModifiedUserTextBox.Location = New System.Drawing.Point(652, 556)
+        Me.LastModifiedUserTextBox.Location = New System.Drawing.Point(661, 556)
         Me.LastModifiedUserTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedUserTextBox.Name = "LastModifiedUserTextBox"
         Me.LastModifiedUserTextBox.ReadOnly = True
-        Me.LastModifiedUserTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.LastModifiedUserTextBox.Size = New System.Drawing.Size(178, 25)
         Me.LastModifiedUserTextBox.TabIndex = 38
         '
         'CBJobType
@@ -3307,30 +3307,30 @@ Partial Class Clients
         Me.CBJobType.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "JobType", True))
         Me.CBJobType.FormattingEnabled = True
         Me.CBJobType.Items.AddRange(New Object() {"Hourly Work", "Shift Work"})
-        Me.CBJobType.Location = New System.Drawing.Point(652, 618)
+        Me.CBJobType.Location = New System.Drawing.Point(661, 618)
         Me.CBJobType.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CBJobType.Name = "CBJobType"
-        Me.CBJobType.Size = New System.Drawing.Size(181, 24)
+        Me.CBJobType.Size = New System.Drawing.Size(178, 24)
         Me.CBJobType.TabIndex = 40
         Me.CBJobType.Text = "Hourly Work"
         '
         'MemoEdit1
         '
         Me.MemoEdit1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "RulesorDetails", True))
-        Me.MemoEdit1.Location = New System.Drawing.Point(854, 422)
+        Me.MemoEdit1.Location = New System.Drawing.Point(860, 426)
         Me.MemoEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MemoEdit1.Name = "MemoEdit1"
-        Me.MemoEdit1.Size = New System.Drawing.Size(690, 260)
+        Me.MemoEdit1.Size = New System.Drawing.Size(684, 256)
         Me.MemoEdit1.StyleController = Me.LayoutControl3
         Me.MemoEdit1.TabIndex = 21
         '
         'C3NightsOutTextBox
         '
         Me.C3NightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3NightsOut", True))
-        Me.C3NightsOutTextBox.Location = New System.Drawing.Point(1356, 357)
+        Me.C3NightsOutTextBox.Location = New System.Drawing.Point(1359, 361)
         Me.C3NightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3NightsOutTextBox.Name = "C3NightsOutTextBox"
-        Me.C3NightsOutTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3NightsOutTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3NightsOutTextBox.TabIndex = 1
         '
         'TimesheetContactComboBox
@@ -3340,20 +3340,20 @@ Partial Class Clients
         Me.TimesheetContactComboBox.DataSource = Me.CompanyContactsBindingSource
         Me.TimesheetContactComboBox.DisplayMember = "FullName"
         Me.TimesheetContactComboBox.FormattingEnabled = True
-        Me.TimesheetContactComboBox.Location = New System.Drawing.Point(652, 274)
+        Me.TimesheetContactComboBox.Location = New System.Drawing.Point(661, 274)
         Me.TimesheetContactComboBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TimesheetContactComboBox.Name = "TimesheetContactComboBox"
-        Me.TimesheetContactComboBox.Size = New System.Drawing.Size(181, 24)
+        Me.TimesheetContactComboBox.Size = New System.Drawing.Size(178, 24)
         Me.TimesheetContactComboBox.TabIndex = 29
         Me.TimesheetContactComboBox.ValueMember = "ContactID"
         '
         'DHHTextBox
         '
         Me.DHHTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "DHH", True))
-        Me.DHHTextBox.Location = New System.Drawing.Point(652, 432)
+        Me.DHHTextBox.Location = New System.Drawing.Point(661, 432)
         Me.DHHTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DHHTextBox.Name = "DHHTextBox"
-        Me.DHHTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.DHHTextBox.Size = New System.Drawing.Size(178, 25)
         Me.DHHTextBox.TabIndex = 34
         '
         'ComboBox1
@@ -3361,55 +3361,55 @@ Partial Class Clients
         Me.ComboBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "StartOfWeek", True))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"})
-        Me.ComboBox1.Location = New System.Drawing.Point(652, 400)
+        Me.ComboBox1.Location = New System.Drawing.Point(661, 400)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(181, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(178, 24)
         Me.ComboBox1.TabIndex = 33
         '
         'C4BankHolTextBox
         '
         Me.C4BankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4BankHol", True))
-        Me.C4BankHolTextBox.Location = New System.Drawing.Point(1356, 326)
+        Me.C4BankHolTextBox.Location = New System.Drawing.Point(1359, 330)
         Me.C4BankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4BankHolTextBox.Name = "C4BankHolTextBox"
-        Me.C4BankHolTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4BankHolTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4BankHolTextBox.TabIndex = 1
         '
         'C2NightsOutTextBox
         '
         Me.C2NightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2NightsOut", True))
-        Me.C2NightsOutTextBox.Location = New System.Drawing.Point(1356, 357)
+        Me.C2NightsOutTextBox.Location = New System.Drawing.Point(1359, 361)
         Me.C2NightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2NightsOutTextBox.Name = "C2NightsOutTextBox"
-        Me.C2NightsOutTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2NightsOutTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2NightsOutTextBox.TabIndex = 1
         '
         'C4SundayTextBox
         '
         Me.C4SundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4Sunday", True))
-        Me.C4SundayTextBox.Location = New System.Drawing.Point(1356, 295)
+        Me.C4SundayTextBox.Location = New System.Drawing.Point(1359, 299)
         Me.C4SundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4SundayTextBox.Name = "C4SundayTextBox"
-        Me.C4SundayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4SundayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4SundayTextBox.TabIndex = 1
         '
         'C3BankHolTextBox
         '
         Me.C3BankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3BankHol", True))
-        Me.C3BankHolTextBox.Location = New System.Drawing.Point(1356, 326)
+        Me.C3BankHolTextBox.Location = New System.Drawing.Point(1359, 330)
         Me.C3BankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3BankHolTextBox.Name = "C3BankHolTextBox"
-        Me.C3BankHolTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3BankHolTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3BankHolTextBox.TabIndex = 1
         '
         'BreakDeductedCheckBox
         '
         Me.BreakDeductedCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.FKJobCategorySitesBindingSource, "BreakDeducted", True))
-        Me.BreakDeductedCheckBox.Location = New System.Drawing.Point(519, 243)
+        Me.BreakDeductedCheckBox.Location = New System.Drawing.Point(528, 243)
         Me.BreakDeductedCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BreakDeductedCheckBox.Name = "BreakDeductedCheckBox"
-        Me.BreakDeductedCheckBox.Size = New System.Drawing.Size(147, 25)
+        Me.BreakDeductedCheckBox.Size = New System.Drawing.Size(146, 25)
         Me.BreakDeductedCheckBox.TabIndex = 27
         Me.BreakDeductedCheckBox.Text = "Break Deducted:"
         Me.BreakDeductedCheckBox.UseVisualStyleBackColor = True
@@ -3417,580 +3417,580 @@ Partial Class Clients
         'CNightsOutTextBox
         '
         Me.CNightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "CNightsOut", True))
-        Me.CNightsOutTextBox.Location = New System.Drawing.Point(1356, 357)
+        Me.CNightsOutTextBox.Location = New System.Drawing.Point(1359, 361)
         Me.CNightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CNightsOutTextBox.Name = "CNightsOutTextBox"
-        Me.CNightsOutTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.CNightsOutTextBox.Size = New System.Drawing.Size(170, 25)
         Me.CNightsOutTextBox.TabIndex = 20
         '
         'C4SaturdayTextBox
         '
         Me.C4SaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4Saturday", True))
-        Me.C4SaturdayTextBox.Location = New System.Drawing.Point(1356, 264)
+        Me.C4SaturdayTextBox.Location = New System.Drawing.Point(1359, 268)
         Me.C4SaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4SaturdayTextBox.Name = "C4SaturdayTextBox"
-        Me.C4SaturdayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4SaturdayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4SaturdayTextBox.TabIndex = 1
         '
         'BreakEntitlementTextBox
         '
         Me.BreakEntitlementTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "BreakEntitlement", True))
-        Me.BreakEntitlementTextBox.Location = New System.Drawing.Point(652, 212)
+        Me.BreakEntitlementTextBox.Location = New System.Drawing.Point(661, 212)
         Me.BreakEntitlementTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BreakEntitlementTextBox.Name = "BreakEntitlementTextBox"
-        Me.BreakEntitlementTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.BreakEntitlementTextBox.Size = New System.Drawing.Size(178, 25)
         Me.BreakEntitlementTextBox.TabIndex = 26
         '
         'C2BankHolTextBox
         '
         Me.C2BankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2BankHol", True))
-        Me.C2BankHolTextBox.Location = New System.Drawing.Point(1356, 326)
+        Me.C2BankHolTextBox.Location = New System.Drawing.Point(1359, 330)
         Me.C2BankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2BankHolTextBox.Name = "C2BankHolTextBox"
-        Me.C2BankHolTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2BankHolTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2BankHolTextBox.TabIndex = 1
         '
         'C3SundayTextBox
         '
         Me.C3SundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3Sunday", True))
-        Me.C3SundayTextBox.Location = New System.Drawing.Point(1356, 295)
+        Me.C3SundayTextBox.Location = New System.Drawing.Point(1359, 299)
         Me.C3SundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3SundayTextBox.Name = "C3SundayTextBox"
-        Me.C3SundayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3SundayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3SundayTextBox.TabIndex = 1
         '
         'TypicalEndTimeTextBox
         '
         Me.TypicalEndTimeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "TypicalEndTime", True))
-        Me.TypicalEndTimeTextBox.Location = New System.Drawing.Point(652, 181)
+        Me.TypicalEndTimeTextBox.Location = New System.Drawing.Point(661, 181)
         Me.TypicalEndTimeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TypicalEndTimeTextBox.Name = "TypicalEndTimeTextBox"
-        Me.TypicalEndTimeTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.TypicalEndTimeTextBox.Size = New System.Drawing.Size(178, 25)
         Me.TypicalEndTimeTextBox.TabIndex = 25
         '
         'C4OT3TextBox
         '
         Me.C4OT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4OT3", True))
-        Me.C4OT3TextBox.Location = New System.Drawing.Point(1356, 233)
+        Me.C4OT3TextBox.Location = New System.Drawing.Point(1359, 237)
         Me.C4OT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4OT3TextBox.Name = "C4OT3TextBox"
-        Me.C4OT3TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4OT3TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4OT3TextBox.TabIndex = 1
         '
         'CBankHolTextBox
         '
         Me.CBankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "CBankHol", True))
-        Me.CBankHolTextBox.Location = New System.Drawing.Point(1356, 326)
+        Me.CBankHolTextBox.Location = New System.Drawing.Point(1359, 330)
         Me.CBankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CBankHolTextBox.Name = "CBankHolTextBox"
-        Me.CBankHolTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.CBankHolTextBox.Size = New System.Drawing.Size(170, 25)
         Me.CBankHolTextBox.TabIndex = 19
         '
         'TypicalStartTimeTextBox
         '
         Me.TypicalStartTimeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "TypicalStartTime", True))
-        Me.TypicalStartTimeTextBox.Location = New System.Drawing.Point(652, 150)
+        Me.TypicalStartTimeTextBox.Location = New System.Drawing.Point(661, 150)
         Me.TypicalStartTimeTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TypicalStartTimeTextBox.Name = "TypicalStartTimeTextBox"
-        Me.TypicalStartTimeTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.TypicalStartTimeTextBox.Size = New System.Drawing.Size(178, 25)
         Me.TypicalStartTimeTextBox.TabIndex = 24
         '
         'C2SundayTextBox
         '
         Me.C2SundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2Sunday", True))
-        Me.C2SundayTextBox.Location = New System.Drawing.Point(1356, 295)
+        Me.C2SundayTextBox.Location = New System.Drawing.Point(1359, 299)
         Me.C2SundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2SundayTextBox.Name = "C2SundayTextBox"
-        Me.C2SundayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2SundayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2SundayTextBox.TabIndex = 1
         '
         'C4OT2TextBox
         '
         Me.C4OT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4OT2", True))
-        Me.C4OT2TextBox.Location = New System.Drawing.Point(1356, 202)
+        Me.C4OT2TextBox.Location = New System.Drawing.Point(1359, 206)
         Me.C4OT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4OT2TextBox.Name = "C4OT2TextBox"
-        Me.C4OT2TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4OT2TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4OT2TextBox.TabIndex = 1
         '
         'ShiftNameTextBox
         '
         Me.ShiftNameTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "ShiftName", True))
-        Me.ShiftNameTextBox.Location = New System.Drawing.Point(652, 119)
+        Me.ShiftNameTextBox.Location = New System.Drawing.Point(661, 119)
         Me.ShiftNameTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ShiftNameTextBox.Name = "ShiftNameTextBox"
-        Me.ShiftNameTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.ShiftNameTextBox.Size = New System.Drawing.Size(178, 25)
         Me.ShiftNameTextBox.TabIndex = 23
         '
         'C3SaturdayTextBox
         '
         Me.C3SaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3Saturday", True))
-        Me.C3SaturdayTextBox.Location = New System.Drawing.Point(1356, 264)
+        Me.C3SaturdayTextBox.Location = New System.Drawing.Point(1359, 268)
         Me.C3SaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3SaturdayTextBox.Name = "C3SaturdayTextBox"
-        Me.C3SaturdayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3SaturdayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3SaturdayTextBox.TabIndex = 1
         '
         'C4OT1TextBox
         '
         Me.C4OT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4OT1", True))
-        Me.C4OT1TextBox.Location = New System.Drawing.Point(1356, 171)
+        Me.C4OT1TextBox.Location = New System.Drawing.Point(1359, 175)
         Me.C4OT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4OT1TextBox.Name = "C4OT1TextBox"
-        Me.C4OT1TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4OT1TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4OT1TextBox.TabIndex = 1
         '
         'JobCategoryTextBox
         '
         Me.JobCategoryTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "JobCategory", True))
-        Me.JobCategoryTextBox.Location = New System.Drawing.Point(652, 88)
+        Me.JobCategoryTextBox.Location = New System.Drawing.Point(661, 88)
         Me.JobCategoryTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JobCategoryTextBox.Name = "JobCategoryTextBox"
-        Me.JobCategoryTextBox.Size = New System.Drawing.Size(181, 25)
+        Me.JobCategoryTextBox.Size = New System.Drawing.Size(178, 25)
         Me.JobCategoryTextBox.TabIndex = 22
         '
         'C3OT3TextBox
         '
         Me.C3OT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3OT3", True))
-        Me.C3OT3TextBox.Location = New System.Drawing.Point(1356, 233)
+        Me.C3OT3TextBox.Location = New System.Drawing.Point(1359, 237)
         Me.C3OT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3OT3TextBox.Name = "C3OT3TextBox"
-        Me.C3OT3TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3OT3TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3OT3TextBox.TabIndex = 1
         '
         'C4BasicPayTextBox
         '
         Me.C4BasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C4BasicPay", True))
-        Me.C4BasicPayTextBox.Location = New System.Drawing.Point(1356, 140)
+        Me.C4BasicPayTextBox.Location = New System.Drawing.Point(1359, 144)
         Me.C4BasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C4BasicPayTextBox.Name = "C4BasicPayTextBox"
-        Me.C4BasicPayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C4BasicPayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C4BasicPayTextBox.TabIndex = 1
         '
         'PBasicPayTextBox
         '
         Me.PBasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "PBasicPay", True))
-        Me.PBasicPayTextBox.Location = New System.Drawing.Point(1002, 140)
+        Me.PBasicPayTextBox.Location = New System.Drawing.Point(1008, 144)
         Me.PBasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PBasicPayTextBox.Name = "PBasicPayTextBox"
-        Me.PBasicPayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.PBasicPayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.PBasicPayTextBox.TabIndex = 5
         '
         'C2SaturdayTextBox
         '
         Me.C2SaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2Saturday", True))
-        Me.C2SaturdayTextBox.Location = New System.Drawing.Point(1356, 264)
+        Me.C2SaturdayTextBox.Location = New System.Drawing.Point(1359, 268)
         Me.C2SaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2SaturdayTextBox.Name = "C2SaturdayTextBox"
-        Me.C2SaturdayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2SaturdayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2SaturdayTextBox.TabIndex = 1
         '
         'P4NightsOutTextBox
         '
         Me.P4NightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4NightsOut", True))
-        Me.P4NightsOutTextBox.Location = New System.Drawing.Point(1002, 357)
+        Me.P4NightsOutTextBox.Location = New System.Drawing.Point(1008, 361)
         Me.P4NightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4NightsOutTextBox.Name = "P4NightsOutTextBox"
-        Me.P4NightsOutTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4NightsOutTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4NightsOutTextBox.TabIndex = 1
         '
         'C3OT2TextBox
         '
         Me.C3OT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3OT2", True))
-        Me.C3OT2TextBox.Location = New System.Drawing.Point(1356, 202)
+        Me.C3OT2TextBox.Location = New System.Drawing.Point(1359, 206)
         Me.C3OT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3OT2TextBox.Name = "C3OT2TextBox"
-        Me.C3OT2TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3OT2TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3OT2TextBox.TabIndex = 1
         '
         'POT1TextBox
         '
         Me.POT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "POT1", True))
-        Me.POT1TextBox.Location = New System.Drawing.Point(1002, 171)
+        Me.POT1TextBox.Location = New System.Drawing.Point(1008, 175)
         Me.POT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.POT1TextBox.Name = "POT1TextBox"
-        Me.POT1TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.POT1TextBox.Size = New System.Drawing.Size(182, 25)
         Me.POT1TextBox.TabIndex = 6
         '
         'P4BankHolTextBox
         '
         Me.P4BankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4BankHol", True))
-        Me.P4BankHolTextBox.Location = New System.Drawing.Point(1002, 326)
+        Me.P4BankHolTextBox.Location = New System.Drawing.Point(1008, 330)
         Me.P4BankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4BankHolTextBox.Name = "P4BankHolTextBox"
-        Me.P4BankHolTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4BankHolTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4BankHolTextBox.TabIndex = 1
         '
         'CSundayTextBox
         '
         Me.CSundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "CSunday", True))
-        Me.CSundayTextBox.Location = New System.Drawing.Point(1356, 295)
+        Me.CSundayTextBox.Location = New System.Drawing.Point(1359, 299)
         Me.CSundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CSundayTextBox.Name = "CSundayTextBox"
-        Me.CSundayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.CSundayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.CSundayTextBox.TabIndex = 18
         '
         'C3OT1TextBox
         '
         Me.C3OT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3OT1", True))
-        Me.C3OT1TextBox.Location = New System.Drawing.Point(1356, 171)
+        Me.C3OT1TextBox.Location = New System.Drawing.Point(1359, 175)
         Me.C3OT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3OT1TextBox.Name = "C3OT1TextBox"
-        Me.C3OT1TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3OT1TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3OT1TextBox.TabIndex = 1
         '
         'P4SundayTextBox
         '
         Me.P4SundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4Sunday", True))
-        Me.P4SundayTextBox.Location = New System.Drawing.Point(1002, 295)
+        Me.P4SundayTextBox.Location = New System.Drawing.Point(1008, 299)
         Me.P4SundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4SundayTextBox.Name = "P4SundayTextBox"
-        Me.P4SundayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4SundayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4SundayTextBox.TabIndex = 1
         '
         'C2OT3TextBox
         '
         Me.C2OT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2OT3", True))
-        Me.C2OT3TextBox.Location = New System.Drawing.Point(1356, 233)
+        Me.C2OT3TextBox.Location = New System.Drawing.Point(1359, 237)
         Me.C2OT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2OT3TextBox.Name = "C2OT3TextBox"
-        Me.C2OT3TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2OT3TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2OT3TextBox.TabIndex = 1
         '
         'POT2TextBox
         '
         Me.POT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "POT2", True))
-        Me.POT2TextBox.Location = New System.Drawing.Point(1002, 202)
+        Me.POT2TextBox.Location = New System.Drawing.Point(1008, 206)
         Me.POT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.POT2TextBox.Name = "POT2TextBox"
-        Me.POT2TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.POT2TextBox.Size = New System.Drawing.Size(182, 25)
         Me.POT2TextBox.TabIndex = 7
         '
         'P4SaturdayTextBox
         '
         Me.P4SaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4Saturday", True))
-        Me.P4SaturdayTextBox.Location = New System.Drawing.Point(1002, 264)
+        Me.P4SaturdayTextBox.Location = New System.Drawing.Point(1008, 268)
         Me.P4SaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4SaturdayTextBox.Name = "P4SaturdayTextBox"
-        Me.P4SaturdayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4SaturdayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4SaturdayTextBox.TabIndex = 1
         '
         'C3BasicPayTextBox
         '
         Me.C3BasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C3BasicPay", True))
-        Me.C3BasicPayTextBox.Location = New System.Drawing.Point(1356, 140)
+        Me.C3BasicPayTextBox.Location = New System.Drawing.Point(1359, 144)
         Me.C3BasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C3BasicPayTextBox.Name = "C3BasicPayTextBox"
-        Me.C3BasicPayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C3BasicPayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C3BasicPayTextBox.TabIndex = 1
         '
         'POT3TextBox
         '
         Me.POT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "POT3", True))
-        Me.POT3TextBox.Location = New System.Drawing.Point(1002, 233)
+        Me.POT3TextBox.Location = New System.Drawing.Point(1008, 237)
         Me.POT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.POT3TextBox.Name = "POT3TextBox"
-        Me.POT3TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.POT3TextBox.Size = New System.Drawing.Size(182, 25)
         Me.POT3TextBox.TabIndex = 8
         '
         'P4OT3TextBox
         '
         Me.P4OT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4OT3", True))
-        Me.P4OT3TextBox.Location = New System.Drawing.Point(1002, 233)
+        Me.P4OT3TextBox.Location = New System.Drawing.Point(1008, 237)
         Me.P4OT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4OT3TextBox.Name = "P4OT3TextBox"
-        Me.P4OT3TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4OT3TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4OT3TextBox.TabIndex = 1
         '
         'C2OT2TextBox
         '
         Me.C2OT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2OT2", True))
-        Me.C2OT2TextBox.Location = New System.Drawing.Point(1356, 202)
+        Me.C2OT2TextBox.Location = New System.Drawing.Point(1359, 206)
         Me.C2OT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2OT2TextBox.Name = "C2OT2TextBox"
-        Me.C2OT2TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2OT2TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2OT2TextBox.TabIndex = 1
         '
         'P3NightsOutTextBox
         '
         Me.P3NightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3NightsOut", True))
-        Me.P3NightsOutTextBox.Location = New System.Drawing.Point(1002, 357)
+        Me.P3NightsOutTextBox.Location = New System.Drawing.Point(1008, 361)
         Me.P3NightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3NightsOutTextBox.Name = "P3NightsOutTextBox"
-        Me.P3NightsOutTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3NightsOutTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3NightsOutTextBox.TabIndex = 1
         '
         'P4OT2TextBox
         '
         Me.P4OT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4OT2", True))
-        Me.P4OT2TextBox.Location = New System.Drawing.Point(1002, 202)
+        Me.P4OT2TextBox.Location = New System.Drawing.Point(1008, 206)
         Me.P4OT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4OT2TextBox.Name = "P4OT2TextBox"
-        Me.P4OT2TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4OT2TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4OT2TextBox.TabIndex = 1
         '
         'PSaturdayTextBox
         '
         Me.PSaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "PSaturday", True))
-        Me.PSaturdayTextBox.Location = New System.Drawing.Point(1002, 264)
+        Me.PSaturdayTextBox.Location = New System.Drawing.Point(1008, 268)
         Me.PSaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PSaturdayTextBox.Name = "PSaturdayTextBox"
-        Me.PSaturdayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.PSaturdayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.PSaturdayTextBox.TabIndex = 9
         '
         'CSaturdayTextBox
         '
         Me.CSaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "CSaturday", True))
-        Me.CSaturdayTextBox.Location = New System.Drawing.Point(1356, 264)
+        Me.CSaturdayTextBox.Location = New System.Drawing.Point(1359, 268)
         Me.CSaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CSaturdayTextBox.Name = "CSaturdayTextBox"
-        Me.CSaturdayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.CSaturdayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.CSaturdayTextBox.TabIndex = 17
         '
         'P4OT1TextBox
         '
         Me.P4OT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4OT1", True))
-        Me.P4OT1TextBox.Location = New System.Drawing.Point(1002, 171)
+        Me.P4OT1TextBox.Location = New System.Drawing.Point(1008, 175)
         Me.P4OT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4OT1TextBox.Name = "P4OT1TextBox"
-        Me.P4OT1TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4OT1TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4OT1TextBox.TabIndex = 1
         '
         'P3BankHolTextBox
         '
         Me.P3BankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3BankHol", True))
-        Me.P3BankHolTextBox.Location = New System.Drawing.Point(1002, 326)
+        Me.P3BankHolTextBox.Location = New System.Drawing.Point(1008, 330)
         Me.P3BankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3BankHolTextBox.Name = "P3BankHolTextBox"
-        Me.P3BankHolTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3BankHolTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3BankHolTextBox.TabIndex = 1
         '
         'C2OT1TextBox
         '
         Me.C2OT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2OT1", True))
-        Me.C2OT1TextBox.Location = New System.Drawing.Point(1356, 171)
+        Me.C2OT1TextBox.Location = New System.Drawing.Point(1359, 175)
         Me.C2OT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2OT1TextBox.Name = "C2OT1TextBox"
-        Me.C2OT1TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2OT1TextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2OT1TextBox.TabIndex = 1
         '
         'P4BasicPayTextBox
         '
         Me.P4BasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P4BasicPay", True))
-        Me.P4BasicPayTextBox.Location = New System.Drawing.Point(1002, 140)
+        Me.P4BasicPayTextBox.Location = New System.Drawing.Point(1008, 144)
         Me.P4BasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P4BasicPayTextBox.Name = "P4BasicPayTextBox"
-        Me.P4BasicPayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P4BasicPayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P4BasicPayTextBox.TabIndex = 1
         '
         'PSundayTextBox
         '
         Me.PSundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "PSunday", True))
-        Me.PSundayTextBox.Location = New System.Drawing.Point(1002, 295)
+        Me.PSundayTextBox.Location = New System.Drawing.Point(1008, 299)
         Me.PSundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PSundayTextBox.Name = "PSundayTextBox"
-        Me.PSundayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.PSundayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.PSundayTextBox.TabIndex = 10
         '
         'P3SundayTextBox
         '
         Me.P3SundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3Sunday", True))
-        Me.P3SundayTextBox.Location = New System.Drawing.Point(1002, 295)
+        Me.P3SundayTextBox.Location = New System.Drawing.Point(1008, 299)
         Me.P3SundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3SundayTextBox.Name = "P3SundayTextBox"
-        Me.P3SundayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3SundayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3SundayTextBox.TabIndex = 1
         '
         'PBankHolTextBox
         '
         Me.PBankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "PBankHol", True))
-        Me.PBankHolTextBox.Location = New System.Drawing.Point(1002, 326)
+        Me.PBankHolTextBox.Location = New System.Drawing.Point(1008, 330)
         Me.PBankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PBankHolTextBox.Name = "PBankHolTextBox"
-        Me.PBankHolTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.PBankHolTextBox.Size = New System.Drawing.Size(182, 25)
         Me.PBankHolTextBox.TabIndex = 11
         '
         'C2BasicPayTextBox
         '
         Me.C2BasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "C2BasicPay", True))
-        Me.C2BasicPayTextBox.Location = New System.Drawing.Point(1356, 140)
+        Me.C2BasicPayTextBox.Location = New System.Drawing.Point(1359, 144)
         Me.C2BasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.C2BasicPayTextBox.Name = "C2BasicPayTextBox"
-        Me.C2BasicPayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.C2BasicPayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.C2BasicPayTextBox.TabIndex = 1
         '
         'P3SaturdayTextBox
         '
         Me.P3SaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3Saturday", True))
-        Me.P3SaturdayTextBox.Location = New System.Drawing.Point(1002, 264)
+        Me.P3SaturdayTextBox.Location = New System.Drawing.Point(1008, 268)
         Me.P3SaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3SaturdayTextBox.Name = "P3SaturdayTextBox"
-        Me.P3SaturdayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3SaturdayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3SaturdayTextBox.TabIndex = 1
         '
         'COT3TextBox
         '
         Me.COT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "COT3", True))
-        Me.COT3TextBox.Location = New System.Drawing.Point(1356, 233)
+        Me.COT3TextBox.Location = New System.Drawing.Point(1359, 237)
         Me.COT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.COT3TextBox.Name = "COT3TextBox"
-        Me.COT3TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.COT3TextBox.Size = New System.Drawing.Size(170, 25)
         Me.COT3TextBox.TabIndex = 16
         '
         'PNightsOutTextBox
         '
         Me.PNightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "PNightsOut", True))
-        Me.PNightsOutTextBox.Location = New System.Drawing.Point(1002, 357)
+        Me.PNightsOutTextBox.Location = New System.Drawing.Point(1008, 361)
         Me.PNightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PNightsOutTextBox.Name = "PNightsOutTextBox"
-        Me.PNightsOutTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.PNightsOutTextBox.Size = New System.Drawing.Size(182, 25)
         Me.PNightsOutTextBox.TabIndex = 12
         '
         'P3OT3TextBox
         '
         Me.P3OT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3OT3", True))
-        Me.P3OT3TextBox.Location = New System.Drawing.Point(1002, 233)
+        Me.P3OT3TextBox.Location = New System.Drawing.Point(1008, 237)
         Me.P3OT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3OT3TextBox.Name = "P3OT3TextBox"
-        Me.P3OT3TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3OT3TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3OT3TextBox.TabIndex = 1
         '
         'P2NightsOutTextBox
         '
         Me.P2NightsOutTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2NightsOut", True))
-        Me.P2NightsOutTextBox.Location = New System.Drawing.Point(1002, 357)
+        Me.P2NightsOutTextBox.Location = New System.Drawing.Point(1008, 361)
         Me.P2NightsOutTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2NightsOutTextBox.Name = "P2NightsOutTextBox"
-        Me.P2NightsOutTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2NightsOutTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2NightsOutTextBox.TabIndex = 1
         '
         'CBasicPayTextBox
         '
         Me.CBasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "CBasicPay", True))
-        Me.CBasicPayTextBox.Location = New System.Drawing.Point(1356, 140)
+        Me.CBasicPayTextBox.Location = New System.Drawing.Point(1359, 144)
         Me.CBasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CBasicPayTextBox.Name = "CBasicPayTextBox"
-        Me.CBasicPayTextBox.Size = New System.Drawing.Size(173, 25)
+        Me.CBasicPayTextBox.Size = New System.Drawing.Size(170, 25)
         Me.CBasicPayTextBox.TabIndex = 13
         '
         'P3OT2TextBox
         '
         Me.P3OT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3OT2", True))
-        Me.P3OT2TextBox.Location = New System.Drawing.Point(1002, 202)
+        Me.P3OT2TextBox.Location = New System.Drawing.Point(1008, 206)
         Me.P3OT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3OT2TextBox.Name = "P3OT2TextBox"
-        Me.P3OT2TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3OT2TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3OT2TextBox.TabIndex = 1
         '
         'COT2TextBox
         '
         Me.COT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "COT2", True))
-        Me.COT2TextBox.Location = New System.Drawing.Point(1356, 202)
+        Me.COT2TextBox.Location = New System.Drawing.Point(1359, 206)
         Me.COT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.COT2TextBox.Name = "COT2TextBox"
-        Me.COT2TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.COT2TextBox.Size = New System.Drawing.Size(170, 25)
         Me.COT2TextBox.TabIndex = 15
         '
         'P2BankHolTextBox
         '
         Me.P2BankHolTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2BankHol", True))
-        Me.P2BankHolTextBox.Location = New System.Drawing.Point(1002, 326)
+        Me.P2BankHolTextBox.Location = New System.Drawing.Point(1008, 330)
         Me.P2BankHolTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2BankHolTextBox.Name = "P2BankHolTextBox"
-        Me.P2BankHolTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2BankHolTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2BankHolTextBox.TabIndex = 1
         '
         'P3OT1TextBox
         '
         Me.P3OT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3OT1", True))
-        Me.P3OT1TextBox.Location = New System.Drawing.Point(1002, 171)
+        Me.P3OT1TextBox.Location = New System.Drawing.Point(1008, 175)
         Me.P3OT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3OT1TextBox.Name = "P3OT1TextBox"
-        Me.P3OT1TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3OT1TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3OT1TextBox.TabIndex = 1
         '
         'COT1TextBox
         '
         Me.COT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "COT1", True))
-        Me.COT1TextBox.Location = New System.Drawing.Point(1356, 171)
+        Me.COT1TextBox.Location = New System.Drawing.Point(1359, 175)
         Me.COT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.COT1TextBox.Name = "COT1TextBox"
-        Me.COT1TextBox.Size = New System.Drawing.Size(173, 25)
+        Me.COT1TextBox.Size = New System.Drawing.Size(170, 25)
         Me.COT1TextBox.TabIndex = 14
         '
         'P2BasicPayTextBox
         '
         Me.P2BasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2BasicPay", True))
-        Me.P2BasicPayTextBox.Location = New System.Drawing.Point(1002, 140)
+        Me.P2BasicPayTextBox.Location = New System.Drawing.Point(1008, 144)
         Me.P2BasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2BasicPayTextBox.Name = "P2BasicPayTextBox"
-        Me.P2BasicPayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2BasicPayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2BasicPayTextBox.TabIndex = 1
         '
         'P3BasicPayTextBox
         '
         Me.P3BasicPayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P3BasicPay", True))
-        Me.P3BasicPayTextBox.Location = New System.Drawing.Point(1002, 140)
+        Me.P3BasicPayTextBox.Location = New System.Drawing.Point(1008, 144)
         Me.P3BasicPayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P3BasicPayTextBox.Name = "P3BasicPayTextBox"
-        Me.P3BasicPayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P3BasicPayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P3BasicPayTextBox.TabIndex = 1
         '
         'P2SundayTextBox
         '
         Me.P2SundayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2Sunday", True))
-        Me.P2SundayTextBox.Location = New System.Drawing.Point(1002, 295)
+        Me.P2SundayTextBox.Location = New System.Drawing.Point(1008, 299)
         Me.P2SundayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2SundayTextBox.Name = "P2SundayTextBox"
-        Me.P2SundayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2SundayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2SundayTextBox.TabIndex = 1
         '
         'P2OT1TextBox
         '
         Me.P2OT1TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2OT1", True))
-        Me.P2OT1TextBox.Location = New System.Drawing.Point(1002, 171)
+        Me.P2OT1TextBox.Location = New System.Drawing.Point(1008, 175)
         Me.P2OT1TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2OT1TextBox.Name = "P2OT1TextBox"
-        Me.P2OT1TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2OT1TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2OT1TextBox.TabIndex = 1
         '
         'P2OT2TextBox
         '
         Me.P2OT2TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2OT2", True))
-        Me.P2OT2TextBox.Location = New System.Drawing.Point(1002, 202)
+        Me.P2OT2TextBox.Location = New System.Drawing.Point(1008, 206)
         Me.P2OT2TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2OT2TextBox.Name = "P2OT2TextBox"
-        Me.P2OT2TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2OT2TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2OT2TextBox.TabIndex = 1
         '
         'P2SaturdayTextBox
         '
         Me.P2SaturdayTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2Saturday", True))
-        Me.P2SaturdayTextBox.Location = New System.Drawing.Point(1002, 264)
+        Me.P2SaturdayTextBox.Location = New System.Drawing.Point(1008, 268)
         Me.P2SaturdayTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2SaturdayTextBox.Name = "P2SaturdayTextBox"
-        Me.P2SaturdayTextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2SaturdayTextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2SaturdayTextBox.TabIndex = 1
         '
         'P2OT3TextBox
         '
         Me.P2OT3TextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.FKJobCategorySitesBindingSource, "P2OT3", True))
-        Me.P2OT3TextBox.Location = New System.Drawing.Point(1002, 233)
+        Me.P2OT3TextBox.Location = New System.Drawing.Point(1008, 237)
         Me.P2OT3TextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P2OT3TextBox.Name = "P2OT3TextBox"
-        Me.P2OT3TextBox.Size = New System.Drawing.Size(185, 25)
+        Me.P2OT3TextBox.Size = New System.Drawing.Size(182, 25)
         Me.P2OT3TextBox.TabIndex = 1
         '
         'HoursPerShift
         '
         Me.HoursPerShift.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.FKJobCategorySitesBindingSource, "HoursPerShift", True))
         Me.HoursPerShift.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.HoursPerShift.Location = New System.Drawing.Point(652, 650)
+        Me.HoursPerShift.Location = New System.Drawing.Point(661, 650)
         Me.HoursPerShift.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HoursPerShift.Name = "HoursPerShift"
         Me.HoursPerShift.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.HoursPerShift.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None
-        Me.HoursPerShift.Size = New System.Drawing.Size(181, 22)
+        Me.HoursPerShift.Size = New System.Drawing.Size(178, 22)
         Me.HoursPerShift.StyleController = Me.LayoutControl3
         Me.HoursPerShift.TabIndex = 41
         '
@@ -4001,16 +4001,16 @@ Partial Class Clients
         Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.TabbedControlGroup1, Me.LayoutControlItem112, Me.LayoutControlItem110, Me.LayoutControlItem113, Me.LayoutControlItem114, Me.LayoutControlItem115, Me.LayoutControlItem116, Me.LayoutControlItem117, Me.LayoutControlItem118, Me.LayoutControlItem119, Me.LayoutControlItem120, Me.LayoutControlItem121, Me.LayoutControlItem122, Me.LayoutControlItem123, Me.LayoutControlItem124, Me.LayoutControlItem125, Me.LayoutControlItem126, Me.LayoutControlItem127, Me.LayoutControlItem128, Me.LayoutControlItem129, Me.SplitterItem1, Me.EmptySpaceItem2, Me.SplitterItem2, Me.LayoutControlItem131, Me.LayoutControlItem130, Me.LayoutControlItem160, Me.LayoutControlItem159, Me.LayoutControlItem165})
         Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup5.Name = "Root"
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1575, 729)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1575, 738)
         Me.LayoutControlGroup5.TextVisible = False
         '
         'TabbedControlGroup1
         '
-        Me.TabbedControlGroup1.Location = New System.Drawing.Point(823, 44)
+        Me.TabbedControlGroup1.Location = New System.Drawing.Point(829, 44)
         Me.TabbedControlGroup1.Name = "TabbedControlGroup1"
         Me.TabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup6
         Me.TabbedControlGroup1.SelectedTabPageIndex = 0
-        Me.TabbedControlGroup1.Size = New System.Drawing.Size(726, 643)
+        Me.TabbedControlGroup1.Size = New System.Drawing.Size(720, 643)
         Me.TabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup6, Me.LayoutControlGroup9, Me.LayoutControlGroup12, Me.LayoutControlGroup15})
         '
         'LayoutControlGroup6
@@ -4018,7 +4018,7 @@ Partial Class Clients
         Me.LayoutControlGroup6.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup7, Me.LayoutControlGroup8, Me.LayoutControlItem58})
         Me.LayoutControlGroup6.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup6.Name = "LayoutControlGroup6"
-        Me.LayoutControlGroup6.Size = New System.Drawing.Size(696, 586)
+        Me.LayoutControlGroup6.Size = New System.Drawing.Size(690, 583)
         Me.LayoutControlGroup6.Text = "Basic Rate"
         '
         'LayoutControlGroup7
@@ -4026,7 +4026,7 @@ Partial Class Clients
         Me.LayoutControlGroup7.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem42, Me.LayoutControlItem43, Me.LayoutControlItem44, Me.LayoutControlItem45, Me.LayoutControlItem46, Me.LayoutControlItem48, Me.LayoutControlItem47, Me.LayoutControlItem49})
         Me.LayoutControlGroup7.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup7.Name = "LayoutControlGroup7"
-        Me.LayoutControlGroup7.Size = New System.Drawing.Size(354, 301)
+        Me.LayoutControlGroup7.Size = New System.Drawing.Size(351, 302)
         Me.LayoutControlGroup7.Text = "Pay"
         '
         'LayoutControlItem42
@@ -4034,7 +4034,7 @@ Partial Class Clients
         Me.LayoutControlItem42.Control = Me.PNightsOutTextBox
         Me.LayoutControlItem42.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem42.Name = "LayoutControlItem42"
-        Me.LayoutControlItem42.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem42.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem42.Text = "Nights Out:"
         Me.LayoutControlItem42.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4043,7 +4043,7 @@ Partial Class Clients
         Me.LayoutControlItem43.Control = Me.PBankHolTextBox
         Me.LayoutControlItem43.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem43.Name = "LayoutControlItem43"
-        Me.LayoutControlItem43.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem43.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem43.Text = "Bank Hol:"
         Me.LayoutControlItem43.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4052,7 +4052,7 @@ Partial Class Clients
         Me.LayoutControlItem44.Control = Me.PSundayTextBox
         Me.LayoutControlItem44.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem44.Name = "LayoutControlItem44"
-        Me.LayoutControlItem44.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem44.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem44.Text = "Sunday:"
         Me.LayoutControlItem44.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4061,7 +4061,7 @@ Partial Class Clients
         Me.LayoutControlItem45.Control = Me.PSaturdayTextBox
         Me.LayoutControlItem45.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem45.Name = "LayoutControlItem45"
-        Me.LayoutControlItem45.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem45.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem45.Text = "Saturday:"
         Me.LayoutControlItem45.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4070,7 +4070,7 @@ Partial Class Clients
         Me.LayoutControlItem46.Control = Me.POT3TextBox
         Me.LayoutControlItem46.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem46.Name = "LayoutControlItem46"
-        Me.LayoutControlItem46.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem46.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem46.Text = "OT3:"
         Me.LayoutControlItem46.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4079,7 +4079,7 @@ Partial Class Clients
         Me.LayoutControlItem48.Control = Me.POT1TextBox
         Me.LayoutControlItem48.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem48.Name = "LayoutControlItem48"
-        Me.LayoutControlItem48.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem48.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem48.Text = "OT1:"
         Me.LayoutControlItem48.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4088,7 +4088,7 @@ Partial Class Clients
         Me.LayoutControlItem47.Control = Me.POT2TextBox
         Me.LayoutControlItem47.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem47.Name = "LayoutControlItem47"
-        Me.LayoutControlItem47.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem47.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem47.Text = "OT2:"
         Me.LayoutControlItem47.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4097,16 +4097,16 @@ Partial Class Clients
         Me.LayoutControlItem49.Control = Me.PBasicPayTextBox
         Me.LayoutControlItem49.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem49.Name = "LayoutControlItem49"
-        Me.LayoutControlItem49.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem49.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem49.Text = "Basic Pay:"
         Me.LayoutControlItem49.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlGroup8
         '
         Me.LayoutControlGroup8.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem50, Me.LayoutControlItem51, Me.LayoutControlItem52, Me.LayoutControlItem53, Me.LayoutControlItem54, Me.LayoutControlItem55, Me.LayoutControlItem56, Me.LayoutControlItem57})
-        Me.LayoutControlGroup8.Location = New System.Drawing.Point(354, 0)
+        Me.LayoutControlGroup8.Location = New System.Drawing.Point(351, 0)
         Me.LayoutControlGroup8.Name = "LayoutControlGroup8"
-        Me.LayoutControlGroup8.Size = New System.Drawing.Size(342, 301)
+        Me.LayoutControlGroup8.Size = New System.Drawing.Size(339, 302)
         Me.LayoutControlGroup8.Text = "Charge"
         '
         'LayoutControlItem50
@@ -4114,7 +4114,7 @@ Partial Class Clients
         Me.LayoutControlItem50.Control = Me.CBasicPayTextBox
         Me.LayoutControlItem50.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem50.Name = "LayoutControlItem50"
-        Me.LayoutControlItem50.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem50.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem50.Text = "Basic Charge:"
         Me.LayoutControlItem50.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4123,7 +4123,7 @@ Partial Class Clients
         Me.LayoutControlItem51.Control = Me.COT1TextBox
         Me.LayoutControlItem51.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem51.Name = "LayoutControlItem51"
-        Me.LayoutControlItem51.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem51.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem51.Text = "OT1:"
         Me.LayoutControlItem51.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4132,7 +4132,7 @@ Partial Class Clients
         Me.LayoutControlItem52.Control = Me.COT2TextBox
         Me.LayoutControlItem52.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem52.Name = "LayoutControlItem52"
-        Me.LayoutControlItem52.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem52.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem52.Text = "OT2:"
         Me.LayoutControlItem52.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4141,7 +4141,7 @@ Partial Class Clients
         Me.LayoutControlItem53.Control = Me.COT3TextBox
         Me.LayoutControlItem53.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem53.Name = "LayoutControlItem53"
-        Me.LayoutControlItem53.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem53.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem53.Text = "OT3:"
         Me.LayoutControlItem53.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4150,7 +4150,7 @@ Partial Class Clients
         Me.LayoutControlItem54.Control = Me.CSaturdayTextBox
         Me.LayoutControlItem54.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem54.Name = "LayoutControlItem54"
-        Me.LayoutControlItem54.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem54.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem54.Text = "Saturday:"
         Me.LayoutControlItem54.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4159,7 +4159,7 @@ Partial Class Clients
         Me.LayoutControlItem55.Control = Me.CSundayTextBox
         Me.LayoutControlItem55.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem55.Name = "LayoutControlItem55"
-        Me.LayoutControlItem55.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem55.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem55.Text = "Sunday:"
         Me.LayoutControlItem55.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4168,7 +4168,7 @@ Partial Class Clients
         Me.LayoutControlItem56.Control = Me.CBankHolTextBox
         Me.LayoutControlItem56.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem56.Name = "LayoutControlItem56"
-        Me.LayoutControlItem56.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem56.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem56.Text = "Bank Hol:"
         Me.LayoutControlItem56.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4177,16 +4177,16 @@ Partial Class Clients
         Me.LayoutControlItem57.Control = Me.CNightsOutTextBox
         Me.LayoutControlItem57.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem57.Name = "LayoutControlItem57"
-        Me.LayoutControlItem57.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem57.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem57.Text = "Nights Out:"
         Me.LayoutControlItem57.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem58
         '
         Me.LayoutControlItem58.Control = Me.MemoEdit1
-        Me.LayoutControlItem58.Location = New System.Drawing.Point(0, 301)
+        Me.LayoutControlItem58.Location = New System.Drawing.Point(0, 302)
         Me.LayoutControlItem58.Name = "LayoutControlItem58"
-        Me.LayoutControlItem58.Size = New System.Drawing.Size(696, 285)
+        Me.LayoutControlItem58.Size = New System.Drawing.Size(690, 281)
         Me.LayoutControlItem58.Text = "Rules Or Details:"
         Me.LayoutControlItem58.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem58.TextSize = New System.Drawing.Size(130, 16)
@@ -4196,7 +4196,7 @@ Partial Class Clients
         Me.LayoutControlGroup9.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup10, Me.LayoutControlGroup11, Me.LayoutControlItem75})
         Me.LayoutControlGroup9.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup9.Name = "LayoutControlGroup9"
-        Me.LayoutControlGroup9.Size = New System.Drawing.Size(696, 586)
+        Me.LayoutControlGroup9.Size = New System.Drawing.Size(690, 583)
         Me.LayoutControlGroup9.Text = "AWR 13th Week Rate"
         '
         'LayoutControlGroup10
@@ -4204,7 +4204,7 @@ Partial Class Clients
         Me.LayoutControlGroup10.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem59, Me.LayoutControlItem60, Me.LayoutControlItem61, Me.LayoutControlItem62, Me.LayoutControlItem63, Me.LayoutControlItem64, Me.LayoutControlItem65, Me.LayoutControlItem66})
         Me.LayoutControlGroup10.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup10.Name = "LayoutControlGroup10"
-        Me.LayoutControlGroup10.Size = New System.Drawing.Size(354, 301)
+        Me.LayoutControlGroup10.Size = New System.Drawing.Size(351, 302)
         Me.LayoutControlGroup10.Text = "Pay"
         '
         'LayoutControlItem59
@@ -4212,7 +4212,7 @@ Partial Class Clients
         Me.LayoutControlItem59.Control = Me.P2BasicPayTextBox
         Me.LayoutControlItem59.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem59.Name = "LayoutControlItem59"
-        Me.LayoutControlItem59.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem59.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem59.Text = "Basic Pay:"
         Me.LayoutControlItem59.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4221,7 +4221,7 @@ Partial Class Clients
         Me.LayoutControlItem60.Control = Me.P2OT1TextBox
         Me.LayoutControlItem60.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem60.Name = "LayoutControlItem60"
-        Me.LayoutControlItem60.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem60.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem60.Text = "OT1:"
         Me.LayoutControlItem60.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4230,7 +4230,7 @@ Partial Class Clients
         Me.LayoutControlItem61.Control = Me.P2OT2TextBox
         Me.LayoutControlItem61.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem61.Name = "LayoutControlItem61"
-        Me.LayoutControlItem61.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem61.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem61.Text = "OT2:"
         Me.LayoutControlItem61.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4239,7 +4239,7 @@ Partial Class Clients
         Me.LayoutControlItem62.Control = Me.P2OT3TextBox
         Me.LayoutControlItem62.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem62.Name = "LayoutControlItem62"
-        Me.LayoutControlItem62.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem62.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem62.Text = "OT3:"
         Me.LayoutControlItem62.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4248,7 +4248,7 @@ Partial Class Clients
         Me.LayoutControlItem63.Control = Me.P2SaturdayTextBox
         Me.LayoutControlItem63.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem63.Name = "LayoutControlItem63"
-        Me.LayoutControlItem63.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem63.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem63.Text = "Saturday:"
         Me.LayoutControlItem63.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4257,7 +4257,7 @@ Partial Class Clients
         Me.LayoutControlItem64.Control = Me.P2SundayTextBox
         Me.LayoutControlItem64.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem64.Name = "LayoutControlItem64"
-        Me.LayoutControlItem64.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem64.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem64.Text = "Sunday:"
         Me.LayoutControlItem64.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4266,7 +4266,7 @@ Partial Class Clients
         Me.LayoutControlItem65.Control = Me.P2BankHolTextBox
         Me.LayoutControlItem65.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem65.Name = "LayoutControlItem65"
-        Me.LayoutControlItem65.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem65.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem65.Text = "Bank Hol:"
         Me.LayoutControlItem65.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4275,16 +4275,16 @@ Partial Class Clients
         Me.LayoutControlItem66.Control = Me.P2NightsOutTextBox
         Me.LayoutControlItem66.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem66.Name = "LayoutControlItem66"
-        Me.LayoutControlItem66.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem66.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem66.Text = "Nights Out:"
         Me.LayoutControlItem66.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlGroup11
         '
         Me.LayoutControlGroup11.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem68, Me.LayoutControlItem67, Me.LayoutControlItem69, Me.LayoutControlItem70, Me.LayoutControlItem71, Me.LayoutControlItem72, Me.LayoutControlItem73, Me.LayoutControlItem74})
-        Me.LayoutControlGroup11.Location = New System.Drawing.Point(354, 0)
+        Me.LayoutControlGroup11.Location = New System.Drawing.Point(351, 0)
         Me.LayoutControlGroup11.Name = "LayoutControlGroup11"
-        Me.LayoutControlGroup11.Size = New System.Drawing.Size(342, 301)
+        Me.LayoutControlGroup11.Size = New System.Drawing.Size(339, 302)
         Me.LayoutControlGroup11.Text = "Charge"
         '
         'LayoutControlItem68
@@ -4292,7 +4292,7 @@ Partial Class Clients
         Me.LayoutControlItem68.Control = Me.C2OT1TextBox
         Me.LayoutControlItem68.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem68.Name = "LayoutControlItem68"
-        Me.LayoutControlItem68.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem68.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem68.Text = "OT1:"
         Me.LayoutControlItem68.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4301,7 +4301,7 @@ Partial Class Clients
         Me.LayoutControlItem67.Control = Me.C2BasicPayTextBox
         Me.LayoutControlItem67.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem67.Name = "LayoutControlItem67"
-        Me.LayoutControlItem67.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem67.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem67.Text = "Basic Charge:"
         Me.LayoutControlItem67.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4310,7 +4310,7 @@ Partial Class Clients
         Me.LayoutControlItem69.Control = Me.C2OT2TextBox
         Me.LayoutControlItem69.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem69.Name = "LayoutControlItem69"
-        Me.LayoutControlItem69.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem69.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem69.Text = "OT2:"
         Me.LayoutControlItem69.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4319,7 +4319,7 @@ Partial Class Clients
         Me.LayoutControlItem70.Control = Me.C2OT3TextBox
         Me.LayoutControlItem70.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem70.Name = "LayoutControlItem70"
-        Me.LayoutControlItem70.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem70.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem70.Text = "OT3:"
         Me.LayoutControlItem70.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4328,7 +4328,7 @@ Partial Class Clients
         Me.LayoutControlItem71.Control = Me.C2SaturdayTextBox
         Me.LayoutControlItem71.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem71.Name = "LayoutControlItem71"
-        Me.LayoutControlItem71.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem71.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem71.Text = "Saturday:"
         Me.LayoutControlItem71.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4337,7 +4337,7 @@ Partial Class Clients
         Me.LayoutControlItem72.Control = Me.C2SundayTextBox
         Me.LayoutControlItem72.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem72.Name = "LayoutControlItem72"
-        Me.LayoutControlItem72.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem72.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem72.Text = "Sunday:"
         Me.LayoutControlItem72.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4346,7 +4346,7 @@ Partial Class Clients
         Me.LayoutControlItem73.Control = Me.C2BankHolTextBox
         Me.LayoutControlItem73.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem73.Name = "LayoutControlItem73"
-        Me.LayoutControlItem73.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem73.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem73.Text = "Bank Hol:"
         Me.LayoutControlItem73.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4355,16 +4355,16 @@ Partial Class Clients
         Me.LayoutControlItem74.Control = Me.C2NightsOutTextBox
         Me.LayoutControlItem74.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem74.Name = "LayoutControlItem74"
-        Me.LayoutControlItem74.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem74.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem74.Text = "Nights Out:"
         Me.LayoutControlItem74.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem75
         '
         Me.LayoutControlItem75.Control = Me.MemoEdit2
-        Me.LayoutControlItem75.Location = New System.Drawing.Point(0, 301)
+        Me.LayoutControlItem75.Location = New System.Drawing.Point(0, 302)
         Me.LayoutControlItem75.Name = "LayoutControlItem75"
-        Me.LayoutControlItem75.Size = New System.Drawing.Size(696, 285)
+        Me.LayoutControlItem75.Size = New System.Drawing.Size(690, 281)
         Me.LayoutControlItem75.Text = "Rules Or Details:"
         Me.LayoutControlItem75.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem75.TextSize = New System.Drawing.Size(130, 16)
@@ -4374,7 +4374,7 @@ Partial Class Clients
         Me.LayoutControlGroup12.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup13, Me.LayoutControlGroup14, Me.LayoutControlItem92})
         Me.LayoutControlGroup12.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup12.Name = "LayoutControlGroup12"
-        Me.LayoutControlGroup12.Size = New System.Drawing.Size(696, 586)
+        Me.LayoutControlGroup12.Size = New System.Drawing.Size(690, 583)
         Me.LayoutControlGroup12.Text = "Rate 2"
         '
         'LayoutControlGroup13
@@ -4382,7 +4382,7 @@ Partial Class Clients
         Me.LayoutControlGroup13.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem79, Me.LayoutControlItem78, Me.LayoutControlItem77, Me.LayoutControlItem76, Me.LayoutControlItem80, Me.LayoutControlItem81, Me.LayoutControlItem82, Me.LayoutControlItem83})
         Me.LayoutControlGroup13.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup13.Name = "LayoutControlGroup13"
-        Me.LayoutControlGroup13.Size = New System.Drawing.Size(354, 301)
+        Me.LayoutControlGroup13.Size = New System.Drawing.Size(351, 302)
         Me.LayoutControlGroup13.Text = "Pay:"
         '
         'LayoutControlItem79
@@ -4390,7 +4390,7 @@ Partial Class Clients
         Me.LayoutControlItem79.Control = Me.P3OT3TextBox
         Me.LayoutControlItem79.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem79.Name = "LayoutControlItem79"
-        Me.LayoutControlItem79.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem79.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem79.Text = "OT3:"
         Me.LayoutControlItem79.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4399,7 +4399,7 @@ Partial Class Clients
         Me.LayoutControlItem78.Control = Me.P3OT2TextBox
         Me.LayoutControlItem78.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem78.Name = "LayoutControlItem78"
-        Me.LayoutControlItem78.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem78.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem78.Text = "OT2:"
         Me.LayoutControlItem78.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4408,7 +4408,7 @@ Partial Class Clients
         Me.LayoutControlItem77.Control = Me.P3OT1TextBox
         Me.LayoutControlItem77.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem77.Name = "LayoutControlItem77"
-        Me.LayoutControlItem77.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem77.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem77.Text = "OT1:"
         Me.LayoutControlItem77.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4417,7 +4417,7 @@ Partial Class Clients
         Me.LayoutControlItem76.Control = Me.P3BasicPayTextBox
         Me.LayoutControlItem76.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem76.Name = "LayoutControlItem76"
-        Me.LayoutControlItem76.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem76.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem76.Text = "Basic Pay:"
         Me.LayoutControlItem76.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4426,7 +4426,7 @@ Partial Class Clients
         Me.LayoutControlItem80.Control = Me.P3SaturdayTextBox
         Me.LayoutControlItem80.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem80.Name = "LayoutControlItem80"
-        Me.LayoutControlItem80.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem80.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem80.Text = "Saturday:"
         Me.LayoutControlItem80.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4435,7 +4435,7 @@ Partial Class Clients
         Me.LayoutControlItem81.Control = Me.P3SundayTextBox
         Me.LayoutControlItem81.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem81.Name = "LayoutControlItem81"
-        Me.LayoutControlItem81.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem81.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem81.Text = "Sunday:"
         Me.LayoutControlItem81.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4444,7 +4444,7 @@ Partial Class Clients
         Me.LayoutControlItem82.Control = Me.P3BankHolTextBox
         Me.LayoutControlItem82.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem82.Name = "LayoutControlItem82"
-        Me.LayoutControlItem82.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem82.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem82.Text = "Bank Hol:"
         Me.LayoutControlItem82.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4453,16 +4453,16 @@ Partial Class Clients
         Me.LayoutControlItem83.Control = Me.P3NightsOutTextBox
         Me.LayoutControlItem83.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem83.Name = "LayoutControlItem83"
-        Me.LayoutControlItem83.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem83.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem83.Text = "Nights Out:"
         Me.LayoutControlItem83.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlGroup14
         '
         Me.LayoutControlGroup14.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem85, Me.LayoutControlItem84, Me.LayoutControlItem86, Me.LayoutControlItem87, Me.LayoutControlItem88, Me.LayoutControlItem89, Me.LayoutControlItem90, Me.LayoutControlItem91})
-        Me.LayoutControlGroup14.Location = New System.Drawing.Point(354, 0)
+        Me.LayoutControlGroup14.Location = New System.Drawing.Point(351, 0)
         Me.LayoutControlGroup14.Name = "LayoutControlGroup14"
-        Me.LayoutControlGroup14.Size = New System.Drawing.Size(342, 301)
+        Me.LayoutControlGroup14.Size = New System.Drawing.Size(339, 302)
         Me.LayoutControlGroup14.Text = "Charge:"
         '
         'LayoutControlItem85
@@ -4470,7 +4470,7 @@ Partial Class Clients
         Me.LayoutControlItem85.Control = Me.C3OT1TextBox
         Me.LayoutControlItem85.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem85.Name = "LayoutControlItem85"
-        Me.LayoutControlItem85.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem85.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem85.Text = "OT1:"
         Me.LayoutControlItem85.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4479,7 +4479,7 @@ Partial Class Clients
         Me.LayoutControlItem84.Control = Me.C3BasicPayTextBox
         Me.LayoutControlItem84.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem84.Name = "LayoutControlItem84"
-        Me.LayoutControlItem84.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem84.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem84.Text = "Basic Charge:"
         Me.LayoutControlItem84.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4488,7 +4488,7 @@ Partial Class Clients
         Me.LayoutControlItem86.Control = Me.C3OT2TextBox
         Me.LayoutControlItem86.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem86.Name = "LayoutControlItem86"
-        Me.LayoutControlItem86.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem86.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem86.Text = "OT2:"
         Me.LayoutControlItem86.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4497,7 +4497,7 @@ Partial Class Clients
         Me.LayoutControlItem87.Control = Me.C3OT3TextBox
         Me.LayoutControlItem87.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem87.Name = "LayoutControlItem87"
-        Me.LayoutControlItem87.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem87.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem87.Text = "OT3:"
         Me.LayoutControlItem87.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4506,7 +4506,7 @@ Partial Class Clients
         Me.LayoutControlItem88.Control = Me.C3SaturdayTextBox
         Me.LayoutControlItem88.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem88.Name = "LayoutControlItem88"
-        Me.LayoutControlItem88.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem88.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem88.Text = "Saturday:"
         Me.LayoutControlItem88.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4515,7 +4515,7 @@ Partial Class Clients
         Me.LayoutControlItem89.Control = Me.C3SundayTextBox
         Me.LayoutControlItem89.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem89.Name = "LayoutControlItem89"
-        Me.LayoutControlItem89.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem89.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem89.Text = "Sunday:"
         Me.LayoutControlItem89.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4524,7 +4524,7 @@ Partial Class Clients
         Me.LayoutControlItem90.Control = Me.C3BankHolTextBox
         Me.LayoutControlItem90.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem90.Name = "LayoutControlItem90"
-        Me.LayoutControlItem90.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem90.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem90.Text = "Bank Hol:"
         Me.LayoutControlItem90.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4533,16 +4533,16 @@ Partial Class Clients
         Me.LayoutControlItem91.Control = Me.C3NightsOutTextBox
         Me.LayoutControlItem91.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem91.Name = "LayoutControlItem91"
-        Me.LayoutControlItem91.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem91.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem91.Text = "Nights Out:"
         Me.LayoutControlItem91.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem92
         '
         Me.LayoutControlItem92.Control = Me.MemoEdit3
-        Me.LayoutControlItem92.Location = New System.Drawing.Point(0, 301)
+        Me.LayoutControlItem92.Location = New System.Drawing.Point(0, 302)
         Me.LayoutControlItem92.Name = "LayoutControlItem92"
-        Me.LayoutControlItem92.Size = New System.Drawing.Size(696, 285)
+        Me.LayoutControlItem92.Size = New System.Drawing.Size(690, 281)
         Me.LayoutControlItem92.Text = "Rules Or Details:"
         Me.LayoutControlItem92.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem92.TextSize = New System.Drawing.Size(130, 16)
@@ -4552,7 +4552,7 @@ Partial Class Clients
         Me.LayoutControlGroup15.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup16, Me.LayoutControlGroup17, Me.LayoutControlItem109})
         Me.LayoutControlGroup15.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup15.Name = "LayoutControlGroup15"
-        Me.LayoutControlGroup15.Size = New System.Drawing.Size(696, 586)
+        Me.LayoutControlGroup15.Size = New System.Drawing.Size(690, 583)
         Me.LayoutControlGroup15.Text = "Rate 3"
         '
         'LayoutControlGroup16
@@ -4560,7 +4560,7 @@ Partial Class Clients
         Me.LayoutControlGroup16.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem100, Me.LayoutControlItem98, Me.LayoutControlItem99, Me.LayoutControlItem97, Me.LayoutControlItem96, Me.LayoutControlItem95, Me.LayoutControlItem94, Me.LayoutControlItem93})
         Me.LayoutControlGroup16.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup16.Name = "LayoutControlGroup16"
-        Me.LayoutControlGroup16.Size = New System.Drawing.Size(354, 301)
+        Me.LayoutControlGroup16.Size = New System.Drawing.Size(351, 302)
         Me.LayoutControlGroup16.Text = "Pay:"
         '
         'LayoutControlItem100
@@ -4568,7 +4568,7 @@ Partial Class Clients
         Me.LayoutControlItem100.Control = Me.P4NightsOutTextBox
         Me.LayoutControlItem100.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem100.Name = "LayoutControlItem100"
-        Me.LayoutControlItem100.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem100.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem100.Text = "Nights Out:"
         Me.LayoutControlItem100.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4577,7 +4577,7 @@ Partial Class Clients
         Me.LayoutControlItem98.Control = Me.P4SundayTextBox
         Me.LayoutControlItem98.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem98.Name = "LayoutControlItem98"
-        Me.LayoutControlItem98.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem98.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem98.Text = "Sunday:"
         Me.LayoutControlItem98.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4586,7 +4586,7 @@ Partial Class Clients
         Me.LayoutControlItem99.Control = Me.P4BankHolTextBox
         Me.LayoutControlItem99.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem99.Name = "LayoutControlItem99"
-        Me.LayoutControlItem99.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem99.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem99.Text = "Bank Hol:"
         Me.LayoutControlItem99.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4595,7 +4595,7 @@ Partial Class Clients
         Me.LayoutControlItem97.Control = Me.P4SaturdayTextBox
         Me.LayoutControlItem97.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem97.Name = "LayoutControlItem97"
-        Me.LayoutControlItem97.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem97.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem97.Text = "Saturday:"
         Me.LayoutControlItem97.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4604,7 +4604,7 @@ Partial Class Clients
         Me.LayoutControlItem96.Control = Me.P4OT3TextBox
         Me.LayoutControlItem96.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem96.Name = "LayoutControlItem96"
-        Me.LayoutControlItem96.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem96.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem96.Text = "OT3:"
         Me.LayoutControlItem96.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4613,7 +4613,7 @@ Partial Class Clients
         Me.LayoutControlItem95.Control = Me.P4OT2TextBox
         Me.LayoutControlItem95.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem95.Name = "LayoutControlItem95"
-        Me.LayoutControlItem95.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem95.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem95.Text = "OT2:"
         Me.LayoutControlItem95.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4622,7 +4622,7 @@ Partial Class Clients
         Me.LayoutControlItem94.Control = Me.P4OT1TextBox
         Me.LayoutControlItem94.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem94.Name = "LayoutControlItem94"
-        Me.LayoutControlItem94.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem94.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem94.Text = "OT1:"
         Me.LayoutControlItem94.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4631,16 +4631,16 @@ Partial Class Clients
         Me.LayoutControlItem93.Control = Me.P4BasicPayTextBox
         Me.LayoutControlItem93.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem93.Name = "LayoutControlItem93"
-        Me.LayoutControlItem93.Size = New System.Drawing.Size(324, 31)
+        Me.LayoutControlItem93.Size = New System.Drawing.Size(321, 31)
         Me.LayoutControlItem93.Text = "Basic Pay:"
         Me.LayoutControlItem93.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlGroup17
         '
         Me.LayoutControlGroup17.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem108, Me.LayoutControlItem107, Me.LayoutControlItem106, Me.LayoutControlItem105, Me.LayoutControlItem103, Me.LayoutControlItem104, Me.LayoutControlItem102, Me.LayoutControlItem101})
-        Me.LayoutControlGroup17.Location = New System.Drawing.Point(354, 0)
+        Me.LayoutControlGroup17.Location = New System.Drawing.Point(351, 0)
         Me.LayoutControlGroup17.Name = "LayoutControlGroup17"
-        Me.LayoutControlGroup17.Size = New System.Drawing.Size(342, 301)
+        Me.LayoutControlGroup17.Size = New System.Drawing.Size(339, 302)
         Me.LayoutControlGroup17.Text = "Charge"
         '
         'LayoutControlItem108
@@ -4648,7 +4648,7 @@ Partial Class Clients
         Me.LayoutControlItem108.Control = Me.C4NightsOutTextBox
         Me.LayoutControlItem108.Location = New System.Drawing.Point(0, 217)
         Me.LayoutControlItem108.Name = "LayoutControlItem108"
-        Me.LayoutControlItem108.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem108.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem108.Text = "Nights Out:"
         Me.LayoutControlItem108.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4657,7 +4657,7 @@ Partial Class Clients
         Me.LayoutControlItem107.Control = Me.C4BankHolTextBox
         Me.LayoutControlItem107.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem107.Name = "LayoutControlItem107"
-        Me.LayoutControlItem107.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem107.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem107.Text = "Bank Hol:"
         Me.LayoutControlItem107.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4666,7 +4666,7 @@ Partial Class Clients
         Me.LayoutControlItem106.Control = Me.C4SundayTextBox
         Me.LayoutControlItem106.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem106.Name = "LayoutControlItem106"
-        Me.LayoutControlItem106.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem106.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem106.Text = "Sunday:"
         Me.LayoutControlItem106.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4675,7 +4675,7 @@ Partial Class Clients
         Me.LayoutControlItem105.Control = Me.C4SaturdayTextBox
         Me.LayoutControlItem105.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem105.Name = "LayoutControlItem105"
-        Me.LayoutControlItem105.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem105.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem105.Text = "Saturday:"
         Me.LayoutControlItem105.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4684,7 +4684,7 @@ Partial Class Clients
         Me.LayoutControlItem103.Control = Me.C4OT2TextBox
         Me.LayoutControlItem103.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem103.Name = "LayoutControlItem103"
-        Me.LayoutControlItem103.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem103.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem103.Text = "OT2:"
         Me.LayoutControlItem103.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4693,7 +4693,7 @@ Partial Class Clients
         Me.LayoutControlItem104.Control = Me.C4OT3TextBox
         Me.LayoutControlItem104.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem104.Name = "LayoutControlItem104"
-        Me.LayoutControlItem104.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem104.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem104.Text = "OT3:"
         Me.LayoutControlItem104.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4702,7 +4702,7 @@ Partial Class Clients
         Me.LayoutControlItem102.Control = Me.C4OT1TextBox
         Me.LayoutControlItem102.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem102.Name = "LayoutControlItem102"
-        Me.LayoutControlItem102.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem102.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem102.Text = "OT1:"
         Me.LayoutControlItem102.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4711,16 +4711,16 @@ Partial Class Clients
         Me.LayoutControlItem101.Control = Me.C4BasicPayTextBox
         Me.LayoutControlItem101.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem101.Name = "LayoutControlItem101"
-        Me.LayoutControlItem101.Size = New System.Drawing.Size(312, 31)
+        Me.LayoutControlItem101.Size = New System.Drawing.Size(309, 31)
         Me.LayoutControlItem101.Text = "Basic Charge:"
         Me.LayoutControlItem101.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem109
         '
         Me.LayoutControlItem109.Control = Me.MemoEdit4
-        Me.LayoutControlItem109.Location = New System.Drawing.Point(0, 301)
+        Me.LayoutControlItem109.Location = New System.Drawing.Point(0, 302)
         Me.LayoutControlItem109.Name = "LayoutControlItem109"
-        Me.LayoutControlItem109.Size = New System.Drawing.Size(696, 285)
+        Me.LayoutControlItem109.Size = New System.Drawing.Size(690, 281)
         Me.LayoutControlItem109.Text = "Rules Or Details:"
         Me.LayoutControlItem109.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem109.TextSize = New System.Drawing.Size(130, 16)
@@ -4728,9 +4728,9 @@ Partial Class Clients
         'LayoutControlItem112
         '
         Me.LayoutControlItem112.Control = Me.JobCategoryTextBox
-        Me.LayoutControlItem112.Location = New System.Drawing.Point(503, 72)
+        Me.LayoutControlItem112.Location = New System.Drawing.Point(512, 72)
         Me.LayoutControlItem112.Name = "LayoutControlItem112"
-        Me.LayoutControlItem112.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem112.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem112.Text = "Job Category:"
         Me.LayoutControlItem112.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4746,127 +4746,127 @@ Partial Class Clients
         'LayoutControlItem113
         '
         Me.LayoutControlItem113.Control = Me.ShiftNameTextBox
-        Me.LayoutControlItem113.Location = New System.Drawing.Point(503, 103)
+        Me.LayoutControlItem113.Location = New System.Drawing.Point(512, 103)
         Me.LayoutControlItem113.Name = "LayoutControlItem113"
-        Me.LayoutControlItem113.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem113.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem113.Text = "Shift Name:"
         Me.LayoutControlItem113.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem114
         '
         Me.LayoutControlItem114.Control = Me.TypicalStartTimeTextBox
-        Me.LayoutControlItem114.Location = New System.Drawing.Point(503, 134)
+        Me.LayoutControlItem114.Location = New System.Drawing.Point(512, 134)
         Me.LayoutControlItem114.Name = "LayoutControlItem114"
-        Me.LayoutControlItem114.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem114.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem114.Text = "Typical Start Time:"
         Me.LayoutControlItem114.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem115
         '
         Me.LayoutControlItem115.Control = Me.TypicalEndTimeTextBox
-        Me.LayoutControlItem115.Location = New System.Drawing.Point(503, 165)
+        Me.LayoutControlItem115.Location = New System.Drawing.Point(512, 165)
         Me.LayoutControlItem115.Name = "LayoutControlItem115"
-        Me.LayoutControlItem115.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem115.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem115.Text = "Typical End Time:"
         Me.LayoutControlItem115.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem116
         '
         Me.LayoutControlItem116.Control = Me.BreakEntitlementTextBox
-        Me.LayoutControlItem116.Location = New System.Drawing.Point(503, 196)
+        Me.LayoutControlItem116.Location = New System.Drawing.Point(512, 196)
         Me.LayoutControlItem116.Name = "LayoutControlItem116"
-        Me.LayoutControlItem116.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem116.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem116.Text = "Break Entitlement:"
         Me.LayoutControlItem116.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem117
         '
         Me.LayoutControlItem117.Control = Me.BreakDeductedCheckBox
-        Me.LayoutControlItem117.Location = New System.Drawing.Point(503, 227)
+        Me.LayoutControlItem117.Location = New System.Drawing.Point(512, 227)
         Me.LayoutControlItem117.Name = "LayoutControlItem117"
-        Me.LayoutControlItem117.Size = New System.Drawing.Size(153, 31)
+        Me.LayoutControlItem117.Size = New System.Drawing.Size(152, 31)
         Me.LayoutControlItem117.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem117.TextVisible = False
         '
         'LayoutControlItem118
         '
         Me.LayoutControlItem118.Control = Me.TimesheetContactComboBox
-        Me.LayoutControlItem118.Location = New System.Drawing.Point(503, 258)
+        Me.LayoutControlItem118.Location = New System.Drawing.Point(512, 258)
         Me.LayoutControlItem118.Name = "LayoutControlItem118"
-        Me.LayoutControlItem118.Size = New System.Drawing.Size(320, 32)
+        Me.LayoutControlItem118.Size = New System.Drawing.Size(317, 32)
         Me.LayoutControlItem118.Text = "Time Sheet Contact:"
         Me.LayoutControlItem118.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem119
         '
         Me.LayoutControlItem119.Control = Me.TimeSheetSentViaTextBox
-        Me.LayoutControlItem119.Location = New System.Drawing.Point(503, 290)
+        Me.LayoutControlItem119.Location = New System.Drawing.Point(512, 290)
         Me.LayoutControlItem119.Name = "LayoutControlItem119"
-        Me.LayoutControlItem119.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem119.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem119.Text = "Time Sheet Sent Via:"
         Me.LayoutControlItem119.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem120
         '
         Me.LayoutControlItem120.Control = Me.TimesheetTypeComboBox
-        Me.LayoutControlItem120.Location = New System.Drawing.Point(503, 321)
+        Me.LayoutControlItem120.Location = New System.Drawing.Point(512, 321)
         Me.LayoutControlItem120.Name = "LayoutControlItem120"
-        Me.LayoutControlItem120.Size = New System.Drawing.Size(320, 32)
+        Me.LayoutControlItem120.Size = New System.Drawing.Size(317, 32)
         Me.LayoutControlItem120.Text = "Time Sheet Type:"
         Me.LayoutControlItem120.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem121
         '
         Me.LayoutControlItem121.Control = Me.NotesForTimeSheetTextBox
-        Me.LayoutControlItem121.Location = New System.Drawing.Point(503, 353)
+        Me.LayoutControlItem121.Location = New System.Drawing.Point(512, 353)
         Me.LayoutControlItem121.Name = "LayoutControlItem121"
-        Me.LayoutControlItem121.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem121.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem121.Text = "Notes For Time Sheet:"
         Me.LayoutControlItem121.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem122
         '
         Me.LayoutControlItem122.Control = Me.ComboBox1
-        Me.LayoutControlItem122.Location = New System.Drawing.Point(503, 384)
+        Me.LayoutControlItem122.Location = New System.Drawing.Point(512, 384)
         Me.LayoutControlItem122.Name = "LayoutControlItem122"
-        Me.LayoutControlItem122.Size = New System.Drawing.Size(320, 32)
+        Me.LayoutControlItem122.Size = New System.Drawing.Size(317, 32)
         Me.LayoutControlItem122.Text = "Start Of Week:"
         Me.LayoutControlItem122.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem123
         '
         Me.LayoutControlItem123.Control = Me.DHHTextBox
-        Me.LayoutControlItem123.Location = New System.Drawing.Point(503, 416)
+        Me.LayoutControlItem123.Location = New System.Drawing.Point(512, 416)
         Me.LayoutControlItem123.Name = "LayoutControlItem123"
-        Me.LayoutControlItem123.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem123.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem123.Text = "DHH:"
         Me.LayoutControlItem123.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem124
         '
         Me.LayoutControlItem124.Control = Me.MinChargePerDayTextBox
-        Me.LayoutControlItem124.Location = New System.Drawing.Point(503, 447)
+        Me.LayoutControlItem124.Location = New System.Drawing.Point(512, 447)
         Me.LayoutControlItem124.Name = "LayoutControlItem124"
-        Me.LayoutControlItem124.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem124.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem124.Text = "Min Charge Per Day:"
         Me.LayoutControlItem124.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem125
         '
         Me.LayoutControlItem125.Control = Me.TempToPermAfterTextBox
-        Me.LayoutControlItem125.Location = New System.Drawing.Point(503, 478)
+        Me.LayoutControlItem125.Location = New System.Drawing.Point(512, 478)
         Me.LayoutControlItem125.Name = "LayoutControlItem125"
-        Me.LayoutControlItem125.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem125.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem125.Text = "Temp To Perm After:"
         Me.LayoutControlItem125.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem126
         '
         Me.LayoutControlItem126.Control = Me.SWHTextBox
-        Me.LayoutControlItem126.Location = New System.Drawing.Point(503, 509)
+        Me.LayoutControlItem126.Location = New System.Drawing.Point(512, 509)
         Me.LayoutControlItem126.MinSize = New System.Drawing.Size(164, 31)
         Me.LayoutControlItem126.Name = "LayoutControlItem126"
-        Me.LayoutControlItem126.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem126.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem126.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem126.Text = "SWH:"
         Me.LayoutControlItem126.TextSize = New System.Drawing.Size(130, 16)
@@ -4874,27 +4874,27 @@ Partial Class Clients
         'LayoutControlItem127
         '
         Me.LayoutControlItem127.Control = Me.LastModifiedUserTextBox
-        Me.LayoutControlItem127.Location = New System.Drawing.Point(503, 540)
+        Me.LayoutControlItem127.Location = New System.Drawing.Point(512, 540)
         Me.LayoutControlItem127.Name = "LayoutControlItem127"
-        Me.LayoutControlItem127.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem127.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem127.Text = "Last Modified User:"
         Me.LayoutControlItem127.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem128
         '
         Me.LayoutControlItem128.Control = Me.LastModifiedDateTextBox
-        Me.LayoutControlItem128.Location = New System.Drawing.Point(503, 571)
+        Me.LayoutControlItem128.Location = New System.Drawing.Point(512, 571)
         Me.LayoutControlItem128.Name = "LayoutControlItem128"
-        Me.LayoutControlItem128.Size = New System.Drawing.Size(320, 31)
+        Me.LayoutControlItem128.Size = New System.Drawing.Size(317, 31)
         Me.LayoutControlItem128.Text = "Last Modified Date:"
         Me.LayoutControlItem128.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem129
         '
         Me.LayoutControlItem129.Control = Me.CBJobType
-        Me.LayoutControlItem129.Location = New System.Drawing.Point(503, 602)
+        Me.LayoutControlItem129.Location = New System.Drawing.Point(512, 602)
         Me.LayoutControlItem129.Name = "LayoutControlItem129"
-        Me.LayoutControlItem129.Size = New System.Drawing.Size(320, 32)
+        Me.LayoutControlItem129.Size = New System.Drawing.Size(317, 32)
         Me.LayoutControlItem129.Text = "Job Type:"
         Me.LayoutControlItem129.TextSize = New System.Drawing.Size(130, 16)
         '
@@ -4903,12 +4903,12 @@ Partial Class Clients
         Me.SplitterItem1.AllowHotTrack = True
         Me.SplitterItem1.Location = New System.Drawing.Point(497, 44)
         Me.SplitterItem1.Name = "SplitterItem1"
-        Me.SplitterItem1.Size = New System.Drawing.Size(6, 643)
+        Me.SplitterItem1.Size = New System.Drawing.Size(15, 643)
         '
         'EmptySpaceItem2
         '
         Me.EmptySpaceItem2.AllowHotTrack = False
-        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 693)
+        Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 702)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
         Me.EmptySpaceItem2.Size = New System.Drawing.Size(1549, 10)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
@@ -4918,7 +4918,7 @@ Partial Class Clients
         Me.SplitterItem2.AllowHotTrack = True
         Me.SplitterItem2.Location = New System.Drawing.Point(0, 687)
         Me.SplitterItem2.Name = "SplitterItem2"
-        Me.SplitterItem2.Size = New System.Drawing.Size(1549, 6)
+        Me.SplitterItem2.Size = New System.Drawing.Size(1549, 15)
         '
         'LayoutControlItem131
         '
@@ -4932,36 +4932,36 @@ Partial Class Clients
         'LayoutControlItem130
         '
         Me.LayoutControlItem130.Control = Me.HoursPerShift
-        Me.LayoutControlItem130.Location = New System.Drawing.Point(503, 634)
+        Me.LayoutControlItem130.Location = New System.Drawing.Point(512, 634)
         Me.LayoutControlItem130.Name = "LayoutControlItem130"
-        Me.LayoutControlItem130.Size = New System.Drawing.Size(320, 28)
+        Me.LayoutControlItem130.Size = New System.Drawing.Size(317, 28)
         Me.LayoutControlItem130.Text = "Hours Per Shift:"
         Me.LayoutControlItem130.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem160
         '
         Me.LayoutControlItem160.Control = Me.JobCatIdSpinEdit
-        Me.LayoutControlItem160.Location = New System.Drawing.Point(503, 44)
+        Me.LayoutControlItem160.Location = New System.Drawing.Point(512, 44)
         Me.LayoutControlItem160.Name = "LayoutControlItem160"
-        Me.LayoutControlItem160.Size = New System.Drawing.Size(320, 28)
+        Me.LayoutControlItem160.Size = New System.Drawing.Size(317, 28)
         Me.LayoutControlItem160.Text = "Job Cat Id:"
         Me.LayoutControlItem160.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem159
         '
         Me.LayoutControlItem159.Control = Me.ArchiveCheckEdit
-        Me.LayoutControlItem159.Location = New System.Drawing.Point(503, 662)
+        Me.LayoutControlItem159.Location = New System.Drawing.Point(512, 662)
         Me.LayoutControlItem159.Name = "LayoutControlItem159"
-        Me.LayoutControlItem159.Size = New System.Drawing.Size(320, 25)
+        Me.LayoutControlItem159.Size = New System.Drawing.Size(317, 25)
         Me.LayoutControlItem159.Text = "Archive"
         Me.LayoutControlItem159.TextSize = New System.Drawing.Size(130, 16)
         '
         'LayoutControlItem165
         '
         Me.LayoutControlItem165.Control = Me.CheckBox1
-        Me.LayoutControlItem165.Location = New System.Drawing.Point(656, 227)
+        Me.LayoutControlItem165.Location = New System.Drawing.Point(664, 227)
         Me.LayoutControlItem165.Name = "LayoutControlItem165"
-        Me.LayoutControlItem165.Size = New System.Drawing.Size(167, 31)
+        Me.LayoutControlItem165.Size = New System.Drawing.Size(165, 31)
         Me.LayoutControlItem165.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem165.TextVisible = False
         '
@@ -4995,10 +4995,10 @@ Partial Class Clients
         'SimpleButton1
         '
         Me.SimpleButton1.Image = CType(resources.GetObject("SimpleButton1.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(1416, 92)
+        Me.SimpleButton1.Location = New System.Drawing.Point(1416, 94)
         Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(113, 40)
+        Me.SimpleButton1.Size = New System.Drawing.Size(113, 36)
         Me.SimpleButton1.StyleController = Me.LayoutControl6
         Me.SimpleButton1.TabIndex = 4
         Me.SimpleButton1.Text = "Send"
@@ -5015,7 +5015,7 @@ Partial Class Clients
         'ClientStatusTextEdit
         '
         Me.ClientStatusTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "ClientStatus", True))
-        Me.ClientStatusTextEdit.Location = New System.Drawing.Point(170, 73)
+        Me.ClientStatusTextEdit.Location = New System.Drawing.Point(170, 74)
         Me.ClientStatusTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ClientStatusTextEdit.Name = "ClientStatusTextEdit"
         Me.ClientStatusTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -5027,10 +5027,10 @@ Partial Class Clients
         'ClientStatusReasonTextEdit
         '
         Me.ClientStatusReasonTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.SitesBindingSource, "ClientStatusReason", True))
-        Me.ClientStatusReasonTextEdit.Location = New System.Drawing.Point(813, 73)
+        Me.ClientStatusReasonTextEdit.Location = New System.Drawing.Point(813, 74)
         Me.ClientStatusReasonTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ClientStatusReasonTextEdit.Name = "ClientStatusReasonTextEdit"
-        Me.ClientStatusReasonTextEdit.Size = New System.Drawing.Size(582, 74)
+        Me.ClientStatusReasonTextEdit.Size = New System.Drawing.Size(582, 71)
         Me.ClientStatusReasonTextEdit.StyleController = Me.LayoutControl6
         Me.ClientStatusReasonTextEdit.TabIndex = 3
         '
@@ -5049,14 +5049,14 @@ Partial Class Clients
         Me.LayoutControlGroup21.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem156, Me.LayoutControlItem157, Me.LayoutControlGroup22})
         Me.LayoutControlGroup21.Location = New System.Drawing.Point(139, 0)
         Me.LayoutControlGroup21.Name = "LayoutControlGroup21"
-        Me.LayoutControlGroup21.Size = New System.Drawing.Size(1410, 152)
+        Me.LayoutControlGroup21.Size = New System.Drawing.Size(1410, 150)
         '
         'LayoutControlItem156
         '
         Me.LayoutControlItem156.Control = Me.ClientStatusTextEdit
         Me.LayoutControlItem156.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem156.Name = "LayoutControlItem156"
-        Me.LayoutControlItem156.Size = New System.Drawing.Size(643, 99)
+        Me.LayoutControlItem156.Size = New System.Drawing.Size(643, 96)
         Me.LayoutControlItem156.Text = "Client Status:"
         Me.LayoutControlItem156.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem156.TextSize = New System.Drawing.Size(123, 16)
@@ -5066,7 +5066,7 @@ Partial Class Clients
         Me.LayoutControlItem157.Control = Me.ClientStatusReasonTextEdit
         Me.LayoutControlItem157.Location = New System.Drawing.Point(643, 0)
         Me.LayoutControlItem157.Name = "LayoutControlItem157"
-        Me.LayoutControlItem157.Size = New System.Drawing.Size(588, 99)
+        Me.LayoutControlItem157.Size = New System.Drawing.Size(588, 96)
         Me.LayoutControlItem157.Text = "Client Status Reason:"
         Me.LayoutControlItem157.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem157.TextSize = New System.Drawing.Size(123, 16)
@@ -5076,7 +5076,7 @@ Partial Class Clients
         Me.LayoutControlGroup22.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem155})
         Me.LayoutControlGroup22.Location = New System.Drawing.Point(1231, 0)
         Me.LayoutControlGroup22.Name = "LayoutControlGroup22"
-        Me.LayoutControlGroup22.Size = New System.Drawing.Size(149, 99)
+        Me.LayoutControlGroup22.Size = New System.Drawing.Size(149, 96)
         Me.LayoutControlGroup22.Text = "E-Mail Alert"
         '
         'LayoutControlItem155
@@ -5084,7 +5084,7 @@ Partial Class Clients
         Me.LayoutControlItem155.Control = Me.SimpleButton1
         Me.LayoutControlItem155.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem155.Name = "LayoutControlItem155"
-        Me.LayoutControlItem155.Size = New System.Drawing.Size(119, 46)
+        Me.LayoutControlItem155.Size = New System.Drawing.Size(119, 42)
         Me.LayoutControlItem155.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem155.TextVisible = False
         '
@@ -5094,7 +5094,7 @@ Partial Class Clients
         Me.LayoutControlItem8.CustomizationFormText = "Sage Ref:"
         Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(139, 152)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(139, 150)
         Me.LayoutControlItem8.Text = "Sage Ref:"
         Me.LayoutControlItem8.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(123, 16)
@@ -5102,9 +5102,9 @@ Partial Class Clients
         'EmptySpaceItem6
         '
         Me.EmptySpaceItem6.AllowHotTrack = False
-        Me.EmptySpaceItem6.Location = New System.Drawing.Point(0, 152)
+        Me.EmptySpaceItem6.Location = New System.Drawing.Point(0, 150)
         Me.EmptySpaceItem6.Name = "EmptySpaceItem6"
-        Me.EmptySpaceItem6.Size = New System.Drawing.Size(1549, 475)
+        Me.EmptySpaceItem6.Size = New System.Drawing.Size(1549, 477)
         Me.EmptySpaceItem6.TextSize = New System.Drawing.Size(0, 0)
         '
         'JobCategoryBindingSource1

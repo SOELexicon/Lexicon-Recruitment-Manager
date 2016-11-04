@@ -5,6 +5,7 @@ Public Class Plan_Import
     Dim Dt As DataTable
     Dim distinctDT As DataTable
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles btnImport.Click
+
         Select Case ImportRoutine.Text
             Case "Lander"
                 OpenFileDialog1.Filter = "Excel Files (*.xls)|*.xls|All Files (*.*)|*.*"

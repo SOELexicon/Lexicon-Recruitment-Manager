@@ -709,9 +709,10 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
 
 
                 ElseIf DataTable1BindingSource.Current("Status").ToString <> "TOT" Then
-                    MsgBox("Unable to lock! - employee status must be TOT")
+                    MsgBox("Unable to lock! - Employee status must be TOT")
 
-
+                ElseIf (Linqemployee1.VisaExpiryDate <= DataTable1BindingSource.Current("weekendingdate") And Linqemployee1.Visa = True) Then
+                    MsgBox("Unable to lock! - Employee's Visa Expired!!")
                 Else
                     If DataTable1BindingSource.Current("Pay") > 0 Then
 

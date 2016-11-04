@@ -117,7 +117,10 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
             If BranchIDComboBox.Text = "" Then
                 GoTo errorinvalidbranch
             End If
-                '    End if
+            If SwedishderogationPureContractedCheckBox.Checked = False And PayParityPureEmbraceCheckBox.Checked = False Then
+                GoTo errorpayparitysweedishdero
+            End If
+            '    End if
             If TBCompanyId.Text < 0 Then
                 CreatedByTimeEdit.Text = FrmLogin.UsernameTextBox.Text
                 CreatedDateDateEdit.Text = Now()
@@ -125,26 +128,29 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
             LastModifiedDateDateEdit.EditValue = Now()
             LastModifiedUserTimeEdit.Text = FrmLogin.UsernameTextBox.Text
 
-                Me.Validate()
-                Me.SitesBindingSource.EndEdit()
-                Me.FKCompanyContactsSitesBindingSource.EndEdit()
-                Me.SitesTableAdapter1.Update(Me.Sites._Sites)
-                Me.CompanyContactsTableAdapter1.Update(Me.Sites.CompanyContacts)
-       
+            Me.Validate()
+            Me.SitesBindingSource.EndEdit()
+            Me.FKCompanyContactsSitesBindingSource.EndEdit()
+            Me.SitesTableAdapter1.Update(Me.Sites._Sites)
+            Me.CompanyContactsTableAdapter1.Update(Me.Sites.CompanyContacts)
 
-                MsgBox("Updated", MsgBoxStyle.OkOnly)
-                GoTo endofsave
+
+            MsgBox("Updated", MsgBoxStyle.OkOnly)
+            GoTo endofsave
 
 errorinvalidbranch:
-                MsgBox("Incorrect Branch", MsgBoxStyle.Exclamation, AcceptButton)
-                BranchIDComboBox.Focus()
-                GoTo endofsave
+            MsgBox("Incorrect Branch", MsgBoxStyle.Exclamation, AcceptButton)
+            BranchIDComboBox.Focus()
+            GoTo endofsave
 
 errorduplicateclientcode:
-                MsgBox("ClientCode Exists", MsgBoxStyle.Exclamation, AcceptButton)
-                BranchIDComboBox.Focus()
-                GoTo endofsave
-
+            MsgBox("ClientCode Exists", MsgBoxStyle.Exclamation, AcceptButton)
+            BranchIDComboBox.Focus()
+            GoTo endofsave
+errorpayparitysweedishdero:
+            MsgBox("Pay Pairty, Sweedish Derogation is Mandatory", MsgBoxStyle.Exclamation, AcceptButton)
+            SwedishderogationPureContractedCheckBox.Focus()
+            GoTo endofsave
 endofsave:
         Catch EX2 As DBConcurrencyException
             MsgBox("Someone else has saved something in the background whilst you had this loaded. " + (Chr(13)) + "Please Re-Open Client Screen")
