@@ -716,9 +716,6 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
                 ElseIf (Linqemployee1.VisaExpiryDate <= DataTable1BindingSource.Current("weekendingdate") And Linqemployee1.Visa = True) Then
                     MsgBox("Unable to lock! - Employee's Visa Expired!!")
                     GoTo Finishlok
-                ElseIf (DataTable1BindingSource.Current("TotalPay") < 0) Then
-                    MsgBox("Unable to lock! - TotalPay Below 0")
-                    GoTo Finishlok
                 Else
                     If DataTable1BindingSource.Current("Pay") > 0 Then
 
