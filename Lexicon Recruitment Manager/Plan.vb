@@ -689,9 +689,12 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
             If GetSecurityInfo("Plan-LockdownUnlock", "Lexicon") <> "0" Then
                 Dim jobcatids As Int64 = DataTable1BindingSource.Current("JobCategoryId")
                 Dim employeeids As Int64 = DataTable1BindingSource.Current("EmployeeId")
+                Dim CompanyIDs As Int64 = DataTable1BindingSource.Current("CompanyId")
                 Dim dc As New DataClasses1DataContext
                 Dim JobCatLinq = (From Jobcat In dc.GetTable(Of LinqJobCategory)() Where Jobcat.JobCatId = jobcatids).First
                 Dim Linqemployee1 = (From employee1 In dc.GetTable(Of LinqEmployee)() Where employee1.EmployeeID = employeeids).First
+                Dim LinqCompany1 = (From siteLinq In dc.GetTable(Of LinqSite)() Where siteLinq.CompanyID = CompanyIDs).First
+                Dim Schemelinq = (From scheme1 In dc.GetTable(Of LinqScheme)() Where scheme1.SchemeID = Linqemployee1.SchemeID).First
 
                 'National Lving wage
                 Dim NationalLivingWage = (From Controls In dc.GetTable(Of LinqControl)() Where Controls.Control = 9).First.ControlValue
@@ -702,13 +705,23 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
                 Dim DateofBirthcheck As Date = DateTime.ParseExact(Linqemployee1.DOB,
                                        "dd/MM/yyyy",
                                        CultureInfo.GetCultureInfo("en-GB"))
+                Dim SchemeisGLA As Boolean
+                If (IsNothing(Schemelinq.GLAScheme)) Then
+                    SchemeisGLA = False
+
+                Else
+
+                    SchemeisGLA = Schemelinq.GLAScheme
+                End If
 
 
-                If DataTable1BindingSource.Current("OT3Reason").ToString = "" And DataTable1BindingSource.Current("OT3Hours").ToString > 0 Then
-                    MsgBox("Unable to lock! - OT3 reason has not been provided.")
+                If SchemeisGLA = False And LinqCompany1.GLAClient = True Then
+                    MsgBox("Unable to lock! - Your trying to add an employee on a GLA Client for a scheme that isn’t GLA Approved.")
                     GoTo Finishlok
 
-
+                ElseIf DataTable1BindingSource.Current("OT3Reason").ToString = "" And DataTable1BindingSource.Current("OT3Hours").ToString > 0 Then
+                    MsgBox("Unable to lock! - OT3 reason has not been provided.")
+					  GoTo Finishlok
                 ElseIf DataTable1BindingSource.Current("Status").ToString <> "TOT" Then
                     MsgBox("Unable to lock! - Employee status must be TOT")
                     GoTo Finishlok
