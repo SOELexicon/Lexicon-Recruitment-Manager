@@ -25,9 +25,9 @@ Partial Class Plan
         Me.components = New System.ComponentModel.Container()
         Dim WeekLabel2 As System.Windows.Forms.Label
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Plan))
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim GridLevelNode2 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim GridLevelNode1 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
         Me.PlanTableAdapter = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.PlanTableAdapter()
         Me.PlanTypesTableAdapter = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.PlanTypesTableAdapter()
         Me.SitesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -1516,21 +1516,21 @@ Partial Class Plan
         '
         'PlanViewDataGridView
         '
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PlanViewDataGridView.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PlanViewDataGridView.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.PlanViewDataGridView.AutoGenerateColumns = False
         Me.PlanViewDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.PlanViewDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.PlanViewDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Lock, Me.PlanIDDataGridViewTextBoxColumn, Me.SystemTypeDataGridViewTextBoxColumn, Me.PlanNameDataGridViewTextBoxColumn, Me.PlanTypeIdDataGridViewTextBoxColumn, Me.CompanyIdDataGridViewTextBoxColumn, Me.CompanyNameDataGridViewTextBoxColumn, Me.ForenameDataGridViewTextBoxColumn, Me.SurnameDataGridViewTextBoxColumn, Me.EmployeeIdDataGridViewTextBoxColumn, Me.EmployeeCodeDataGridViewTextBoxColumn, Me.SchemeDataGridViewTextBoxColumn, Me.JobCategoryIdDataGridViewTextBoxColumn, Me.JobCategoryDataGridViewTextBoxColumn, Me.ShiftNameDataGridViewTextBoxColumn, Me.WeekEndingDateDataGridViewTextBoxColumn, Me.WeekEndingDateIfLateDataGridViewTextBoxColumn, Me.FridayDataGridViewCheckBoxColumn, Me.SaturdayDataGridViewCheckBoxColumn, Me.SundayDataGridViewCheckBoxColumn, Me.MondayDataGridViewCheckBoxColumn, Me.TuesdayDataGridViewCheckBoxColumn, Me.WednesdayDataGridViewCheckBoxColumn, Me.ThursdayDataGridViewCheckBoxColumn, Me.Friday2DataGridViewCheckBoxColumn, Me.Saturday2DataGridViewCheckBoxColumn, Me.Sunday2DataGridViewCheckBoxColumn, Me.HoursDataGridViewTextBoxColumn, Me.PayDataGridViewTextBoxColumn, Me.HolidayPayDataGridViewTextBoxColumn, Me.ChargeDataGridViewTextBoxColumn, Me.TotalHoursDataGridViewTextBoxColumn, Me.TotalPayDataGridViewTextBoxColumn, Me.TotalChargeDataGridViewTextBoxColumn, Me.TotalHolidayPayDataGridViewTextBoxColumn, Me.TotalNiDataGridViewTextBoxColumn, Me.TotalCostDataGridViewTextBoxColumn, Me.EstMarginDataGridViewTextBoxColumn, Me.BranchIdDataGridViewTextBoxColumn, Me.PoNumberDataGridViewTextBoxColumn, Me.OrderNumberReqDataGridViewCheckBoxColumn})
         Me.PlanViewDataGridView.DataSource = Me.DataTable1BindingSource
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Tahoma", 7.8!)
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(53, Byte), Integer))
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.PlanViewDataGridView.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 7.8!)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(53, Byte), Integer))
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.PlanViewDataGridView.DefaultCellStyle = DataGridViewCellStyle2
         Me.PlanViewDataGridView.Location = New System.Drawing.Point(14, 489)
         Me.PlanViewDataGridView.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanViewDataGridView.MultiSelect = False
@@ -2247,8 +2247,8 @@ Partial Class Plan
         '
         Me.GridControl1.DataSource = Me.DataTable1BindingSource
         Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
-        GridLevelNode2.RelationName = "Level1"
-        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode2})
+        GridLevelNode1.RelationName = "Level1"
+        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1})
         Me.GridControl1.Location = New System.Drawing.Point(16, 454)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)

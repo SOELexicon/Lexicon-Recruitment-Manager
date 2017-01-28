@@ -265,17 +265,17 @@ Partial Class CanvassRegister
         '
         'UserNonUserLabel
         '
-        UserNonUserLabel.Location = New System.Drawing.Point(1203, 251)
+        UserNonUserLabel.Location = New System.Drawing.Point(1207, 251)
         UserNonUserLabel.Name = "UserNonUserLabel"
-        UserNonUserLabel.Size = New System.Drawing.Size(167, 25)
+        UserNonUserLabel.Size = New System.Drawing.Size(168, 25)
         UserNonUserLabel.TabIndex = 29
         UserNonUserLabel.Text = "User:"
         '
         'ArchivedLabel
         '
-        ArchivedLabel.Location = New System.Drawing.Point(1203, 313)
+        ArchivedLabel.Location = New System.Drawing.Point(1207, 313)
         ArchivedLabel.Name = "ArchivedLabel"
-        ArchivedLabel.Size = New System.Drawing.Size(167, 25)
+        ArchivedLabel.Size = New System.Drawing.Size(168, 25)
         ArchivedLabel.TabIndex = 281
         ArchivedLabel.Text = "Archived:"
         '
@@ -297,11 +297,11 @@ Partial Class CanvassRegister
         'ArchivedCheckEdit
         '
         Me.ArchivedCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "Archived", True))
-        Me.ArchivedCheckEdit.Location = New System.Drawing.Point(1203, 344)
+        Me.ArchivedCheckEdit.Location = New System.Drawing.Point(1207, 344)
         Me.ArchivedCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ArchivedCheckEdit.Name = "ArchivedCheckEdit"
         Me.ArchivedCheckEdit.Properties.Caption = ""
-        Me.ArchivedCheckEdit.Size = New System.Drawing.Size(167, 19)
+        Me.ArchivedCheckEdit.Size = New System.Drawing.Size(168, 19)
         Me.ArchivedCheckEdit.StyleController = Me.LayoutControl2
         Me.ArchivedCheckEdit.TabIndex = 282
         '
@@ -335,18 +335,18 @@ Partial Class CanvassRegister
         Me.LayoutControl2.Name = "LayoutControl2"
         Me.LayoutControl2.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(694, 126, 250, 350)
         Me.LayoutControl2.Root = Me.LayoutControlGroup2
-        Me.LayoutControl2.Size = New System.Drawing.Size(1407, 385)
+        Me.LayoutControl2.Size = New System.Drawing.Size(1412, 387)
         Me.LayoutControl2.TabIndex = 285
         Me.LayoutControl2.Text = "LayoutControl2"
         '
         'RatesCodeWrittenOnCardCheckEdit
         '
         Me.RatesCodeWrittenOnCardCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "RatesCodeWrittenOnCard", True))
-        Me.RatesCodeWrittenOnCardCheckEdit.Location = New System.Drawing.Point(1203, 226)
+        Me.RatesCodeWrittenOnCardCheckEdit.Location = New System.Drawing.Point(1207, 226)
         Me.RatesCodeWrittenOnCardCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RatesCodeWrittenOnCardCheckEdit.Name = "RatesCodeWrittenOnCardCheckEdit"
         Me.RatesCodeWrittenOnCardCheckEdit.Properties.Caption = ""
-        Me.RatesCodeWrittenOnCardCheckEdit.Size = New System.Drawing.Size(167, 19)
+        Me.RatesCodeWrittenOnCardCheckEdit.Size = New System.Drawing.Size(168, 19)
         Me.RatesCodeWrittenOnCardCheckEdit.StyleController = Me.LayoutControl2
         Me.RatesCodeWrittenOnCardCheckEdit.TabIndex = 317
         '
@@ -361,7 +361,7 @@ Partial Class CanvassRegister
         Me.LookUpEdit1.Properties.DisplayMember = "Branch"
         Me.LookUpEdit1.Properties.NullText = ""
         Me.LookUpEdit1.Properties.ValueMember = "BranchID"
-        Me.LookUpEdit1.Size = New System.Drawing.Size(1354, 22)
+        Me.LookUpEdit1.Size = New System.Drawing.Size(1359, 22)
         Me.LookUpEdit1.StyleController = Me.LayoutControl2
         Me.LookUpEdit1.TabIndex = 316
         '
@@ -373,30 +373,30 @@ Partial Class CanvassRegister
         'TelNumberTextEdit
         '
         Me.TelNumberTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "TelNumber", True))
-        Me.TelNumberTextEdit.Location = New System.Drawing.Point(638, 226)
+        Me.TelNumberTextEdit.Location = New System.Drawing.Point(640, 226)
         Me.TelNumberTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TelNumberTextEdit.Name = "TelNumberTextEdit"
-        Me.TelNumberTextEdit.Size = New System.Drawing.Size(559, 22)
+        Me.TelNumberTextEdit.Size = New System.Drawing.Size(561, 22)
         Me.TelNumberTextEdit.StyleController = Me.LayoutControl2
         Me.TelNumberTextEdit.TabIndex = 314
         '
         'PostcodeTextEdit
         '
         Me.PostcodeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "Postcode", True))
-        Me.PostcodeTextEdit.Location = New System.Drawing.Point(189, 132)
+        Me.PostcodeTextEdit.Location = New System.Drawing.Point(190, 132)
         Me.PostcodeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PostcodeTextEdit.Name = "PostcodeTextEdit"
-        Me.PostcodeTextEdit.Size = New System.Drawing.Size(167, 22)
+        Me.PostcodeTextEdit.Size = New System.Drawing.Size(168, 22)
         Me.PostcodeTextEdit.StyleController = Me.LayoutControl2
         Me.PostcodeTextEdit.TabIndex = 293
         '
         'CompanyNameTextEdit
         '
         Me.CompanyNameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "CompanyName", True))
-        Me.CompanyNameTextEdit.Location = New System.Drawing.Point(1039, 132)
+        Me.CompanyNameTextEdit.Location = New System.Drawing.Point(1043, 132)
         Me.CompanyNameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CompanyNameTextEdit.Name = "CompanyNameTextEdit"
-        Me.CompanyNameTextEdit.Size = New System.Drawing.Size(331, 22)
+        Me.CompanyNameTextEdit.Size = New System.Drawing.Size(332, 22)
         Me.CompanyNameTextEdit.StyleController = Me.LayoutControl2
         Me.CompanyNameTextEdit.TabIndex = 295
         '
@@ -406,27 +406,27 @@ Partial Class CanvassRegister
         Me.Address1TextEdit.Location = New System.Drawing.Point(16, 179)
         Me.Address1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address1TextEdit.Name = "Address1TextEdit"
-        Me.Address1TextEdit.Size = New System.Drawing.Size(348, 22)
+        Me.Address1TextEdit.Size = New System.Drawing.Size(349, 22)
         Me.Address1TextEdit.StyleController = Me.LayoutControl2
         Me.Address1TextEdit.TabIndex = 297
         '
         'Address2TextEdit
         '
         Me.Address2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "Address2", True))
-        Me.Address2TextEdit.Location = New System.Drawing.Point(370, 179)
+        Me.Address2TextEdit.Location = New System.Drawing.Point(371, 179)
         Me.Address2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address2TextEdit.Name = "Address2TextEdit"
-        Me.Address2TextEdit.Size = New System.Drawing.Size(435, 22)
+        Me.Address2TextEdit.Size = New System.Drawing.Size(437, 22)
         Me.Address2TextEdit.StyleController = Me.LayoutControl2
         Me.Address2TextEdit.TabIndex = 299
         '
         'TownTextEdit
         '
         Me.TownTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "Town", True))
-        Me.TownTextEdit.Location = New System.Drawing.Point(811, 179)
+        Me.TownTextEdit.Location = New System.Drawing.Point(814, 179)
         Me.TownTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TownTextEdit.Name = "TownTextEdit"
-        Me.TownTextEdit.Size = New System.Drawing.Size(559, 22)
+        Me.TownTextEdit.Size = New System.Drawing.Size(561, 22)
         Me.TownTextEdit.StyleController = Me.LayoutControl2
         Me.TownTextEdit.TabIndex = 301
         '
@@ -436,7 +436,7 @@ Partial Class CanvassRegister
         Me.CountyTextEdit.Location = New System.Drawing.Point(16, 226)
         Me.CountyTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CountyTextEdit.Name = "CountyTextEdit"
-        Me.CountyTextEdit.Size = New System.Drawing.Size(616, 22)
+        Me.CountyTextEdit.Size = New System.Drawing.Size(618, 22)
         Me.CountyTextEdit.StyleController = Me.LayoutControl2
         Me.CountyTextEdit.TabIndex = 303
         '
@@ -447,17 +447,17 @@ Partial Class CanvassRegister
         Me.DateCreatedTextBox1.Location = New System.Drawing.Point(16, 273)
         Me.DateCreatedTextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateCreatedTextBox1.Name = "DateCreatedTextBox1"
-        Me.DateCreatedTextBox1.Size = New System.Drawing.Size(167, 25)
+        Me.DateCreatedTextBox1.Size = New System.Drawing.Size(168, 25)
         Me.DateCreatedTextBox1.TabIndex = 307
         '
         'CreatedByTextEdit
         '
         Me.CreatedByTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "CreatedBy", True))
         Me.CreatedByTextEdit.Enabled = False
-        Me.CreatedByTextEdit.Location = New System.Drawing.Point(189, 273)
+        Me.CreatedByTextEdit.Location = New System.Drawing.Point(190, 273)
         Me.CreatedByTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CreatedByTextEdit.Name = "CreatedByTextEdit"
-        Me.CreatedByTextEdit.Size = New System.Drawing.Size(311, 22)
+        Me.CreatedByTextEdit.Size = New System.Drawing.Size(312, 22)
         Me.CreatedByTextEdit.StyleController = Me.LayoutControl2
         Me.CreatedByTextEdit.TabIndex = 309
         '
@@ -465,7 +465,7 @@ Partial Class CanvassRegister
         '
         Me.DateLastModifiedTextBox1.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CanvassRegisterBindingSource, "DateLastModified", True))
         Me.DateLastModifiedTextBox1.Enabled = False
-        Me.DateLastModifiedTextBox1.Location = New System.Drawing.Point(506, 273)
+        Me.DateLastModifiedTextBox1.Location = New System.Drawing.Point(508, 273)
         Me.DateLastModifiedTextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateLastModifiedTextBox1.Name = "DateLastModifiedTextBox1"
         Me.DateLastModifiedTextBox1.Size = New System.Drawing.Size(167, 25)
@@ -475,17 +475,17 @@ Partial Class CanvassRegister
         '
         Me.LastModifiedUserTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "LastModifiedUser", True))
         Me.LastModifiedUserTextEdit.Enabled = False
-        Me.LastModifiedUserTextEdit.Location = New System.Drawing.Point(679, 273)
+        Me.LastModifiedUserTextEdit.Location = New System.Drawing.Point(681, 273)
         Me.LastModifiedUserTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedUserTextEdit.Name = "LastModifiedUserTextEdit"
-        Me.LastModifiedUserTextEdit.Size = New System.Drawing.Size(518, 22)
+        Me.LastModifiedUserTextEdit.Size = New System.Drawing.Size(520, 22)
         Me.LastModifiedUserTextEdit.StyleController = Me.LayoutControl2
         Me.LastModifiedUserTextEdit.TabIndex = 313
         '
         'DivisionComboBoxEdit
         '
         Me.DivisionComboBoxEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "Division", True))
-        Me.DivisionComboBoxEdit.Location = New System.Drawing.Point(776, 132)
+        Me.DivisionComboBoxEdit.Location = New System.Drawing.Point(780, 132)
         Me.DivisionComboBoxEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DivisionComboBoxEdit.Name = "DivisionComboBoxEdit"
         Me.DivisionComboBoxEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -503,7 +503,7 @@ Partial Class CanvassRegister
         Me.DataNavigator1.Location = New System.Drawing.Point(16, 83)
         Me.DataNavigator1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataNavigator1.Name = "DataNavigator1"
-        Me.DataNavigator1.Size = New System.Drawing.Size(1354, 24)
+        Me.DataNavigator1.Size = New System.Drawing.Size(1359, 24)
         Me.DataNavigator1.StyleController = Me.LayoutControl2
         Me.DataNavigator1.TabIndex = 284
         Me.DataNavigator1.Text = "DataNavigator1"
@@ -512,10 +512,10 @@ Partial Class CanvassRegister
         'UserNonUserCheckBox
         '
         Me.UserNonUserCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.CanvassRegisterBindingSource, "UserNonUser", True))
-        Me.UserNonUserCheckBox.Location = New System.Drawing.Point(1203, 282)
+        Me.UserNonUserCheckBox.Location = New System.Drawing.Point(1207, 282)
         Me.UserNonUserCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.UserNonUserCheckBox.Name = "UserNonUserCheckBox"
-        Me.UserNonUserCheckBox.Size = New System.Drawing.Size(167, 25)
+        Me.UserNonUserCheckBox.Size = New System.Drawing.Size(168, 25)
         Me.UserNonUserCheckBox.TabIndex = 22
         Me.UserNonUserCheckBox.UseVisualStyleBackColor = True
         '
@@ -523,7 +523,7 @@ Partial Class CanvassRegister
         '
         Me.ConsultantIDSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "ConsultantID", True))
         Me.ConsultantIDSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.ConsultantIDSpinEdit.Location = New System.Drawing.Point(536, 132)
+        Me.ConsultantIDSpinEdit.Location = New System.Drawing.Point(539, 132)
         Me.ConsultantIDSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ConsultantIDSpinEdit.Name = "ConsultantIDSpinEdit"
         Me.ConsultantIDSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -535,7 +535,7 @@ Partial Class CanvassRegister
         Me.ConsultantIDSpinEdit.Properties.PopupSizeable = False
         Me.ConsultantIDSpinEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.ConsultantIDSpinEdit.Properties.ValueMember = "ConsultantID"
-        Me.ConsultantIDSpinEdit.Size = New System.Drawing.Size(234, 22)
+        Me.ConsultantIDSpinEdit.Size = New System.Drawing.Size(235, 22)
         Me.ConsultantIDSpinEdit.StyleController = Me.LayoutControl2
         Me.ConsultantIDSpinEdit.TabIndex = 285
         '
@@ -553,7 +553,7 @@ Partial Class CanvassRegister
         Me.CanvassIDSpinEdit.Name = "CanvassIDSpinEdit"
         Me.CanvassIDSpinEdit.Properties.EditValueChangedFiringMode = DevExpress.XtraEditors.Controls.EditValueChangedFiringMode.Buffered
         Me.CanvassIDSpinEdit.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.CanvassIDSpinEdit.Size = New System.Drawing.Size(167, 22)
+        Me.CanvassIDSpinEdit.Size = New System.Drawing.Size(168, 22)
         Me.CanvassIDSpinEdit.StyleController = Me.LayoutControl2
         Me.CanvassIDSpinEdit.TabIndex = 287
         '
@@ -561,7 +561,7 @@ Partial Class CanvassRegister
         '
         Me.BranchIdSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.CanvassRegisterBindingSource, "BranchId", True))
         Me.BranchIdSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.BranchIdSpinEdit.Location = New System.Drawing.Point(362, 132)
+        Me.BranchIdSpinEdit.Location = New System.Drawing.Point(364, 132)
         Me.BranchIdSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchIdSpinEdit.Name = "BranchIdSpinEdit"
         Me.BranchIdSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -573,7 +573,7 @@ Partial Class CanvassRegister
         Me.BranchIdSpinEdit.Properties.PopupSizeable = False
         Me.BranchIdSpinEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.BranchIdSpinEdit.Properties.ValueMember = "BranchID"
-        Me.BranchIdSpinEdit.Size = New System.Drawing.Size(168, 22)
+        Me.BranchIdSpinEdit.Size = New System.Drawing.Size(169, 22)
         Me.BranchIdSpinEdit.StyleController = Me.LayoutControl2
         Me.BranchIdSpinEdit.TabIndex = 315
         '
@@ -589,7 +589,7 @@ Partial Class CanvassRegister
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem6, Me.LayoutControlItem21, Me.LayoutControlItem20, Me.LayoutControlItem26, Me.LayoutControlItem27, Me.LayoutControlItem7, Me.LayoutControlItem9, Me.LayoutControlItem29, Me.LayoutControlItem35, Me.LayoutControlItem37, Me.LayoutControlItem39, Me.LayoutControlItem41, Me.LayoutControlItem43, Me.LayoutControlItem5, Me.LayoutControlItem47, Me.LayoutControlItem49, Me.LayoutControlItem51, Me.LayoutControlItem53, Me.EmptySpaceItem1, Me.LayoutControlItem11, Me.EmptySpaceItem2, Me.EmptySpaceItem3, Me.LayoutControlItem4, Me.LayoutControlItem15, Me.LayoutControlItem33})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup2.Name = "Root"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1386, 403)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1391, 403)
         Me.LayoutControlGroup2.TextVisible = False
         '
         'LayoutControlItem6
@@ -599,7 +599,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem6.MaxSize = New System.Drawing.Size(0, 30)
         Me.LayoutControlItem6.MinSize = New System.Drawing.Size(219, 30)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(1360, 30)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(1365, 30)
         Me.LayoutControlItem6.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem6.TextVisible = False
@@ -607,43 +607,43 @@ Partial Class CanvassRegister
         'LayoutControlItem21
         '
         Me.LayoutControlItem21.Control = UserNonUserLabel
-        Me.LayoutControlItem21.Location = New System.Drawing.Point(1187, 235)
+        Me.LayoutControlItem21.Location = New System.Drawing.Point(1191, 235)
         Me.LayoutControlItem21.Name = "LayoutControlItem21"
-        Me.LayoutControlItem21.Size = New System.Drawing.Size(173, 31)
+        Me.LayoutControlItem21.Size = New System.Drawing.Size(174, 31)
         Me.LayoutControlItem21.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem21.TextVisible = False
         '
         'LayoutControlItem20
         '
         Me.LayoutControlItem20.Control = Me.UserNonUserCheckBox
-        Me.LayoutControlItem20.Location = New System.Drawing.Point(1187, 266)
+        Me.LayoutControlItem20.Location = New System.Drawing.Point(1191, 266)
         Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(173, 31)
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(174, 31)
         Me.LayoutControlItem20.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem20.TextVisible = False
         '
         'LayoutControlItem26
         '
         Me.LayoutControlItem26.Control = ArchivedLabel
-        Me.LayoutControlItem26.Location = New System.Drawing.Point(1187, 297)
+        Me.LayoutControlItem26.Location = New System.Drawing.Point(1191, 297)
         Me.LayoutControlItem26.Name = "LayoutControlItem26"
-        Me.LayoutControlItem26.Size = New System.Drawing.Size(173, 31)
+        Me.LayoutControlItem26.Size = New System.Drawing.Size(174, 31)
         Me.LayoutControlItem26.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem26.TextVisible = False
         '
         'LayoutControlItem27
         '
         Me.LayoutControlItem27.Control = Me.ArchivedCheckEdit
-        Me.LayoutControlItem27.Location = New System.Drawing.Point(1187, 328)
+        Me.LayoutControlItem27.Location = New System.Drawing.Point(1191, 328)
         Me.LayoutControlItem27.Name = "LayoutControlItem27"
-        Me.LayoutControlItem27.Size = New System.Drawing.Size(173, 25)
+        Me.LayoutControlItem27.Size = New System.Drawing.Size(174, 25)
         Me.LayoutControlItem27.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem27.TextVisible = False
         '
         'LayoutControlItem7
         '
         Me.LayoutControlItem7.Control = Me.DivisionComboBoxEdit
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(760, 97)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(764, 97)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
         Me.LayoutControlItem7.Size = New System.Drawing.Size(263, 47)
         Me.LayoutControlItem7.Text = "Division:"
@@ -655,7 +655,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem9.Control = Me.CanvassIDSpinEdit
         Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 97)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(173, 47)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(174, 47)
         Me.LayoutControlItem9.Text = "Canvass ID (Rates Code):"
         Me.LayoutControlItem9.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(167, 16)
@@ -663,9 +663,9 @@ Partial Class CanvassRegister
         'LayoutControlItem29
         '
         Me.LayoutControlItem29.Control = Me.ConsultantIDSpinEdit
-        Me.LayoutControlItem29.Location = New System.Drawing.Point(520, 97)
+        Me.LayoutControlItem29.Location = New System.Drawing.Point(523, 97)
         Me.LayoutControlItem29.Name = "LayoutControlItem29"
-        Me.LayoutControlItem29.Size = New System.Drawing.Size(240, 47)
+        Me.LayoutControlItem29.Size = New System.Drawing.Size(241, 47)
         Me.LayoutControlItem29.Text = "Consultant:"
         Me.LayoutControlItem29.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem29.TextSize = New System.Drawing.Size(167, 16)
@@ -673,9 +673,9 @@ Partial Class CanvassRegister
         'LayoutControlItem35
         '
         Me.LayoutControlItem35.Control = Me.CompanyNameTextEdit
-        Me.LayoutControlItem35.Location = New System.Drawing.Point(1023, 97)
+        Me.LayoutControlItem35.Location = New System.Drawing.Point(1027, 97)
         Me.LayoutControlItem35.Name = "LayoutControlItem35"
-        Me.LayoutControlItem35.Size = New System.Drawing.Size(337, 47)
+        Me.LayoutControlItem35.Size = New System.Drawing.Size(338, 47)
         Me.LayoutControlItem35.Text = "Company Name:"
         Me.LayoutControlItem35.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem35.TextSize = New System.Drawing.Size(167, 16)
@@ -685,7 +685,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem37.Control = Me.Address1TextEdit
         Me.LayoutControlItem37.Location = New System.Drawing.Point(0, 144)
         Me.LayoutControlItem37.Name = "LayoutControlItem37"
-        Me.LayoutControlItem37.Size = New System.Drawing.Size(354, 47)
+        Me.LayoutControlItem37.Size = New System.Drawing.Size(355, 47)
         Me.LayoutControlItem37.Text = "Address1:"
         Me.LayoutControlItem37.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem37.TextSize = New System.Drawing.Size(167, 16)
@@ -693,9 +693,9 @@ Partial Class CanvassRegister
         'LayoutControlItem39
         '
         Me.LayoutControlItem39.Control = Me.Address2TextEdit
-        Me.LayoutControlItem39.Location = New System.Drawing.Point(354, 144)
+        Me.LayoutControlItem39.Location = New System.Drawing.Point(355, 144)
         Me.LayoutControlItem39.Name = "LayoutControlItem39"
-        Me.LayoutControlItem39.Size = New System.Drawing.Size(441, 47)
+        Me.LayoutControlItem39.Size = New System.Drawing.Size(443, 47)
         Me.LayoutControlItem39.Text = "Address2:"
         Me.LayoutControlItem39.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem39.TextSize = New System.Drawing.Size(167, 16)
@@ -703,9 +703,9 @@ Partial Class CanvassRegister
         'LayoutControlItem41
         '
         Me.LayoutControlItem41.Control = Me.TownTextEdit
-        Me.LayoutControlItem41.Location = New System.Drawing.Point(795, 144)
+        Me.LayoutControlItem41.Location = New System.Drawing.Point(798, 144)
         Me.LayoutControlItem41.Name = "LayoutControlItem41"
-        Me.LayoutControlItem41.Size = New System.Drawing.Size(565, 47)
+        Me.LayoutControlItem41.Size = New System.Drawing.Size(567, 47)
         Me.LayoutControlItem41.Text = "Town:"
         Me.LayoutControlItem41.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem41.TextSize = New System.Drawing.Size(167, 16)
@@ -715,7 +715,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem43.Control = Me.CountyTextEdit
         Me.LayoutControlItem43.Location = New System.Drawing.Point(0, 191)
         Me.LayoutControlItem43.Name = "LayoutControlItem43"
-        Me.LayoutControlItem43.Size = New System.Drawing.Size(622, 47)
+        Me.LayoutControlItem43.Size = New System.Drawing.Size(624, 47)
         Me.LayoutControlItem43.Text = "County:"
         Me.LayoutControlItem43.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem43.TextSize = New System.Drawing.Size(167, 16)
@@ -723,9 +723,9 @@ Partial Class CanvassRegister
         'LayoutControlItem5
         '
         Me.LayoutControlItem5.Control = Me.TelNumberTextEdit
-        Me.LayoutControlItem5.Location = New System.Drawing.Point(622, 191)
+        Me.LayoutControlItem5.Location = New System.Drawing.Point(624, 191)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(565, 47)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(567, 47)
         Me.LayoutControlItem5.Text = "Tel Number:"
         Me.LayoutControlItem5.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem5.TextSize = New System.Drawing.Size(167, 16)
@@ -735,7 +735,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem47.Control = Me.DateCreatedTextBox1
         Me.LayoutControlItem47.Location = New System.Drawing.Point(0, 238)
         Me.LayoutControlItem47.Name = "LayoutControlItem47"
-        Me.LayoutControlItem47.Size = New System.Drawing.Size(173, 115)
+        Me.LayoutControlItem47.Size = New System.Drawing.Size(174, 115)
         Me.LayoutControlItem47.Text = "Date Created:"
         Me.LayoutControlItem47.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem47.TextSize = New System.Drawing.Size(167, 16)
@@ -743,9 +743,9 @@ Partial Class CanvassRegister
         'LayoutControlItem49
         '
         Me.LayoutControlItem49.Control = Me.CreatedByTextEdit
-        Me.LayoutControlItem49.Location = New System.Drawing.Point(173, 238)
+        Me.LayoutControlItem49.Location = New System.Drawing.Point(174, 238)
         Me.LayoutControlItem49.Name = "LayoutControlItem49"
-        Me.LayoutControlItem49.Size = New System.Drawing.Size(317, 115)
+        Me.LayoutControlItem49.Size = New System.Drawing.Size(318, 115)
         Me.LayoutControlItem49.Text = "Created By:"
         Me.LayoutControlItem49.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem49.TextSize = New System.Drawing.Size(167, 16)
@@ -753,7 +753,7 @@ Partial Class CanvassRegister
         'LayoutControlItem51
         '
         Me.LayoutControlItem51.Control = Me.DateLastModifiedTextBox1
-        Me.LayoutControlItem51.Location = New System.Drawing.Point(490, 238)
+        Me.LayoutControlItem51.Location = New System.Drawing.Point(492, 238)
         Me.LayoutControlItem51.Name = "LayoutControlItem51"
         Me.LayoutControlItem51.Size = New System.Drawing.Size(173, 115)
         Me.LayoutControlItem51.Text = "Date Last Modified:"
@@ -763,9 +763,9 @@ Partial Class CanvassRegister
         'LayoutControlItem53
         '
         Me.LayoutControlItem53.Control = Me.LastModifiedUserTextEdit
-        Me.LayoutControlItem53.Location = New System.Drawing.Point(663, 238)
+        Me.LayoutControlItem53.Location = New System.Drawing.Point(665, 238)
         Me.LayoutControlItem53.Name = "LayoutControlItem53"
-        Me.LayoutControlItem53.Size = New System.Drawing.Size(524, 115)
+        Me.LayoutControlItem53.Size = New System.Drawing.Size(526, 115)
         Me.LayoutControlItem53.Text = "Last Modified User:"
         Me.LayoutControlItem53.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem53.TextSize = New System.Drawing.Size(167, 16)
@@ -776,16 +776,16 @@ Partial Class CanvassRegister
         Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 353)
         Me.EmptySpaceItem1.MinSize = New System.Drawing.Size(104, 24)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1360, 24)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1365, 24)
         Me.EmptySpaceItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem11
         '
         Me.LayoutControlItem11.Control = Me.BranchIdSpinEdit
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(346, 97)
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(348, 97)
         Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(174, 47)
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(175, 47)
         Me.LayoutControlItem11.Text = "Branch Id:"
         Me.LayoutControlItem11.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem11.TextSize = New System.Drawing.Size(167, 16)
@@ -795,7 +795,7 @@ Partial Class CanvassRegister
         Me.EmptySpaceItem2.AllowHotTrack = False
         Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 57)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(1360, 10)
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(1365, 10)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem3
@@ -803,7 +803,7 @@ Partial Class CanvassRegister
         Me.EmptySpaceItem3.AllowHotTrack = False
         Me.EmptySpaceItem3.Location = New System.Drawing.Point(0, 0)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(1360, 10)
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(1365, 10)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem4
@@ -811,7 +811,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem4.Control = Me.LookUpEdit1
         Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 10)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(1360, 47)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(1365, 47)
         Me.LayoutControlItem4.Text = "Branch Filter"
         Me.LayoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(167, 16)
@@ -819,9 +819,9 @@ Partial Class CanvassRegister
         'LayoutControlItem15
         '
         Me.LayoutControlItem15.Control = Me.RatesCodeWrittenOnCardCheckEdit
-        Me.LayoutControlItem15.Location = New System.Drawing.Point(1187, 191)
+        Me.LayoutControlItem15.Location = New System.Drawing.Point(1191, 191)
         Me.LayoutControlItem15.Name = "LayoutControlItem15"
-        Me.LayoutControlItem15.Size = New System.Drawing.Size(173, 44)
+        Me.LayoutControlItem15.Size = New System.Drawing.Size(174, 44)
         Me.LayoutControlItem15.Text = "Rates Code Written On Card:"
         Me.LayoutControlItem15.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem15.TextSize = New System.Drawing.Size(167, 16)
@@ -829,9 +829,9 @@ Partial Class CanvassRegister
         'LayoutControlItem33
         '
         Me.LayoutControlItem33.Control = Me.PostcodeTextEdit
-        Me.LayoutControlItem33.Location = New System.Drawing.Point(173, 97)
+        Me.LayoutControlItem33.Location = New System.Drawing.Point(174, 97)
         Me.LayoutControlItem33.Name = "LayoutControlItem33"
-        Me.LayoutControlItem33.Size = New System.Drawing.Size(173, 47)
+        Me.LayoutControlItem33.Size = New System.Drawing.Size(174, 47)
         Me.LayoutControlItem33.Text = "Postcode:"
         Me.LayoutControlItem33.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem33.TextSize = New System.Drawing.Size(167, 16)
@@ -847,7 +847,7 @@ Partial Class CanvassRegister
         Me.SplitContainerControl1.Panel1.Text = "Panel1"
         Me.SplitContainerControl1.Panel2.Controls.Add(Me.LayoutControl1)
         Me.SplitContainerControl1.Panel2.Text = "Panel2"
-        Me.SplitContainerControl1.Size = New System.Drawing.Size(1407, 385)
+        Me.SplitContainerControl1.Size = New System.Drawing.Size(1412, 387)
         Me.SplitContainerControl1.SplitterPosition = 574
         Me.SplitContainerControl1.TabIndex = 17
         Me.SplitContainerControl1.Text = "SplitContainerControl1"
@@ -882,7 +882,7 @@ Partial Class CanvassRegister
         Me.CanvassJobCatContactsGridControl.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CanvassJobCatContactsGridControl.Name = "CanvassJobCatContactsGridControl"
         Me.CanvassJobCatContactsGridControl.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemComboBox2})
-        Me.CanvassJobCatContactsGridControl.Size = New System.Drawing.Size(670, 340)
+        Me.CanvassJobCatContactsGridControl.Size = New System.Drawing.Size(670, 342)
         Me.CanvassJobCatContactsGridControl.TabIndex = 16
         Me.CanvassJobCatContactsGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -975,7 +975,7 @@ Partial Class CanvassRegister
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(924, 27, 250, 350)
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(827, 385)
+        Me.LayoutControl1.Size = New System.Drawing.Size(823, 387)
         Me.LayoutControl1.TabIndex = 17
         Me.LayoutControl1.Text = "LayoutControl1"
         '
@@ -990,7 +990,7 @@ Partial Class CanvassRegister
         Me.CanvassJobCatsGridControl.MainView = Me.GridView3
         Me.CanvassJobCatsGridControl.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CanvassJobCatsGridControl.Name = "CanvassJobCatsGridControl"
-        Me.CanvassJobCatsGridControl.Size = New System.Drawing.Size(795, 157)
+        Me.CanvassJobCatsGridControl.Size = New System.Drawing.Size(791, 159)
         Me.CanvassJobCatsGridControl.TabIndex = 16
         Me.CanvassJobCatsGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
         '
@@ -1063,7 +1063,7 @@ Partial Class CanvassRegister
         Me.DataNavigator3.Location = New System.Drawing.Point(16, 16)
         Me.DataNavigator3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataNavigator3.Name = "DataNavigator3"
-        Me.DataNavigator3.Size = New System.Drawing.Size(795, 22)
+        Me.DataNavigator3.Size = New System.Drawing.Size(791, 22)
         Me.DataNavigator3.StyleController = Me.LayoutControl1
         Me.DataNavigator3.TabIndex = 17
         Me.DataNavigator3.Text = "DataNavigator3"
@@ -1078,7 +1078,7 @@ Partial Class CanvassRegister
         Me.CanvassJobCatIdSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CanvassJobCatIdSpinEdit.Name = "CanvassJobCatIdSpinEdit"
         Me.CanvassJobCatIdSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.CanvassJobCatIdSpinEdit.Size = New System.Drawing.Size(679, 22)
+        Me.CanvassJobCatIdSpinEdit.Size = New System.Drawing.Size(675, 22)
         Me.CanvassJobCatIdSpinEdit.StyleController = Me.LayoutControl1
         Me.CanvassJobCatIdSpinEdit.TabIndex = 20
         '
@@ -1088,7 +1088,7 @@ Partial Class CanvassRegister
         Me.ShiftTextEdit.Location = New System.Drawing.Point(132, 128)
         Me.ShiftTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ShiftTextEdit.Name = "ShiftTextEdit"
-        Me.ShiftTextEdit.Size = New System.Drawing.Size(679, 22)
+        Me.ShiftTextEdit.Size = New System.Drawing.Size(675, 22)
         Me.ShiftTextEdit.StyleController = Me.LayoutControl1
         Me.ShiftTextEdit.TabIndex = 11
         '
@@ -1101,7 +1101,7 @@ Partial Class CanvassRegister
         Me.QuotedDateDateEdit.Name = "QuotedDateDateEdit"
         Me.QuotedDateDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.QuotedDateDateEdit.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.QuotedDateDateEdit.Size = New System.Drawing.Size(679, 22)
+        Me.QuotedDateDateEdit.Size = New System.Drawing.Size(675, 22)
         Me.QuotedDateDateEdit.StyleController = Me.LayoutControl1
         Me.QuotedDateDateEdit.TabIndex = 15
         '
@@ -1113,7 +1113,7 @@ Partial Class CanvassRegister
         Me.SalesEmailCodeComboBoxEdit.Name = "SalesEmailCodeComboBoxEdit"
         Me.SalesEmailCodeComboBoxEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.SalesEmailCodeComboBoxEdit.Properties.Items.AddRange(New Object() {"1", "2", "3", "4", "5"})
-        Me.SalesEmailCodeComboBoxEdit.Size = New System.Drawing.Size(679, 22)
+        Me.SalesEmailCodeComboBoxEdit.Size = New System.Drawing.Size(675, 22)
         Me.SalesEmailCodeComboBoxEdit.StyleController = Me.LayoutControl1
         Me.SalesEmailCodeComboBoxEdit.TabIndex = 17
         '
@@ -1123,7 +1123,7 @@ Partial Class CanvassRegister
         Me.JobCatNameTextEdit1.Location = New System.Drawing.Point(132, 100)
         Me.JobCatNameTextEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JobCatNameTextEdit1.Name = "JobCatNameTextEdit1"
-        Me.JobCatNameTextEdit1.Size = New System.Drawing.Size(679, 22)
+        Me.JobCatNameTextEdit1.Size = New System.Drawing.Size(675, 22)
         Me.JobCatNameTextEdit1.StyleController = Me.LayoutControl1
         Me.JobCatNameTextEdit1.TabIndex = 19
         '
@@ -1135,7 +1135,7 @@ Partial Class CanvassRegister
         Me.QuoteRateTextEdit.Name = "QuoteRateTextEdit"
         Me.QuoteRateTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.QuoteRateTextEdit.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None
-        Me.QuoteRateTextEdit.Size = New System.Drawing.Size(679, 22)
+        Me.QuoteRateTextEdit.Size = New System.Drawing.Size(675, 22)
         Me.QuoteRateTextEdit.StyleController = Me.LayoutControl1
         Me.QuoteRateTextEdit.TabIndex = 13
         '
@@ -1146,7 +1146,7 @@ Partial Class CanvassRegister
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem3, Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem8, Me.LayoutControlItem12, Me.LayoutControlItem10, Me.LayoutControlItem14, Me.LayoutControlItem16})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(827, 385)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(823, 387)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem3
@@ -1155,7 +1155,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 196)
         Me.LayoutControlItem3.MinSize = New System.Drawing.Size(104, 24)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(801, 163)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(797, 165)
         Me.LayoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
@@ -1167,7 +1167,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem1.MaxSize = New System.Drawing.Size(0, 28)
         Me.LayoutControlItem1.MinSize = New System.Drawing.Size(219, 28)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem1.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
@@ -1177,7 +1177,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem2.Control = Me.CanvassJobCatIdSpinEdit
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 28)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem2.Text = "Canvass Job Cat Id:"
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(113, 16)
         '
@@ -1186,7 +1186,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem8.Control = Me.ShiftTextEdit
         Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 112)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem8.Text = "Shift:"
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(113, 16)
         '
@@ -1195,7 +1195,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem12.Control = Me.QuotedDateDateEdit
         Me.LayoutControlItem12.Location = New System.Drawing.Point(0, 140)
         Me.LayoutControlItem12.Name = "LayoutControlItem12"
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem12.Text = "Quoted Date:"
         Me.LayoutControlItem12.TextSize = New System.Drawing.Size(113, 16)
         '
@@ -1204,7 +1204,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem10.Control = Me.QuoteRateTextEdit
         Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 168)
         Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem10.Text = "Quote Rate:"
         Me.LayoutControlItem10.TextSize = New System.Drawing.Size(113, 16)
         '
@@ -1213,7 +1213,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem14.Control = Me.SalesEmailCodeComboBoxEdit
         Me.LayoutControlItem14.Location = New System.Drawing.Point(0, 56)
         Me.LayoutControlItem14.Name = "LayoutControlItem14"
-        Me.LayoutControlItem14.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem14.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem14.Text = "Sales Email Code:"
         Me.LayoutControlItem14.TextSize = New System.Drawing.Size(113, 16)
         '
@@ -1222,7 +1222,7 @@ Partial Class CanvassRegister
         Me.LayoutControlItem16.Control = Me.JobCatNameTextEdit1
         Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 84)
         Me.LayoutControlItem16.Name = "LayoutControlItem16"
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(801, 28)
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(797, 28)
         Me.LayoutControlItem16.Text = "Job Cat Name:"
         Me.LayoutControlItem16.TextSize = New System.Drawing.Size(113, 16)
         '
@@ -1284,7 +1284,7 @@ Partial Class CanvassRegister
         Me.CanvassRegisterGridControl.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CanvassRegisterGridControl.Name = "CanvassRegisterGridControl"
         Me.CanvassRegisterGridControl.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemComboBox1, Me.RepositoryItemLookUpEdit1, Me.RepositoryItemLookUpEdit2})
-        Me.CanvassRegisterGridControl.Size = New System.Drawing.Size(1414, 488)
+        Me.CanvassRegisterGridControl.Size = New System.Drawing.Size(1414, 479)
         Me.CanvassRegisterGridControl.TabIndex = 2
         Me.CanvassRegisterGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -1466,7 +1466,7 @@ Partial Class CanvassRegister
         Me.XtraTabPage1.Controls.Add(Me.LayoutControl2)
         Me.XtraTabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(1407, 385)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(1412, 387)
         Me.XtraTabPage1.Text = "Canvass Register"
         '
         'XtraTabPage2
@@ -1475,7 +1475,7 @@ Partial Class CanvassRegister
         Me.XtraTabPage2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.XtraTabPage2.Name = "XtraTabPage2"
         Me.XtraTabPage2.PageVisible = False
-        Me.XtraTabPage2.Size = New System.Drawing.Size(1407, 385)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1412, 387)
         Me.XtraTabPage2.Text = "Job Cats"
         '
         'BranchTableAdapter

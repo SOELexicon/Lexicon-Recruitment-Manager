@@ -19,14 +19,15 @@ Partial Class PlanTypes
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PlanTypes))
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.LayoutControl1 = New DevExpress.XtraLayout.LayoutControl()
         Me.PlanTypeIDSpinEdit = New DevExpress.XtraEditors.SpinEdit()
-        Me.PlanTypesBindingSource = New System.Windows.Forms.BindingSource()
+        Me.PlanTypesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.LexiconRecManagerDataSet = New Lexrecmgr.LexiconRecManagerDataSet()
         Me.PlanNameTextBox = New System.Windows.Forms.TextBox()
-        Me.PlanTypesBindingNavigator = New System.Windows.Forms.BindingNavigator()
+        Me.PlanTypesBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
         Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
         Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
@@ -74,9 +75,10 @@ Partial Class PlanTypes
         Me.LayoutControl1.Controls.Add(Me.PlanTypesGridControl)
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(1301, 684)
+        Me.LayoutControl1.Size = New System.Drawing.Size(1518, 842)
         Me.LayoutControl1.TabIndex = 0
         Me.LayoutControl1.Text = "LayoutControl1"
         '
@@ -84,11 +86,12 @@ Partial Class PlanTypes
         '
         Me.PlanTypeIDSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.PlanTypesBindingSource, "PlanTypeID", True))
         Me.PlanTypeIDSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.PlanTypeIDSpinEdit.Location = New System.Drawing.Point(80, 46)
+        Me.PlanTypeIDSpinEdit.Location = New System.Drawing.Point(96, 60)
+        Me.PlanTypeIDSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanTypeIDSpinEdit.Name = "PlanTypeIDSpinEdit"
         Me.PlanTypeIDSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.PlanTypeIDSpinEdit.Properties.ReadOnly = True
-        Me.PlanTypeIDSpinEdit.Size = New System.Drawing.Size(149, 20)
+        Me.PlanTypeIDSpinEdit.Size = New System.Drawing.Size(171, 22)
         Me.PlanTypeIDSpinEdit.StyleController = Me.LayoutControl1
         Me.PlanTypeIDSpinEdit.TabIndex = 7
         '
@@ -105,9 +108,10 @@ Partial Class PlanTypes
         'PlanNameTextBox
         '
         Me.PlanNameTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.PlanTypesBindingSource, "PlanName", True))
-        Me.PlanNameTextBox.Location = New System.Drawing.Point(301, 46)
+        Me.PlanNameTextBox.Location = New System.Drawing.Point(353, 60)
+        Me.PlanNameTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanNameTextBox.Name = "PlanNameTextBox"
-        Me.PlanNameTextBox.Size = New System.Drawing.Size(988, 20)
+        Me.PlanNameTextBox.Size = New System.Drawing.Size(1149, 25)
         Me.PlanNameTextBox.TabIndex = 9
         '
         'PlanTypesBindingNavigator
@@ -120,14 +124,14 @@ Partial Class PlanTypes
         Me.PlanTypesBindingNavigator.DeleteItem = Me.BindingNavigatorDeleteItem
         Me.PlanTypesBindingNavigator.Dock = System.Windows.Forms.DockStyle.None
         Me.PlanTypesBindingNavigator.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.PlanTypesBindingNavigatorSaveItem})
-        Me.PlanTypesBindingNavigator.Location = New System.Drawing.Point(12, 12)
+        Me.PlanTypesBindingNavigator.Location = New System.Drawing.Point(16, 16)
         Me.PlanTypesBindingNavigator.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
         Me.PlanTypesBindingNavigator.MoveLastItem = Me.BindingNavigatorMoveLastItem
         Me.PlanTypesBindingNavigator.MoveNextItem = Me.BindingNavigatorMoveNextItem
         Me.PlanTypesBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.PlanTypesBindingNavigator.Name = "PlanTypesBindingNavigator"
         Me.PlanTypesBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.PlanTypesBindingNavigator.Size = New System.Drawing.Size(1277, 30)
+        Me.PlanTypesBindingNavigator.Size = New System.Drawing.Size(1486, 38)
         Me.PlanTypesBindingNavigator.TabIndex = 1
         Me.PlanTypesBindingNavigator.Text = "BindingNavigator1"
         '
@@ -137,13 +141,13 @@ Partial Class PlanTypes
         Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
         Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorAddNewItem.Text = "Add new"
         '
         'BindingNavigatorCountItem
         '
         Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(35, 27)
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(45, 35)
         Me.BindingNavigatorCountItem.Text = "of {0}"
         Me.BindingNavigatorCountItem.ToolTipText = "Total number of items"
         '
@@ -153,7 +157,7 @@ Partial Class PlanTypes
         Me.BindingNavigatorDeleteItem.Image = CType(resources.GetObject("BindingNavigatorDeleteItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorDeleteItem.Name = "BindingNavigatorDeleteItem"
         Me.BindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorDeleteItem.Text = "Delete"
         '
         'BindingNavigatorMoveFirstItem
@@ -162,7 +166,7 @@ Partial Class PlanTypes
         Me.BindingNavigatorMoveFirstItem.Image = CType(resources.GetObject("BindingNavigatorMoveFirstItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem"
         Me.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMoveFirstItem.Text = "Move first"
         '
         'BindingNavigatorMovePreviousItem
@@ -171,27 +175,27 @@ Partial Class PlanTypes
         Me.BindingNavigatorMovePreviousItem.Image = CType(resources.GetObject("BindingNavigatorMovePreviousItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem"
         Me.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMovePreviousItem.Text = "Move previous"
         '
         'BindingNavigatorSeparator
         '
         Me.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator"
-        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 30)
+        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 38)
         '
         'BindingNavigatorPositionItem
         '
         Me.BindingNavigatorPositionItem.AccessibleName = "Position"
         Me.BindingNavigatorPositionItem.AutoSize = False
         Me.BindingNavigatorPositionItem.Name = "BindingNavigatorPositionItem"
-        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(50, 23)
+        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(58, 27)
         Me.BindingNavigatorPositionItem.Text = "0"
         Me.BindingNavigatorPositionItem.ToolTipText = "Current position"
         '
         'BindingNavigatorSeparator1
         '
         Me.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator1"
-        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 30)
+        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 38)
         '
         'BindingNavigatorMoveNextItem
         '
@@ -199,7 +203,7 @@ Partial Class PlanTypes
         Me.BindingNavigatorMoveNextItem.Image = CType(resources.GetObject("BindingNavigatorMoveNextItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem"
         Me.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMoveNextItem.Text = "Move next"
         '
         'BindingNavigatorMoveLastItem
@@ -208,29 +212,31 @@ Partial Class PlanTypes
         Me.BindingNavigatorMoveLastItem.Image = CType(resources.GetObject("BindingNavigatorMoveLastItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem"
         Me.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMoveLastItem.Text = "Move last"
         '
         'BindingNavigatorSeparator2
         '
         Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
-        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 30)
+        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 38)
         '
         'PlanTypesBindingNavigatorSaveItem
         '
         Me.PlanTypesBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.PlanTypesBindingNavigatorSaveItem.Image = CType(resources.GetObject("PlanTypesBindingNavigatorSaveItem.Image"), System.Drawing.Image)
         Me.PlanTypesBindingNavigatorSaveItem.Name = "PlanTypesBindingNavigatorSaveItem"
-        Me.PlanTypesBindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 27)
+        Me.PlanTypesBindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 35)
         Me.PlanTypesBindingNavigatorSaveItem.Text = "Save Data"
         '
         'PlanTypesGridControl
         '
         Me.PlanTypesGridControl.DataSource = Me.PlanTypesBindingSource
-        Me.PlanTypesGridControl.Location = New System.Drawing.Point(12, 70)
+        Me.PlanTypesGridControl.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.PlanTypesGridControl.Location = New System.Drawing.Point(16, 91)
         Me.PlanTypesGridControl.MainView = Me.GridView1
+        Me.PlanTypesGridControl.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanTypesGridControl.Name = "PlanTypesGridControl"
-        Me.PlanTypesGridControl.Size = New System.Drawing.Size(1277, 602)
+        Me.PlanTypesGridControl.Size = New System.Drawing.Size(1486, 735)
         Me.PlanTypesGridControl.TabIndex = 4
         Me.PlanTypesGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -263,15 +269,15 @@ Partial Class PlanTypes
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem4, Me.LayoutControlItem6})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1301, 684)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1518, 842)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.PlanTypesGridControl
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 58)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 75)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(1281, 606)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(1492, 741)
         Me.LayoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
@@ -281,27 +287,27 @@ Partial Class PlanTypes
         Me.LayoutControlItem2.Control = Me.PlanTypesBindingNavigator
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(1281, 34)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(1492, 44)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
         'LayoutControlItem4
         '
         Me.LayoutControlItem4.Control = Me.PlanTypeIDSpinEdit
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 34)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 44)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(221, 24)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(257, 31)
         Me.LayoutControlItem4.Text = "Plan Type ID:"
-        Me.LayoutControlItem4.TextSize = New System.Drawing.Size(65, 13)
+        Me.LayoutControlItem4.TextSize = New System.Drawing.Size(77, 16)
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.PlanNameTextBox
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(221, 34)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(257, 44)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(1060, 24)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(1235, 31)
         Me.LayoutControlItem6.Text = "Plan Name:"
-        Me.LayoutControlItem6.TextSize = New System.Drawing.Size(65, 13)
+        Me.LayoutControlItem6.TextSize = New System.Drawing.Size(77, 16)
         '
         'PlanTypesTableAdapter
         '
@@ -320,6 +326,8 @@ Partial Class PlanTypes
         Me.TableAdapterManager.CompanyContactsTableAdapter = Nothing
         Me.TableAdapterManager.ControlsTableAdapter = Nothing
         Me.TableAdapterManager.CountersTableAdapter = Nothing
+        Me.TableAdapterManager.EmployeesBranchFilterTableAdapter = Nothing
+        Me.TableAdapterManager.EmployeeSelect1TableAdapter = Nothing
         Me.TableAdapterManager.EmployeesTableAdapter = Nothing
         Me.TableAdapterManager.HolidaysTableAdapter = Nothing
         Me.TableAdapterManager.Import_EmployeesTableAdapter = Nothing
@@ -339,10 +347,11 @@ Partial Class PlanTypes
         '
         'PlanTypes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1301, 684)
+        Me.ClientSize = New System.Drawing.Size(1518, 842)
         Me.Controls.Add(Me.LayoutControl1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "PlanTypes"
         Me.Text = "PlanTypes"
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).EndInit()

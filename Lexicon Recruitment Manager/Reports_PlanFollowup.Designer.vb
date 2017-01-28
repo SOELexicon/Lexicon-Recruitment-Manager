@@ -78,11 +78,11 @@ Partial Class Reports_PlanFollowup
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 5
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 113.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 128.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 393.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 265.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 233.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 171.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 524.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.ReportViewer1, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.ComboBox2, 2, 1)
@@ -94,13 +94,14 @@ Partial Class Reports_PlanFollowup
         Me.TableLayoutPanel1.Controls.Add(Me.Button2, 4, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1008, 360)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1344, 443)
         Me.TableLayoutPanel1.TabIndex = 6
         '
         'ReportViewer1
@@ -112,18 +113,20 @@ Partial Class Reports_PlanFollowup
         ReportDataSource1.Value = Me.Rpt_PlanBindingSource
         Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "Lexrecmgr.PlanFollowup.rdlc"
-        Me.ReportViewer1.Location = New System.Drawing.Point(3, 53)
+        Me.ReportViewer1.Location = New System.Drawing.Point(4, 65)
+        Me.ReportViewer1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1002, 304)
+        Me.ReportViewer1.Size = New System.Drawing.Size(1336, 374)
         Me.ReportViewer1.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Location = New System.Drawing.Point(315, 0)
+        Me.Label2.Location = New System.Drawing.Point(420, 0)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(169, 19)
+        Me.Label2.Size = New System.Drawing.Size(225, 23)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "WeekEndingDate"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -134,9 +137,10 @@ Partial Class Reports_PlanFollowup
         Me.ComboBox2.DisplayMember = "WeekEndingDate"
         Me.ComboBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(315, 22)
+        Me.ComboBox2.Location = New System.Drawing.Point(420, 27)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(169, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(225, 24)
         Me.ComboBox2.TabIndex = 1
         Me.ComboBox2.ValueMember = "WeekEndingDate"
         '
@@ -156,9 +160,10 @@ Partial Class Reports_PlanFollowup
         Me.ComboBox1.DisplayMember = "PlanName"
         Me.ComboBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(116, 22)
+        Me.ComboBox1.Location = New System.Drawing.Point(155, 27)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(193, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(257, 24)
         Me.ComboBox1.TabIndex = 1
         Me.ComboBox1.ValueMember = "PlanTypeID"
         '
@@ -173,9 +178,10 @@ Partial Class Reports_PlanFollowup
         Me.ComboBox3.DisplayMember = "Branch"
         Me.ComboBox3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(3, 22)
+        Me.ComboBox3.Location = New System.Drawing.Point(4, 27)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(107, 21)
+        Me.ComboBox3.Size = New System.Drawing.Size(143, 24)
         Me.ComboBox3.TabIndex = 8
         Me.ComboBox3.ValueMember = "BranchID"
         '
@@ -188,9 +194,10 @@ Partial Class Reports_PlanFollowup
         '
         Me.Label3.AutoSize = True
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Location = New System.Drawing.Point(3, 0)
+        Me.Label3.Location = New System.Drawing.Point(4, 0)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(107, 19)
+        Me.Label3.Size = New System.Drawing.Size(143, 23)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Branch"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -199,27 +206,30 @@ Partial Class Reports_PlanFollowup
         '
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Location = New System.Drawing.Point(116, 0)
+        Me.Label1.Location = New System.Drawing.Point(155, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(193, 19)
+        Me.Label1.Size = New System.Drawing.Size(257, 23)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Plan"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(490, 22)
+        Me.Button1.Location = New System.Drawing.Point(653, 27)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(93, 25)
+        Me.Button1.Size = New System.Drawing.Size(124, 30)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Run Report"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(618, 22)
+        Me.Button2.Location = New System.Drawing.Point(824, 27)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(165, 25)
+        Me.Button2.Size = New System.Drawing.Size(220, 30)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "E-Mail Me The Report"
         Me.Button2.UseVisualStyleBackColor = True
@@ -230,17 +240,26 @@ Partial Class Reports_PlanFollowup
         '
         'TableAdapterManager
         '
+        Me.TableAdapterManager.ApplicationAreasTableAdapter = Nothing
+        Me.TableAdapterManager.ApplicationTableAdapter = Nothing
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.BranchTableAdapter = Nothing
         Me.TableAdapterManager.BranchUserSecurityTableAdapter = Nothing
+        Me.TableAdapterManager.CanvassJobCatContactsTableAdapter = Nothing
+        Me.TableAdapterManager.CanvassJobCatsTableAdapter = Nothing
+        Me.TableAdapterManager.CanvassRegisterTableAdapter = Nothing
         Me.TableAdapterManager.CompanyContactsTableAdapter = Nothing
         Me.TableAdapterManager.ControlsTableAdapter = Nothing
         Me.TableAdapterManager.CountersTableAdapter = Nothing
+        Me.TableAdapterManager.EmployeesBranchFilterTableAdapter = Nothing
+        Me.TableAdapterManager.EmployeeSelect1TableAdapter = Nothing
         Me.TableAdapterManager.EmployeesTableAdapter = Nothing
+        Me.TableAdapterManager.HolidaysTableAdapter = Nothing
         Me.TableAdapterManager.Import_EmployeesTableAdapter = Nothing
         Me.TableAdapterManager.InvoicesTableAdapter = Nothing
         Me.TableAdapterManager.JobCategoryTableAdapter = Nothing
         Me.TableAdapterManager.Plan1TableAdapter = Nothing
+        Me.TableAdapterManager.Plan2PerRecordTableAdapter = Nothing
         Me.TableAdapterManager.PlanInvoiceTableAdapter = Nothing
         Me.TableAdapterManager.PlanTableAdapter = Nothing
         Me.TableAdapterManager.PlanTypesTableAdapter = Me.PlanTypesTableAdapter
@@ -278,10 +297,11 @@ Partial Class Reports_PlanFollowup
         '
         'Reports_PlanFollowup
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1008, 360)
+        Me.ClientSize = New System.Drawing.Size(1344, 443)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Reports_PlanFollowup"
         Me.Text = "Reports_Planview"
         CType(Me.Rpt_PlanBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

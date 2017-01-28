@@ -1118,7 +1118,7 @@ Partial Class Employees
         '
         'lblStatus
         '
-        Me.lblStatus.Location = New System.Drawing.Point(16, 160)
+        Me.lblStatus.Location = New System.Drawing.Point(16, 161)
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(1473, 25)
         Me.lblStatus.TabIndex = 169
@@ -1128,7 +1128,7 @@ Partial Class Employees
         '
         Me.LastWorkedDateDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "LastWorkedDate", True))
         Me.LastWorkedDateDateEdit.EditValue = Nothing
-        Me.LastWorkedDateDateEdit.Location = New System.Drawing.Point(673, 299)
+        Me.LastWorkedDateDateEdit.Location = New System.Drawing.Point(673, 303)
         Me.LastWorkedDateDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastWorkedDateDateEdit.Name = "LastWorkedDateDateEdit"
         Me.LastWorkedDateDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -1151,7 +1151,7 @@ Partial Class Employees
         '
         Me.CreatedDateDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CreatedDate", True))
         Me.CreatedDateDateEdit.EditValue = Nothing
-        Me.CreatedDateDateEdit.Location = New System.Drawing.Point(512, 299)
+        Me.CreatedDateDateEdit.Location = New System.Drawing.Point(512, 303)
         Me.CreatedDateDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CreatedDateDateEdit.Name = "CreatedDateDateEdit"
         Me.CreatedDateDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -1163,7 +1163,7 @@ Partial Class Employees
         'CreatedUserTextEdit
         '
         Me.CreatedUserTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CreatedUser", True))
-        Me.CreatedUserTextEdit.Location = New System.Drawing.Point(352, 299)
+        Me.CreatedUserTextEdit.Location = New System.Drawing.Point(352, 303)
         Me.CreatedUserTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CreatedUserTextEdit.Name = "CreatedUserTextEdit"
         Me.CreatedUserTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -1174,7 +1174,7 @@ Partial Class Employees
         '
         Me.LastModifiedDateDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "LastModifiedDate", True))
         Me.LastModifiedDateDateEdit.EditValue = Nothing
-        Me.LastModifiedDateDateEdit.Location = New System.Drawing.Point(191, 299)
+        Me.LastModifiedDateDateEdit.Location = New System.Drawing.Point(191, 303)
         Me.LastModifiedDateDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedDateDateEdit.Name = "LastModifiedDateDateEdit"
         Me.LastModifiedDateDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -1186,7 +1186,7 @@ Partial Class Employees
         'LastModifiedUserTextEdit
         '
         Me.LastModifiedUserTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "LastModifiedUser", True))
-        Me.LastModifiedUserTextEdit.Location = New System.Drawing.Point(31, 299)
+        Me.LastModifiedUserTextEdit.Location = New System.Drawing.Point(31, 303)
         Me.LastModifiedUserTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedUserTextEdit.Name = "LastModifiedUserTextEdit"
         Me.LastModifiedUserTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -1196,7 +1196,7 @@ Partial Class Employees
         'CardArchivedCheckEdit
         '
         Me.CardArchivedCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CardArchived", True))
-        Me.CardArchivedCheckEdit.Location = New System.Drawing.Point(994, 252)
+        Me.CardArchivedCheckEdit.Location = New System.Drawing.Point(994, 256)
         Me.CardArchivedCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CardArchivedCheckEdit.Name = "CardArchivedCheckEdit"
         Me.CardArchivedCheckEdit.Properties.Caption = ""
@@ -1207,7 +1207,7 @@ Partial Class Employees
         'NotesTextEdit
         '
         Me.NotesTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Notes", True))
-        Me.NotesTextEdit.Location = New System.Drawing.Point(833, 252)
+        Me.NotesTextEdit.Location = New System.Drawing.Point(833, 256)
         Me.NotesTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NotesTextEdit.Name = "NotesTextEdit"
         Me.NotesTextEdit.Size = New System.Drawing.Size(155, 22)
@@ -1217,7 +1217,7 @@ Partial Class Employees
         'StatusReasonTextEdit
         '
         Me.StatusReasonTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "StatusReason", True))
-        Me.StatusReasonTextEdit.Location = New System.Drawing.Point(673, 252)
+        Me.StatusReasonTextEdit.Location = New System.Drawing.Point(673, 256)
         Me.StatusReasonTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.StatusReasonTextEdit.Name = "StatusReasonTextEdit"
         Me.StatusReasonTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -1227,7 +1227,7 @@ Partial Class Employees
         'StatusTextEdit
         '
         Me.StatusTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Status", True))
-        Me.StatusTextEdit.Location = New System.Drawing.Point(512, 252)
+        Me.StatusTextEdit.Location = New System.Drawing.Point(512, 256)
         Me.StatusTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.StatusTextEdit.Name = "StatusTextEdit"
         Me.StatusTextEdit.Size = New System.Drawing.Size(155, 22)
@@ -1238,7 +1238,7 @@ Partial Class Employees
         '
         Me.DateRegisteredDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "DateRegistered", True))
         Me.DateRegisteredDateEdit.EditValue = Nothing
-        Me.DateRegisteredDateEdit.Location = New System.Drawing.Point(352, 252)
+        Me.DateRegisteredDateEdit.Location = New System.Drawing.Point(352, 256)
         Me.DateRegisteredDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DateRegisteredDateEdit.Name = "DateRegisteredDateEdit"
         Me.DateRegisteredDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -1250,7 +1250,7 @@ Partial Class Employees
         'InterviewerTextEdit
         '
         Me.InterviewerTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Interviewer", True))
-        Me.InterviewerTextEdit.Location = New System.Drawing.Point(191, 252)
+        Me.InterviewerTextEdit.Location = New System.Drawing.Point(191, 256)
         Me.InterviewerTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.InterviewerTextEdit.Name = "InterviewerTextEdit"
         Me.InterviewerTextEdit.Size = New System.Drawing.Size(155, 22)
@@ -1260,7 +1260,7 @@ Partial Class Employees
         'CommunicationTextEdit
         '
         Me.CommunicationTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Communication", True))
-        Me.CommunicationTextEdit.Location = New System.Drawing.Point(31, 252)
+        Me.CommunicationTextEdit.Location = New System.Drawing.Point(31, 256)
         Me.CommunicationTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CommunicationTextEdit.Name = "CommunicationTextEdit"
         Me.CommunicationTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -1270,7 +1270,7 @@ Partial Class Employees
         'VatNumberTextEdit
         '
         Me.VatNumberTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "VatNumber", True))
-        Me.VatNumberTextEdit.Location = New System.Drawing.Point(1208, 252)
+        Me.VatNumberTextEdit.Location = New System.Drawing.Point(1208, 256)
         Me.VatNumberTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.VatNumberTextEdit.Name = "VatNumberTextEdit"
         Me.VatNumberTextEdit.Size = New System.Drawing.Size(266, 22)
@@ -1280,7 +1280,7 @@ Partial Class Employees
         'VatRegisteredCheckEdit
         '
         Me.VatRegisteredCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "VatRegistered", True))
-        Me.VatRegisteredCheckEdit.Location = New System.Drawing.Point(1047, 252)
+        Me.VatRegisteredCheckEdit.Location = New System.Drawing.Point(1047, 256)
         Me.VatRegisteredCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.VatRegisteredCheckEdit.Name = "VatRegisteredCheckEdit"
         Me.VatRegisteredCheckEdit.Properties.Caption = ""
@@ -1291,7 +1291,7 @@ Partial Class Employees
         'CorporationCertCopiedCheckEdit
         '
         Me.CorporationCertCopiedCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CorporationCertCopied", True))
-        Me.CorporationCertCopiedCheckEdit.Location = New System.Drawing.Point(887, 252)
+        Me.CorporationCertCopiedCheckEdit.Location = New System.Drawing.Point(887, 256)
         Me.CorporationCertCopiedCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CorporationCertCopiedCheckEdit.Name = "CorporationCertCopiedCheckEdit"
         Me.CorporationCertCopiedCheckEdit.Properties.Caption = ""
@@ -1302,7 +1302,7 @@ Partial Class Employees
         'CoRegistrationNumberTextEdit
         '
         Me.CoRegistrationNumberTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CoRegistrationNumber", True))
-        Me.CoRegistrationNumberTextEdit.Location = New System.Drawing.Point(612, 252)
+        Me.CoRegistrationNumberTextEdit.Location = New System.Drawing.Point(612, 256)
         Me.CoRegistrationNumberTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CoRegistrationNumberTextEdit.Name = "CoRegistrationNumberTextEdit"
         Me.CoRegistrationNumberTextEdit.Size = New System.Drawing.Size(269, 22)
@@ -1312,7 +1312,7 @@ Partial Class Employees
         'LtdCompanynameTextEdit
         '
         Me.LtdCompanynameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "LtdCompanyname", True))
-        Me.LtdCompanynameTextEdit.Location = New System.Drawing.Point(31, 252)
+        Me.LtdCompanynameTextEdit.Location = New System.Drawing.Point(31, 256)
         Me.LtdCompanynameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LtdCompanynameTextEdit.Name = "LtdCompanynameTextEdit"
         Me.LtdCompanynameTextEdit.Size = New System.Drawing.Size(575, 22)
@@ -1322,7 +1322,7 @@ Partial Class Employees
         'ADRPackagesCheckEdit
         '
         Me.ADRPackagesCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ADRPackages", True))
-        Me.ADRPackagesCheckEdit.Location = New System.Drawing.Point(673, 384)
+        Me.ADRPackagesCheckEdit.Location = New System.Drawing.Point(673, 388)
         Me.ADRPackagesCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ADRPackagesCheckEdit.Name = "ADRPackagesCheckEdit"
         Me.ADRPackagesCheckEdit.Properties.Caption = ""
@@ -1333,7 +1333,7 @@ Partial Class Employees
         'ADRTanksCheckEdit
         '
         Me.ADRTanksCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ADRTanks", True))
-        Me.ADRTanksCheckEdit.Location = New System.Drawing.Point(512, 384)
+        Me.ADRTanksCheckEdit.Location = New System.Drawing.Point(512, 388)
         Me.ADRTanksCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ADRTanksCheckEdit.Name = "ADRTanksCheckEdit"
         Me.ADRTanksCheckEdit.Properties.Caption = ""
@@ -1344,7 +1344,7 @@ Partial Class Employees
         'FLTCheckEdit
         '
         Me.FLTCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FLT", True))
-        Me.FLTCheckEdit.Location = New System.Drawing.Point(352, 384)
+        Me.FLTCheckEdit.Location = New System.Drawing.Point(352, 388)
         Me.FLTCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FLTCheckEdit.Name = "FLTCheckEdit"
         Me.FLTCheckEdit.Properties.Caption = ""
@@ -1355,7 +1355,7 @@ Partial Class Employees
         'TLiftCheckEdit
         '
         Me.TLiftCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "TLift", True))
-        Me.TLiftCheckEdit.Location = New System.Drawing.Point(191, 384)
+        Me.TLiftCheckEdit.Location = New System.Drawing.Point(191, 388)
         Me.TLiftCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TLiftCheckEdit.Name = "TLiftCheckEdit"
         Me.TLiftCheckEdit.Properties.Caption = ""
@@ -1366,7 +1366,7 @@ Partial Class Employees
         'HBallCheckEdit
         '
         Me.HBallCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "HBall", True))
-        Me.HBallCheckEdit.Location = New System.Drawing.Point(31, 384)
+        Me.HBallCheckEdit.Location = New System.Drawing.Point(31, 388)
         Me.HBallCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HBallCheckEdit.Name = "HBallCheckEdit"
         Me.HBallCheckEdit.Properties.Caption = ""
@@ -1377,7 +1377,7 @@ Partial Class Employees
         'SteelShunterCheckEdit
         '
         Me.SteelShunterCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "SteelShunter", True))
-        Me.SteelShunterCheckEdit.Location = New System.Drawing.Point(1315, 340)
+        Me.SteelShunterCheckEdit.Location = New System.Drawing.Point(1315, 344)
         Me.SteelShunterCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SteelShunterCheckEdit.Name = "SteelShunterCheckEdit"
         Me.SteelShunterCheckEdit.Properties.Caption = ""
@@ -1388,7 +1388,7 @@ Partial Class Employees
         'SheetCheckEdit
         '
         Me.SheetCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Sheet", True))
-        Me.SheetCheckEdit.Location = New System.Drawing.Point(1154, 340)
+        Me.SheetCheckEdit.Location = New System.Drawing.Point(1154, 344)
         Me.SheetCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SheetCheckEdit.Name = "SheetCheckEdit"
         Me.SheetCheckEdit.Properties.Caption = ""
@@ -1399,7 +1399,7 @@ Partial Class Employees
         'RopeCheckEdit
         '
         Me.RopeCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Rope", True))
-        Me.RopeCheckEdit.Location = New System.Drawing.Point(994, 340)
+        Me.RopeCheckEdit.Location = New System.Drawing.Point(994, 344)
         Me.RopeCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RopeCheckEdit.Name = "RopeCheckEdit"
         Me.RopeCheckEdit.Properties.Caption = ""
@@ -1410,7 +1410,7 @@ Partial Class Employees
         'StrapCheckEdit
         '
         Me.StrapCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Strap", True))
-        Me.StrapCheckEdit.Location = New System.Drawing.Point(833, 340)
+        Me.StrapCheckEdit.Location = New System.Drawing.Point(833, 344)
         Me.StrapCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.StrapCheckEdit.Name = "StrapCheckEdit"
         Me.StrapCheckEdit.Properties.Caption = ""
@@ -1421,7 +1421,7 @@ Partial Class Employees
         'ChainnDogCheckEdit
         '
         Me.ChainnDogCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ChainnDog", True))
-        Me.ChainnDogCheckEdit.Location = New System.Drawing.Point(673, 340)
+        Me.ChainnDogCheckEdit.Location = New System.Drawing.Point(673, 344)
         Me.ChainnDogCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ChainnDogCheckEdit.Name = "ChainnDogCheckEdit"
         Me.ChainnDogCheckEdit.Properties.Caption = ""
@@ -1432,7 +1432,7 @@ Partial Class Employees
         'WalkingFloorCheckEdit
         '
         Me.WalkingFloorCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WalkingFloor", True))
-        Me.WalkingFloorCheckEdit.Location = New System.Drawing.Point(512, 340)
+        Me.WalkingFloorCheckEdit.Location = New System.Drawing.Point(512, 344)
         Me.WalkingFloorCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WalkingFloorCheckEdit.Name = "WalkingFloorCheckEdit"
         Me.WalkingFloorCheckEdit.Properties.Caption = ""
@@ -1443,7 +1443,7 @@ Partial Class Employees
         'DoubleDeckCheckEdit
         '
         Me.DoubleDeckCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "DoubleDeck", True))
-        Me.DoubleDeckCheckEdit.Location = New System.Drawing.Point(352, 340)
+        Me.DoubleDeckCheckEdit.Location = New System.Drawing.Point(352, 344)
         Me.DoubleDeckCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DoubleDeckCheckEdit.Name = "DoubleDeckCheckEdit"
         Me.DoubleDeckCheckEdit.Properties.Caption = ""
@@ -1454,7 +1454,7 @@ Partial Class Employees
         'DeMountsCheckEdit
         '
         Me.DeMountsCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "DeMounts", True))
-        Me.DeMountsCheckEdit.Location = New System.Drawing.Point(191, 340)
+        Me.DeMountsCheckEdit.Location = New System.Drawing.Point(191, 344)
         Me.DeMountsCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DeMountsCheckEdit.Name = "DeMountsCheckEdit"
         Me.DeMountsCheckEdit.Properties.Caption = ""
@@ -1465,7 +1465,7 @@ Partial Class Employees
         'ContainerCheckEdit
         '
         Me.ContainerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Container", True))
-        Me.ContainerCheckEdit.Location = New System.Drawing.Point(31, 340)
+        Me.ContainerCheckEdit.Location = New System.Drawing.Point(31, 344)
         Me.ContainerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ContainerCheckEdit.Name = "ContainerCheckEdit"
         Me.ContainerCheckEdit.Properties.Caption = ""
@@ -1476,7 +1476,7 @@ Partial Class Employees
         'LowloaderCheckEdit
         '
         Me.LowloaderCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Lowloader", True))
-        Me.LowloaderCheckEdit.Location = New System.Drawing.Point(1315, 296)
+        Me.LowloaderCheckEdit.Location = New System.Drawing.Point(1315, 300)
         Me.LowloaderCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LowloaderCheckEdit.Name = "LowloaderCheckEdit"
         Me.LowloaderCheckEdit.Properties.Caption = ""
@@ -1487,7 +1487,7 @@ Partial Class Employees
         'FlatFridgeCheckEdit
         '
         Me.FlatFridgeCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FlatFridge", True))
-        Me.FlatFridgeCheckEdit.Location = New System.Drawing.Point(1154, 296)
+        Me.FlatFridgeCheckEdit.Location = New System.Drawing.Point(1154, 300)
         Me.FlatFridgeCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FlatFridgeCheckEdit.Name = "FlatFridgeCheckEdit"
         Me.FlatFridgeCheckEdit.Properties.Caption = ""
@@ -1498,7 +1498,7 @@ Partial Class Employees
         'CurtainBoxCheckEdit
         '
         Me.CurtainBoxCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CurtainBox", True))
-        Me.CurtainBoxCheckEdit.Location = New System.Drawing.Point(994, 296)
+        Me.CurtainBoxCheckEdit.Location = New System.Drawing.Point(994, 300)
         Me.CurtainBoxCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CurtainBoxCheckEdit.Name = "CurtainBoxCheckEdit"
         Me.CurtainBoxCheckEdit.Properties.Caption = ""
@@ -1509,7 +1509,7 @@ Partial Class Employees
         'CloseCoupledCheckEdit
         '
         Me.CloseCoupledCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CloseCoupled", True))
-        Me.CloseCoupledCheckEdit.Location = New System.Drawing.Point(833, 296)
+        Me.CloseCoupledCheckEdit.Location = New System.Drawing.Point(833, 300)
         Me.CloseCoupledCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CloseCoupledCheckEdit.Name = "CloseCoupledCheckEdit"
         Me.CloseCoupledCheckEdit.Properties.Caption = ""
@@ -1520,7 +1520,7 @@ Partial Class Employees
         'AFrameCheckEdit
         '
         Me.AFrameCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "AFrame", True))
-        Me.AFrameCheckEdit.Location = New System.Drawing.Point(673, 296)
+        Me.AFrameCheckEdit.Location = New System.Drawing.Point(673, 300)
         Me.AFrameCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AFrameCheckEdit.Name = "AFrameCheckEdit"
         Me.AFrameCheckEdit.Properties.Caption = ""
@@ -1531,7 +1531,7 @@ Partial Class Employees
         'MBCheckEdit
         '
         Me.MBCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "MB", True))
-        Me.MBCheckEdit.Location = New System.Drawing.Point(512, 296)
+        Me.MBCheckEdit.Location = New System.Drawing.Point(512, 300)
         Me.MBCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MBCheckEdit.Name = "MBCheckEdit"
         Me.MBCheckEdit.Properties.Caption = ""
@@ -1542,7 +1542,7 @@ Partial Class Employees
         'PVCCheckEdit
         '
         Me.PVCCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "PVC", True))
-        Me.PVCCheckEdit.Location = New System.Drawing.Point(352, 296)
+        Me.PVCCheckEdit.Location = New System.Drawing.Point(352, 300)
         Me.PVCCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PVCCheckEdit.Name = "PVCCheckEdit"
         Me.PVCCheckEdit.Properties.Caption = ""
@@ -1553,7 +1553,7 @@ Partial Class Employees
         'MultiLiftCheckEdit
         '
         Me.MultiLiftCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "MultiLift", True))
-        Me.MultiLiftCheckEdit.Location = New System.Drawing.Point(191, 296)
+        Me.MultiLiftCheckEdit.Location = New System.Drawing.Point(191, 300)
         Me.MultiLiftCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MultiLiftCheckEdit.Name = "MultiLiftCheckEdit"
         Me.MultiLiftCheckEdit.Properties.Caption = ""
@@ -1564,7 +1564,7 @@ Partial Class Employees
         'RollOnOffCheckEdit
         '
         Me.RollOnOffCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "RollOnOff", True))
-        Me.RollOnOffCheckEdit.Location = New System.Drawing.Point(31, 296)
+        Me.RollOnOffCheckEdit.Location = New System.Drawing.Point(31, 300)
         Me.RollOnOffCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RollOnOffCheckEdit.Name = "RollOnOffCheckEdit"
         Me.RollOnOffCheckEdit.Properties.Caption = ""
@@ -1575,7 +1575,7 @@ Partial Class Employees
         'Tipper75TCheckEdit
         '
         Me.Tipper75TCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Tipper75T", True))
-        Me.Tipper75TCheckEdit.Location = New System.Drawing.Point(1315, 252)
+        Me.Tipper75TCheckEdit.Location = New System.Drawing.Point(1315, 256)
         Me.Tipper75TCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Tipper75TCheckEdit.Name = "Tipper75TCheckEdit"
         Me.Tipper75TCheckEdit.Properties.Caption = ""
@@ -1586,7 +1586,7 @@ Partial Class Employees
         'Tipper2CheckEdit
         '
         Me.Tipper2CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Tipper2", True))
-        Me.Tipper2CheckEdit.Location = New System.Drawing.Point(1154, 252)
+        Me.Tipper2CheckEdit.Location = New System.Drawing.Point(1154, 256)
         Me.Tipper2CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Tipper2CheckEdit.Name = "Tipper2CheckEdit"
         Me.Tipper2CheckEdit.Properties.Caption = ""
@@ -1597,7 +1597,7 @@ Partial Class Employees
         'Tipper1CheckEdit
         '
         Me.Tipper1CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Tipper1", True))
-        Me.Tipper1CheckEdit.Location = New System.Drawing.Point(994, 252)
+        Me.Tipper1CheckEdit.Location = New System.Drawing.Point(994, 256)
         Me.Tipper1CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Tipper1CheckEdit.Name = "Tipper1CheckEdit"
         Me.Tipper1CheckEdit.Properties.Caption = ""
@@ -1608,7 +1608,7 @@ Partial Class Employees
         'MoffatCheckEdit
         '
         Me.MoffatCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Moffat", True))
-        Me.MoffatCheckEdit.Location = New System.Drawing.Point(833, 252)
+        Me.MoffatCheckEdit.Location = New System.Drawing.Point(833, 256)
         Me.MoffatCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MoffatCheckEdit.Name = "MoffatCheckEdit"
         Me.MoffatCheckEdit.Properties.Caption = ""
@@ -1619,7 +1619,7 @@ Partial Class Employees
         'HiabCheckEdit
         '
         Me.HiabCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Hiab", True))
-        Me.HiabCheckEdit.Location = New System.Drawing.Point(673, 252)
+        Me.HiabCheckEdit.Location = New System.Drawing.Point(673, 256)
         Me.HiabCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HiabCheckEdit.Name = "HiabCheckEdit"
         Me.HiabCheckEdit.Properties.Caption = ""
@@ -1630,7 +1630,7 @@ Partial Class Employees
         'VanCheckEdit
         '
         Me.VanCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Van", True))
-        Me.VanCheckEdit.Location = New System.Drawing.Point(512, 252)
+        Me.VanCheckEdit.Location = New System.Drawing.Point(512, 256)
         Me.VanCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.VanCheckEdit.Name = "VanCheckEdit"
         Me.VanCheckEdit.Properties.Caption = ""
@@ -1641,7 +1641,7 @@ Partial Class Employees
         '_7_5TonnCheckEdit
         '
         Me._7_5TonnCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "7_5Tonn", True))
-        Me._7_5TonnCheckEdit.Location = New System.Drawing.Point(352, 252)
+        Me._7_5TonnCheckEdit.Location = New System.Drawing.Point(352, 256)
         Me._7_5TonnCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me._7_5TonnCheckEdit.Name = "_7_5TonnCheckEdit"
         Me._7_5TonnCheckEdit.Properties.Caption = ""
@@ -1652,7 +1652,7 @@ Partial Class Employees
         'CCheckEdit
         '
         Me.CCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "C", True))
-        Me.CCheckEdit.Location = New System.Drawing.Point(191, 252)
+        Me.CCheckEdit.Location = New System.Drawing.Point(191, 256)
         Me.CCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CCheckEdit.Name = "CCheckEdit"
         Me.CCheckEdit.Properties.Caption = ""
@@ -1663,7 +1663,7 @@ Partial Class Employees
         'CECheckEdit
         '
         Me.CECheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CE", True))
-        Me.CECheckEdit.Location = New System.Drawing.Point(31, 252)
+        Me.CECheckEdit.Location = New System.Drawing.Point(31, 256)
         Me.CECheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CECheckEdit.Name = "CECheckEdit"
         Me.CECheckEdit.Properties.Caption = ""
@@ -1674,7 +1674,7 @@ Partial Class Employees
         'FLTBendiCheckEdit
         '
         Me.FLTBendiCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FLTBendi", True))
-        Me.FLTBendiCheckEdit.Location = New System.Drawing.Point(833, 340)
+        Me.FLTBendiCheckEdit.Location = New System.Drawing.Point(833, 344)
         Me.FLTBendiCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FLTBendiCheckEdit.Name = "FLTBendiCheckEdit"
         Me.FLTBendiCheckEdit.Properties.Caption = ""
@@ -1685,7 +1685,7 @@ Partial Class Employees
         'FLTNACheckEdit
         '
         Me.FLTNACheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FLTNA", True))
-        Me.FLTNACheckEdit.Location = New System.Drawing.Point(673, 340)
+        Me.FLTNACheckEdit.Location = New System.Drawing.Point(673, 344)
         Me.FLTNACheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FLTNACheckEdit.Name = "FLTNACheckEdit"
         Me.FLTNACheckEdit.Properties.Caption = ""
@@ -1696,7 +1696,7 @@ Partial Class Employees
         'FLTRTCheckEdit
         '
         Me.FLTRTCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FLTRT", True))
-        Me.FLTRTCheckEdit.Location = New System.Drawing.Point(512, 340)
+        Me.FLTRTCheckEdit.Location = New System.Drawing.Point(512, 344)
         Me.FLTRTCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FLTRTCheckEdit.Name = "FLTRTCheckEdit"
         Me.FLTRTCheckEdit.Properties.Caption = ""
@@ -1707,7 +1707,7 @@ Partial Class Employees
         'FLTCBCheckEdit
         '
         Me.FLTCBCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FLTCB", True))
-        Me.FLTCBCheckEdit.Location = New System.Drawing.Point(352, 340)
+        Me.FLTCBCheckEdit.Location = New System.Drawing.Point(352, 344)
         Me.FLTCBCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FLTCBCheckEdit.Name = "FLTCBCheckEdit"
         Me.FLTCBCheckEdit.Properties.Caption = ""
@@ -1718,7 +1718,7 @@ Partial Class Employees
         'FSACheckEdit
         '
         Me.FSACheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "FSA", True))
-        Me.FSACheckEdit.Location = New System.Drawing.Point(191, 340)
+        Me.FSACheckEdit.Location = New System.Drawing.Point(191, 344)
         Me.FSACheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FSACheckEdit.Name = "FSACheckEdit"
         Me.FSACheckEdit.Properties.Caption = ""
@@ -1729,7 +1729,7 @@ Partial Class Employees
         'BraizeCheckEdit
         '
         Me.BraizeCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Braize", True))
-        Me.BraizeCheckEdit.Location = New System.Drawing.Point(31, 340)
+        Me.BraizeCheckEdit.Location = New System.Drawing.Point(31, 344)
         Me.BraizeCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BraizeCheckEdit.Name = "BraizeCheckEdit"
         Me.BraizeCheckEdit.Properties.Caption = ""
@@ -1740,7 +1740,7 @@ Partial Class Employees
         'AdminCheckEdit
         '
         Me.AdminCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Admin", True))
-        Me.AdminCheckEdit.Location = New System.Drawing.Point(1315, 296)
+        Me.AdminCheckEdit.Location = New System.Drawing.Point(1315, 300)
         Me.AdminCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AdminCheckEdit.Name = "AdminCheckEdit"
         Me.AdminCheckEdit.Properties.Caption = ""
@@ -1751,7 +1751,7 @@ Partial Class Employees
         'CleanerCheckEdit
         '
         Me.CleanerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Cleaner", True))
-        Me.CleanerCheckEdit.Location = New System.Drawing.Point(1154, 296)
+        Me.CleanerCheckEdit.Location = New System.Drawing.Point(1154, 300)
         Me.CleanerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CleanerCheckEdit.Name = "CleanerCheckEdit"
         Me.CleanerCheckEdit.Properties.Caption = ""
@@ -1762,7 +1762,7 @@ Partial Class Employees
         'PackerCheckEdit
         '
         Me.PackerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Packer", True))
-        Me.PackerCheckEdit.Location = New System.Drawing.Point(994, 296)
+        Me.PackerCheckEdit.Location = New System.Drawing.Point(994, 300)
         Me.PackerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PackerCheckEdit.Name = "PackerCheckEdit"
         Me.PackerCheckEdit.Properties.Caption = ""
@@ -1773,7 +1773,7 @@ Partial Class Employees
         'DrivingCheckEdit
         '
         Me.DrivingCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Driving", True))
-        Me.DrivingCheckEdit.Location = New System.Drawing.Point(833, 296)
+        Me.DrivingCheckEdit.Location = New System.Drawing.Point(833, 300)
         Me.DrivingCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DrivingCheckEdit.Name = "DrivingCheckEdit"
         Me.DrivingCheckEdit.Properties.Caption = ""
@@ -1784,7 +1784,7 @@ Partial Class Employees
         'SetterCheckEdit
         '
         Me.SetterCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Setter", True))
-        Me.SetterCheckEdit.Location = New System.Drawing.Point(673, 296)
+        Me.SetterCheckEdit.Location = New System.Drawing.Point(673, 300)
         Me.SetterCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SetterCheckEdit.Name = "SetterCheckEdit"
         Me.SetterCheckEdit.Properties.Caption = ""
@@ -1795,7 +1795,7 @@ Partial Class Employees
         'QInspectorCheckEdit
         '
         Me.QInspectorCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "QInspector", True))
-        Me.QInspectorCheckEdit.Location = New System.Drawing.Point(512, 296)
+        Me.QInspectorCheckEdit.Location = New System.Drawing.Point(512, 300)
         Me.QInspectorCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.QInspectorCheckEdit.Name = "QInspectorCheckEdit"
         Me.QInspectorCheckEdit.Properties.Caption = ""
@@ -1806,7 +1806,7 @@ Partial Class Employees
         'TigWelderCheckEdit
         '
         Me.TigWelderCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "TigWelder", True))
-        Me.TigWelderCheckEdit.Location = New System.Drawing.Point(352, 296)
+        Me.TigWelderCheckEdit.Location = New System.Drawing.Point(352, 300)
         Me.TigWelderCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TigWelderCheckEdit.Name = "TigWelderCheckEdit"
         Me.TigWelderCheckEdit.Properties.Caption = ""
@@ -1817,7 +1817,7 @@ Partial Class Employees
         'JoinerCheckEdit
         '
         Me.JoinerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Joiner", True))
-        Me.JoinerCheckEdit.Location = New System.Drawing.Point(191, 296)
+        Me.JoinerCheckEdit.Location = New System.Drawing.Point(191, 300)
         Me.JoinerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JoinerCheckEdit.Name = "JoinerCheckEdit"
         Me.JoinerCheckEdit.Properties.Caption = ""
@@ -1828,7 +1828,7 @@ Partial Class Employees
         'LabourerCheckEdit
         '
         Me.LabourerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Labourer", True))
-        Me.LabourerCheckEdit.Location = New System.Drawing.Point(31, 296)
+        Me.LabourerCheckEdit.Location = New System.Drawing.Point(31, 300)
         Me.LabourerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LabourerCheckEdit.Name = "LabourerCheckEdit"
         Me.LabourerCheckEdit.Properties.Caption = ""
@@ -1839,7 +1839,7 @@ Partial Class Employees
         'OrderPickerCheckEdit
         '
         Me.OrderPickerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "OrderPicker", True))
-        Me.OrderPickerCheckEdit.Location = New System.Drawing.Point(1315, 252)
+        Me.OrderPickerCheckEdit.Location = New System.Drawing.Point(1315, 256)
         Me.OrderPickerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OrderPickerCheckEdit.Name = "OrderPickerCheckEdit"
         Me.OrderPickerCheckEdit.Properties.Caption = ""
@@ -1850,7 +1850,7 @@ Partial Class Employees
         'PressOpCheckEdit
         '
         Me.PressOpCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "PressOp", True))
-        Me.PressOpCheckEdit.Location = New System.Drawing.Point(1154, 252)
+        Me.PressOpCheckEdit.Location = New System.Drawing.Point(1154, 256)
         Me.PressOpCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PressOpCheckEdit.Name = "PressOpCheckEdit"
         Me.PressOpCheckEdit.Properties.Caption = ""
@@ -1861,7 +1861,7 @@ Partial Class Employees
         'GeneralOpCheckEdit
         '
         Me.GeneralOpCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "GeneralOp", True))
-        Me.GeneralOpCheckEdit.Location = New System.Drawing.Point(994, 252)
+        Me.GeneralOpCheckEdit.Location = New System.Drawing.Point(994, 256)
         Me.GeneralOpCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GeneralOpCheckEdit.Name = "GeneralOpCheckEdit"
         Me.GeneralOpCheckEdit.Properties.Caption = ""
@@ -1872,7 +1872,7 @@ Partial Class Employees
         'MigWelderCheckEdit
         '
         Me.MigWelderCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "MigWelder", True))
-        Me.MigWelderCheckEdit.Location = New System.Drawing.Point(833, 252)
+        Me.MigWelderCheckEdit.Location = New System.Drawing.Point(833, 256)
         Me.MigWelderCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MigWelderCheckEdit.Name = "MigWelderCheckEdit"
         Me.MigWelderCheckEdit.Properties.Caption = ""
@@ -1883,7 +1883,7 @@ Partial Class Employees
         'TrafficMngtCheckEdit
         '
         Me.TrafficMngtCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "TrafficMngt", True))
-        Me.TrafficMngtCheckEdit.Location = New System.Drawing.Point(673, 252)
+        Me.TrafficMngtCheckEdit.Location = New System.Drawing.Point(673, 256)
         Me.TrafficMngtCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TrafficMngtCheckEdit.Name = "TrafficMngtCheckEdit"
         Me.TrafficMngtCheckEdit.Properties.Caption = ""
@@ -1894,7 +1894,7 @@ Partial Class Employees
         'GroundworkCheckEdit
         '
         Me.GroundworkCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Groundwork", True))
-        Me.GroundworkCheckEdit.Location = New System.Drawing.Point(512, 252)
+        Me.GroundworkCheckEdit.Location = New System.Drawing.Point(512, 256)
         Me.GroundworkCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GroundworkCheckEdit.Name = "GroundworkCheckEdit"
         Me.GroundworkCheckEdit.Properties.Caption = ""
@@ -1905,7 +1905,7 @@ Partial Class Employees
         'WarehouseCheckEdit
         '
         Me.WarehouseCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Warehouse", True))
-        Me.WarehouseCheckEdit.Location = New System.Drawing.Point(352, 252)
+        Me.WarehouseCheckEdit.Location = New System.Drawing.Point(352, 256)
         Me.WarehouseCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WarehouseCheckEdit.Name = "WarehouseCheckEdit"
         Me.WarehouseCheckEdit.Properties.Caption = ""
@@ -1916,7 +1916,7 @@ Partial Class Employees
         'ProductionCheckEdit
         '
         Me.ProductionCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Production", True))
-        Me.ProductionCheckEdit.Location = New System.Drawing.Point(191, 252)
+        Me.ProductionCheckEdit.Location = New System.Drawing.Point(191, 256)
         Me.ProductionCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ProductionCheckEdit.Name = "ProductionCheckEdit"
         Me.ProductionCheckEdit.Properties.Caption = ""
@@ -1927,7 +1927,7 @@ Partial Class Employees
         'AssemblerCheckEdit
         '
         Me.AssemblerCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Assembler", True))
-        Me.AssemblerCheckEdit.Location = New System.Drawing.Point(31, 252)
+        Me.AssemblerCheckEdit.Location = New System.Drawing.Point(31, 256)
         Me.AssemblerCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AssemblerCheckEdit.Name = "AssemblerCheckEdit"
         Me.AssemblerCheckEdit.Properties.Caption = ""
@@ -1938,7 +1938,7 @@ Partial Class Employees
         'CPCM5CheckEdit
         '
         Me.CPCM5CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CPCM5", True))
-        Me.CPCM5CheckEdit.Location = New System.Drawing.Point(700, 340)
+        Me.CPCM5CheckEdit.Location = New System.Drawing.Point(700, 344)
         Me.CPCM5CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CPCM5CheckEdit.Name = "CPCM5CheckEdit"
         Me.CPCM5CheckEdit.Properties.Caption = ""
@@ -1949,7 +1949,7 @@ Partial Class Employees
         'CPCM4CheckEdit
         '
         Me.CPCM4CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CPCM4", True))
-        Me.CPCM4CheckEdit.Location = New System.Drawing.Point(539, 340)
+        Me.CPCM4CheckEdit.Location = New System.Drawing.Point(539, 344)
         Me.CPCM4CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CPCM4CheckEdit.Name = "CPCM4CheckEdit"
         Me.CPCM4CheckEdit.Properties.Caption = ""
@@ -1960,7 +1960,7 @@ Partial Class Employees
         'CPCM3CheckEdit
         '
         Me.CPCM3CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CPCM3", True))
-        Me.CPCM3CheckEdit.Location = New System.Drawing.Point(352, 340)
+        Me.CPCM3CheckEdit.Location = New System.Drawing.Point(352, 344)
         Me.CPCM3CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CPCM3CheckEdit.Name = "CPCM3CheckEdit"
         Me.CPCM3CheckEdit.Properties.Caption = ""
@@ -1971,7 +1971,7 @@ Partial Class Employees
         'CPCM2CheckEdit
         '
         Me.CPCM2CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CPCM2", True))
-        Me.CPCM2CheckEdit.Location = New System.Drawing.Point(191, 340)
+        Me.CPCM2CheckEdit.Location = New System.Drawing.Point(191, 344)
         Me.CPCM2CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CPCM2CheckEdit.Name = "CPCM2CheckEdit"
         Me.CPCM2CheckEdit.Properties.Caption = ""
@@ -1982,7 +1982,7 @@ Partial Class Employees
         'CPCM1CheckEdit
         '
         Me.CPCM1CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CPCM1", True))
-        Me.CPCM1CheckEdit.Location = New System.Drawing.Point(31, 340)
+        Me.CPCM1CheckEdit.Location = New System.Drawing.Point(31, 344)
         Me.CPCM1CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CPCM1CheckEdit.Name = "CPCM1CheckEdit"
         Me.CPCM1CheckEdit.Properties.Caption = ""
@@ -1993,7 +1993,7 @@ Partial Class Employees
         'DigiCardCheckEdit
         '
         Me.DigiCardCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "DigiCard", True))
-        Me.DigiCardCheckEdit.Location = New System.Drawing.Point(596, 296)
+        Me.DigiCardCheckEdit.Location = New System.Drawing.Point(596, 300)
         Me.DigiCardCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DigiCardCheckEdit.Name = "DigiCardCheckEdit"
         Me.DigiCardCheckEdit.Properties.Caption = ""
@@ -2004,7 +2004,7 @@ Partial Class Employees
         'DrivingLicCheckEdit
         '
         Me.DrivingLicCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "DrivingLic", True))
-        Me.DrivingLicCheckEdit.Location = New System.Drawing.Point(435, 296)
+        Me.DrivingLicCheckEdit.Location = New System.Drawing.Point(435, 300)
         Me.DrivingLicCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DrivingLicCheckEdit.Name = "DrivingLicCheckEdit"
         Me.DrivingLicCheckEdit.Properties.Caption = ""
@@ -2015,7 +2015,7 @@ Partial Class Employees
         'CPCSCardCheckEdit
         '
         Me.CPCSCardCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CPCSCard", True))
-        Me.CPCSCardCheckEdit.Location = New System.Drawing.Point(191, 296)
+        Me.CPCSCardCheckEdit.Location = New System.Drawing.Point(191, 300)
         Me.CPCSCardCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CPCSCardCheckEdit.Name = "CPCSCardCheckEdit"
         Me.CPCSCardCheckEdit.Properties.Caption = ""
@@ -2026,7 +2026,7 @@ Partial Class Employees
         'CSCSCardCheckEdit
         '
         Me.CSCSCardCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CSCSCard", True))
-        Me.CSCSCardCheckEdit.Location = New System.Drawing.Point(31, 296)
+        Me.CSCSCardCheckEdit.Location = New System.Drawing.Point(31, 300)
         Me.CSCSCardCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CSCSCardCheckEdit.Name = "CSCSCardCheckEdit"
         Me.CSCSCardCheckEdit.Properties.Caption = ""
@@ -2037,7 +2037,7 @@ Partial Class Employees
         'VisaCheckEdit
         '
         Me.VisaCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Visa", True))
-        Me.VisaCheckEdit.Location = New System.Drawing.Point(1154, 252)
+        Me.VisaCheckEdit.Location = New System.Drawing.Point(1154, 256)
         Me.VisaCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.VisaCheckEdit.Name = "VisaCheckEdit"
         Me.VisaCheckEdit.Properties.Caption = ""
@@ -2048,7 +2048,7 @@ Partial Class Employees
         'CVCheckEdit
         '
         Me.CVCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Visa", True))
-        Me.CVCheckEdit.Location = New System.Drawing.Point(994, 252)
+        Me.CVCheckEdit.Location = New System.Drawing.Point(994, 256)
         Me.CVCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CVCheckEdit.Name = "CVCheckEdit"
         Me.CVCheckEdit.Properties.Caption = ""
@@ -2059,7 +2059,7 @@ Partial Class Employees
         'UtilityBillCheckEdit
         '
         Me.UtilityBillCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "UtilityBill", True))
-        Me.UtilityBillCheckEdit.Location = New System.Drawing.Point(833, 252)
+        Me.UtilityBillCheckEdit.Location = New System.Drawing.Point(833, 256)
         Me.UtilityBillCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.UtilityBillCheckEdit.Name = "UtilityBillCheckEdit"
         Me.UtilityBillCheckEdit.Properties.Caption = ""
@@ -2070,7 +2070,7 @@ Partial Class Employees
         'NiCardCheckEdit
         '
         Me.NiCardCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "NiCard", True))
-        Me.NiCardCheckEdit.Location = New System.Drawing.Point(673, 252)
+        Me.NiCardCheckEdit.Location = New System.Drawing.Point(673, 256)
         Me.NiCardCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NiCardCheckEdit.Name = "NiCardCheckEdit"
         Me.NiCardCheckEdit.Properties.Caption = ""
@@ -2081,7 +2081,7 @@ Partial Class Employees
         'BirthCertCheckEdit
         '
         Me.BirthCertCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "BirthCert", True))
-        Me.BirthCertCheckEdit.Location = New System.Drawing.Point(512, 252)
+        Me.BirthCertCheckEdit.Location = New System.Drawing.Point(512, 256)
         Me.BirthCertCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BirthCertCheckEdit.Name = "BirthCertCheckEdit"
         Me.BirthCertCheckEdit.Properties.Caption = ""
@@ -2092,7 +2092,7 @@ Partial Class Employees
         'ProofOfNiCheckEdit
         '
         Me.ProofOfNiCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ProofOfNi", True))
-        Me.ProofOfNiCheckEdit.Location = New System.Drawing.Point(352, 252)
+        Me.ProofOfNiCheckEdit.Location = New System.Drawing.Point(352, 256)
         Me.ProofOfNiCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ProofOfNiCheckEdit.Name = "ProofOfNiCheckEdit"
         Me.ProofOfNiCheckEdit.Properties.Caption = ""
@@ -2103,7 +2103,7 @@ Partial Class Employees
         'NatIDCardCheckEdit
         '
         Me.NatIDCardCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "NatIDCard", True))
-        Me.NatIDCardCheckEdit.Location = New System.Drawing.Point(191, 252)
+        Me.NatIDCardCheckEdit.Location = New System.Drawing.Point(191, 256)
         Me.NatIDCardCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NatIDCardCheckEdit.Name = "NatIDCardCheckEdit"
         Me.NatIDCardCheckEdit.Properties.Caption = ""
@@ -2114,7 +2114,7 @@ Partial Class Employees
         'PassportCheckEdit
         '
         Me.PassportCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Passport", True))
-        Me.PassportCheckEdit.Location = New System.Drawing.Point(31, 252)
+        Me.PassportCheckEdit.Location = New System.Drawing.Point(31, 256)
         Me.PassportCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PassportCheckEdit.Name = "PassportCheckEdit"
         Me.PassportCheckEdit.Properties.Caption = ""
@@ -2125,7 +2125,7 @@ Partial Class Employees
         'ContactNumber2TextEdit
         '
         Me.ContactNumber2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ContactNumber2", True))
-        Me.ContactNumber2TextEdit.Location = New System.Drawing.Point(833, 346)
+        Me.ContactNumber2TextEdit.Location = New System.Drawing.Point(833, 350)
         Me.ContactNumber2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ContactNumber2TextEdit.Name = "ContactNumber2TextEdit"
         Me.ContactNumber2TextEdit.Size = New System.Drawing.Size(641, 22)
@@ -2135,7 +2135,7 @@ Partial Class Employees
         'RefAvailable2CheckEdit
         '
         Me.RefAvailable2CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "RefAvailable2", True))
-        Me.RefAvailable2CheckEdit.Location = New System.Drawing.Point(673, 346)
+        Me.RefAvailable2CheckEdit.Location = New System.Drawing.Point(673, 350)
         Me.RefAvailable2CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RefAvailable2CheckEdit.Name = "RefAvailable2CheckEdit"
         Me.RefAvailable2CheckEdit.Properties.Caption = ""
@@ -2146,7 +2146,7 @@ Partial Class Employees
         'Manager2TextEdit
         '
         Me.Manager2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Manager2", True))
-        Me.Manager2TextEdit.Location = New System.Drawing.Point(512, 346)
+        Me.Manager2TextEdit.Location = New System.Drawing.Point(512, 350)
         Me.Manager2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Manager2TextEdit.Name = "Manager2TextEdit"
         Me.Manager2TextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2156,7 +2156,7 @@ Partial Class Employees
         'ReasonForLeaving2TextEdit
         '
         Me.ReasonForLeaving2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ReasonForLeaving2", True))
-        Me.ReasonForLeaving2TextEdit.Location = New System.Drawing.Point(352, 346)
+        Me.ReasonForLeaving2TextEdit.Location = New System.Drawing.Point(352, 350)
         Me.ReasonForLeaving2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ReasonForLeaving2TextEdit.Name = "ReasonForLeaving2TextEdit"
         Me.ReasonForLeaving2TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2166,7 +2166,7 @@ Partial Class Employees
         'Pay2CalcEdit
         '
         Me.Pay2CalcEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Pay2", True))
-        Me.Pay2CalcEdit.Location = New System.Drawing.Point(191, 346)
+        Me.Pay2CalcEdit.Location = New System.Drawing.Point(191, 350)
         Me.Pay2CalcEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Pay2CalcEdit.Name = "Pay2CalcEdit"
         Me.Pay2CalcEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2177,7 +2177,7 @@ Partial Class Employees
         'Shift2TextEdit
         '
         Me.Shift2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Shift2", True))
-        Me.Shift2TextEdit.Location = New System.Drawing.Point(31, 346)
+        Me.Shift2TextEdit.Location = New System.Drawing.Point(31, 350)
         Me.Shift2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Shift2TextEdit.Name = "Shift2TextEdit"
         Me.Shift2TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2187,7 +2187,7 @@ Partial Class Employees
         'JobTitle2TextEdit
         '
         Me.JobTitle2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "JobTitle2", True))
-        Me.JobTitle2TextEdit.Location = New System.Drawing.Point(352, 299)
+        Me.JobTitle2TextEdit.Location = New System.Drawing.Point(352, 303)
         Me.JobTitle2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JobTitle2TextEdit.Name = "JobTitle2TextEdit"
         Me.JobTitle2TextEdit.Size = New System.Drawing.Size(1122, 22)
@@ -2197,7 +2197,7 @@ Partial Class Employees
         'Location2TextEdit
         '
         Me.Location2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Location2", True))
-        Me.Location2TextEdit.Location = New System.Drawing.Point(191, 299)
+        Me.Location2TextEdit.Location = New System.Drawing.Point(191, 303)
         Me.Location2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Location2TextEdit.Name = "Location2TextEdit"
         Me.Location2TextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2207,7 +2207,7 @@ Partial Class Employees
         'CompanyName2TextEdit
         '
         Me.CompanyName2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CompanyName2", True))
-        Me.CompanyName2TextEdit.Location = New System.Drawing.Point(31, 299)
+        Me.CompanyName2TextEdit.Location = New System.Drawing.Point(31, 303)
         Me.CompanyName2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CompanyName2TextEdit.Name = "CompanyName2TextEdit"
         Me.CompanyName2TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2217,7 +2217,7 @@ Partial Class Employees
         'AgencyName2TextEdit
         '
         Me.AgencyName2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "AgencyName2", True))
-        Me.AgencyName2TextEdit.Location = New System.Drawing.Point(512, 252)
+        Me.AgencyName2TextEdit.Location = New System.Drawing.Point(512, 256)
         Me.AgencyName2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AgencyName2TextEdit.Name = "AgencyName2TextEdit"
         Me.AgencyName2TextEdit.Size = New System.Drawing.Size(962, 22)
@@ -2227,7 +2227,7 @@ Partial Class Employees
         'WorkedVia2TextEdit
         '
         Me.WorkedVia2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkedVia2", True))
-        Me.WorkedVia2TextEdit.Location = New System.Drawing.Point(352, 252)
+        Me.WorkedVia2TextEdit.Location = New System.Drawing.Point(352, 256)
         Me.WorkedVia2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkedVia2TextEdit.Name = "WorkedVia2TextEdit"
         Me.WorkedVia2TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2238,7 +2238,7 @@ Partial Class Employees
         '
         Me.WorkTo2DateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkTo2", True))
         Me.WorkTo2DateEdit.EditValue = Nothing
-        Me.WorkTo2DateEdit.Location = New System.Drawing.Point(191, 252)
+        Me.WorkTo2DateEdit.Location = New System.Drawing.Point(191, 256)
         Me.WorkTo2DateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkTo2DateEdit.Name = "WorkTo2DateEdit"
         Me.WorkTo2DateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2251,7 +2251,7 @@ Partial Class Employees
         '
         Me.WorkFrom2DateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkFrom2", True))
         Me.WorkFrom2DateEdit.EditValue = Nothing
-        Me.WorkFrom2DateEdit.Location = New System.Drawing.Point(31, 252)
+        Me.WorkFrom2DateEdit.Location = New System.Drawing.Point(31, 256)
         Me.WorkFrom2DateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkFrom2DateEdit.Name = "WorkFrom2DateEdit"
         Me.WorkFrom2DateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2263,7 +2263,7 @@ Partial Class Employees
         'ContactNumber1TextEdit
         '
         Me.ContactNumber1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ContactNumber1", True))
-        Me.ContactNumber1TextEdit.Location = New System.Drawing.Point(833, 346)
+        Me.ContactNumber1TextEdit.Location = New System.Drawing.Point(833, 350)
         Me.ContactNumber1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ContactNumber1TextEdit.Name = "ContactNumber1TextEdit"
         Me.ContactNumber1TextEdit.Size = New System.Drawing.Size(641, 22)
@@ -2273,7 +2273,7 @@ Partial Class Employees
         'RefAvailable1CheckEdit
         '
         Me.RefAvailable1CheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "RefAvailable1", True))
-        Me.RefAvailable1CheckEdit.Location = New System.Drawing.Point(673, 346)
+        Me.RefAvailable1CheckEdit.Location = New System.Drawing.Point(673, 350)
         Me.RefAvailable1CheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RefAvailable1CheckEdit.Name = "RefAvailable1CheckEdit"
         Me.RefAvailable1CheckEdit.Properties.Caption = ""
@@ -2284,7 +2284,7 @@ Partial Class Employees
         'Manager1TextEdit
         '
         Me.Manager1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Manager1", True))
-        Me.Manager1TextEdit.Location = New System.Drawing.Point(512, 346)
+        Me.Manager1TextEdit.Location = New System.Drawing.Point(512, 350)
         Me.Manager1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Manager1TextEdit.Name = "Manager1TextEdit"
         Me.Manager1TextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2294,7 +2294,7 @@ Partial Class Employees
         'ReasonForLeaving1TextEdit
         '
         Me.ReasonForLeaving1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ReasonForLeaving1", True))
-        Me.ReasonForLeaving1TextEdit.Location = New System.Drawing.Point(352, 346)
+        Me.ReasonForLeaving1TextEdit.Location = New System.Drawing.Point(352, 350)
         Me.ReasonForLeaving1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ReasonForLeaving1TextEdit.Name = "ReasonForLeaving1TextEdit"
         Me.ReasonForLeaving1TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2304,7 +2304,7 @@ Partial Class Employees
         'Pay1CalcEdit
         '
         Me.Pay1CalcEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Pay1", True))
-        Me.Pay1CalcEdit.Location = New System.Drawing.Point(191, 346)
+        Me.Pay1CalcEdit.Location = New System.Drawing.Point(191, 350)
         Me.Pay1CalcEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Pay1CalcEdit.Name = "Pay1CalcEdit"
         Me.Pay1CalcEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2315,7 +2315,7 @@ Partial Class Employees
         'Shift1TextEdit
         '
         Me.Shift1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Shift1", True))
-        Me.Shift1TextEdit.Location = New System.Drawing.Point(31, 346)
+        Me.Shift1TextEdit.Location = New System.Drawing.Point(31, 350)
         Me.Shift1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Shift1TextEdit.Name = "Shift1TextEdit"
         Me.Shift1TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2325,7 +2325,7 @@ Partial Class Employees
         'JobTitle1TextEdit
         '
         Me.JobTitle1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "JobTitle1", True))
-        Me.JobTitle1TextEdit.Location = New System.Drawing.Point(352, 299)
+        Me.JobTitle1TextEdit.Location = New System.Drawing.Point(352, 303)
         Me.JobTitle1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JobTitle1TextEdit.Name = "JobTitle1TextEdit"
         Me.JobTitle1TextEdit.Size = New System.Drawing.Size(1122, 22)
@@ -2335,7 +2335,7 @@ Partial Class Employees
         'Location1TextEdit
         '
         Me.Location1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Location1", True))
-        Me.Location1TextEdit.Location = New System.Drawing.Point(191, 299)
+        Me.Location1TextEdit.Location = New System.Drawing.Point(191, 303)
         Me.Location1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Location1TextEdit.Name = "Location1TextEdit"
         Me.Location1TextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2345,7 +2345,7 @@ Partial Class Employees
         'CompanyName1TextEdit
         '
         Me.CompanyName1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CompanyName1", True))
-        Me.CompanyName1TextEdit.Location = New System.Drawing.Point(31, 299)
+        Me.CompanyName1TextEdit.Location = New System.Drawing.Point(31, 303)
         Me.CompanyName1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CompanyName1TextEdit.Name = "CompanyName1TextEdit"
         Me.CompanyName1TextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2355,7 +2355,7 @@ Partial Class Employees
         'AgencyName1TextEdit
         '
         Me.AgencyName1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "AgencyName1", True))
-        Me.AgencyName1TextEdit.Location = New System.Drawing.Point(565, 252)
+        Me.AgencyName1TextEdit.Location = New System.Drawing.Point(565, 256)
         Me.AgencyName1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AgencyName1TextEdit.Name = "AgencyName1TextEdit"
         Me.AgencyName1TextEdit.Size = New System.Drawing.Size(909, 22)
@@ -2365,7 +2365,7 @@ Partial Class Employees
         'WorkedVia1TextEdit
         '
         Me.WorkedVia1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkedVia1", True))
-        Me.WorkedVia1TextEdit.Location = New System.Drawing.Point(404, 252)
+        Me.WorkedVia1TextEdit.Location = New System.Drawing.Point(404, 256)
         Me.WorkedVia1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkedVia1TextEdit.Name = "WorkedVia1TextEdit"
         Me.WorkedVia1TextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2376,7 +2376,7 @@ Partial Class Employees
         '
         Me.WorkTo1DateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkTo1", True))
         Me.WorkTo1DateEdit.EditValue = Nothing
-        Me.WorkTo1DateEdit.Location = New System.Drawing.Point(244, 252)
+        Me.WorkTo1DateEdit.Location = New System.Drawing.Point(244, 256)
         Me.WorkTo1DateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkTo1DateEdit.Name = "WorkTo1DateEdit"
         Me.WorkTo1DateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2389,7 +2389,7 @@ Partial Class Employees
         '
         Me.WorkFrom1DateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkFrom1", True))
         Me.WorkFrom1DateEdit.EditValue = Nothing
-        Me.WorkFrom1DateEdit.Location = New System.Drawing.Point(31, 252)
+        Me.WorkFrom1DateEdit.Location = New System.Drawing.Point(31, 256)
         Me.WorkFrom1DateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkFrom1DateEdit.Name = "WorkFrom1DateEdit"
         Me.WorkFrom1DateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2401,7 +2401,7 @@ Partial Class Employees
         'ContactNumberTextEdit
         '
         Me.ContactNumberTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ContactNumber", True))
-        Me.ContactNumberTextEdit.Location = New System.Drawing.Point(833, 346)
+        Me.ContactNumberTextEdit.Location = New System.Drawing.Point(833, 350)
         Me.ContactNumberTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ContactNumberTextEdit.Name = "ContactNumberTextEdit"
         Me.ContactNumberTextEdit.Size = New System.Drawing.Size(641, 22)
@@ -2411,7 +2411,7 @@ Partial Class Employees
         'RefAvailableCheckEdit
         '
         Me.RefAvailableCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ContactNumber", True))
-        Me.RefAvailableCheckEdit.Location = New System.Drawing.Point(673, 346)
+        Me.RefAvailableCheckEdit.Location = New System.Drawing.Point(673, 350)
         Me.RefAvailableCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RefAvailableCheckEdit.Name = "RefAvailableCheckEdit"
         Me.RefAvailableCheckEdit.Properties.Caption = ""
@@ -2422,7 +2422,7 @@ Partial Class Employees
         'ManagerTextEdit
         '
         Me.ManagerTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Manager", True))
-        Me.ManagerTextEdit.Location = New System.Drawing.Point(512, 346)
+        Me.ManagerTextEdit.Location = New System.Drawing.Point(512, 350)
         Me.ManagerTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ManagerTextEdit.Name = "ManagerTextEdit"
         Me.ManagerTextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2432,7 +2432,7 @@ Partial Class Employees
         'ReasonForLeavingTextEdit
         '
         Me.ReasonForLeavingTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "ReasonForLeaving", True))
-        Me.ReasonForLeavingTextEdit.Location = New System.Drawing.Point(352, 346)
+        Me.ReasonForLeavingTextEdit.Location = New System.Drawing.Point(352, 350)
         Me.ReasonForLeavingTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ReasonForLeavingTextEdit.Name = "ReasonForLeavingTextEdit"
         Me.ReasonForLeavingTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2442,7 +2442,7 @@ Partial Class Employees
         'PayCalcEdit
         '
         Me.PayCalcEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Pay", True))
-        Me.PayCalcEdit.Location = New System.Drawing.Point(191, 346)
+        Me.PayCalcEdit.Location = New System.Drawing.Point(191, 350)
         Me.PayCalcEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PayCalcEdit.Name = "PayCalcEdit"
         Me.PayCalcEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2453,7 +2453,7 @@ Partial Class Employees
         'ShiftTextEdit
         '
         Me.ShiftTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Shift", True))
-        Me.ShiftTextEdit.Location = New System.Drawing.Point(31, 346)
+        Me.ShiftTextEdit.Location = New System.Drawing.Point(31, 350)
         Me.ShiftTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ShiftTextEdit.Name = "ShiftTextEdit"
         Me.ShiftTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2463,7 +2463,7 @@ Partial Class Employees
         'JobTitleTextEdit
         '
         Me.JobTitleTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "JobTitle", True))
-        Me.JobTitleTextEdit.Location = New System.Drawing.Point(352, 299)
+        Me.JobTitleTextEdit.Location = New System.Drawing.Point(352, 303)
         Me.JobTitleTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.JobTitleTextEdit.Name = "JobTitleTextEdit"
         Me.JobTitleTextEdit.Size = New System.Drawing.Size(1122, 22)
@@ -2473,7 +2473,7 @@ Partial Class Employees
         'LocationTextEdit
         '
         Me.LocationTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Location", True))
-        Me.LocationTextEdit.Location = New System.Drawing.Point(191, 299)
+        Me.LocationTextEdit.Location = New System.Drawing.Point(191, 303)
         Me.LocationTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LocationTextEdit.Name = "LocationTextEdit"
         Me.LocationTextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2483,7 +2483,7 @@ Partial Class Employees
         'CompanyNameTextEdit
         '
         Me.CompanyNameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "CompanyName", True))
-        Me.CompanyNameTextEdit.Location = New System.Drawing.Point(31, 299)
+        Me.CompanyNameTextEdit.Location = New System.Drawing.Point(31, 303)
         Me.CompanyNameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CompanyNameTextEdit.Name = "CompanyNameTextEdit"
         Me.CompanyNameTextEdit.Size = New System.Drawing.Size(154, 22)
@@ -2493,7 +2493,7 @@ Partial Class Employees
         'AgencyNameTextEdit
         '
         Me.AgencyNameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "AgencyName", True))
-        Me.AgencyNameTextEdit.Location = New System.Drawing.Point(512, 252)
+        Me.AgencyNameTextEdit.Location = New System.Drawing.Point(512, 256)
         Me.AgencyNameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AgencyNameTextEdit.Name = "AgencyNameTextEdit"
         Me.AgencyNameTextEdit.Size = New System.Drawing.Size(962, 22)
@@ -2504,7 +2504,7 @@ Partial Class Employees
         '
         Me.WorkToDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkTo", True))
         Me.WorkToDateEdit.EditValue = Nothing
-        Me.WorkToDateEdit.Location = New System.Drawing.Point(191, 252)
+        Me.WorkToDateEdit.Location = New System.Drawing.Point(191, 256)
         Me.WorkToDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkToDateEdit.Name = "WorkToDateEdit"
         Me.WorkToDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2517,7 +2517,7 @@ Partial Class Employees
         '
         Me.WorkFromDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkFrom", True))
         Me.WorkFromDateEdit.EditValue = Nothing
-        Me.WorkFromDateEdit.Location = New System.Drawing.Point(31, 252)
+        Me.WorkFromDateEdit.Location = New System.Drawing.Point(31, 256)
         Me.WorkFromDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkFromDateEdit.Name = "WorkFromDateEdit"
         Me.WorkFromDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2529,7 +2529,7 @@ Partial Class Employees
         'EmailTextEdit
         '
         Me.EmailTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Email", True))
-        Me.EmailTextEdit.Location = New System.Drawing.Point(191, 299)
+        Me.EmailTextEdit.Location = New System.Drawing.Point(191, 303)
         Me.EmailTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmailTextEdit.Name = "EmailTextEdit"
         Me.EmailTextEdit.Size = New System.Drawing.Size(155, 22)
@@ -2539,7 +2539,7 @@ Partial Class Employees
         'EmailPayslipCheckEdit
         '
         Me.EmailPayslipCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "EmailPayslip", True))
-        Me.EmailPayslipCheckEdit.Location = New System.Drawing.Point(31, 299)
+        Me.EmailPayslipCheckEdit.Location = New System.Drawing.Point(31, 303)
         Me.EmailPayslipCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmailPayslipCheckEdit.Name = "EmailPayslipCheckEdit"
         Me.EmailPayslipCheckEdit.Properties.Caption = ""
@@ -2550,7 +2550,7 @@ Partial Class Employees
         'StudentLoanCheckEdit
         '
         Me.StudentLoanCheckEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "StudentLoan", True))
-        Me.StudentLoanCheckEdit.Location = New System.Drawing.Point(352, 299)
+        Me.StudentLoanCheckEdit.Location = New System.Drawing.Point(352, 303)
         Me.StudentLoanCheckEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.StudentLoanCheckEdit.Name = "StudentLoanCheckEdit"
         Me.StudentLoanCheckEdit.Properties.Caption = ""
@@ -2561,7 +2561,7 @@ Partial Class Employees
         'BankTextEdit
         '
         Me.BankTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Bank", True))
-        Me.BankTextEdit.Location = New System.Drawing.Point(1236, 252)
+        Me.BankTextEdit.Location = New System.Drawing.Point(1236, 256)
         Me.BankTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BankTextEdit.Name = "BankTextEdit"
         Me.BankTextEdit.Size = New System.Drawing.Size(238, 22)
@@ -2571,7 +2571,7 @@ Partial Class Employees
         'AccountInTheNameOfTextEdit
         '
         Me.AccountInTheNameOfTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "AccountInTheNameOf", True))
-        Me.AccountInTheNameOfTextEdit.Location = New System.Drawing.Point(1066, 252)
+        Me.AccountInTheNameOfTextEdit.Location = New System.Drawing.Point(1066, 256)
         Me.AccountInTheNameOfTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AccountInTheNameOfTextEdit.Name = "AccountInTheNameOfTextEdit"
         Me.AccountInTheNameOfTextEdit.Size = New System.Drawing.Size(164, 22)
@@ -2581,7 +2581,7 @@ Partial Class Employees
         'AccountNoTextEdit
         '
         Me.AccountNoTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "AccountNo", True))
-        Me.AccountNoTextEdit.Location = New System.Drawing.Point(722, 252)
+        Me.AccountNoTextEdit.Location = New System.Drawing.Point(722, 256)
         Me.AccountNoTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.AccountNoTextEdit.Name = "AccountNoTextEdit"
         Me.AccountNoTextEdit.Size = New System.Drawing.Size(338, 22)
@@ -2591,7 +2591,7 @@ Partial Class Employees
         'SortCodeTextEdit
         '
         Me.SortCodeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "SortCode", True))
-        Me.SortCodeTextEdit.Location = New System.Drawing.Point(31, 252)
+        Me.SortCodeTextEdit.Location = New System.Drawing.Point(31, 256)
         Me.SortCodeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SortCodeTextEdit.Name = "SortCodeTextEdit"
         Me.SortCodeTextEdit.Size = New System.Drawing.Size(685, 22)
@@ -2601,7 +2601,7 @@ Partial Class Employees
         'EmergencyContactTelTextEdit
         '
         Me.EmergencyContactTelTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "EmergencyContactTel", True))
-        Me.EmergencyContactTelTextEdit.Location = New System.Drawing.Point(276, 440)
+        Me.EmergencyContactTelTextEdit.Location = New System.Drawing.Point(276, 444)
         Me.EmergencyContactTelTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmergencyContactTelTextEdit.Name = "EmergencyContactTelTextEdit"
         Me.EmergencyContactTelTextEdit.Size = New System.Drawing.Size(266, 22)
@@ -2611,7 +2611,7 @@ Partial Class Employees
         'EmergencyContactTextEdit
         '
         Me.EmergencyContactTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "EmergencyContact", True))
-        Me.EmergencyContactTextEdit.Location = New System.Drawing.Point(31, 440)
+        Me.EmergencyContactTextEdit.Location = New System.Drawing.Point(31, 444)
         Me.EmergencyContactTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmergencyContactTextEdit.Name = "EmergencyContactTextEdit"
         Me.EmergencyContactTextEdit.Size = New System.Drawing.Size(239, 22)
@@ -2621,7 +2621,7 @@ Partial Class Employees
         'MobileTextEdit
         '
         Me.MobileTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Mobile", True))
-        Me.MobileTextEdit.Location = New System.Drawing.Point(548, 393)
+        Me.MobileTextEdit.Location = New System.Drawing.Point(548, 397)
         Me.MobileTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MobileTextEdit.Name = "MobileTextEdit"
         Me.MobileTextEdit.Size = New System.Drawing.Size(926, 22)
@@ -2631,7 +2631,7 @@ Partial Class Employees
         'TelephoneTextEdit
         '
         Me.TelephoneTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Telephone", True))
-        Me.TelephoneTextEdit.Location = New System.Drawing.Point(276, 393)
+        Me.TelephoneTextEdit.Location = New System.Drawing.Point(276, 397)
         Me.TelephoneTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TelephoneTextEdit.Name = "TelephoneTextEdit"
         Me.TelephoneTextEdit.Size = New System.Drawing.Size(266, 22)
@@ -2642,7 +2642,7 @@ Partial Class Employees
         '
         Me.DOBDateEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "DOB", True))
         Me.DOBDateEdit.EditValue = Nothing
-        Me.DOBDateEdit.Location = New System.Drawing.Point(31, 393)
+        Me.DOBDateEdit.Location = New System.Drawing.Point(31, 397)
         Me.DOBDateEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DOBDateEdit.Name = "DOBDateEdit"
         Me.DOBDateEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2654,7 +2654,7 @@ Partial Class Employees
         'PostCodeTextEdit
         '
         Me.PostCodeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "PostCode", True))
-        Me.PostCodeTextEdit.Location = New System.Drawing.Point(1045, 346)
+        Me.PostCodeTextEdit.Location = New System.Drawing.Point(1045, 350)
         Me.PostCodeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PostCodeTextEdit.Name = "PostCodeTextEdit"
         Me.PostCodeTextEdit.Size = New System.Drawing.Size(429, 22)
@@ -2664,7 +2664,7 @@ Partial Class Employees
         'CountyTextEdit
         '
         Me.CountyTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "County", True))
-        Me.CountyTextEdit.Location = New System.Drawing.Point(769, 346)
+        Me.CountyTextEdit.Location = New System.Drawing.Point(769, 350)
         Me.CountyTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CountyTextEdit.Name = "CountyTextEdit"
         Me.CountyTextEdit.Size = New System.Drawing.Size(270, 22)
@@ -2674,7 +2674,7 @@ Partial Class Employees
         'TownTextEdit
         '
         Me.TownTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Town", True))
-        Me.TownTextEdit.Location = New System.Drawing.Point(548, 346)
+        Me.TownTextEdit.Location = New System.Drawing.Point(548, 350)
         Me.TownTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TownTextEdit.Name = "TownTextEdit"
         Me.TownTextEdit.Size = New System.Drawing.Size(215, 22)
@@ -2684,7 +2684,7 @@ Partial Class Employees
         'Address2TextEdit
         '
         Me.Address2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Address2", True))
-        Me.Address2TextEdit.Location = New System.Drawing.Point(276, 346)
+        Me.Address2TextEdit.Location = New System.Drawing.Point(276, 350)
         Me.Address2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address2TextEdit.Name = "Address2TextEdit"
         Me.Address2TextEdit.Size = New System.Drawing.Size(266, 22)
@@ -2694,7 +2694,7 @@ Partial Class Employees
         'Address1TextEdit
         '
         Me.Address1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Address1", True))
-        Me.Address1TextEdit.Location = New System.Drawing.Point(31, 346)
+        Me.Address1TextEdit.Location = New System.Drawing.Point(31, 350)
         Me.Address1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address1TextEdit.Name = "Address1TextEdit"
         Me.Address1TextEdit.Size = New System.Drawing.Size(239, 22)
@@ -2704,7 +2704,7 @@ Partial Class Employees
         'SurnameTextEdit
         '
         Me.SurnameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Surname", True))
-        Me.SurnameTextEdit.Location = New System.Drawing.Point(548, 299)
+        Me.SurnameTextEdit.Location = New System.Drawing.Point(548, 303)
         Me.SurnameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SurnameTextEdit.Name = "SurnameTextEdit"
         Me.SurnameTextEdit.Size = New System.Drawing.Size(215, 22)
@@ -2714,7 +2714,7 @@ Partial Class Employees
         'ForenameTextEdit
         '
         Me.ForenameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Forename", True))
-        Me.ForenameTextEdit.Location = New System.Drawing.Point(276, 299)
+        Me.ForenameTextEdit.Location = New System.Drawing.Point(276, 303)
         Me.ForenameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ForenameTextEdit.Name = "ForenameTextEdit"
         Me.ForenameTextEdit.Size = New System.Drawing.Size(266, 22)
@@ -2724,7 +2724,7 @@ Partial Class Employees
         'EmployeeCodeTextEdit
         '
         Me.EmployeeCodeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "EmployeeCode", True))
-        Me.EmployeeCodeTextEdit.Location = New System.Drawing.Point(1206, 252)
+        Me.EmployeeCodeTextEdit.Location = New System.Drawing.Point(1206, 256)
         Me.EmployeeCodeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmployeeCodeTextEdit.Name = "EmployeeCodeTextEdit"
         Me.EmployeeCodeTextEdit.Size = New System.Drawing.Size(268, 22)
@@ -2734,7 +2734,7 @@ Partial Class Employees
         'NINumberTextEdit
         '
         Me.NINumberTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "NINumber", True))
-        Me.NINumberTextEdit.Location = New System.Drawing.Point(548, 252)
+        Me.NINumberTextEdit.Location = New System.Drawing.Point(548, 256)
         Me.NINumberTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.NINumberTextEdit.Name = "NINumberTextEdit"
         Me.NINumberTextEdit.Size = New System.Drawing.Size(215, 22)
@@ -2744,7 +2744,7 @@ Partial Class Employees
         'SystemTypeTextEdit
         '
         Me.SystemTypeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "SystemType", True))
-        Me.SystemTypeTextEdit.Location = New System.Drawing.Point(276, 252)
+        Me.SystemTypeTextEdit.Location = New System.Drawing.Point(276, 256)
         Me.SystemTypeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SystemTypeTextEdit.Name = "SystemTypeTextEdit"
         Me.SystemTypeTextEdit.Size = New System.Drawing.Size(266, 22)
@@ -2755,7 +2755,7 @@ Partial Class Employees
         '
         Me.EmployeeIDSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "EmployeeID", True))
         Me.EmployeeIDSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.EmployeeIDSpinEdit.Location = New System.Drawing.Point(31, 252)
+        Me.EmployeeIDSpinEdit.Location = New System.Drawing.Point(31, 256)
         Me.EmployeeIDSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmployeeIDSpinEdit.Name = "EmployeeIDSpinEdit"
         Me.EmployeeIDSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2765,7 +2765,7 @@ Partial Class Employees
         '
         'LookUpEdit1
         '
-        Me.LookUpEdit1.Location = New System.Drawing.Point(31, 117)
+        Me.LookUpEdit1.Location = New System.Drawing.Point(31, 118)
         Me.LookUpEdit1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LookUpEdit1.Name = "LookUpEdit1"
         Me.LookUpEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -2787,11 +2787,11 @@ Partial Class Employees
         '
         Me.GridControl1.DataSource = Me.EmployeesBranchFilterBindingSource
         Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
-        Me.GridControl1.Location = New System.Drawing.Point(16, 508)
+        Me.GridControl1.Location = New System.Drawing.Point(16, 509)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1473, 389)
+        Me.GridControl1.Size = New System.Drawing.Size(1473, 388)
         Me.GridControl1.TabIndex = 4
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -4048,7 +4048,7 @@ Partial Class Employees
         'TitleTextEdit
         '
         Me.TitleTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Title", True))
-        Me.TitleTextEdit.Location = New System.Drawing.Point(31, 299)
+        Me.TitleTextEdit.Location = New System.Drawing.Point(31, 303)
         Me.TitleTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TitleTextEdit.Name = "TitleTextEdit"
         Me.TitleTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4059,7 +4059,7 @@ Partial Class Employees
         'MaritalStatusTextEdit
         '
         Me.MaritalStatusTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "MaritalStatus", True))
-        Me.MaritalStatusTextEdit.Location = New System.Drawing.Point(769, 299)
+        Me.MaritalStatusTextEdit.Location = New System.Drawing.Point(769, 303)
         Me.MaritalStatusTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaritalStatusTextEdit.Name = "MaritalStatusTextEdit"
         Me.MaritalStatusTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4070,7 +4070,7 @@ Partial Class Employees
         'GenderTextEdit
         '
         Me.GenderTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Gender", True))
-        Me.GenderTextEdit.Location = New System.Drawing.Point(1045, 299)
+        Me.GenderTextEdit.Location = New System.Drawing.Point(1045, 303)
         Me.GenderTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.GenderTextEdit.Name = "GenderTextEdit"
         Me.GenderTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4081,7 +4081,7 @@ Partial Class Employees
         'EthnicOriginTextEdit
         '
         Me.EthnicOriginTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "EthnicOrigin", True))
-        Me.EthnicOriginTextEdit.Location = New System.Drawing.Point(548, 440)
+        Me.EthnicOriginTextEdit.Location = New System.Drawing.Point(548, 444)
         Me.EthnicOriginTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EthnicOriginTextEdit.Name = "EthnicOriginTextEdit"
         Me.EthnicOriginTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4093,7 +4093,7 @@ Partial Class Employees
         '
         Me.PaymentFrequencyTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "PaymentFrequency", True))
         Me.PaymentFrequencyTextEdit.EditValue = "Weekly"
-        Me.PaymentFrequencyTextEdit.Location = New System.Drawing.Point(512, 299)
+        Me.PaymentFrequencyTextEdit.Location = New System.Drawing.Point(512, 303)
         Me.PaymentFrequencyTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PaymentFrequencyTextEdit.Name = "PaymentFrequencyTextEdit"
         Me.PaymentFrequencyTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4105,7 +4105,7 @@ Partial Class Employees
         'WorkedViaTextEdit
         '
         Me.WorkedViaTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "WorkedVia", True))
-        Me.WorkedViaTextEdit.Location = New System.Drawing.Point(352, 252)
+        Me.WorkedViaTextEdit.Location = New System.Drawing.Point(352, 256)
         Me.WorkedViaTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WorkedViaTextEdit.Name = "WorkedViaTextEdit"
         Me.WorkedViaTextEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4118,7 +4118,7 @@ Partial Class Employees
         '
         Me.SchemeIDSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "SchemeID", True))
         Me.SchemeIDSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.SchemeIDSpinEdit.Location = New System.Drawing.Point(769, 252)
+        Me.SchemeIDSpinEdit.Location = New System.Drawing.Point(769, 256)
         Me.SchemeIDSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SchemeIDSpinEdit.Name = "SchemeIDSpinEdit"
         Me.SchemeIDSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4141,7 +4141,7 @@ Partial Class Employees
         '
         Me.BranchIDSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "BranchID", True))
         Me.BranchIDSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.BranchIDSpinEdit.Location = New System.Drawing.Point(1045, 252)
+        Me.BranchIDSpinEdit.Location = New System.Drawing.Point(1045, 256)
         Me.BranchIDSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchIDSpinEdit.Name = "BranchIDSpinEdit"
         Me.BranchIDSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4164,7 +4164,7 @@ Partial Class Employees
         '
         Me.TaxCategoryTimeEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "TaxCategory", True))
         Me.TaxCategoryTimeEdit.EditValue = ""
-        Me.TaxCategoryTimeEdit.Location = New System.Drawing.Point(179, 327)
+        Me.TaxCategoryTimeEdit.Location = New System.Drawing.Point(179, 331)
         Me.TaxCategoryTimeEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TaxCategoryTimeEdit.Name = "TaxCategoryTimeEdit"
         Me.TaxCategoryTimeEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4180,7 +4180,7 @@ Partial Class Employees
         '
         Me.TaxdetailsTimeEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.EmployeeSelect1BindingSource, "Taxdetails", True))
         Me.TaxdetailsTimeEdit.EditValue = ""
-        Me.TaxdetailsTimeEdit.Location = New System.Drawing.Point(903, 327)
+        Me.TaxdetailsTimeEdit.Location = New System.Drawing.Point(903, 331)
         Me.TaxdetailsTimeEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TaxdetailsTimeEdit.Name = "TaxdetailsTimeEdit"
         Me.TaxdetailsTimeEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -4212,9 +4212,9 @@ Partial Class Employees
         'LayoutControlItem2
         '
         Me.LayoutControlItem2.Control = Me.GridControl1
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 492)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 493)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(1479, 395)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(1479, 394)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
@@ -4223,7 +4223,7 @@ Partial Class Employees
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem3})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 44)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1479, 100)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1479, 101)
         Me.LayoutControlGroup2.Text = "Filters"
         '
         'LayoutControlItem3
@@ -4238,7 +4238,7 @@ Partial Class Employees
         '
         'TabbedControlGroup1
         '
-        Me.TabbedControlGroup1.Location = New System.Drawing.Point(0, 175)
+        Me.TabbedControlGroup1.Location = New System.Drawing.Point(0, 176)
         Me.TabbedControlGroup1.Name = "TabbedControlGroup1"
         Me.TabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup12
         Me.TabbedControlGroup1.SelectedTabPageIndex = 9
@@ -4250,7 +4250,7 @@ Partial Class Employees
         Me.LayoutControlGroup12.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem152, Me.LayoutControlItem153, Me.LayoutControlItem154, Me.LayoutControlItem155, Me.LayoutControlItem156, Me.LayoutControlItem157, Me.LayoutControlItem158, Me.LayoutControlItem159, Me.LayoutControlItem160, Me.LayoutControlItem161, Me.LayoutControlItem162, Me.LayoutControlItem163, Me.EmptySpaceItem8, Me.EmptySpaceItem9})
         Me.LayoutControlGroup12.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup12.Name = "LayoutControlGroup12"
-        Me.LayoutControlGroup12.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup12.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup12.Text = "Other"
         '
         'LayoutControlItem152
@@ -4378,7 +4378,7 @@ Partial Class Employees
         Me.EmptySpaceItem8.AllowHotTrack = False
         Me.EmptySpaceItem8.Location = New System.Drawing.Point(0, 94)
         Me.EmptySpaceItem8.Name = "EmptySpaceItem8"
-        Me.EmptySpaceItem8.Size = New System.Drawing.Size(1449, 166)
+        Me.EmptySpaceItem8.Size = New System.Drawing.Size(1449, 163)
         Me.EmptySpaceItem8.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem9
@@ -4394,7 +4394,7 @@ Partial Class Employees
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem10, Me.LayoutControlItem15, Me.LayoutControlItem20, Me.LayoutControlItem24, Me.LayoutControlItem6, Me.LayoutControlItem5, Me.LayoutControlItem4, Me.LayoutControlItem7, Me.LayoutControlItem8, Me.LayoutControlItem9, Me.LayoutControlItem11, Me.LayoutControlItem12, Me.LayoutControlItem13, Me.LayoutControlItem14, Me.LayoutControlItem16, Me.LayoutControlItem17, Me.LayoutControlItem18, Me.LayoutControlItem19, Me.LayoutControlItem21, Me.LayoutControlItem22, Me.LayoutControlItem23, Me.LayoutControlItem25, Me.EmptySpaceItem11})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup3.Text = "Details"
         '
         'LayoutControlItem10
@@ -4622,7 +4622,7 @@ Partial Class Employees
         Me.EmptySpaceItem11.AllowHotTrack = False
         Me.EmptySpaceItem11.Location = New System.Drawing.Point(0, 235)
         Me.EmptySpaceItem11.Name = "EmptySpaceItem11"
-        Me.EmptySpaceItem11.Size = New System.Drawing.Size(1449, 25)
+        Me.EmptySpaceItem11.Size = New System.Drawing.Size(1449, 22)
         Me.EmptySpaceItem11.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup4
@@ -4630,7 +4630,7 @@ Partial Class Employees
         Me.LayoutControlGroup4.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem27, Me.LayoutControlItem33, Me.LayoutControlItem31, Me.LayoutControlItem28, Me.LayoutControlItem29, Me.LayoutControlItem30, Me.LayoutControlItem34, Me.LayoutControlItem32, Me.EmptySpaceItem10, Me.LayoutControlItem164, Me.LayoutControlItem165})
         Me.LayoutControlGroup4.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup4.Name = "LayoutControlGroup4"
-        Me.LayoutControlGroup4.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup4.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup4.Text = "Accounts"
         '
         'LayoutControlItem27
@@ -4718,7 +4718,7 @@ Partial Class Employees
         Me.EmptySpaceItem10.AllowHotTrack = False
         Me.EmptySpaceItem10.Location = New System.Drawing.Point(0, 122)
         Me.EmptySpaceItem10.Name = "EmptySpaceItem10"
-        Me.EmptySpaceItem10.Size = New System.Drawing.Size(1449, 138)
+        Me.EmptySpaceItem10.Size = New System.Drawing.Size(1449, 135)
         Me.EmptySpaceItem10.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem164
@@ -4744,7 +4744,7 @@ Partial Class Employees
         Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem35, Me.LayoutControlItem36, Me.LayoutControlItem39, Me.LayoutControlItem42, Me.LayoutControlItem37, Me.LayoutControlItem38, Me.LayoutControlItem40, Me.LayoutControlItem41, Me.LayoutControlItem43, Me.LayoutControlItem44, Me.LayoutControlItem45, Me.LayoutControlItem46, Me.LayoutControlItem47, Me.EmptySpaceItem1})
         Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup5.Text = "Work History 1"
         '
         'LayoutControlItem35
@@ -4882,7 +4882,7 @@ Partial Class Employees
         Me.EmptySpaceItem1.AllowHotTrack = False
         Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 141)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1449, 119)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1449, 116)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup6
@@ -4890,7 +4890,7 @@ Partial Class Employees
         Me.LayoutControlGroup6.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem53, Me.LayoutControlItem48, Me.LayoutControlItem55, Me.LayoutControlItem49, Me.LayoutControlItem50, Me.LayoutControlItem51, Me.LayoutControlItem52, Me.LayoutControlItem54, Me.LayoutControlItem56, Me.LayoutControlItem57, Me.LayoutControlItem58, Me.LayoutControlItem59, Me.LayoutControlItem60, Me.EmptySpaceItem2})
         Me.LayoutControlGroup6.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup6.Name = "LayoutControlGroup6"
-        Me.LayoutControlGroup6.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup6.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup6.Text = "Work History 2"
         '
         'LayoutControlItem53
@@ -5028,7 +5028,7 @@ Partial Class Employees
         Me.EmptySpaceItem2.AllowHotTrack = False
         Me.EmptySpaceItem2.Location = New System.Drawing.Point(0, 141)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(1449, 119)
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(1449, 116)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup7
@@ -5036,7 +5036,7 @@ Partial Class Employees
         Me.LayoutControlGroup7.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem61, Me.LayoutControlItem62, Me.LayoutControlItem65, Me.LayoutControlItem63, Me.LayoutControlItem68, Me.LayoutControlItem64, Me.LayoutControlItem66, Me.LayoutControlItem67, Me.LayoutControlItem69, Me.LayoutControlItem70, Me.LayoutControlItem71, Me.LayoutControlItem72, Me.LayoutControlItem73, Me.EmptySpaceItem3})
         Me.LayoutControlGroup7.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup7.Name = "LayoutControlGroup7"
-        Me.LayoutControlGroup7.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup7.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup7.Text = "Work History 3"
         '
         'LayoutControlItem61
@@ -5174,7 +5174,7 @@ Partial Class Employees
         Me.EmptySpaceItem3.AllowHotTrack = False
         Me.EmptySpaceItem3.Location = New System.Drawing.Point(0, 141)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(1449, 119)
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(1449, 116)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup8
@@ -5182,7 +5182,7 @@ Partial Class Employees
         Me.LayoutControlGroup8.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem74, Me.LayoutControlItem75, Me.LayoutControlItem76, Me.LayoutControlItem77, Me.LayoutControlItem78, Me.LayoutControlItem79, Me.LayoutControlItem80, Me.LayoutControlItem81, Me.LayoutControlItem82, Me.LayoutControlItem83, Me.LayoutControlItem84, Me.LayoutControlItem85, Me.LayoutControlItem86, Me.LayoutControlItem87, Me.LayoutControlItem88, Me.LayoutControlItem89, Me.LayoutControlItem90, Me.EmptySpaceItem4})
         Me.LayoutControlGroup8.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup8.Name = "LayoutControlGroup8"
-        Me.LayoutControlGroup8.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup8.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup8.Text = "Proof Of ID"
         '
         'LayoutControlItem74
@@ -5360,7 +5360,7 @@ Partial Class Employees
         Me.EmptySpaceItem4.AllowHotTrack = False
         Me.EmptySpaceItem4.Location = New System.Drawing.Point(0, 132)
         Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
-        Me.EmptySpaceItem4.Size = New System.Drawing.Size(1449, 128)
+        Me.EmptySpaceItem4.Size = New System.Drawing.Size(1449, 125)
         Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup9
@@ -5368,7 +5368,7 @@ Partial Class Employees
         Me.LayoutControlGroup9.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem91, Me.LayoutControlItem92, Me.LayoutControlItem93, Me.LayoutControlItem94, Me.LayoutControlItem95, Me.LayoutControlItem96, Me.LayoutControlItem97, Me.LayoutControlItem98, Me.LayoutControlItem109, Me.LayoutControlItem100, Me.LayoutControlItem101, Me.LayoutControlItem102, Me.LayoutControlItem103, Me.LayoutControlItem104, Me.LayoutControlItem99, Me.LayoutControlItem105, Me.LayoutControlItem106, Me.LayoutControlItem107, Me.LayoutControlItem108, Me.LayoutControlItem110, Me.LayoutControlItem111, Me.LayoutControlItem112, Me.LayoutControlItem113, Me.LayoutControlItem114, Me.EmptySpaceItem5})
         Me.LayoutControlGroup9.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup9.Name = "LayoutControlGroup9"
-        Me.LayoutControlGroup9.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup9.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup9.Text = "Industrial"
         '
         'LayoutControlItem91
@@ -5616,7 +5616,7 @@ Partial Class Employees
         Me.EmptySpaceItem5.AllowHotTrack = False
         Me.EmptySpaceItem5.Location = New System.Drawing.Point(0, 132)
         Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
-        Me.EmptySpaceItem5.Size = New System.Drawing.Size(1449, 128)
+        Me.EmptySpaceItem5.Size = New System.Drawing.Size(1449, 125)
         Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup10
@@ -5624,7 +5624,7 @@ Partial Class Employees
         Me.LayoutControlGroup10.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem115, Me.LayoutControlItem116, Me.LayoutControlItem117, Me.LayoutControlItem118, Me.LayoutControlItem119, Me.LayoutControlItem120, Me.LayoutControlItem121, Me.LayoutControlItem122, Me.LayoutControlItem123, Me.LayoutControlItem124, Me.LayoutControlItem125, Me.LayoutControlItem126, Me.LayoutControlItem127, Me.LayoutControlItem128, Me.LayoutControlItem129, Me.LayoutControlItem130, Me.LayoutControlItem131, Me.LayoutControlItem132, Me.LayoutControlItem133, Me.LayoutControlItem134, Me.LayoutControlItem136, Me.LayoutControlItem137, Me.LayoutControlItem138, Me.LayoutControlItem135, Me.LayoutControlItem139, Me.LayoutControlItem140, Me.LayoutControlItem141, Me.LayoutControlItem142, Me.LayoutControlItem143, Me.LayoutControlItem144, Me.LayoutControlItem145, Me.LayoutControlItem146, Me.EmptySpaceItem6})
         Me.LayoutControlGroup10.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup10.Name = "LayoutControlGroup10"
-        Me.LayoutControlGroup10.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup10.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup10.Text = "Driving"
         '
         'LayoutControlItem115
@@ -5952,7 +5952,7 @@ Partial Class Employees
         Me.EmptySpaceItem6.AllowHotTrack = False
         Me.EmptySpaceItem6.Location = New System.Drawing.Point(0, 176)
         Me.EmptySpaceItem6.Name = "EmptySpaceItem6"
-        Me.EmptySpaceItem6.Size = New System.Drawing.Size(1449, 84)
+        Me.EmptySpaceItem6.Size = New System.Drawing.Size(1449, 81)
         Me.EmptySpaceItem6.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlGroup11
@@ -5960,7 +5960,7 @@ Partial Class Employees
         Me.LayoutControlGroup11.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem147, Me.LayoutControlItem148, Me.LayoutControlItem149, Me.LayoutControlItem150, Me.LayoutControlItem151, Me.EmptySpaceItem7})
         Me.LayoutControlGroup11.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup11.Name = "LayoutControlGroup11"
-        Me.LayoutControlGroup11.Size = New System.Drawing.Size(1449, 260)
+        Me.LayoutControlGroup11.Size = New System.Drawing.Size(1449, 257)
         Me.LayoutControlGroup11.Text = "LTD Company Contrator Details"
         '
         'LayoutControlItem147
@@ -6018,13 +6018,13 @@ Partial Class Employees
         Me.EmptySpaceItem7.AllowHotTrack = False
         Me.EmptySpaceItem7.Location = New System.Drawing.Point(0, 47)
         Me.EmptySpaceItem7.Name = "EmptySpaceItem7"
-        Me.EmptySpaceItem7.Size = New System.Drawing.Size(1449, 213)
+        Me.EmptySpaceItem7.Size = New System.Drawing.Size(1449, 210)
         Me.EmptySpaceItem7.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem26
         '
         Me.LayoutControlItem26.Control = Me.lblStatus
-        Me.LayoutControlItem26.Location = New System.Drawing.Point(0, 144)
+        Me.LayoutControlItem26.Location = New System.Drawing.Point(0, 145)
         Me.LayoutControlItem26.Name = "LayoutControlItem26"
         Me.LayoutControlItem26.Size = New System.Drawing.Size(1479, 31)
         Me.LayoutControlItem26.TextSize = New System.Drawing.Size(0, 0)

@@ -72,12 +72,12 @@ Partial Class Reports_PlanClientCosting
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 6
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 113.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 130.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 246.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 151.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 265.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 233.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 220.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 328.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.ReportViewer1, 0, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.weekenddate, 2, 1)
@@ -91,14 +91,15 @@ Partial Class Reports_PlanClientCosting
         Me.TableLayoutPanel1.Controls.Add(Me.Button2, 5, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 4
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1008, 360)
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1344, 443)
         Me.TableLayoutPanel1.TabIndex = 6
         '
         'ReportViewer1
@@ -110,18 +111,20 @@ Partial Class Reports_PlanClientCosting
         ReportDataSource1.Value = Me.Rpt_PlanClientCostingBindingSource
         Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "Lexrecmgr.Client Costing.rdlc"
-        Me.ReportViewer1.Location = New System.Drawing.Point(3, 53)
+        Me.ReportViewer1.Location = New System.Drawing.Point(4, 66)
+        Me.ReportViewer1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1022, 284)
+        Me.ReportViewer1.Size = New System.Drawing.Size(1362, 348)
         Me.ReportViewer1.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Location = New System.Drawing.Point(315, 0)
+        Me.Label2.Location = New System.Drawing.Point(420, 0)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(169, 20)
+        Me.Label2.Size = New System.Drawing.Size(225, 25)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "WeekEndingDate"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -132,9 +135,10 @@ Partial Class Reports_PlanClientCosting
         Me.weekenddate.DisplayMember = "WeekEndingDate"
         Me.weekenddate.Dock = System.Windows.Forms.DockStyle.Fill
         Me.weekenddate.FormattingEnabled = True
-        Me.weekenddate.Location = New System.Drawing.Point(315, 23)
+        Me.weekenddate.Location = New System.Drawing.Point(420, 29)
+        Me.weekenddate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.weekenddate.Name = "weekenddate"
-        Me.weekenddate.Size = New System.Drawing.Size(169, 21)
+        Me.weekenddate.Size = New System.Drawing.Size(225, 24)
         Me.weekenddate.TabIndex = 1
         Me.weekenddate.ValueMember = "WeekEndingDate"
         '
@@ -154,9 +158,10 @@ Partial Class Reports_PlanClientCosting
         Me.plantype.DisplayMember = "PlanName"
         Me.plantype.Dock = System.Windows.Forms.DockStyle.Fill
         Me.plantype.FormattingEnabled = True
-        Me.plantype.Location = New System.Drawing.Point(116, 23)
+        Me.plantype.Location = New System.Drawing.Point(155, 29)
+        Me.plantype.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.plantype.Name = "plantype"
-        Me.plantype.Size = New System.Drawing.Size(193, 21)
+        Me.plantype.Size = New System.Drawing.Size(257, 24)
         Me.plantype.TabIndex = 1
         Me.plantype.ValueMember = "PlanName"
         '
@@ -171,9 +176,10 @@ Partial Class Reports_PlanClientCosting
         Me.branch.DisplayMember = "Branch"
         Me.branch.Dock = System.Windows.Forms.DockStyle.Fill
         Me.branch.FormattingEnabled = True
-        Me.branch.Location = New System.Drawing.Point(3, 23)
+        Me.branch.Location = New System.Drawing.Point(4, 29)
+        Me.branch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.branch.Name = "branch"
-        Me.branch.Size = New System.Drawing.Size(107, 21)
+        Me.branch.Size = New System.Drawing.Size(143, 24)
         Me.branch.TabIndex = 8
         Me.branch.ValueMember = "Branch"
         '
@@ -186,9 +192,10 @@ Partial Class Reports_PlanClientCosting
         '
         Me.Label3.AutoSize = True
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Location = New System.Drawing.Point(3, 0)
+        Me.Label3.Location = New System.Drawing.Point(4, 0)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(107, 20)
+        Me.Label3.Size = New System.Drawing.Size(143, 25)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Branch"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -197,9 +204,10 @@ Partial Class Reports_PlanClientCosting
         '
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label1.Location = New System.Drawing.Point(116, 0)
+        Me.Label1.Location = New System.Drawing.Point(155, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(193, 20)
+        Me.Label1.Size = New System.Drawing.Size(257, 25)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Plan"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -209,9 +217,10 @@ Partial Class Reports_PlanClientCosting
         Me.client.DataSource = Me.BlockTimeSheetClientListBindingSource
         Me.client.DisplayMember = "ClientCode"
         Me.client.FormattingEnabled = True
-        Me.client.Location = New System.Drawing.Point(490, 23)
+        Me.client.Location = New System.Drawing.Point(653, 29)
+        Me.client.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.client.Name = "client"
-        Me.client.Size = New System.Drawing.Size(117, 21)
+        Me.client.Size = New System.Drawing.Size(155, 24)
         Me.client.TabIndex = 12
         Me.client.ValueMember = "ClientCode"
         '
@@ -224,27 +233,30 @@ Partial Class Reports_PlanClientCosting
         '
         Me.Label5.AutoSize = True
         Me.Label5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label5.Location = New System.Drawing.Point(490, 0)
+        Me.Label5.Location = New System.Drawing.Point(653, 0)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(124, 20)
+        Me.Label5.Size = New System.Drawing.Size(165, 25)
         Me.Label5.TabIndex = 13
         Me.Label5.Text = "Client"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(620, 23)
+        Me.Button1.Location = New System.Drawing.Point(826, 29)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(146, 24)
+        Me.Button1.Size = New System.Drawing.Size(195, 29)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Run Report"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(785, 23)
+        Me.Button2.Location = New System.Drawing.Point(1046, 29)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(195, 24)
+        Me.Button2.Size = New System.Drawing.Size(260, 29)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "E-Mail Me The Report"
         Me.Button2.UseVisualStyleBackColor = True
@@ -275,10 +287,11 @@ Partial Class Reports_PlanClientCosting
         '
         'Reports_PlanClientCosting
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1008, 360)
+        Me.ClientSize = New System.Drawing.Size(1344, 443)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Reports_PlanClientCosting"
         Me.Text = "Reports_Planview"
         CType(Me.Rpt_PlanClientCostingBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

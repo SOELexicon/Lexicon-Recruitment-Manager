@@ -19,10 +19,11 @@ Partial Class Branchs
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Branchs))
         Me.LayoutControl1 = New DevExpress.XtraLayout.LayoutControl()
         Me.BranchGridControl = New DevExpress.XtraGrid.GridControl()
-        Me.BranchBindingSource = New System.Windows.Forms.BindingSource()
+        Me.BranchBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.LexiconRecManagerDataSet = New Lexrecmgr.LexiconRecManagerDataSet()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.colBranchID = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -37,7 +38,7 @@ Partial Class Branchs
         Me.colTelephone = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colFax = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colEmail = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.BranchBindingNavigator = New System.Windows.Forms.BindingNavigator()
+        Me.BranchBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
         Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
         Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
@@ -130,19 +131,22 @@ Partial Class Branchs
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl1.HiddenItems.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem8})
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LayoutControl1.Name = "LayoutControl1"
         Me.LayoutControl1.Root = Me.LayoutControlGroup1
-        Me.LayoutControl1.Size = New System.Drawing.Size(1362, 698)
+        Me.LayoutControl1.Size = New System.Drawing.Size(1589, 859)
         Me.LayoutControl1.TabIndex = 0
         Me.LayoutControl1.Text = "LayoutControl1"
         '
         'BranchGridControl
         '
         Me.BranchGridControl.DataSource = Me.BranchBindingSource
-        Me.BranchGridControl.Location = New System.Drawing.Point(12, 126)
+        Me.BranchGridControl.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
+        Me.BranchGridControl.Location = New System.Drawing.Point(16, 154)
         Me.BranchGridControl.MainView = Me.GridView1
+        Me.BranchGridControl.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchGridControl.Name = "BranchGridControl"
-        Me.BranchGridControl.Size = New System.Drawing.Size(1338, 560)
+        Me.BranchGridControl.Size = New System.Drawing.Size(1557, 689)
         Me.BranchGridControl.TabIndex = 27
         Me.BranchGridControl.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -256,14 +260,14 @@ Partial Class Branchs
         Me.BranchBindingNavigator.DeleteItem = Me.BindingNavigatorDeleteItem
         Me.BranchBindingNavigator.Dock = System.Windows.Forms.DockStyle.None
         Me.BranchBindingNavigator.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.BranchBindingNavigatorSaveItem})
-        Me.BranchBindingNavigator.Location = New System.Drawing.Point(12, 12)
+        Me.BranchBindingNavigator.Location = New System.Drawing.Point(16, 16)
         Me.BranchBindingNavigator.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
         Me.BranchBindingNavigator.MoveLastItem = Me.BindingNavigatorMoveLastItem
         Me.BranchBindingNavigator.MoveNextItem = Me.BindingNavigatorMoveNextItem
         Me.BranchBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.BranchBindingNavigator.Name = "BranchBindingNavigator"
         Me.BranchBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.BranchBindingNavigator.Size = New System.Drawing.Size(1338, 30)
+        Me.BranchBindingNavigator.Size = New System.Drawing.Size(1557, 38)
         Me.BranchBindingNavigator.TabIndex = 1
         Me.BranchBindingNavigator.Text = "BindingNavigator1"
         '
@@ -273,13 +277,13 @@ Partial Class Branchs
         Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
         Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorAddNewItem.Text = "Add new"
         '
         'BindingNavigatorCountItem
         '
         Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
-        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(35, 27)
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(45, 35)
         Me.BindingNavigatorCountItem.Text = "of {0}"
         Me.BindingNavigatorCountItem.ToolTipText = "Total number of items"
         '
@@ -289,7 +293,7 @@ Partial Class Branchs
         Me.BindingNavigatorDeleteItem.Image = CType(resources.GetObject("BindingNavigatorDeleteItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorDeleteItem.Name = "BindingNavigatorDeleteItem"
         Me.BindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorDeleteItem.Text = "Delete"
         '
         'BindingNavigatorMoveFirstItem
@@ -298,7 +302,7 @@ Partial Class Branchs
         Me.BindingNavigatorMoveFirstItem.Image = CType(resources.GetObject("BindingNavigatorMoveFirstItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem"
         Me.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMoveFirstItem.Text = "Move first"
         '
         'BindingNavigatorMovePreviousItem
@@ -307,27 +311,27 @@ Partial Class Branchs
         Me.BindingNavigatorMovePreviousItem.Image = CType(resources.GetObject("BindingNavigatorMovePreviousItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem"
         Me.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMovePreviousItem.Text = "Move previous"
         '
         'BindingNavigatorSeparator
         '
         Me.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator"
-        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 30)
+        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 38)
         '
         'BindingNavigatorPositionItem
         '
         Me.BindingNavigatorPositionItem.AccessibleName = "Position"
         Me.BindingNavigatorPositionItem.AutoSize = False
         Me.BindingNavigatorPositionItem.Name = "BindingNavigatorPositionItem"
-        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(50, 23)
+        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(58, 27)
         Me.BindingNavigatorPositionItem.Text = "0"
         Me.BindingNavigatorPositionItem.ToolTipText = "Current position"
         '
         'BindingNavigatorSeparator1
         '
         Me.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator1"
-        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 30)
+        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 38)
         '
         'BindingNavigatorMoveNextItem
         '
@@ -335,7 +339,7 @@ Partial Class Branchs
         Me.BindingNavigatorMoveNextItem.Image = CType(resources.GetObject("BindingNavigatorMoveNextItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem"
         Me.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMoveNextItem.Text = "Move next"
         '
         'BindingNavigatorMoveLastItem
@@ -344,37 +348,39 @@ Partial Class Branchs
         Me.BindingNavigatorMoveLastItem.Image = CType(resources.GetObject("BindingNavigatorMoveLastItem.Image"), System.Drawing.Image)
         Me.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem"
         Me.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(23, 27)
+        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(23, 35)
         Me.BindingNavigatorMoveLastItem.Text = "Move last"
         '
         'BindingNavigatorSeparator2
         '
         Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
-        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 30)
+        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 38)
         '
         'BranchBindingNavigatorSaveItem
         '
         Me.BranchBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.BranchBindingNavigatorSaveItem.Image = CType(resources.GetObject("BranchBindingNavigatorSaveItem.Image"), System.Drawing.Image)
         Me.BranchBindingNavigatorSaveItem.Name = "BranchBindingNavigatorSaveItem"
-        Me.BranchBindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 27)
+        Me.BranchBindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 35)
         Me.BranchBindingNavigatorSaveItem.Text = "Save Data"
         '
         'BranchTextEdit
         '
         Me.BranchTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Branch", True))
-        Me.BranchTextEdit.Location = New System.Drawing.Point(12, 62)
+        Me.BranchTextEdit.Location = New System.Drawing.Point(16, 79)
+        Me.BranchTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchTextEdit.Name = "BranchTextEdit"
-        Me.BranchTextEdit.Size = New System.Drawing.Size(120, 20)
+        Me.BranchTextEdit.Size = New System.Drawing.Size(138, 22)
         Me.BranchTextEdit.StyleController = Me.LayoutControl1
         Me.BranchTextEdit.TabIndex = 7
         '
         'BranchNameTextEdit
         '
         Me.BranchNameTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "BranchName", True))
-        Me.BranchNameTextEdit.Location = New System.Drawing.Point(136, 62)
+        Me.BranchNameTextEdit.Location = New System.Drawing.Point(160, 79)
+        Me.BranchNameTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchNameTextEdit.Name = "BranchNameTextEdit"
-        Me.BranchNameTextEdit.Size = New System.Drawing.Size(84, 20)
+        Me.BranchNameTextEdit.Size = New System.Drawing.Size(97, 22)
         Me.BranchNameTextEdit.StyleController = Me.LayoutControl1
         Me.BranchNameTextEdit.TabIndex = 9
         '
@@ -382,82 +388,91 @@ Partial Class Branchs
         '
         Me.BranchCounterSpinEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "BranchCounter", True))
         Me.BranchCounterSpinEdit.EditValue = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.BranchCounterSpinEdit.Location = New System.Drawing.Point(552, 62)
+        Me.BranchCounterSpinEdit.Location = New System.Drawing.Point(644, 76)
+        Me.BranchCounterSpinEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.BranchCounterSpinEdit.Name = "BranchCounterSpinEdit"
         Me.BranchCounterSpinEdit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.BranchCounterSpinEdit.Size = New System.Drawing.Size(131, 20)
+        Me.BranchCounterSpinEdit.Size = New System.Drawing.Size(153, 22)
         Me.BranchCounterSpinEdit.StyleController = Me.LayoutControl1
         Me.BranchCounterSpinEdit.TabIndex = 11
         '
         'Address1TextEdit
         '
         Me.Address1TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Address1", True))
-        Me.Address1TextEdit.Location = New System.Drawing.Point(224, 62)
+        Me.Address1TextEdit.Location = New System.Drawing.Point(263, 79)
+        Me.Address1TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address1TextEdit.Name = "Address1TextEdit"
-        Me.Address1TextEdit.Size = New System.Drawing.Size(144, 20)
+        Me.Address1TextEdit.Size = New System.Drawing.Size(166, 22)
         Me.Address1TextEdit.StyleController = Me.LayoutControl1
         Me.Address1TextEdit.TabIndex = 13
         '
         'Address2TextEdit
         '
         Me.Address2TextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Address2", True))
-        Me.Address2TextEdit.Location = New System.Drawing.Point(372, 62)
+        Me.Address2TextEdit.Location = New System.Drawing.Point(435, 79)
+        Me.Address2TextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Address2TextEdit.Name = "Address2TextEdit"
-        Me.Address2TextEdit.Size = New System.Drawing.Size(145, 20)
+        Me.Address2TextEdit.Size = New System.Drawing.Size(168, 22)
         Me.Address2TextEdit.StyleController = Me.LayoutControl1
         Me.Address2TextEdit.TabIndex = 15
         '
         'TownTextEdit
         '
         Me.TownTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Town", True))
-        Me.TownTextEdit.Location = New System.Drawing.Point(521, 62)
+        Me.TownTextEdit.Location = New System.Drawing.Point(609, 79)
+        Me.TownTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TownTextEdit.Name = "TownTextEdit"
-        Me.TownTextEdit.Size = New System.Drawing.Size(150, 20)
+        Me.TownTextEdit.Size = New System.Drawing.Size(173, 22)
         Me.TownTextEdit.StyleController = Me.LayoutControl1
         Me.TownTextEdit.TabIndex = 17
         '
         'CountyTextEdit
         '
         Me.CountyTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "County", True))
-        Me.CountyTextEdit.Location = New System.Drawing.Point(675, 62)
+        Me.CountyTextEdit.Location = New System.Drawing.Point(788, 79)
+        Me.CountyTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CountyTextEdit.Name = "CountyTextEdit"
-        Me.CountyTextEdit.Size = New System.Drawing.Size(115, 20)
+        Me.CountyTextEdit.Size = New System.Drawing.Size(133, 22)
         Me.CountyTextEdit.StyleController = Me.LayoutControl1
         Me.CountyTextEdit.TabIndex = 19
         '
         'PostCodeTextEdit
         '
         Me.PostCodeTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "PostCode", True))
-        Me.PostCodeTextEdit.Location = New System.Drawing.Point(794, 62)
+        Me.PostCodeTextEdit.Location = New System.Drawing.Point(927, 79)
+        Me.PostCodeTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PostCodeTextEdit.Name = "PostCodeTextEdit"
-        Me.PostCodeTextEdit.Size = New System.Drawing.Size(556, 20)
+        Me.PostCodeTextEdit.Size = New System.Drawing.Size(646, 22)
         Me.PostCodeTextEdit.StyleController = Me.LayoutControl1
         Me.PostCodeTextEdit.TabIndex = 21
         '
         'TelephoneTextEdit
         '
         Me.TelephoneTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Telephone", True))
-        Me.TelephoneTextEdit.Location = New System.Drawing.Point(12, 102)
+        Me.TelephoneTextEdit.Location = New System.Drawing.Point(16, 126)
+        Me.TelephoneTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TelephoneTextEdit.Name = "TelephoneTextEdit"
-        Me.TelephoneTextEdit.Size = New System.Drawing.Size(307, 20)
+        Me.TelephoneTextEdit.Size = New System.Drawing.Size(356, 22)
         Me.TelephoneTextEdit.StyleController = Me.LayoutControl1
         Me.TelephoneTextEdit.TabIndex = 23
         '
         'FaxTextEdit
         '
         Me.FaxTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Fax", True))
-        Me.FaxTextEdit.Location = New System.Drawing.Point(323, 102)
+        Me.FaxTextEdit.Location = New System.Drawing.Point(378, 126)
+        Me.FaxTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FaxTextEdit.Name = "FaxTextEdit"
-        Me.FaxTextEdit.Size = New System.Drawing.Size(467, 20)
+        Me.FaxTextEdit.Size = New System.Drawing.Size(543, 22)
         Me.FaxTextEdit.StyleController = Me.LayoutControl1
         Me.FaxTextEdit.TabIndex = 25
         '
         'EmailTextEdit
         '
         Me.EmailTextEdit.DataBindings.Add(New System.Windows.Forms.Binding("EditValue", Me.BranchBindingSource, "Email", True))
-        Me.EmailTextEdit.Location = New System.Drawing.Point(794, 102)
+        Me.EmailTextEdit.Location = New System.Drawing.Point(927, 126)
+        Me.EmailTextEdit.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.EmailTextEdit.Name = "EmailTextEdit"
-        Me.EmailTextEdit.Size = New System.Drawing.Size(556, 20)
+        Me.EmailTextEdit.Size = New System.Drawing.Size(646, 22)
         Me.EmailTextEdit.StyleController = Me.LayoutControl1
         Me.EmailTextEdit.TabIndex = 27
         '
@@ -478,7 +493,7 @@ Partial Class Branchs
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1, Me.LayoutControlItem4, Me.LayoutControlItem6, Me.LayoutControlItem10, Me.LayoutControlItem12, Me.LayoutControlItem14, Me.LayoutControlItem16, Me.LayoutControlItem18, Me.LayoutControlItem20, Me.LayoutControlItem22, Me.LayoutControlItem24, Me.LayoutControlItem2})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1362, 698)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1589, 859)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'LayoutControlItem1
@@ -486,116 +501,116 @@ Partial Class Branchs
         Me.LayoutControlItem1.Control = Me.BranchBindingNavigator
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(1342, 34)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(1563, 44)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
         'LayoutControlItem4
         '
         Me.LayoutControlItem4.Control = Me.BranchTextEdit
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 34)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(0, 44)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(124, 40)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(144, 47)
         Me.LayoutControlItem4.Text = "Branch:"
         Me.LayoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem4.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem4.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.BranchNameTextEdit
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(124, 34)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(144, 44)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(88, 40)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(103, 47)
         Me.LayoutControlItem6.Text = "Branch Name:"
         Me.LayoutControlItem6.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem6.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem6.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem10
         '
         Me.LayoutControlItem10.Control = Me.Address1TextEdit
-        Me.LayoutControlItem10.Location = New System.Drawing.Point(212, 34)
+        Me.LayoutControlItem10.Location = New System.Drawing.Point(247, 44)
         Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(148, 40)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(172, 47)
         Me.LayoutControlItem10.Text = "Address1:"
         Me.LayoutControlItem10.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem12
         '
         Me.LayoutControlItem12.Control = Me.Address2TextEdit
-        Me.LayoutControlItem12.Location = New System.Drawing.Point(360, 34)
+        Me.LayoutControlItem12.Location = New System.Drawing.Point(419, 44)
         Me.LayoutControlItem12.Name = "LayoutControlItem12"
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(149, 40)
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(174, 47)
         Me.LayoutControlItem12.Text = "Address2:"
         Me.LayoutControlItem12.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem12.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem12.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem14
         '
         Me.LayoutControlItem14.Control = Me.TownTextEdit
-        Me.LayoutControlItem14.Location = New System.Drawing.Point(509, 34)
+        Me.LayoutControlItem14.Location = New System.Drawing.Point(593, 44)
         Me.LayoutControlItem14.Name = "LayoutControlItem14"
-        Me.LayoutControlItem14.Size = New System.Drawing.Size(154, 40)
+        Me.LayoutControlItem14.Size = New System.Drawing.Size(179, 47)
         Me.LayoutControlItem14.Text = "Town:"
         Me.LayoutControlItem14.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem14.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem14.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem16
         '
         Me.LayoutControlItem16.Control = Me.CountyTextEdit
-        Me.LayoutControlItem16.Location = New System.Drawing.Point(663, 34)
+        Me.LayoutControlItem16.Location = New System.Drawing.Point(772, 44)
         Me.LayoutControlItem16.Name = "LayoutControlItem16"
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(119, 40)
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(139, 47)
         Me.LayoutControlItem16.Text = "County:"
         Me.LayoutControlItem16.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem16.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem16.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem18
         '
         Me.LayoutControlItem18.Control = Me.PostCodeTextEdit
-        Me.LayoutControlItem18.Location = New System.Drawing.Point(782, 34)
+        Me.LayoutControlItem18.Location = New System.Drawing.Point(911, 44)
         Me.LayoutControlItem18.Name = "LayoutControlItem18"
-        Me.LayoutControlItem18.Size = New System.Drawing.Size(560, 40)
+        Me.LayoutControlItem18.Size = New System.Drawing.Size(652, 47)
         Me.LayoutControlItem18.Text = "Post Code:"
         Me.LayoutControlItem18.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem18.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem18.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem20
         '
         Me.LayoutControlItem20.Control = Me.TelephoneTextEdit
-        Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 74)
+        Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 91)
         Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(311, 40)
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(362, 47)
         Me.LayoutControlItem20.Text = "Telephone:"
         Me.LayoutControlItem20.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem20.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem20.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem22
         '
         Me.LayoutControlItem22.Control = Me.FaxTextEdit
-        Me.LayoutControlItem22.Location = New System.Drawing.Point(311, 74)
+        Me.LayoutControlItem22.Location = New System.Drawing.Point(362, 91)
         Me.LayoutControlItem22.Name = "LayoutControlItem22"
-        Me.LayoutControlItem22.Size = New System.Drawing.Size(471, 40)
+        Me.LayoutControlItem22.Size = New System.Drawing.Size(549, 47)
         Me.LayoutControlItem22.Text = "Fax:"
         Me.LayoutControlItem22.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem22.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem22.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem24
         '
         Me.LayoutControlItem24.Control = Me.EmailTextEdit
-        Me.LayoutControlItem24.Location = New System.Drawing.Point(782, 74)
+        Me.LayoutControlItem24.Location = New System.Drawing.Point(911, 91)
         Me.LayoutControlItem24.Name = "LayoutControlItem24"
-        Me.LayoutControlItem24.Size = New System.Drawing.Size(560, 40)
+        Me.LayoutControlItem24.Size = New System.Drawing.Size(652, 47)
         Me.LayoutControlItem24.Text = "Email:"
         Me.LayoutControlItem24.TextLocation = DevExpress.Utils.Locations.Top
-        Me.LayoutControlItem24.TextSize = New System.Drawing.Size(67, 13)
+        Me.LayoutControlItem24.TextSize = New System.Drawing.Size(81, 16)
         '
         'LayoutControlItem2
         '
         Me.LayoutControlItem2.Control = Me.BranchGridControl
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 114)
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 138)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(1342, 564)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(1563, 695)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
@@ -616,6 +631,8 @@ Partial Class Branchs
         Me.TableAdapterManager.CompanyContactsTableAdapter = Nothing
         Me.TableAdapterManager.ControlsTableAdapter = Nothing
         Me.TableAdapterManager.CountersTableAdapter = Nothing
+        Me.TableAdapterManager.EmployeesBranchFilterTableAdapter = Nothing
+        Me.TableAdapterManager.EmployeeSelect1TableAdapter = Nothing
         Me.TableAdapterManager.EmployeesTableAdapter = Nothing
         Me.TableAdapterManager.HolidaysTableAdapter = Nothing
         Me.TableAdapterManager.Import_EmployeesTableAdapter = Nothing
@@ -635,10 +652,11 @@ Partial Class Branchs
         '
         'Branchs
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1362, 698)
+        Me.ClientSize = New System.Drawing.Size(1589, 859)
         Me.Controls.Add(Me.LayoutControl1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Branchs"
         Me.Text = "Branchs"
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -349,7 +349,7 @@ Partial Class Holidays
         '
         Me.HollidayFormReceivedLMUTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.HolidaysBindingSource, "HollidayFormReceivedLMU", True))
         Me.HollidayFormReceivedLMUTextBox.Enabled = False
-        Me.HollidayFormReceivedLMUTextBox.Location = New System.Drawing.Point(31, 275)
+        Me.HollidayFormReceivedLMUTextBox.Location = New System.Drawing.Point(31, 276)
         Me.HollidayFormReceivedLMUTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HollidayFormReceivedLMUTextBox.Name = "HollidayFormReceivedLMUTextBox"
         Me.HollidayFormReceivedLMUTextBox.Size = New System.Drawing.Size(289, 25)
@@ -359,7 +359,7 @@ Partial Class Holidays
         '
         Me.HollidayFormReceivedLMDTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.HolidaysBindingSource, "HollidayFormReceivedLMD", True))
         Me.HollidayFormReceivedLMDTextBox.Enabled = False
-        Me.HollidayFormReceivedLMDTextBox.Location = New System.Drawing.Point(326, 275)
+        Me.HollidayFormReceivedLMDTextBox.Location = New System.Drawing.Point(326, 276)
         Me.HollidayFormReceivedLMDTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HollidayFormReceivedLMDTextBox.Name = "HollidayFormReceivedLMDTextBox"
         Me.HollidayFormReceivedLMDTextBox.Size = New System.Drawing.Size(236, 25)
@@ -369,7 +369,7 @@ Partial Class Holidays
         '
         Me.MondayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Monday", True))
         Me.MondayCheckBox.Enabled = False
-        Me.MondayCheckBox.Location = New System.Drawing.Point(796, 212)
+        Me.MondayCheckBox.Location = New System.Drawing.Point(796, 213)
         Me.MondayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MondayCheckBox.MaximumSize = New System.Drawing.Size(56, 25)
         Me.MondayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
@@ -383,7 +383,7 @@ Partial Class Holidays
         '
         Me.TuesdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Tuesday", True))
         Me.TuesdayCheckBox.Enabled = False
-        Me.TuesdayCheckBox.Location = New System.Drawing.Point(858, 212)
+        Me.TuesdayCheckBox.Location = New System.Drawing.Point(858, 213)
         Me.TuesdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TuesdayCheckBox.MaximumSize = New System.Drawing.Size(56, 25)
         Me.TuesdayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
@@ -397,7 +397,7 @@ Partial Class Holidays
         '
         Me.WednesdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Wednesday", True))
         Me.WednesdayCheckBox.Enabled = False
-        Me.WednesdayCheckBox.Location = New System.Drawing.Point(920, 212)
+        Me.WednesdayCheckBox.Location = New System.Drawing.Point(920, 213)
         Me.WednesdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.WednesdayCheckBox.MaximumSize = New System.Drawing.Size(56, 25)
         Me.WednesdayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
@@ -411,7 +411,7 @@ Partial Class Holidays
         '
         Me.ThursdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Thursday", True))
         Me.ThursdayCheckBox.Enabled = False
-        Me.ThursdayCheckBox.Location = New System.Drawing.Point(982, 212)
+        Me.ThursdayCheckBox.Location = New System.Drawing.Point(982, 213)
         Me.ThursdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ThursdayCheckBox.MaximumSize = New System.Drawing.Size(62, 25)
         Me.ThursdayCheckBox.MinimumSize = New System.Drawing.Size(62, 25)
@@ -425,7 +425,7 @@ Partial Class Holidays
         '
         Me.FridayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Friday", True))
         Me.FridayCheckBox.Enabled = False
-        Me.FridayCheckBox.Location = New System.Drawing.Point(1050, 212)
+        Me.FridayCheckBox.Location = New System.Drawing.Point(1050, 213)
         Me.FridayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.FridayCheckBox.MaximumSize = New System.Drawing.Size(56, 25)
         Me.FridayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
@@ -439,7 +439,7 @@ Partial Class Holidays
         '
         Me.SaturdayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Saturday", True))
         Me.SaturdayCheckBox.Enabled = False
-        Me.SaturdayCheckBox.Location = New System.Drawing.Point(1112, 212)
+        Me.SaturdayCheckBox.Location = New System.Drawing.Point(1112, 213)
         Me.SaturdayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SaturdayCheckBox.MaximumSize = New System.Drawing.Size(56, 25)
         Me.SaturdayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
@@ -453,7 +453,7 @@ Partial Class Holidays
         '
         Me.SundayCheckBox.DataBindings.Add(New System.Windows.Forms.Binding("CheckState", Me.HolidaysBindingSource, "Sunday", True))
         Me.SundayCheckBox.Enabled = False
-        Me.SundayCheckBox.Location = New System.Drawing.Point(1174, 212)
+        Me.SundayCheckBox.Location = New System.Drawing.Point(1174, 213)
         Me.SundayCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SundayCheckBox.MaximumSize = New System.Drawing.Size(56, 25)
         Me.SundayCheckBox.MinimumSize = New System.Drawing.Size(56, 25)
@@ -467,7 +467,7 @@ Partial Class Holidays
         '
         Me.LastModifiedUserTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.HolidaysBindingSource, "LastModifiedUser", True))
         Me.LastModifiedUserTextBox.Enabled = False
-        Me.LastModifiedUserTextBox.Location = New System.Drawing.Point(568, 275)
+        Me.LastModifiedUserTextBox.Location = New System.Drawing.Point(568, 276)
         Me.LastModifiedUserTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedUserTextBox.Name = "LastModifiedUserTextBox"
         Me.LastModifiedUserTextBox.Size = New System.Drawing.Size(194, 25)
@@ -477,7 +477,7 @@ Partial Class Holidays
         '
         Me.LastModifiedDateTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.HolidaysBindingSource, "LastModifiedDate", True))
         Me.LastModifiedDateTextBox.Enabled = False
-        Me.LastModifiedDateTextBox.Location = New System.Drawing.Point(768, 275)
+        Me.LastModifiedDateTextBox.Location = New System.Drawing.Point(768, 276)
         Me.LastModifiedDateTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.LastModifiedDateTextBox.Name = "LastModifiedDateTextBox"
         Me.LastModifiedDateTextBox.Size = New System.Drawing.Size(782, 25)
@@ -1057,7 +1057,7 @@ Partial Class Holidays
         Me.LayoutControlItem19.MaxSize = New System.Drawing.Size(98, 41)
         Me.LayoutControlItem19.MinSize = New System.Drawing.Size(98, 41)
         Me.LayoutControlItem19.Name = "LayoutControlItem19"
-        Me.LayoutControlItem19.Size = New System.Drawing.Size(98, 80)
+        Me.LayoutControlItem19.Size = New System.Drawing.Size(98, 81)
         Me.LayoutControlItem19.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom
         Me.LayoutControlItem19.Text = "Holiday Form Received"
         Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
@@ -1068,7 +1068,7 @@ Partial Class Holidays
         Me.LayoutControlItem20.Control = Me.WeekendingdateTextBox
         Me.LayoutControlItem20.Location = New System.Drawing.Point(98, 101)
         Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(220, 80)
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(220, 81)
         Me.LayoutControlItem20.Text = "Week Ending Date"
         Me.LayoutControlItem20.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem20.TextSize = New System.Drawing.Size(166, 16)
@@ -1078,7 +1078,7 @@ Partial Class Holidays
         Me.LayoutControlItem21.Control = Me.WeekEndingDateIfLateTextBox
         Me.LayoutControlItem21.Location = New System.Drawing.Point(318, 101)
         Me.LayoutControlItem21.Name = "LayoutControlItem21"
-        Me.LayoutControlItem21.Size = New System.Drawing.Size(219, 80)
+        Me.LayoutControlItem21.Size = New System.Drawing.Size(219, 81)
         Me.LayoutControlItem21.Text = "Week Ending Date If Late:"
         Me.LayoutControlItem21.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem21.TextSize = New System.Drawing.Size(166, 16)
@@ -1086,7 +1086,7 @@ Partial Class Holidays
         'LayoutControlItem23
         '
         Me.LayoutControlItem23.Control = Me.HollidayFormReceivedLMUTextBox
-        Me.LayoutControlItem23.Location = New System.Drawing.Point(0, 181)
+        Me.LayoutControlItem23.Location = New System.Drawing.Point(0, 182)
         Me.LayoutControlItem23.Name = "LayoutControlItem23"
         Me.LayoutControlItem23.Size = New System.Drawing.Size(295, 50)
         Me.LayoutControlItem23.Text = "Holliday Form Received LMU:"
@@ -1096,7 +1096,7 @@ Partial Class Holidays
         'LayoutControlItem24
         '
         Me.LayoutControlItem24.Control = Me.HollidayFormReceivedLMDTextBox
-        Me.LayoutControlItem24.Location = New System.Drawing.Point(295, 181)
+        Me.LayoutControlItem24.Location = New System.Drawing.Point(295, 182)
         Me.LayoutControlItem24.Name = "LayoutControlItem24"
         Me.LayoutControlItem24.Size = New System.Drawing.Size(242, 50)
         Me.LayoutControlItem24.Text = "Holliday Form Received LMD:"
@@ -1106,7 +1106,7 @@ Partial Class Holidays
         'LayoutControlItem25
         '
         Me.LayoutControlItem25.Control = Me.LastModifiedUserTextBox
-        Me.LayoutControlItem25.Location = New System.Drawing.Point(537, 181)
+        Me.LayoutControlItem25.Location = New System.Drawing.Point(537, 182)
         Me.LayoutControlItem25.Name = "LayoutControlItem25"
         Me.LayoutControlItem25.Size = New System.Drawing.Size(200, 50)
         Me.LayoutControlItem25.Text = "Last Modified User:"
@@ -1118,7 +1118,7 @@ Partial Class Holidays
         Me.LayoutControlGroup3.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem12, Me.LayoutControlItem13, Me.LayoutControlItem14, Me.LayoutControlItem15, Me.LayoutControlItem16, Me.LayoutControlItem17, Me.LayoutControlItem18, Me.EmptySpaceItem2})
         Me.LayoutControlGroup3.Location = New System.Drawing.Point(752, 101)
         Me.LayoutControlGroup3.Name = "LayoutControlGroup3"
-        Me.LayoutControlGroup3.Size = New System.Drawing.Size(568, 80)
+        Me.LayoutControlGroup3.Size = New System.Drawing.Size(568, 81)
         Me.LayoutControlGroup3.Spacing = New DevExpress.XtraLayout.Utils.Padding(1, 1, 1, 1)
         Me.LayoutControlGroup3.Text = "Days"
         '
@@ -1198,7 +1198,7 @@ Partial Class Holidays
         Me.LayoutControlItem22.Control = Me.EmployeeIdComboBox
         Me.LayoutControlItem22.Location = New System.Drawing.Point(537, 101)
         Me.LayoutControlItem22.Name = "LayoutControlItem22"
-        Me.LayoutControlItem22.Size = New System.Drawing.Size(215, 80)
+        Me.LayoutControlItem22.Size = New System.Drawing.Size(215, 81)
         Me.LayoutControlItem22.Text = "Employee"
         Me.LayoutControlItem22.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem22.TextSize = New System.Drawing.Size(166, 16)
@@ -1206,7 +1206,7 @@ Partial Class Holidays
         'LayoutControlItem26
         '
         Me.LayoutControlItem26.Control = Me.LastModifiedDateTextBox
-        Me.LayoutControlItem26.Location = New System.Drawing.Point(737, 181)
+        Me.LayoutControlItem26.Location = New System.Drawing.Point(737, 182)
         Me.LayoutControlItem26.Name = "LayoutControlItem26"
         Me.LayoutControlItem26.Size = New System.Drawing.Size(788, 50)
         Me.LayoutControlItem26.Text = "Last Modified Date:"
@@ -1218,7 +1218,7 @@ Partial Class Holidays
         Me.EmptySpaceItem3.AllowHotTrack = False
         Me.EmptySpaceItem3.Location = New System.Drawing.Point(1320, 101)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(205, 80)
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(205, 81)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem5
@@ -1232,9 +1232,9 @@ Partial Class Holidays
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 231)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(0, 232)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1525, 137)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(1525, 136)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'HolidaysTableAdapter

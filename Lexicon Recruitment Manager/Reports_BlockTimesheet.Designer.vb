@@ -73,12 +73,12 @@ Partial Class Reports_BlockTimesheet
         'TableLayoutPanel1
         '
         Me.TableLayoutPanel1.ColumnCount = 6
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 208.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 147.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 277.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 215.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 196.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 233.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 284.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.WeekEndDate, 2, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Plan, 1, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Branch, 0, 2)
@@ -92,12 +92,13 @@ Partial Class Reports_BlockTimesheet
         Me.TableLayoutPanel1.Controls.Add(Me.Button2, 5, 1)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 3
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1008, 360)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1344, 443)
         Me.TableLayoutPanel1.TabIndex = 6
         '
         'WeekEndDate
@@ -105,9 +106,10 @@ Partial Class Reports_BlockTimesheet
         Me.WeekEndDate.DataSource = Me.PlanBindingSource
         Me.WeekEndDate.DisplayMember = "WeekEndingDate"
         Me.WeekEndDate.FormattingEnabled = True
-        Me.WeekEndDate.Location = New System.Drawing.Point(315, 22)
+        Me.WeekEndDate.Location = New System.Drawing.Point(420, 27)
+        Me.WeekEndDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.WeekEndDate.Name = "WeekEndDate"
-        Me.WeekEndDate.Size = New System.Drawing.Size(138, 21)
+        Me.WeekEndDate.Size = New System.Drawing.Size(183, 24)
         Me.WeekEndDate.TabIndex = 12
         Me.WeekEndDate.ValueMember = "WeekEndingDate"
         '
@@ -126,9 +128,10 @@ Partial Class Reports_BlockTimesheet
         Me.Plan.DataSource = Me.PlanTypesBindingSource
         Me.Plan.DisplayMember = "PlanName"
         Me.Plan.FormattingEnabled = True
-        Me.Plan.Location = New System.Drawing.Point(211, 22)
+        Me.Plan.Location = New System.Drawing.Point(281, 27)
+        Me.Plan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Plan.Name = "Plan"
-        Me.Plan.Size = New System.Drawing.Size(98, 21)
+        Me.Plan.Size = New System.Drawing.Size(129, 24)
         Me.Plan.TabIndex = 11
         Me.Plan.ValueMember = "PlanName"
         '
@@ -151,9 +154,10 @@ Partial Class Reports_BlockTimesheet
         ReportDataSource1.Value = Me.BlockTimesheetBindingSource
         Me.Branch.LocalReport.DataSources.Add(ReportDataSource1)
         Me.Branch.LocalReport.ReportEmbeddedResource = "Lexrecmgr.BlockTimesheet.rdlc"
-        Me.Branch.Location = New System.Drawing.Point(3, 53)
+        Me.Branch.Location = New System.Drawing.Point(4, 65)
+        Me.Branch.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Branch.Name = "Branch"
-        Me.Branch.Size = New System.Drawing.Size(1002, 304)
+        Me.Branch.Size = New System.Drawing.Size(1336, 374)
         Me.Branch.TabIndex = 3
         Me.Branch.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth
         '
@@ -163,9 +167,10 @@ Partial Class Reports_BlockTimesheet
         Me.Branch1.DisplayMember = "Branch"
         Me.Branch1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Branch1.FormattingEnabled = True
-        Me.Branch1.Location = New System.Drawing.Point(3, 22)
+        Me.Branch1.Location = New System.Drawing.Point(4, 27)
+        Me.Branch1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Branch1.Name = "Branch1"
-        Me.Branch1.Size = New System.Drawing.Size(202, 21)
+        Me.Branch1.Size = New System.Drawing.Size(269, 24)
         Me.Branch1.TabIndex = 1
         Me.Branch1.ValueMember = "Branch"
         '
@@ -176,9 +181,10 @@ Partial Class Reports_BlockTimesheet
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(623, 22)
+        Me.Button1.Location = New System.Drawing.Point(831, 27)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(169, 25)
+        Me.Button1.Size = New System.Drawing.Size(225, 30)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Run Report"
         Me.Button1.UseVisualStyleBackColor = True
@@ -188,9 +194,10 @@ Partial Class Reports_BlockTimesheet
         Me.Client.DataSource = Me.BlockTimeSheetClientListBindingSource
         Me.Client.DisplayMember = "ClientCode"
         Me.Client.FormattingEnabled = True
-        Me.Client.Location = New System.Drawing.Point(476, 22)
+        Me.Client.Location = New System.Drawing.Point(635, 27)
+        Me.Client.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Client.Name = "Client"
-        Me.Client.Size = New System.Drawing.Size(121, 21)
+        Me.Client.Size = New System.Drawing.Size(160, 24)
         Me.Client.TabIndex = 13
         Me.Client.ValueMember = "CompanyID"
         '
@@ -202,44 +209,49 @@ Partial Class Reports_BlockTimesheet
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 0)
+        Me.Label1.Location = New System.Drawing.Point(4, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(51, 17)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Label1"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(211, 0)
+        Me.Label2.Location = New System.Drawing.Point(281, 0)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.Size = New System.Drawing.Size(51, 17)
         Me.Label2.TabIndex = 15
         Me.Label2.Text = "Label2"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(315, 0)
+        Me.Label3.Location = New System.Drawing.Point(420, 0)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.Size = New System.Drawing.Size(51, 17)
         Me.Label3.TabIndex = 16
         Me.Label3.Text = "Label3"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(476, 0)
+        Me.Label4.Location = New System.Drawing.Point(635, 0)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.Size = New System.Drawing.Size(51, 17)
         Me.Label4.TabIndex = 17
         Me.Label4.Text = "Label4"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(798, 22)
+        Me.Button2.Location = New System.Drawing.Point(1064, 27)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(207, 25)
+        Me.Button2.Size = New System.Drawing.Size(276, 30)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "E-Mail Me The Report"
         Me.Button2.UseVisualStyleBackColor = True
@@ -266,10 +278,11 @@ Partial Class Reports_BlockTimesheet
         '
         'Reports_BlockTimesheet
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1008, 360)
+        Me.ClientSize = New System.Drawing.Size(1344, 443)
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Reports_BlockTimesheet"
         Me.Text = "Reports_Planview"
         CType(Me.BlockTimesheetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()

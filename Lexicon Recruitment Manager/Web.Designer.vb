@@ -23,16 +23,16 @@ Partial Class Web
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DoughnutSeriesLabel3 As DevExpress.XtraCharts.DoughnutSeriesLabel = New DevExpress.XtraCharts.DoughnutSeriesLabel()
-        Dim DoughnutSeriesView3 As DevExpress.XtraCharts.DoughnutSeriesView = New DevExpress.XtraCharts.DoughnutSeriesView()
-        Dim SeriesTitle3 As DevExpress.XtraCharts.SeriesTitle = New DevExpress.XtraCharts.SeriesTitle()
-        Dim DoughnutSeriesLabel4 As DevExpress.XtraCharts.DoughnutSeriesLabel = New DevExpress.XtraCharts.DoughnutSeriesLabel()
-        Dim DoughnutSeriesView4 As DevExpress.XtraCharts.DoughnutSeriesView = New DevExpress.XtraCharts.DoughnutSeriesView()
-        Dim SeriesTitle4 As DevExpress.XtraCharts.SeriesTitle = New DevExpress.XtraCharts.SeriesTitle()
-        Dim SwiftPlotDiagram3 As DevExpress.XtraCharts.SwiftPlotDiagram = New DevExpress.XtraCharts.SwiftPlotDiagram()
-        Dim SwiftPlotSeriesView3 As DevExpress.XtraCharts.SwiftPlotSeriesView = New DevExpress.XtraCharts.SwiftPlotSeriesView()
-        Dim SwiftPlotDiagram4 As DevExpress.XtraCharts.SwiftPlotDiagram = New DevExpress.XtraCharts.SwiftPlotDiagram()
-        Dim SwiftPlotSeriesView4 As DevExpress.XtraCharts.SwiftPlotSeriesView = New DevExpress.XtraCharts.SwiftPlotSeriesView()
+        Dim DoughnutSeriesLabel1 As DevExpress.XtraCharts.DoughnutSeriesLabel = New DevExpress.XtraCharts.DoughnutSeriesLabel()
+        Dim DoughnutSeriesView1 As DevExpress.XtraCharts.DoughnutSeriesView = New DevExpress.XtraCharts.DoughnutSeriesView()
+        Dim SeriesTitle1 As DevExpress.XtraCharts.SeriesTitle = New DevExpress.XtraCharts.SeriesTitle()
+        Dim DoughnutSeriesLabel2 As DevExpress.XtraCharts.DoughnutSeriesLabel = New DevExpress.XtraCharts.DoughnutSeriesLabel()
+        Dim DoughnutSeriesView2 As DevExpress.XtraCharts.DoughnutSeriesView = New DevExpress.XtraCharts.DoughnutSeriesView()
+        Dim SeriesTitle2 As DevExpress.XtraCharts.SeriesTitle = New DevExpress.XtraCharts.SeriesTitle()
+        Dim SwiftPlotDiagram1 As DevExpress.XtraCharts.SwiftPlotDiagram = New DevExpress.XtraCharts.SwiftPlotDiagram()
+        Dim SwiftPlotSeriesView1 As DevExpress.XtraCharts.SwiftPlotSeriesView = New DevExpress.XtraCharts.SwiftPlotSeriesView()
+        Dim SwiftPlotDiagram2 As DevExpress.XtraCharts.SwiftPlotDiagram = New DevExpress.XtraCharts.SwiftPlotDiagram()
+        Dim SwiftPlotSeriesView2 As DevExpress.XtraCharts.SwiftPlotSeriesView = New DevExpress.XtraCharts.SwiftPlotSeriesView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.RichEditControl1 = New DevExpress.XtraRichEdit.RichEditControl()
@@ -45,9 +45,7 @@ Partial Class Web
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Sites2 = New Lexrecmgr.Sites()
         Me.ChartControl2 = New DevExpress.XtraCharts.ChartControl()
-        Me.Sites1 = New Lexrecmgr.Sites()
         Me.ChartControl1 = New DevExpress.XtraCharts.ChartControl()
-        Me.LexiconRecManagerDataSet = New Lexrecmgr.LexiconRecManagerDataSet()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
@@ -104,14 +102,12 @@ Partial Class Web
         Me.LabelComponent9 = New DevExpress.XtraGauges.Win.Base.LabelComponent()
         Me.ArcScaleRangeBarComponent9 = New DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent()
         Me.ArcScaleComponent9 = New DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent()
-        Me.LayoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem2 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.TabbedControlGroup1 = New DevExpress.XtraLayout.TabbedControlGroup()
-        Me.LayoutControlGroup7 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.TabbedControlGroup2 = New DevExpress.XtraLayout.TabbedControlGroup()
+        Me.LayoutControlGroup5 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem16 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlGroup6 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem17 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlGroup4 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlGroup3 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem4 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -126,34 +122,36 @@ Partial Class Web
         Me.LayoutControlItem13 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem14 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem15 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlGroup4 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.TabbedControlGroup2 = New DevExpress.XtraLayout.TabbedControlGroup()
-        Me.LayoutControlGroup6 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem17 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlGroup5 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem16 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem2 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.TabbedControlGroup1 = New DevExpress.XtraLayout.TabbedControlGroup()
+        Me.LayoutControlGroup7 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.Sites1 = New Lexrecmgr.Sites()
+        Me.LexiconRecManagerDataSet = New Lexrecmgr.LexiconRecManagerDataSet()
         Me.TableAdapterManager = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.TableAdapterManager()
         Me.CountOfEmployeesPriorWeekTableAdapter = New Lexrecmgr.SitesTableAdapters.CountOfEmployeesPriorWeekTableAdapter()
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl1.SuspendLayout()
         CType(Me.ChartControl4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(DoughnutSeriesLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(DoughnutSeriesView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(DoughnutSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(DoughnutSeriesView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CountOfEmployeesPriorWeekBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Sites3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ChartControl3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(DoughnutSeriesLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(DoughnutSeriesView4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(DoughnutSeriesLabel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(DoughnutSeriesView2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Sites2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ChartControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(SwiftPlotDiagram3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(SwiftPlotSeriesView3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Sites1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(SwiftPlotDiagram1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(SwiftPlotSeriesView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ChartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(SwiftPlotDiagram4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(SwiftPlotSeriesView4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LexiconRecManagerDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(SwiftPlotDiagram2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(SwiftPlotSeriesView2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CircularGauge1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ImageIndicatorComponent1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LabelComponent1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -197,14 +195,12 @@ Partial Class Web
         CType(Me.LabelComponent9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ArcScaleRangeBarComponent9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ArcScaleComponent9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TabbedControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TabbedControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -219,12 +215,16 @@ Partial Class Web
         CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TabbedControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TabbedControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Sites1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LexiconRecManagerDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -264,7 +264,6 @@ Partial Class Web
         Me.LayoutControl1.Controls.Add(Me.GaugeControl1)
         Me.LayoutControl1.Controls.Add(Me.GaugeControl2)
         Me.LayoutControl1.Controls.Add(Me.Label1)
-        Me.LayoutControl1.Controls.Add(Me.RichEditControl1)
         Me.LayoutControl1.Controls.Add(Me.GaugeControl3)
         Me.LayoutControl1.Controls.Add(Me.GaugeControl4)
         Me.LayoutControl1.Controls.Add(Me.GaugeControl5)
@@ -272,6 +271,7 @@ Partial Class Web
         Me.LayoutControl1.Controls.Add(Me.GaugeControl7)
         Me.LayoutControl1.Controls.Add(Me.GaugeControl8)
         Me.LayoutControl1.Controls.Add(Me.GaugeControl9)
+        Me.LayoutControl1.Controls.Add(Me.RichEditControl1)
         Me.LayoutControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.LayoutControl1.HiddenItems.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.TabbedControlGroup2, Me.LayoutControlGroup4, Me.LayoutControlGroup3})
         Me.LayoutControl1.Location = New System.Drawing.Point(0, 0)
@@ -294,13 +294,13 @@ Partial Class Web
         Me.ChartControl4.SeriesDataMember = "Branch"
         Me.ChartControl4.SeriesSerializable = New DevExpress.XtraCharts.Series(-1) {}
         Me.ChartControl4.SeriesTemplate.ArgumentDataMember = "Expr2"
-        DoughnutSeriesLabel3.TextPattern = "{A}: {V:n}"
-        Me.ChartControl4.SeriesTemplate.Label = DoughnutSeriesLabel3
+        DoughnutSeriesLabel1.TextPattern = "{A}: {V:n}"
+        Me.ChartControl4.SeriesTemplate.Label = DoughnutSeriesLabel1
         Me.ChartControl4.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.[True]
         Me.ChartControl4.SeriesTemplate.ValueDataMembersSerializable = "Expr1"
-        DoughnutSeriesView3.HoleRadiusPercent = 40
-        DoughnutSeriesView3.Titles.AddRange(New DevExpress.XtraCharts.SeriesTitle() {SeriesTitle3})
-        Me.ChartControl4.SeriesTemplate.View = DoughnutSeriesView3
+        DoughnutSeriesView1.HoleRadiusPercent = 40
+        DoughnutSeriesView1.Titles.AddRange(New DevExpress.XtraCharts.SeriesTitle() {SeriesTitle1})
+        Me.ChartControl4.SeriesTemplate.View = DoughnutSeriesView1
         Me.ChartControl4.Size = New System.Drawing.Size(1397, 338)
         Me.ChartControl4.TabIndex = 11
         '
@@ -328,13 +328,13 @@ Partial Class Web
         Me.ChartControl3.SeriesDataMember = "Branch"
         Me.ChartControl3.SeriesSerializable = New DevExpress.XtraCharts.Series(-1) {}
         Me.ChartControl3.SeriesTemplate.ArgumentDataMember = "Expr2"
-        DoughnutSeriesLabel4.TextPattern = "{A}: {V:n}"
-        Me.ChartControl3.SeriesTemplate.Label = DoughnutSeriesLabel4
+        DoughnutSeriesLabel2.TextPattern = "{A}: {V:n}"
+        Me.ChartControl3.SeriesTemplate.Label = DoughnutSeriesLabel2
         Me.ChartControl3.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.[True]
         Me.ChartControl3.SeriesTemplate.ValueDataMembersSerializable = "Expr1"
-        DoughnutSeriesView4.HoleRadiusPercent = 40
-        DoughnutSeriesView4.Titles.AddRange(New DevExpress.XtraCharts.SeriesTitle() {SeriesTitle4})
-        Me.ChartControl3.SeriesTemplate.View = DoughnutSeriesView4
+        DoughnutSeriesView2.HoleRadiusPercent = 40
+        DoughnutSeriesView2.Titles.AddRange(New DevExpress.XtraCharts.SeriesTitle() {SeriesTitle2})
+        Me.ChartControl3.SeriesTemplate.View = DoughnutSeriesView2
         Me.ChartControl3.Size = New System.Drawing.Size(1397, 300)
         Me.ChartControl3.TabIndex = 10
         '
@@ -352,9 +352,9 @@ Partial Class Web
         'ChartControl2
         '
         Me.ChartControl2.DataAdapter = Me.CountOfEmployeesCurrentWeekTableAdapter1
-        SwiftPlotDiagram3.AxisX.VisibleInPanesSerializable = "-1"
-        SwiftPlotDiagram3.AxisY.VisibleInPanesSerializable = "-1"
-        Me.ChartControl2.Diagram = SwiftPlotDiagram3
+        SwiftPlotDiagram1.AxisX.VisibleInPanesSerializable = "-1"
+        SwiftPlotDiagram1.AxisY.VisibleInPanesSerializable = "-1"
+        Me.ChartControl2.Diagram = SwiftPlotDiagram1
         Me.ChartControl2.Location = New System.Drawing.Point(46, 137)
         Me.ChartControl2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ChartControl2.Name = "ChartControl2"
@@ -362,25 +362,20 @@ Partial Class Web
         Me.ChartControl2.SeriesSerializable = New DevExpress.XtraCharts.Series(-1) {}
         Me.ChartControl2.SeriesTemplate.ArgumentDataMember = "WeekEndingDate"
         Me.ChartControl2.SeriesTemplate.ValueDataMembersSerializable = "Expr1"
-        Me.ChartControl2.SeriesTemplate.View = SwiftPlotSeriesView3
+        Me.ChartControl2.SeriesTemplate.View = SwiftPlotSeriesView1
         Me.ChartControl2.Size = New System.Drawing.Size(1367, 584)
         Me.ChartControl2.TabIndex = 9
         '
-        'Sites1
-        '
-        Me.Sites1.DataSetName = "Sites"
-        Me.Sites1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
         'ChartControl1
         '
-        SwiftPlotDiagram4.AxisX.VisibleInPanesSerializable = "-1"
-        SwiftPlotDiagram4.AxisY.VisibleInPanesSerializable = "-1"
-        SwiftPlotDiagram4.DefaultPane.EnableAxisXScrolling = DevExpress.Utils.DefaultBoolean.[True]
-        SwiftPlotDiagram4.DefaultPane.EnableAxisXZooming = DevExpress.Utils.DefaultBoolean.[True]
-        SwiftPlotDiagram4.EnableAxisXScrolling = True
-        SwiftPlotDiagram4.EnableAxisXZooming = True
-        SwiftPlotDiagram4.PaneDistance = 1
-        Me.ChartControl1.Diagram = SwiftPlotDiagram4
+        SwiftPlotDiagram2.AxisX.VisibleInPanesSerializable = "-1"
+        SwiftPlotDiagram2.AxisY.VisibleInPanesSerializable = "-1"
+        SwiftPlotDiagram2.DefaultPane.EnableAxisXScrolling = DevExpress.Utils.DefaultBoolean.[True]
+        SwiftPlotDiagram2.DefaultPane.EnableAxisXZooming = DevExpress.Utils.DefaultBoolean.[True]
+        SwiftPlotDiagram2.EnableAxisXScrolling = True
+        SwiftPlotDiagram2.EnableAxisXZooming = True
+        SwiftPlotDiagram2.PaneDistance = 1
+        Me.ChartControl1.Diagram = SwiftPlotDiagram2
         Me.ChartControl1.Location = New System.Drawing.Point(46, 137)
         Me.ChartControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ChartControl1.Name = "ChartControl1"
@@ -388,14 +383,9 @@ Partial Class Web
         Me.ChartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series(-1) {}
         Me.ChartControl1.SeriesTemplate.ArgumentDataMember = "WeekEndingDate"
         Me.ChartControl1.SeriesTemplate.ValueDataMembersSerializable = "Expr1"
-        Me.ChartControl1.SeriesTemplate.View = SwiftPlotSeriesView4
+        Me.ChartControl1.SeriesTemplate.View = SwiftPlotSeriesView2
         Me.ChartControl1.Size = New System.Drawing.Size(1367, 584)
         Me.ChartControl1.TabIndex = 8
-        '
-        'LexiconRecManagerDataSet
-        '
-        Me.LexiconRecManagerDataSet.DataSetName = "LexiconRecManagerDataSet"
-        Me.LexiconRecManagerDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'LabelControl3
         '
@@ -1004,76 +994,55 @@ Partial Class Web
         Me.ArcScaleComponent9.StartAngle = -270.0!
         Me.ArcScaleComponent9.Value = 20.0!
         '
-        'LayoutControlGroup1
+        'TabbedControlGroup2
         '
-        Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LayoutControlGroup1.GroupBordersVisible = False
-        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem2, Me.TabbedControlGroup1})
-        Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1459, 767)
-        Me.LayoutControlGroup1.TextVisible = False
+        Me.TabbedControlGroup2.Location = New System.Drawing.Point(0, 0)
+        Me.TabbedControlGroup2.Name = "TabbedControlGroup2"
+        Me.TabbedControlGroup2.SelectedTabPage = Me.LayoutControlGroup5
+        Me.TabbedControlGroup2.SelectedTabPageIndex = 0
+        Me.TabbedControlGroup2.Size = New System.Drawing.Size(1403, 650)
+        Me.TabbedControlGroup2.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup5, Me.LayoutControlGroup6})
         '
-        'LayoutControlItem2
+        'LayoutControlGroup5
         '
-        Me.LayoutControlItem2.Control = Me.Label1
-        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(1433, 31)
-        Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem2.TextVisible = False
+        Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem16})
+        Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
+        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1373, 590)
+        Me.LayoutControlGroup5.Text = "Per Week"
         '
-        'TabbedControlGroup1
+        'LayoutControlItem16
         '
-        Me.TabbedControlGroup1.Location = New System.Drawing.Point(0, 31)
-        Me.TabbedControlGroup1.Name = "TabbedControlGroup1"
-        Me.TabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup7
-        Me.TabbedControlGroup1.SelectedTabPageIndex = 1
-        Me.TabbedControlGroup1.Size = New System.Drawing.Size(1433, 710)
-        Me.TabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup2, Me.LayoutControlGroup7})
+        Me.LayoutControlItem16.Control = Me.ChartControl1
+        Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem16.Name = "LayoutControlItem16"
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(1373, 590)
+        Me.LayoutControlItem16.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem16.TextVisible = False
         '
-        'LayoutControlGroup7
+        'LayoutControlGroup6
         '
-        Me.LayoutControlGroup7.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem18, Me.LayoutControlItem19})
-        Me.LayoutControlGroup7.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup7.Name = "LayoutControlGroup7"
-        Me.LayoutControlGroup7.Size = New System.Drawing.Size(1403, 650)
-        Me.LayoutControlGroup7.Text = "Dashboard"
+        Me.LayoutControlGroup6.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem17})
+        Me.LayoutControlGroup6.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup6.Name = "LayoutControlGroup6"
+        Me.LayoutControlGroup6.Size = New System.Drawing.Size(1373, 590)
+        Me.LayoutControlGroup6.Text = "Per Day "
         '
-        'LayoutControlItem18
+        'LayoutControlItem17
         '
-        Me.LayoutControlItem18.Control = Me.ChartControl3
-        Me.LayoutControlItem18.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem18.Name = "LayoutControlItem18"
-        Me.LayoutControlItem18.Size = New System.Drawing.Size(1403, 306)
-        Me.LayoutControlItem18.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem18.TextVisible = False
+        Me.LayoutControlItem17.Control = Me.ChartControl2
+        Me.LayoutControlItem17.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem17.Name = "LayoutControlItem17"
+        Me.LayoutControlItem17.Size = New System.Drawing.Size(1373, 590)
+        Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem17.TextVisible = False
         '
-        'LayoutControlItem19
+        'LayoutControlGroup4
         '
-        Me.LayoutControlItem19.Control = Me.ChartControl4
-        Me.LayoutControlItem19.Location = New System.Drawing.Point(0, 306)
-        Me.LayoutControlItem19.Name = "LayoutControlItem19"
-        Me.LayoutControlItem19.Size = New System.Drawing.Size(1403, 344)
-        Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem19.TextVisible = False
-        '
-        'LayoutControlGroup2
-        '
-        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1})
-        Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1403, 650)
-        Me.LayoutControlGroup2.Text = "Versoin History"
-        '
-        'LayoutControlItem1
-        '
-        Me.LayoutControlItem1.Control = Me.RichEditControl1
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(1403, 650)
-        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem1.TextVisible = False
+        Me.LayoutControlGroup4.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup4.Name = "LayoutControlGroup4"
+        Me.LayoutControlGroup4.Size = New System.Drawing.Size(1403, 650)
+        Me.LayoutControlGroup4.Text = "Plan History"
         '
         'LayoutControlGroup3
         '
@@ -1226,55 +1195,86 @@ Partial Class Web
         Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem15.TextVisible = False
         '
-        'LayoutControlGroup4
+        'LayoutControlGroup1
         '
-        Me.LayoutControlGroup4.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup4.Name = "LayoutControlGroup4"
-        Me.LayoutControlGroup4.Size = New System.Drawing.Size(1403, 650)
-        Me.LayoutControlGroup4.Text = "Plan History"
+        Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LayoutControlGroup1.GroupBordersVisible = False
+        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem2, Me.TabbedControlGroup1})
+        Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup1.Name = "Root"
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(1459, 767)
+        Me.LayoutControlGroup1.TextVisible = False
         '
-        'TabbedControlGroup2
+        'LayoutControlItem2
         '
-        Me.TabbedControlGroup2.Location = New System.Drawing.Point(0, 0)
-        Me.TabbedControlGroup2.Name = "TabbedControlGroup2"
-        Me.TabbedControlGroup2.SelectedTabPage = Me.LayoutControlGroup5
-        Me.TabbedControlGroup2.SelectedTabPageIndex = 0
-        Me.TabbedControlGroup2.Size = New System.Drawing.Size(1403, 650)
-        Me.TabbedControlGroup2.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup5, Me.LayoutControlGroup6})
+        Me.LayoutControlItem2.Control = Me.Label1
+        Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem2.Name = "LayoutControlItem2"
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(1433, 31)
+        Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem2.TextVisible = False
         '
-        'LayoutControlGroup6
+        'TabbedControlGroup1
         '
-        Me.LayoutControlGroup6.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem17})
-        Me.LayoutControlGroup6.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup6.Name = "LayoutControlGroup6"
-        Me.LayoutControlGroup6.Size = New System.Drawing.Size(1373, 590)
-        Me.LayoutControlGroup6.Text = "Per Day "
+        Me.TabbedControlGroup1.Location = New System.Drawing.Point(0, 31)
+        Me.TabbedControlGroup1.Name = "TabbedControlGroup1"
+        Me.TabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup7
+        Me.TabbedControlGroup1.SelectedTabPageIndex = 1
+        Me.TabbedControlGroup1.Size = New System.Drawing.Size(1433, 710)
+        Me.TabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup2, Me.LayoutControlGroup7})
         '
-        'LayoutControlItem17
+        'LayoutControlGroup7
         '
-        Me.LayoutControlItem17.Control = Me.ChartControl2
-        Me.LayoutControlItem17.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem17.Name = "LayoutControlItem17"
-        Me.LayoutControlItem17.Size = New System.Drawing.Size(1373, 590)
-        Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem17.TextVisible = False
+        Me.LayoutControlGroup7.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem18, Me.LayoutControlItem19})
+        Me.LayoutControlGroup7.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup7.Name = "LayoutControlGroup7"
+        Me.LayoutControlGroup7.Size = New System.Drawing.Size(1403, 650)
+        Me.LayoutControlGroup7.Text = "Dashboard"
         '
-        'LayoutControlGroup5
+        'LayoutControlItem18
         '
-        Me.LayoutControlGroup5.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem16})
-        Me.LayoutControlGroup5.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup5.Name = "LayoutControlGroup5"
-        Me.LayoutControlGroup5.Size = New System.Drawing.Size(1373, 590)
-        Me.LayoutControlGroup5.Text = "Per Week"
+        Me.LayoutControlItem18.Control = Me.ChartControl3
+        Me.LayoutControlItem18.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem18.Name = "LayoutControlItem18"
+        Me.LayoutControlItem18.Size = New System.Drawing.Size(1403, 306)
+        Me.LayoutControlItem18.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem18.TextVisible = False
         '
-        'LayoutControlItem16
+        'LayoutControlItem19
         '
-        Me.LayoutControlItem16.Control = Me.ChartControl1
-        Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem16.Name = "LayoutControlItem16"
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(1373, 590)
-        Me.LayoutControlItem16.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem16.TextVisible = False
+        Me.LayoutControlItem19.Control = Me.ChartControl4
+        Me.LayoutControlItem19.Location = New System.Drawing.Point(0, 306)
+        Me.LayoutControlItem19.Name = "LayoutControlItem19"
+        Me.LayoutControlItem19.Size = New System.Drawing.Size(1403, 344)
+        Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem19.TextVisible = False
+        '
+        'LayoutControlGroup2
+        '
+        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1})
+        Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(1403, 650)
+        Me.LayoutControlGroup2.Text = "Versoin History"
+        '
+        'LayoutControlItem1
+        '
+        Me.LayoutControlItem1.Control = Me.RichEditControl1
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem1.Name = "LayoutControlItem1"
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(1403, 650)
+        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem1.TextVisible = False
+        '
+        'Sites1
+        '
+        Me.Sites1.DataSetName = "Sites"
+        Me.Sites1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'LexiconRecManagerDataSet
+        '
+        Me.LexiconRecManagerDataSet.DataSetName = "LexiconRecManagerDataSet"
+        Me.LexiconRecManagerDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'TableAdapterManager
         '
@@ -1326,24 +1326,22 @@ Partial Class Web
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.LayoutControl1.ResumeLayout(False)
-        CType(DoughnutSeriesLabel3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(DoughnutSeriesView3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(DoughnutSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(DoughnutSeriesView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ChartControl4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CountOfEmployeesPriorWeekBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Sites3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(DoughnutSeriesLabel4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(DoughnutSeriesView4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(DoughnutSeriesLabel2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(DoughnutSeriesView2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ChartControl3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Sites2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(SwiftPlotDiagram3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(SwiftPlotSeriesView3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(SwiftPlotDiagram1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(SwiftPlotSeriesView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ChartControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Sites1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(SwiftPlotDiagram4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(SwiftPlotSeriesView4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(SwiftPlotDiagram2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(SwiftPlotSeriesView2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ChartControl1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LexiconRecManagerDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CircularGauge1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ImageIndicatorComponent1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LabelComponent1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1387,14 +1385,12 @@ Partial Class Web
         CType(Me.LabelComponent9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ArcScaleRangeBarComponent9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ArcScaleComponent9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TabbedControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TabbedControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1409,12 +1405,16 @@ Partial Class Web
         CType(Me.LayoutControlItem13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TabbedControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TabbedControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Sites1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LexiconRecManagerDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

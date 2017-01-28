@@ -8,6 +8,13 @@ Imports DevExpress.XtraEditors.Repository
 Imports System.IO
 Imports DevExpress.XtraSplashScreen
 
+    'Copyright 2012 Craig Wright
+'Redistribution and use in source and binary forms, with or without 'modification, are permitted provided that the following conditions 'are met 
+
+'1. Redistributions of source code must retain the above copyright 'notice, this list of conditions and the following disclaimer.
+'2. Redistributions in binary form must reproduce the above copyright 'notice, this list of conditions and the following disclaimer in the 'documentation and/or other materials provided with the distribution.
+
+'THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS '"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT'LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS 'FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE 'COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 'INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 'BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 'LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 'CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 'LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN 'ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 'POSSIBILITY OF SUCH DAMAGE.
 
 Public Class Main
     Public UserBranch As Int64
@@ -31,7 +38,7 @@ Public Class Main
 
 
     End Function
- 
+
     Public Sub SetUser()
         con.Open()
 
@@ -434,7 +441,7 @@ Public Class Main
         RemoveHandler CType(sender, Form).FormClosed, AddressOf Child_FormClosed
         CType(sender, Form).Dispose()
     End Sub
- 
+
 
 
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -507,7 +514,7 @@ Public Class Main
 
     Private Sub BarButtonAdmin_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonAdmin.ItemClick
         If Me.UserAdmin = True Then
-          
+
             UserSecurity.Show()
         End If
 
@@ -686,7 +693,7 @@ Public Class Main
     End Sub
 
     Private Sub NavBarItem9_LinkClicked(sender As Object, e As DevExpress.XtraNavBar.NavBarLinkEventArgs) Handles NavBarItem9.LinkClicked
-        
+
         Dim ChildForm As New Employees
         ' Make it a child of this MDI form before showing it.
         ChildForm.MdiParent = Me
@@ -698,5 +705,13 @@ Public Class Main
     Private Sub BarButtonItem5_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem5.ItemClick
         Plan_Import.Show()
 
+    End Sub
+
+    Private Sub BarButtonAbout_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonAbout.ItemClick
+        MsgBox("Copyright 2012 Craig Wright" + Environment.NewLine + Environment.NewLine +
+"Redistribution and use in source and binary forms, with or without " + Environment.NewLine +        "modification, are permitted provided that the following conditions " + Environment.NewLine +        "are met" + Environment.NewLine + Environment.NewLine +
+"1. Redistributions of source code must retain the above copyright " + Environment.NewLine +"notice, this list of conditions and the following disclaimer." + Environment.NewLine +
+"2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution." + Environment.NewLine + Environment.NewLine +
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS"" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.")
     End Sub
 End Class
