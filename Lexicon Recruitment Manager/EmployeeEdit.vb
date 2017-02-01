@@ -1757,4 +1757,23 @@ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryD
 
     End Sub
 
+    Private Sub NiNumber_Leave_1(sender As Object, e As EventArgs) Handles NiNumber.Leave
+
+        Dim dc As New DataClasses1DataContext
+        Dim employeeIDcheck As Int64
+        If employeeID.Text = "" Then
+            employeeIDcheck = 0
+        Else
+            employeeIDcheck = EmployeeID.Text
+        End If
+        Dim EmployeeLinqNICheck = (From Employees In dc.GetTable(Of LinqEmployee)() Where Employees.NINumber = NiNumber.Text And Employees.EmployeeID <> employeeIDcheck And Employees.Status = "TOT" Order By Employees.EmployeeID Descending).FirstOrDefault
+
+        If EmployeeLinqNICheck IsNot Nothing Then
+
+            If EmployeeLinqNICheck.EmployeeCode IsNot Nothing Then
+                MsgBox("Employee Ni Number Exists: " + EmployeeLinqNICheck.EmployeeCode)
+
+            End If
+        End If
+    End Sub
 End Class
