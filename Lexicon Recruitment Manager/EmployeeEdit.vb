@@ -333,7 +333,7 @@ Public Class EmployeeEdit
     Public Sub EmployeeAdd()
         Try
             Dim dc As New DataClasses1DataContext
-
+            Dim LTDCoCheck As Date
             If Pay.Text = "" Then
                 Pay.Text = 0
             End If
@@ -381,8 +381,12 @@ Public Class EmployeeEdit
             '            Date.TryParseExact(DQCExpiryDate.EditValue, "dd MMMM yyyy", System.Globalization.DateTimeFormatInfo.InvariantInfo,
             'Globalization.DateTimeStyles.None, DQCExpiryDate2)
             '        End If
+                 If LtdCompanyCheckedDateTb.Text = "" Then
+                LtdCompanyCheckedDateTb.Text = "1 january 1900"
+            Else
 
-            dc.LinqEmployeeAdd(0, NiNumber.Text, Scheme.Tag, Convert.ToInt32(Branch.Tag), EmployeeCode.Text, Title.Text, _
+            End If
+            dc.LinqEmployeeAdd2(0, NiNumber.Text, Scheme.Tag, Convert.ToInt32(Branch.Tag), EmployeeCode.Text, Title.Text, _
  Forename.Text, Surname.Text, MaritalStatus.Text, Gender.Text, Address1.Text, Address2.Text, City.Text _
  , County.Text, PostCode.Text, DOB.Value, Telephone.Text, Mobile.Text, EmergencyContact.Text, EmergencyTelephone.Text, _
  EthnicOrigin.Text, Sortcode.Text, AccountNo.Text, AccountInTheNameOf.Text, Bank.Text, Email.Checked, Tb_Email.Text, _
@@ -404,7 +408,7 @@ Public Class EmployeeEdit
  CorporationCertCopied.Checked, VatRegistered.Checked, VatNumber.Text, Communication.Text, Interviewer.Text, DateRegistered.Value, Status.Text, _
  StatusReason.Text, Notes.Text, TaxDetails.Text, TaxCategory.Text, System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToString(), _
  Now(), System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToString(), Now(), StudentLoan.Checked, CBCardArchived.Checked, DriverLicenseCheckConsentFormCompleteCB.Checked, DateDrivingLicenceLastChecked.Text, SageRef.Text, PriorRefTE.Text, StatusChangeDateTb.Text, _
- BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryDate.Text, DigiCardExpiryDate.Text, DQCExpiryDate.Text, LoyaltyCard.Checked, LoyaltyPoints.EditValue, LoyaltyRank.Text)
+ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryDate.Text, DigiCardExpiryDate.Text, DQCExpiryDate.Text, LoyaltyCard.Checked, LoyaltyPoints.EditValue, LoyaltyRank.Text, LtdCompanyLive.Checked, LtdCompanyCheckedDateTb.Text)
 
 
 
@@ -428,7 +432,7 @@ Public Class EmployeeEdit
                 Pay3.Text = 0
 
             End If
-            Dim datesdrivingchecked, DrivingExpiryDate2, VisaExpiryDate2, PassportExpiryDate2, DigiCardExpiryDate2, DQCExpiryDate2 As Date
+            Dim datesdrivingchecked, LTDCoCheck, DrivingExpiryDate2, VisaExpiryDate2, PassportExpiryDate2, DigiCardExpiryDate2, DQCExpiryDate2 As Date
             If DateDrivingLicenceLastChecked.Text = "" Then
                 datesdrivingchecked = "1 january 1900"
             Else
@@ -465,8 +469,12 @@ Public Class EmployeeEdit
             '            Date.TryParseExact(DQCExpiryDate.EditValue, "dd MMMM yyyy", System.Globalization.DateTimeFormatInfo.InvariantInfo,
             'Globalization.DateTimeStyles.None, DQCExpiryDate2)
             '        End If
-
-            dc.LinqEmployeeAdd(bigint, NiNumber.Text, Scheme.Tag, Convert.ToInt32(Branch.Tag), EmployeeCode.Text, Title.Text, _
+            If LtdCompanyCheckedDateTb.Text = "" Then
+                LtdCompanyCheckedDateTb.Text = "1 january 1900"
+            Else
+              
+            End If
+            dc.LinqEmployeeAdd2(bigint, NiNumber.Text, Scheme.Tag, Convert.ToInt32(Branch.Tag), EmployeeCode.Text, Title.Text, _
 Forename.Text, Surname.Text, MaritalStatus.Text, Gender.Text, Address1.Text, Address2.Text, City.Text _
 , County.Text, PostCode.Text, DOB.Value, Telephone.Text, Mobile.Text, EmergencyContact.Text, EmergencyTelephone.Text, _
 EthnicOrigin.Text, Sortcode.Text, AccountNo.Text, AccountInTheNameOf.Text, Bank.Text, Email.Checked, Tb_Email.Text, _
@@ -489,7 +497,7 @@ CorporationCertCopied.Checked, VatRegistered.Checked, VatNumber.Text, Communicat
 StatusReason.Text, Notes.Text, TaxDetails.Text, TaxCategory.Text, System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToString(), _
 Now(), System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToString(), Now(), StudentLoan.Checked, CBCardArchived.Checked, DriverLicenseCheckConsentFormCompleteCB.Checked, DateDrivingLicenceLastChecked.Text, SageRef.Text, PriorRefTE.Text, StatusChangeDateTb.Text, _
 BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryDate.Text, DigiCardExpiryDate.Text, DQCExpiryDate.Text,
- _LoyaltyCard.Checked, LoyaltyPoints.EditValue.ToString, LoyaltyRank.Text)
+ _LoyaltyCard.Checked, LoyaltyPoints.EditValue.ToString, LoyaltyRank.Text, LtdCompanyLive.Checked, LtdCompanyCheckedDateTb.Text)
 
 
 
@@ -701,7 +709,16 @@ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryD
                         DQCExpiryDate.EditValue = CType(EmployeeModifyLinq.DriversQualificationCardExpiryDate, Date).ToShortDateString
                         DQCExpiryDate.DateTime = CType(EmployeeModifyLinq.DriversQualificationCardExpiryDate, Date).ToShortDateString
                     End If
-
+                    If EmployeeModifyLinq.LtdCompanyCheckedDate Is Nothing Then
+                        LtdCompanyCheckedDateTb.EditValue = ""
+                    Else
+                        LtdCompanyCheckedDateTb.EditValue = EmployeeModifyLinq.LtdCompanyCheckedDate
+                    End If
+                    If EmployeeModifyLinq.LtdComapnyChecked Is Nothing Then
+                        LtdCompanyLive.Checked = False
+                    Else
+                        LtdCompanyLive.Checked = EmployeeModifyLinq.LtdComapnyChecked
+                    End If
 
                     BankReference.Text = EmployeeModifyLinq.BankReference
                     WorkedVia2.Text = EmployeeModifyLinq.WorkedVia1
@@ -1492,76 +1509,83 @@ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryD
     End Function
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
-            Dim updatestatusstr As String
+            Dim dc As New DataClasses1DataContext
+            Dim EmployeeModifyLinq = (From Employees In dc.GetTable(Of LinqEmployeeModify)() Where Employees.EmployeeID = bigint.ToString).SingleOrDefault
+            If EmployeeModifyLinq.LtdComapnyChecked = False And EmployeeModifyLinq.Scheme = "LTD" Then
+                MsgBox("LTD Company has not been verified as active" + Environment.NewLine + "Unable To Upgrade")
 
-            Select Case systemtypeTb.Text
+            Else
 
-                Case "R"
-                    If GetSecurityInfo("EmployeeStatusUpgradeProcessed", "Lexicon") <> "0" Then
-                        Dim result = MsgBox("Have you checked all areas are correct including BANK DETAILS, NI NUMBER,TAX DETAILS, EMPLOYEE TYPE, LTD CO ECT.", MsgBoxStyle.YesNo, "Checked?")
-                        If result = DialogResult.Cancel Then
-                            MessageBox.Show("Cancel pressed")
-                        ElseIf result = DialogResult.No Then
-                            MessageBox.Show("No pressed")
-                        ElseIf result = DialogResult.Yes Then
-                            If (Me.Validate()) Then
+                Dim updatestatusstr As String
 
-                                updatestatusstr = "   Update Employees set   SystemType = " + "'P'" + " WHERE(EmployeeID = " + bigint.ToString + ")"
-                                lblStatus.Text = "Status: Processed/Checked"
-                                lblStatus.ForeColor = Color.Orange
-                                adSQLAdapter2 = New SqlDataAdapter(updatestatusstr, Main.con)
-                                If Dset.Tables("UpdateEmployee") IsNot Nothing Then
-                                    Dset.Tables("UpdateEmployee").Clear()
+                Select Case systemtypeTb.Text
+
+                    Case "R"
+                        If GetSecurityInfo("EmployeeStatusUpgradeProcessed", "Lexicon") <> "0" Then
+                            Dim result = MsgBox("Have you checked all areas are correct including BANK DETAILS, NI NUMBER,TAX DETAILS, EMPLOYEE TYPE, LTD CO ECT.", MsgBoxStyle.YesNo, "Checked?")
+                            If result = DialogResult.Cancel Then
+                                MessageBox.Show("Cancel pressed")
+                            ElseIf result = DialogResult.No Then
+                                MessageBox.Show("No pressed")
+                            ElseIf result = DialogResult.Yes Then
+                                If (Me.Validate()) Then
+
+                                    updatestatusstr = "   Update Employees set   SystemType = " + "'P'" + " WHERE(EmployeeID = " + bigint.ToString + ")"
+                                    lblStatus.Text = "Status: Processed/Checked"
+                                    lblStatus.ForeColor = Color.Orange
+                                    adSQLAdapter2 = New SqlDataAdapter(updatestatusstr, Main.con)
+                                    If Dset.Tables("UpdateEmployee") IsNot Nothing Then
+                                        Dset.Tables("UpdateEmployee").Clear()
+                                    End If
+                                    adSQLAdapter2.Fill(Dset, "UpdateEmployee")
+                                    MessageBox.Show("SEND ALL FORMS (if applicable) TO THE ASSOCIATED PAY-ROLLING COMPANY... If you are placing the worker on the plan and have been asked to bypass this process you MUST gain authorisation from John Sutton.", "Important!")
                                 End If
-                                adSQLAdapter2.Fill(Dset, "UpdateEmployee")
-                                MessageBox.Show("SEND ALL FORMS (if applicable) TO THE ASSOCIATED PAY-ROLLING COMPANY... If you are placing the worker on the plan and have been asked to bypass this process you MUST gain authorisation from John Sutton.", "Important!")
+
                             End If
 
                         End If
 
-                    End If
+                    Case "P"
+                        If GetSecurityInfo("EmployeeStatusUpgradeCompleted", "Lexicon") <> "0" Then
+                            lblStatus.Text = "Status: Completed"
+                            lblStatus.ForeColor = Color.Green
+                            updatestatusstr = "   Update Employees set   SystemType = " + "'C'" + " WHERE(EmployeeID = " + bigint.ToString + ")"
+                            adSQLAdapter2 = New SqlDataAdapter(updatestatusstr, Main.con)
+                            If Dset.Tables("UpdateEmployee") IsNot Nothing Then
+                                Dset.Tables("UpdateEmployee").Clear()
+                            End If
+                            adSQLAdapter2.Fill(Dset, "UpdateEmployee")
+                            MessageBox.Show("If this employee was a liq worker an email has been automatically sent to admin@liquiditygroup.co.uk and mrychly@liquiditygroup.co.uk INFORMING THEM OF THE NEW STARTER NAME AND EMP NUMBER", "Important!")
+                            If Scheme.Text.StartsWith("LIQ") = True Then
 
-                Case "P"
-                    If GetSecurityInfo("EmployeeStatusUpgradeCompleted", "Lexicon") <> "0" Then
-                        lblStatus.Text = "Status: Completed"
-                        lblStatus.ForeColor = Color.Green
-                        updatestatusstr = "   Update Employees set   SystemType = " + "'C'" + " WHERE(EmployeeID = " + bigint.ToString + ")"
-                        adSQLAdapter2 = New SqlDataAdapter(updatestatusstr, Main.con)
-                        If Dset.Tables("UpdateEmployee") IsNot Nothing Then
-                            Dset.Tables("UpdateEmployee").Clear()
+                                'Try
+
+
+                                '    Dim Message As MailMessage = New MailMessage()
+
+                                '    Message.From = New MailAddress("Emma.Mansell@purestaff.co.uk")
+                                '    Message.To.Add("Emma.Mansell@purestaff.co.uk")
+                                '    Message.To.Add("admin@liquiditygroup.co.uk")
+                                '    Message.To.Add("mrychly@liquiditygroup.co.uk")
+
+                                '    Message.ReplyToList.Add("Emma.Mansell@purestaff.co.uk")
+                                '    Message.Subject = "Pure Staff new starter notification: Name:" + Forename.Text + " " + Surname.Text + " Scheme: " + Scheme.Text + " Employee No: " + EmployeeCode.Text
+                                '    Message.IsBodyHtml = True
+                                '    Message.Body = "This is an automated email to confirm to you that the above named worker has now started working, this email has been sent to you to enable you to set this worker up on your system ready for payroll.  The workers application form / full set up details have already been sent to you,  if you have any issues setting this worker up ready for payroll you should contact the payroll manager at Pure Staff immediately in order to rectify the issue before payroll commences."
+                                '    Dim smtp As SmtpClient = New SmtpClient("PURESTAFFSERVER", 25)
+                                '    smtp.Credentials = New System.Net.NetworkCredential("purestaff\craigwright", "cw84343751")
+                                '    smtp.DeliveryMethod = SmtpDeliveryMethod.Network
+                                '    smtp.Send(Message)
+                                'Catch ex As Exception
+
+                                'End Try
+                            End If
                         End If
-                        adSQLAdapter2.Fill(Dset, "UpdateEmployee")
-                        MessageBox.Show("If this employee was a liq worker an email has been automatically sent to admin@liquiditygroup.co.uk and mrychly@liquiditygroup.co.uk INFORMING THEM OF THE NEW STARTER NAME AND EMP NUMBER", "Important!")
-                        If Scheme.Text.StartsWith("LIQ") = True Then
 
-                            'Try
+                End Select
 
 
-                            '    Dim Message As MailMessage = New MailMessage()
-
-                            '    Message.From = New MailAddress("Emma.Mansell@purestaff.co.uk")
-                            '    Message.To.Add("Emma.Mansell@purestaff.co.uk")
-                            '    Message.To.Add("admin@liquiditygroup.co.uk")
-                            '    Message.To.Add("mrychly@liquiditygroup.co.uk")
-
-                            '    Message.ReplyToList.Add("Emma.Mansell@purestaff.co.uk")
-                            '    Message.Subject = "Pure Staff new starter notification: Name:" + Forename.Text + " " + Surname.Text + " Scheme: " + Scheme.Text + " Employee No: " + EmployeeCode.Text
-                            '    Message.IsBodyHtml = True
-                            '    Message.Body = "This is an automated email to confirm to you that the above named worker has now started working, this email has been sent to you to enable you to set this worker up on your system ready for payroll.  The workers application form / full set up details have already been sent to you,  if you have any issues setting this worker up ready for payroll you should contact the payroll manager at Pure Staff immediately in order to rectify the issue before payroll commences."
-                            '    Dim smtp As SmtpClient = New SmtpClient("PURESTAFFSERVER", 25)
-                            '    smtp.Credentials = New System.Net.NetworkCredential("purestaff\craigwright", "cw84343751")
-                            '    smtp.DeliveryMethod = SmtpDeliveryMethod.Network
-                            '    smtp.Send(Message)
-                            'Catch ex As Exception
-
-                            'End Try
-                        End If
-                    End If
-
-            End Select
-
-
-
+            End If
 
         Catch ex As Exception
             MsgBox(ex.ToString)
@@ -1774,6 +1798,12 @@ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryD
                 MsgBox("Employee Ni Number Exists: " + EmployeeLinqNICheck.EmployeeCode)
 
             End If
+        End If
+    End Sub
+
+    Private Sub LtdCompanyLive_CheckedChanged(sender As Object, e As EventArgs) Handles LtdCompanyLive.CheckedChanged
+        If LtdCompanyLive.Checked = True Then
+            LtdCompanyCheckedDateTb.Text = Now.ToShortDateString
         End If
     End Sub
 End Class

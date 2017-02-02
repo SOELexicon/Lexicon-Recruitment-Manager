@@ -82,6 +82,10 @@ Partial Class EmployeeEdit
         Me.CorporationCertCopied = New System.Windows.Forms.CheckBox()
         Me.VatRegistered = New System.Windows.Forms.CheckBox()
         Me.VatNumber = New System.Windows.Forms.TextBox()
+        Me.Label100 = New System.Windows.Forms.Label()
+        Me.Label99 = New System.Windows.Forms.Label()
+        Me.LtdCompanyLive = New DevExpress.XtraEditors.CheckEdit()
+        Me.LtdCompanyCheckedDateTb = New DevExpress.XtraEditors.TextEdit()
         Me.TPDriving = New System.Windows.Forms.TabPage()
         Me.tblelayour = New System.Windows.Forms.TableLayoutPanel()
         Me.CE = New System.Windows.Forms.CheckBox()
@@ -373,6 +377,8 @@ Partial Class EmployeeEdit
         CType(Me.LastWorkedDateTb.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TPLTDCompanyContratorDetails.SuspendLayout()
         Me.TableLayoutPanel10.SuspendLayout()
+        CType(Me.LtdCompanyLive.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LtdCompanyCheckedDateTb.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TPDriving.SuspendLayout()
         Me.tblelayour.SuspendLayout()
         Me.TabPage7.SuspendLayout()
@@ -931,6 +937,10 @@ Partial Class EmployeeEdit
         Me.TableLayoutPanel10.Controls.Add(Me.CorporationCertCopied, 2, 3)
         Me.TableLayoutPanel10.Controls.Add(Me.VatRegistered, 2, 4)
         Me.TableLayoutPanel10.Controls.Add(Me.VatNumber, 2, 5)
+        Me.TableLayoutPanel10.Controls.Add(Me.Label100, 1, 8)
+        Me.TableLayoutPanel10.Controls.Add(Me.Label99, 1, 7)
+        Me.TableLayoutPanel10.Controls.Add(Me.LtdCompanyLive, 2, 7)
+        Me.TableLayoutPanel10.Controls.Add(Me.LtdCompanyCheckedDateTb, 2, 8)
         Me.TableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel10.Location = New System.Drawing.Point(3, 4)
         Me.TableLayoutPanel10.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
@@ -1054,6 +1064,44 @@ Partial Class EmployeeEdit
         Me.VatNumber.Name = "VatNumber"
         Me.VatNumber.Size = New System.Drawing.Size(306, 23)
         Me.VatNumber.TabIndex = 4
+        '
+        'Label100
+        '
+        Me.Label100.AutoSize = True
+        Me.Label100.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label100.Location = New System.Drawing.Point(26, 235)
+        Me.Label100.Name = "Label100"
+        Me.Label100.Size = New System.Drawing.Size(227, 31)
+        Me.Label100.TabIndex = 8
+        Me.Label100.Text = "Ltd Company Checked Date"
+        '
+        'Label99
+        '
+        Me.Label99.AutoSize = True
+        Me.Label99.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label99.Location = New System.Drawing.Point(26, 204)
+        Me.Label99.Name = "Label99"
+        Me.Label99.Size = New System.Drawing.Size(227, 31)
+        Me.Label99.TabIndex = 7
+        Me.Label99.Text = "Ltd Company Checked && Is Live"
+        '
+        'LtdCompanyLive
+        '
+        Me.LtdCompanyLive.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LtdCompanyLive.Location = New System.Drawing.Point(259, 207)
+        Me.LtdCompanyLive.Name = "LtdCompanyLive"
+        Me.LtdCompanyLive.Properties.Caption = ""
+        Me.LtdCompanyLive.Size = New System.Drawing.Size(306, 25)
+        Me.LtdCompanyLive.TabIndex = 6
+        '
+        'LtdCompanyCheckedDateTb
+        '
+        Me.LtdCompanyCheckedDateTb.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LtdCompanyCheckedDateTb.Enabled = False
+        Me.LtdCompanyCheckedDateTb.Location = New System.Drawing.Point(259, 238)
+        Me.LtdCompanyCheckedDateTb.Name = "LtdCompanyCheckedDateTb"
+        Me.LtdCompanyCheckedDateTb.Size = New System.Drawing.Size(306, 22)
+        Me.LtdCompanyCheckedDateTb.TabIndex = 9
         '
         'TPDriving
         '
@@ -4350,6 +4398,8 @@ Partial Class EmployeeEdit
         Me.TPLTDCompanyContratorDetails.ResumeLayout(False)
         Me.TableLayoutPanel10.ResumeLayout(False)
         Me.TableLayoutPanel10.PerformLayout()
+        CType(Me.LtdCompanyLive.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LtdCompanyCheckedDateTb.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TPDriving.ResumeLayout(False)
         Me.tblelayour.ResumeLayout(False)
         Me.tblelayour.PerformLayout()
@@ -4733,5 +4783,9 @@ Partial Class EmployeeEdit
     Friend WithEvents LoyaltyRank As DevExpress.XtraEditors.ImageComboBoxEdit
     Friend WithEvents ImageCollection1 As DevExpress.Utils.ImageCollection
     Friend WithEvents LoyaltyPoints As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents Label100 As System.Windows.Forms.Label
+    Friend WithEvents Label99 As System.Windows.Forms.Label
+    Friend WithEvents LtdCompanyLive As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents LtdCompanyCheckedDateTb As DevExpress.XtraEditors.TextEdit
 
 End Class

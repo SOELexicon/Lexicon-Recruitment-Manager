@@ -220,12 +220,6 @@ Partial Public Class DataClasses1DataContext
 		End Get
 	End Property
 	
-	Public ReadOnly Property LinqEmployeeModifies() As System.Data.Linq.Table(Of LinqEmployeeModify)
-		Get
-			Return Me.GetTable(Of LinqEmployeeModify)
-		End Get
-	End Property
-	
 	Public ReadOnly Property LinqSites() As System.Data.Linq.Table(Of LinqSite)
 		Get
 			Return Me.GetTable(Of LinqSite)
@@ -238,171 +232,11 @@ Partial Public Class DataClasses1DataContext
 		End Get
 	End Property
 	
-	<Global.System.Data.Linq.Mapping.FunctionAttribute(Name:="dbo.EmployeeAdd2")>  _
-	Public Function LinqEmployeeAdd2( _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmployeeID", DbType:="BigInt")> ByVal employeeID As System.Nullable(Of Long),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="NINumber", DbType:="NVarChar(9)")> ByVal nINumber As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Scheme", DbType:="BigInt")> ByVal scheme As System.Nullable(Of Long),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Branch", DbType:="BigInt")> ByVal branch As System.Nullable(Of Long),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmployeeCode", DbType:="NVarChar(100)")> ByVal employeeCode As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Title", DbType:="NVarChar(10)")> ByVal title As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Forename", DbType:="NVarChar(50)")> ByVal forename As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Surname", DbType:="NVarChar(50)")> ByVal surname As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MaritalStatus", DbType:="NVarChar(50)")> ByVal maritalStatus As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Gender", DbType:="NVarChar(50)")> ByVal gender As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Address1", DbType:="NVarChar(200)")> ByVal address1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Address2", DbType:="NVarChar(200)")> ByVal address2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Town", DbType:="NVarChar(200)")> ByVal town As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="County", DbType:="NVarChar(200)")> ByVal county As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PostCode", DbType:="NVarChar(11)")> ByVal postCode As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DOB", DbType:="Date")> ByVal dOB As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Telephone", DbType:="NVarChar(11)")> ByVal telephone As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Mobile", DbType:="NVarChar(11)")> ByVal mobile As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmergencyContact", DbType:="NVarChar(50)")> ByVal emergencyContact As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmergencyContactTel", DbType:="NVarChar(11)")> ByVal emergencyContactTel As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EthnicOrigin", DbType:="NVarChar(50)")> ByVal ethnicOrigin As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="SortCode", DbType:="NVarChar(6)")> ByVal sortCode As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AccountNo", DbType:="NVarChar(50)")> ByVal accountNo As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AccountInTheNameOf", DbType:="NVarChar(100)")> ByVal accountInTheNameOf As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Bank", DbType:="NVarChar(50)")> ByVal bank As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmailPayslip", DbType:="Bit")> ByVal emailPayslip As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Email", DbType:="NVarChar(100)")> ByVal email As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PaymentFrequency", DbType:="NVarChar(50)")> ByVal paymentFrequency As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkFrom", DbType:="Date")> ByVal workFrom As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkTo", DbType:="Date")> ByVal workTo As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkedVia", DbType:="NVarChar(20)")> ByVal workedVia As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AgencyName", DbType:="NVarChar(50)")> ByVal agencyName As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CompanyName", DbType:="NVarChar(50)")> ByVal companyName As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Location", DbType:="NVarChar(50)")> ByVal location As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="JobTitle", DbType:="NVarChar(50)")> ByVal jobTitle As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Shift", DbType:="NVarChar(50)")> ByVal shift As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Pay", DbType:="Decimal(18,5)")> ByVal pay As System.Nullable(Of Decimal),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ReasonForLeaving", DbType:="NVarChar(50)")> ByVal reasonForLeaving As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Manager", DbType:="NVarChar(50)")> ByVal manager As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RefAvailable", DbType:="Bit")> ByVal refAvailable As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ContactNumber", DbType:="NVarChar(50)")> ByVal contactNumber As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ContactNumber1", DbType:="NVarChar(50)")> ByVal contactNumber1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkFrom1", DbType:="Date")> ByVal workFrom1 As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkTo1", DbType:="Date")> ByVal workTo1 As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkedVia1", DbType:="NVarChar(20)")> ByVal workedVia1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AgencyName1", DbType:="NVarChar(50)")> ByVal agencyName1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CompanyName1", DbType:="NVarChar(50)")> ByVal companyName1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Location1", DbType:="NVarChar(50)")> ByVal location1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="JobTitle1", DbType:="NVarChar(50)")> ByVal jobTitle1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Shift1", DbType:="NVarChar(50)")> ByVal shift1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Pay1", DbType:="Decimal(18,5)")> ByVal pay1 As System.Nullable(Of Decimal),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ReasonForLeaving1", DbType:="NVarChar(50)")> ByVal reasonForLeaving1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Manager1", DbType:="NVarChar(50)")> ByVal manager1 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RefAvailable1", DbType:="Bit")> ByVal refAvailable1 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ContactNumber2", DbType:="NVarChar(50)")> ByVal contactNumber2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkFrom2", DbType:="Date")> ByVal workFrom2 As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkTo2", DbType:="Date")> ByVal workTo2 As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkedVia2", DbType:="NVarChar(20)")> ByVal workedVia2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AgencyName2", DbType:="NVarChar(50)")> ByVal agencyName2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CompanyName2", DbType:="NVarChar(50)")> ByVal companyName2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Location2", DbType:="NVarChar(50)")> ByVal location2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="JobTitle2", DbType:="NVarChar(50)")> ByVal jobTitle2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Shift2", DbType:="NVarChar(50)")> ByVal shift2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Pay2", DbType:="Decimal(18,5)")> ByVal pay2 As System.Nullable(Of Decimal),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ReasonForLeaving2", DbType:="NVarChar(50)")> ByVal reasonForLeaving2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Manager2", DbType:="NVarChar(50)")> ByVal manager2 As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RefAvailable2", DbType:="Bit")> ByVal refAvailable2 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Passport", DbType:="Bit")> ByVal passport As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="NatIDCard", DbType:="Bit")> ByVal natIDCard As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ProofOfNi", DbType:="Bit")> ByVal proofOfNi As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="BirthCert", DbType:="Bit")> ByVal birthCert As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="NiCard", DbType:="Bit")> ByVal niCard As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="UtilityBill", DbType:="Bit")> ByVal utilityBill As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CV", DbType:="Bit")> ByVal cV As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Visa", DbType:="Bit")> ByVal visa As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CSCSCard", DbType:="Bit")> ByVal cSCSCard As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCSCard", DbType:="Bit")> ByVal cPCSCard As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DrivingLic", DbType:="Bit")> ByVal drivingLic As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DigiCard", DbType:="Bit")> ByVal digiCard As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM1", DbType:="Bit")> ByVal cPCM1 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM2", DbType:="Bit")> ByVal cPCM2 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM3", DbType:="Bit")> ByVal cPCM3 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM4", DbType:="Bit")> ByVal cPCM4 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM5", DbType:="Bit")> ByVal cPCM5 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Assembler", DbType:="Bit")> ByVal assembler As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Production", DbType:="Bit")> ByVal production As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Warehouse", DbType:="Bit")> ByVal warehouse As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Groundwork", DbType:="Bit")> ByVal groundwork As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TrafficMngt", DbType:="Bit")> ByVal trafficMngt As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MigWelder", DbType:="Bit")> ByVal migWelder As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="GeneralOp", DbType:="Bit")> ByVal generalOp As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MachineOp", DbType:="Bit")> ByVal machineOp As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PressOp", DbType:="Bit")> ByVal pressOp As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="OrderPicker", DbType:="Bit")> ByVal orderPicker As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Labourer", DbType:="Bit")> ByVal labourer As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Joiner", DbType:="Bit")> ByVal joiner As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TigWelder", DbType:="Bit")> ByVal tigWelder As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="QInspector", DbType:="Bit")> ByVal qInspector As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Setter", DbType:="Bit")> ByVal setter As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Driving", DbType:="Bit")> ByVal driving As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Packer", DbType:="Bit")> ByVal packer As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Cleaner", DbType:="Bit")> ByVal cleaner As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Admin", DbType:="Bit")> ByVal admin As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Braize", DbType:="Bit")> ByVal braize As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FSA", DbType:="Bit")> ByVal fSA As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTCB", DbType:="Bit")> ByVal fLTCB As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTRT", DbType:="Bit")> ByVal fLTRT As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTNA", DbType:="Bit")> ByVal fLTNA As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTBendi", DbType:="Bit")> ByVal fLTBendi As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CE", DbType:="Bit")> ByVal cE As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="C", DbType:="Bit")> ByVal c As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tonn75", DbType:="Bit")> ByVal tonn75 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Van", DbType:="Bit")> ByVal van As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Hiab", DbType:="Bit")> ByVal hiab As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Moffat", DbType:="Bit")> ByVal moffat As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tipper1", DbType:="Bit")> ByVal tipper1 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tipper2", DbType:="Bit")> ByVal tipper2 As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tipper75T", DbType:="Bit")> ByVal tipper75T As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RollOnOff", DbType:="Bit")> ByVal rollOnOff As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MultiLift", DbType:="Bit")> ByVal multiLift As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PVC", DbType:="Bit")> ByVal pVC As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MB", DbType:="Bit")> ByVal mB As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AFrame", DbType:="Bit")> ByVal aFrame As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CloseCoupled", DbType:="Bit")> ByVal closeCoupled As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CurtainBox", DbType:="Bit")> ByVal curtainBox As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FlatFridge", DbType:="Bit")> ByVal flatFridge As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Lowloader", DbType:="Bit")> ByVal lowloader As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Container", DbType:="Bit")> ByVal container As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DeMounts", DbType:="Bit")> ByVal deMounts As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DoubleDeck", DbType:="Bit")> ByVal doubleDeck As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WalkingFloor", DbType:="Bit")> ByVal walkingFloor As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ChainnDog", DbType:="Bit")> ByVal chainnDog As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Strap", DbType:="Bit")> ByVal strap As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Rope", DbType:="Bit")> ByVal rope As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Sheet", DbType:="Bit")> ByVal sheet As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="SteelShunter", DbType:="Bit")> ByVal steelShunter As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="HBall", DbType:="Bit")> ByVal hBall As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TLift", DbType:="Bit")> ByVal tLift As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLT", DbType:="Bit")> ByVal fLT As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ADRTanks", DbType:="Bit")> ByVal aDRTanks As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ADRPackages", DbType:="Bit")> ByVal aDRPackages As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LtdCompanyname", DbType:="NVarChar(50)")> ByVal ltdCompanyname As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CoRegistrationNumber", DbType:="NVarChar(20)")> ByVal coRegistrationNumber As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CorporationCertCopied", DbType:="Bit")> ByVal corporationCertCopied As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="VatRegistered", DbType:="Bit")> ByVal vatRegistered As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="VatNumber", DbType:="NVarChar(50)")> ByVal vatNumber As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Communication", DbType:="NVarChar(1)")> ByVal communication As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Interviewer", DbType:="NVarChar(50)")> ByVal interviewer As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DateRegistered", DbType:="Date")> ByVal dateRegistered As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Status", DbType:="NVarChar(50)")> ByVal status As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="StatusReason", DbType:="NVarChar(200)")> ByVal statusReason As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Notes", DbType:="Text")> ByVal notes As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Taxdetails", DbType:="NVarChar(10)")> ByVal taxdetails As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TaxCategory", DbType:="NVarChar(4)")> ByVal taxCategory As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LastModifiedUser", DbType:="NVarChar(200)")> ByVal lastModifiedUser As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LastModifiedDate", DbType:="DateTime")> ByVal lastModifiedDate As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CreatedUser", DbType:="NVarChar(200)")> ByVal createdUser As String,  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CreatedDate", DbType:="Date")> ByVal createdDate As System.Nullable(Of Date),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="StudentLoan", DbType:="Bit")> ByVal studentLoan As System.Nullable(Of Boolean),  _
-				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CardArchived", DbType:="Bit")> ByVal cardArchived As System.Nullable(Of Boolean)) As Integer
-		Dim result As IExecuteResult = Me.ExecuteMethodCall(Me, CType(MethodInfo.GetCurrentMethod,MethodInfo), employeeID, nINumber, scheme, branch, employeeCode, title, forename, surname, maritalStatus, gender, address1, address2, town, county, postCode, dOB, telephone, mobile, emergencyContact, emergencyContactTel, ethnicOrigin, sortCode, accountNo, accountInTheNameOf, bank, emailPayslip, email, paymentFrequency, workFrom, workTo, workedVia, agencyName, companyName, location, jobTitle, shift, pay, reasonForLeaving, manager, refAvailable, contactNumber, contactNumber1, workFrom1, workTo1, workedVia1, agencyName1, companyName1, location1, jobTitle1, shift1, pay1, reasonForLeaving1, manager1, refAvailable1, contactNumber2, workFrom2, workTo2, workedVia2, agencyName2, companyName2, location2, jobTitle2, shift2, pay2, reasonForLeaving2, manager2, refAvailable2, passport, natIDCard, proofOfNi, birthCert, niCard, utilityBill, cV, visa, cSCSCard, cPCSCard, drivingLic, digiCard, cPCM1, cPCM2, cPCM3, cPCM4, cPCM5, assembler, production, warehouse, groundwork, trafficMngt, migWelder, generalOp, machineOp, pressOp, orderPicker, labourer, joiner, tigWelder, qInspector, setter, driving, packer, cleaner, admin, braize, fSA, fLTCB, fLTRT, fLTNA, fLTBendi, cE, c, tonn75, van, hiab, moffat, tipper1, tipper2, tipper75T, rollOnOff, multiLift, pVC, mB, aFrame, closeCoupled, curtainBox, flatFridge, lowloader, container, deMounts, doubleDeck, walkingFloor, chainnDog, strap, rope, sheet, steelShunter, hBall, tLift, fLT, aDRTanks, aDRPackages, ltdCompanyname, coRegistrationNumber, corporationCertCopied, vatRegistered, vatNumber, communication, interviewer, dateRegistered, status, statusReason, notes, taxdetails, taxCategory, lastModifiedUser, lastModifiedDate, createdUser, createdDate, studentLoan, cardArchived)
-		Return CType(result.ReturnValue,Integer)
-	End Function
+	Public ReadOnly Property LinqEmployeeModifies() As System.Data.Linq.Table(Of LinqEmployeeModify)
+		Get
+			Return Me.GetTable(Of LinqEmployeeModify)
+		End Get
+	End Property
 	
 	<Global.System.Data.Linq.Mapping.FunctionAttribute(Name:="dbo.UnArchiveHolidayPlan")>  _
 	Public Function UnArchiveHolidayPlan(<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Weekendingdate", DbType:="Date")> ByVal weekendingdate As System.Nullable(Of Date), <Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="BranchID", DbType:="BigInt")> ByVal branchID As System.Nullable(Of Long)) As Integer
@@ -1211,6 +1045,188 @@ Partial Public Class DataClasses1DataContext
 				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LoyaltyPoints", DbType:="BigInt")> ByVal loyaltyPoints As System.Nullable(Of Long),  _
 				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LoyaltyRank", DbType:="NVarChar(50)")> ByVal loyaltyRank As String) As Integer
 		Dim result As IExecuteResult = Me.ExecuteMethodCall(Me, CType(MethodInfo.GetCurrentMethod,MethodInfo), employeeID, nINumber, scheme, branch, employeeCode, title, forename, surname, maritalStatus, gender, address1, address2, town, county, postCode, dOB, telephone, mobile, emergencyContact, emergencyContactTel, ethnicOrigin, sortCode, accountNo, accountInTheNameOf, bank, emailPayslip, email, paymentFrequency, workFrom, workTo, workedVia, agencyName, companyName, location, jobTitle, shift, pay, reasonForLeaving, manager, refAvailable, contactNumber, contactNumber1, workFrom1, workTo1, workedVia1, agencyName1, companyName1, location1, jobTitle1, shift1, pay1, reasonForLeaving1, manager1, refAvailable1, contactNumber2, workFrom2, workTo2, workedVia2, agencyName2, companyName2, location2, jobTitle2, shift2, pay2, reasonForLeaving2, manager2, refAvailable2, passport, natIDCard, proofOfNi, birthCert, niCard, utilityBill, cV, visa, cSCSCard, cPCSCard, drivingLic, digiCard, cPCM1, cPCM2, cPCM3, cPCM4, cPCM5, assembler, production, warehouse, groundwork, trafficMngt, migWelder, generalOp, machineOp, pressOp, orderPicker, labourer, joiner, tigWelder, qInspector, setter, driving, packer, cleaner, admin, braize, fSA, fLTCB, fLTRT, fLTNA, fLTBendi, cE, c, tonn75, van, hiab, moffat, tipper1, tipper2, tipper75T, rollOnOff, multiLift, pVC, mB, aFrame, closeCoupled, curtainBox, flatFridge, lowloader, container, deMounts, doubleDeck, walkingFloor, chainnDog, strap, rope, sheet, steelShunter, hBall, tLift, fLT, aDRTanks, aDRPackages, ltdCompanyname, coRegistrationNumber, corporationCertCopied, vatRegistered, vatNumber, communication, interviewer, dateRegistered, status, statusReason, notes, taxdetails, taxCategory, lastModifiedUser, lastModifiedDate, createdUser, createdDate, studentLoan, cardArchived, driverLicenseCheckConsentFormComplete, dateDrivingLicenceChecked, sageRef, previousReference, statusChangeDate, bankReference, drivingLicenceExpiryDate, visaExpiryDate, passportExpiryDate, digiCardExpiryDate, dQCExpiryDate, loyaltyCard, loyaltyPoints, loyaltyRank)
+		Return CType(result.ReturnValue,Integer)
+	End Function
+	
+	<Global.System.Data.Linq.Mapping.FunctionAttribute(Name:="dbo.EmployeeAdd2")>  _
+	Public Function LinqEmployeeAdd2( _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmployeeID", DbType:="BigInt")> ByVal employeeID As System.Nullable(Of Long),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="NINumber", DbType:="NVarChar(9)")> ByVal nINumber As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Scheme", DbType:="BigInt")> ByVal scheme As System.Nullable(Of Long),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Branch", DbType:="BigInt")> ByVal branch As System.Nullable(Of Long),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmployeeCode", DbType:="NVarChar(100)")> ByVal employeeCode As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Title", DbType:="NVarChar(10)")> ByVal title As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Forename", DbType:="NVarChar(50)")> ByVal forename As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Surname", DbType:="NVarChar(50)")> ByVal surname As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MaritalStatus", DbType:="NVarChar(50)")> ByVal maritalStatus As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Gender", DbType:="NVarChar(50)")> ByVal gender As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Address1", DbType:="NVarChar(200)")> ByVal address1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Address2", DbType:="NVarChar(200)")> ByVal address2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Town", DbType:="NVarChar(200)")> ByVal town As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="County", DbType:="NVarChar(200)")> ByVal county As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PostCode", DbType:="NVarChar(11)")> ByVal postCode As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DOB", DbType:="Date")> ByVal dOB As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Telephone", DbType:="NVarChar(11)")> ByVal telephone As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Mobile", DbType:="NVarChar(11)")> ByVal mobile As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmergencyContact", DbType:="NVarChar(50)")> ByVal emergencyContact As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmergencyContactTel", DbType:="NVarChar(11)")> ByVal emergencyContactTel As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EthnicOrigin", DbType:="NVarChar(50)")> ByVal ethnicOrigin As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="SortCode", DbType:="NVarChar(6)")> ByVal sortCode As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AccountNo", DbType:="NVarChar(50)")> ByVal accountNo As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AccountInTheNameOf", DbType:="NVarChar(100)")> ByVal accountInTheNameOf As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Bank", DbType:="NVarChar(50)")> ByVal bank As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="EmailPayslip", DbType:="Bit")> ByVal emailPayslip As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Email", DbType:="NVarChar(100)")> ByVal email As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PaymentFrequency", DbType:="NVarChar(50)")> ByVal paymentFrequency As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkFrom", DbType:="Date")> ByVal workFrom As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkTo", DbType:="Date")> ByVal workTo As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkedVia", DbType:="NVarChar(20)")> ByVal workedVia As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AgencyName", DbType:="NVarChar(50)")> ByVal agencyName As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CompanyName", DbType:="NVarChar(50)")> ByVal companyName As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Location", DbType:="NVarChar(50)")> ByVal location As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="JobTitle", DbType:="NVarChar(50)")> ByVal jobTitle As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Shift", DbType:="NVarChar(50)")> ByVal shift As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Pay", DbType:="Decimal(18,5)")> ByVal pay As System.Nullable(Of Decimal),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ReasonForLeaving", DbType:="NVarChar(50)")> ByVal reasonForLeaving As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Manager", DbType:="NVarChar(50)")> ByVal manager As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RefAvailable", DbType:="Bit")> ByVal refAvailable As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ContactNumber", DbType:="NVarChar(50)")> ByVal contactNumber As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ContactNumber1", DbType:="NVarChar(50)")> ByVal contactNumber1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkFrom1", DbType:="Date")> ByVal workFrom1 As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkTo1", DbType:="Date")> ByVal workTo1 As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkedVia1", DbType:="NVarChar(20)")> ByVal workedVia1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AgencyName1", DbType:="NVarChar(50)")> ByVal agencyName1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CompanyName1", DbType:="NVarChar(50)")> ByVal companyName1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Location1", DbType:="NVarChar(50)")> ByVal location1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="JobTitle1", DbType:="NVarChar(50)")> ByVal jobTitle1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Shift1", DbType:="NVarChar(50)")> ByVal shift1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Pay1", DbType:="Decimal(18,5)")> ByVal pay1 As System.Nullable(Of Decimal),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ReasonForLeaving1", DbType:="NVarChar(50)")> ByVal reasonForLeaving1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Manager1", DbType:="NVarChar(50)")> ByVal manager1 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RefAvailable1", DbType:="Bit")> ByVal refAvailable1 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ContactNumber2", DbType:="NVarChar(50)")> ByVal contactNumber2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkFrom2", DbType:="Date")> ByVal workFrom2 As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkTo2", DbType:="Date")> ByVal workTo2 As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WorkedVia2", DbType:="NVarChar(20)")> ByVal workedVia2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AgencyName2", DbType:="NVarChar(50)")> ByVal agencyName2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CompanyName2", DbType:="NVarChar(50)")> ByVal companyName2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Location2", DbType:="NVarChar(50)")> ByVal location2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="JobTitle2", DbType:="NVarChar(50)")> ByVal jobTitle2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Shift2", DbType:="NVarChar(50)")> ByVal shift2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Pay2", DbType:="Decimal(18,5)")> ByVal pay2 As System.Nullable(Of Decimal),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ReasonForLeaving2", DbType:="NVarChar(50)")> ByVal reasonForLeaving2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Manager2", DbType:="NVarChar(50)")> ByVal manager2 As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RefAvailable2", DbType:="Bit")> ByVal refAvailable2 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Passport", DbType:="Bit")> ByVal passport As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="NatIDCard", DbType:="Bit")> ByVal natIDCard As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ProofOfNi", DbType:="Bit")> ByVal proofOfNi As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="BirthCert", DbType:="Bit")> ByVal birthCert As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="NiCard", DbType:="Bit")> ByVal niCard As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="UtilityBill", DbType:="Bit")> ByVal utilityBill As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CV", DbType:="Bit")> ByVal cV As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Visa", DbType:="Bit")> ByVal visa As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CSCSCard", DbType:="Bit")> ByVal cSCSCard As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCSCard", DbType:="Bit")> ByVal cPCSCard As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DrivingLic", DbType:="Bit")> ByVal drivingLic As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DigiCard", DbType:="Bit")> ByVal digiCard As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM1", DbType:="Bit")> ByVal cPCM1 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM2", DbType:="Bit")> ByVal cPCM2 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM3", DbType:="Bit")> ByVal cPCM3 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM4", DbType:="Bit")> ByVal cPCM4 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CPCM5", DbType:="Bit")> ByVal cPCM5 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Assembler", DbType:="Bit")> ByVal assembler As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Production", DbType:="Bit")> ByVal production As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Warehouse", DbType:="Bit")> ByVal warehouse As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Groundwork", DbType:="Bit")> ByVal groundwork As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TrafficMngt", DbType:="Bit")> ByVal trafficMngt As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MigWelder", DbType:="Bit")> ByVal migWelder As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="GeneralOp", DbType:="Bit")> ByVal generalOp As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MachineOp", DbType:="Bit")> ByVal machineOp As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PressOp", DbType:="Bit")> ByVal pressOp As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="OrderPicker", DbType:="Bit")> ByVal orderPicker As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Labourer", DbType:="Bit")> ByVal labourer As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Joiner", DbType:="Bit")> ByVal joiner As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TigWelder", DbType:="Bit")> ByVal tigWelder As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="QInspector", DbType:="Bit")> ByVal qInspector As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Setter", DbType:="Bit")> ByVal setter As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Driving", DbType:="Bit")> ByVal driving As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Packer", DbType:="Bit")> ByVal packer As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Cleaner", DbType:="Bit")> ByVal cleaner As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Admin", DbType:="Bit")> ByVal admin As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Braize", DbType:="Bit")> ByVal braize As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FSA", DbType:="Bit")> ByVal fSA As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTCB", DbType:="Bit")> ByVal fLTCB As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTRT", DbType:="Bit")> ByVal fLTRT As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTNA", DbType:="Bit")> ByVal fLTNA As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLTBendi", DbType:="Bit")> ByVal fLTBendi As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CE", DbType:="Bit")> ByVal cE As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="C", DbType:="Bit")> ByVal c As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tonn75", DbType:="Bit")> ByVal tonn75 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Van", DbType:="Bit")> ByVal van As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Hiab", DbType:="Bit")> ByVal hiab As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Moffat", DbType:="Bit")> ByVal moffat As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tipper1", DbType:="Bit")> ByVal tipper1 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tipper2", DbType:="Bit")> ByVal tipper2 As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Tipper75T", DbType:="Bit")> ByVal tipper75T As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="RollOnOff", DbType:="Bit")> ByVal rollOnOff As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MultiLift", DbType:="Bit")> ByVal multiLift As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PVC", DbType:="Bit")> ByVal pVC As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="MB", DbType:="Bit")> ByVal mB As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="AFrame", DbType:="Bit")> ByVal aFrame As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CloseCoupled", DbType:="Bit")> ByVal closeCoupled As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CurtainBox", DbType:="Bit")> ByVal curtainBox As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FlatFridge", DbType:="Bit")> ByVal flatFridge As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Lowloader", DbType:="Bit")> ByVal lowloader As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Container", DbType:="Bit")> ByVal container As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DeMounts", DbType:="Bit")> ByVal deMounts As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DoubleDeck", DbType:="Bit")> ByVal doubleDeck As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="WalkingFloor", DbType:="Bit")> ByVal walkingFloor As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ChainnDog", DbType:="Bit")> ByVal chainnDog As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Strap", DbType:="Bit")> ByVal strap As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Rope", DbType:="Bit")> ByVal rope As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Sheet", DbType:="Bit")> ByVal sheet As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="SteelShunter", DbType:="Bit")> ByVal steelShunter As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="HBall", DbType:="Bit")> ByVal hBall As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TLift", DbType:="Bit")> ByVal tLift As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="FLT", DbType:="Bit")> ByVal fLT As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ADRTanks", DbType:="Bit")> ByVal aDRTanks As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="ADRPackages", DbType:="Bit")> ByVal aDRPackages As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LtdCompanyname", DbType:="NVarChar(50)")> ByVal ltdCompanyname As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CoRegistrationNumber", DbType:="NVarChar(20)")> ByVal coRegistrationNumber As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CorporationCertCopied", DbType:="Bit")> ByVal corporationCertCopied As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="VatRegistered", DbType:="Bit")> ByVal vatRegistered As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="VatNumber", DbType:="NVarChar(50)")> ByVal vatNumber As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Communication", DbType:="NVarChar(1)")> ByVal communication As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Interviewer", DbType:="NVarChar(50)")> ByVal interviewer As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DateRegistered", DbType:="Date")> ByVal dateRegistered As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Status", DbType:="NVarChar(50)")> ByVal status As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="StatusReason", DbType:="NVarChar(200)")> ByVal statusReason As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Notes", DbType:="Text")> ByVal notes As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="Taxdetails", DbType:="NVarChar(10)")> ByVal taxdetails As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="TaxCategory", DbType:="NVarChar(4)")> ByVal taxCategory As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LastModifiedUser", DbType:="NVarChar(200)")> ByVal lastModifiedUser As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LastModifiedDate", DbType:="DateTime")> ByVal lastModifiedDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CreatedUser", DbType:="NVarChar(200)")> ByVal createdUser As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CreatedDate", DbType:="Date")> ByVal createdDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="StudentLoan", DbType:="Bit")> ByVal studentLoan As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="CardArchived", DbType:="Bit")> ByVal cardArchived As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DriverLicenseCheckConsentFormComplete", DbType:="Bit")> ByVal driverLicenseCheckConsentFormComplete As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DateDrivingLicenceChecked", DbType:="NVarChar(250)")> ByVal dateDrivingLicenceChecked As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="SageRef", DbType:="NVarChar(250)")> ByVal sageRef As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PreviousReference", DbType:="NVarChar(250)")> ByVal previousReference As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="StatusChangeDate", DbType:="DateTime")> ByVal statusChangeDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="BankReference", DbType:="NVarChar(250)")> ByVal bankReference As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DrivingLicenceExpiryDate", DbType:="Date")> ByVal drivingLicenceExpiryDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="VisaExpiryDate", DbType:="Date")> ByVal visaExpiryDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="PassportExpiryDate", DbType:="Date")> ByVal passportExpiryDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DigiCardExpiryDate", DbType:="Date")> ByVal digiCardExpiryDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="DQCExpiryDate", DbType:="Date")> ByVal dQCExpiryDate As System.Nullable(Of Date),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LoyaltyCard", DbType:="Bit")> ByVal loyaltyCard As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LoyaltyPoints", DbType:="BigInt")> ByVal loyaltyPoints As System.Nullable(Of Long),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LoyaltyRank", DbType:="NVarChar(50)")> ByVal loyaltyRank As String,  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LtdCompanyChecked", DbType:="Bit")> ByVal ltdCompanyChecked As System.Nullable(Of Boolean),  _
+				<Global.System.Data.Linq.Mapping.ParameterAttribute(Name:="LtdCompanyCheckedDate", DbType:="DateTime")> ByVal ltdCompanyCheckedDate As System.Nullable(Of Date)) As Integer
+		Dim result As IExecuteResult = Me.ExecuteMethodCall(Me, CType(MethodInfo.GetCurrentMethod,MethodInfo), employeeID, nINumber, scheme, branch, employeeCode, title, forename, surname, maritalStatus, gender, address1, address2, town, county, postCode, dOB, telephone, mobile, emergencyContact, emergencyContactTel, ethnicOrigin, sortCode, accountNo, accountInTheNameOf, bank, emailPayslip, email, paymentFrequency, workFrom, workTo, workedVia, agencyName, companyName, location, jobTitle, shift, pay, reasonForLeaving, manager, refAvailable, contactNumber, contactNumber1, workFrom1, workTo1, workedVia1, agencyName1, companyName1, location1, jobTitle1, shift1, pay1, reasonForLeaving1, manager1, refAvailable1, contactNumber2, workFrom2, workTo2, workedVia2, agencyName2, companyName2, location2, jobTitle2, shift2, pay2, reasonForLeaving2, manager2, refAvailable2, passport, natIDCard, proofOfNi, birthCert, niCard, utilityBill, cV, visa, cSCSCard, cPCSCard, drivingLic, digiCard, cPCM1, cPCM2, cPCM3, cPCM4, cPCM5, assembler, production, warehouse, groundwork, trafficMngt, migWelder, generalOp, machineOp, pressOp, orderPicker, labourer, joiner, tigWelder, qInspector, setter, driving, packer, cleaner, admin, braize, fSA, fLTCB, fLTRT, fLTNA, fLTBendi, cE, c, tonn75, van, hiab, moffat, tipper1, tipper2, tipper75T, rollOnOff, multiLift, pVC, mB, aFrame, closeCoupled, curtainBox, flatFridge, lowloader, container, deMounts, doubleDeck, walkingFloor, chainnDog, strap, rope, sheet, steelShunter, hBall, tLift, fLT, aDRTanks, aDRPackages, ltdCompanyname, coRegistrationNumber, corporationCertCopied, vatRegistered, vatNumber, communication, interviewer, dateRegistered, status, statusReason, notes, taxdetails, taxCategory, lastModifiedUser, lastModifiedDate, createdUser, createdDate, studentLoan, cardArchived, driverLicenseCheckConsentFormComplete, dateDrivingLicenceChecked, sageRef, previousReference, statusChangeDate, bankReference, drivingLicenceExpiryDate, visaExpiryDate, passportExpiryDate, digiCardExpiryDate, dQCExpiryDate, loyaltyCard, loyaltyPoints, loyaltyRank, ltdCompanyChecked, ltdCompanyCheckedDate)
 		Return CType(result.ReturnValue,Integer)
 	End Function
 End Class
@@ -11892,7 +11908,7 @@ Partial Public Class LinqEmployee
 		End Set
 	End Property
 	
-	<Global.System.Data.Linq.Mapping.AssociationAttribute(Name:="Scheme_LinqEmployee", Storage:="_LinqScheme", ThisKey:="SchemeID", OtherKey:="SchemeID", IsForeignKey:=true)>  _
+	<Global.System.Data.Linq.Mapping.AssociationAttribute(Name:="LinqScheme_LinqEmployee", Storage:="_LinqScheme", ThisKey:="SchemeID", OtherKey:="SchemeID", IsForeignKey:=true)>  _
 	Public Property LinqScheme() As LinqScheme
 		Get
 			Return Me._LinqScheme.Entity
@@ -11937,2526 +11953,6 @@ Partial Public Class LinqEmployee
 			RaiseEvent PropertyChanged(Me, New PropertyChangedEventArgs(propertyName))
 		End If
 	End Sub
-End Class
-
-<Global.System.Data.Linq.Mapping.TableAttribute(Name:="dbo.employeeModify")>  _
-Partial Public Class LinqEmployeeModify
-	
-	Private _EmployeeID As Long
-	
-	Private _NINumber As String
-	
-	Private _SchemeID As Long
-	
-	Private _Scheme As String
-	
-	Private _BranchID As Long
-	
-	Private _Branch As String
-	
-	Private _EmployeeCode As String
-	
-	Private _Title As String
-	
-	Private _Forename As String
-	
-	Private _Surname As String
-	
-	Private _Address1 As String
-	
-	Private _Address2 As String
-	
-	Private _Town As String
-	
-	Private _County As String
-	
-	Private _PostCode As String
-	
-	Private _DOB As Date
-	
-	Private _Telephone As String
-	
-	Private _Mobile As String
-	
-	Private _EmergencyContact As String
-	
-	Private _EmergencyContactTel As String
-	
-	Private _EthnicOrigin As String
-	
-	Private _SortCode As String
-	
-	Private _AccountNo As String
-	
-	Private _AccountInTheNameOf As String
-	
-	Private _Bank As String
-	
-	Private _EmailPayslip As Boolean
-	
-	Private _Email As String
-	
-	Private _WorkFrom As System.Nullable(Of Date)
-	
-	Private _WorkTo As System.Nullable(Of Date)
-	
-	Private _WorkedVia As String
-	
-	Private _AgencyName As String
-	
-	Private _CompanyName As String
-	
-	Private _Location As String
-	
-	Private _JobTitle As String
-	
-	Private _Shift As String
-	
-	Private _Pay As System.Nullable(Of Decimal)
-	
-	Private _ReasonForLeaving As String
-	
-	Private _Manager As String
-	
-	Private _RefAvailable As System.Nullable(Of Boolean)
-	
-	Private _ContactNumber As String
-	
-	Private _ContactNumber1 As String
-	
-	Private _WorkFrom1 As System.Nullable(Of Date)
-	
-	Private _WorkTo1 As System.Nullable(Of Date)
-	
-	Private _WorkedVia1 As String
-	
-	Private _AgencyName1 As String
-	
-	Private _CompanyName1 As String
-	
-	Private _Location1 As String
-	
-	Private _JobTitle1 As String
-	
-	Private _Shift1 As String
-	
-	Private _Pay1 As System.Nullable(Of Decimal)
-	
-	Private _ReasonForLeaving1 As String
-	
-	Private _Manager1 As String
-	
-	Private _RefAvailable1 As System.Nullable(Of Boolean)
-	
-	Private _ContactNumber2 As String
-	
-	Private _WorkFrom2 As System.Nullable(Of Date)
-	
-	Private _WorkTo2 As System.Nullable(Of Date)
-	
-	Private _WorkedVia2 As String
-	
-	Private _AgencyName2 As String
-	
-	Private _CompanyName2 As String
-	
-	Private _Location2 As String
-	
-	Private _JobTitle2 As String
-	
-	Private _Shift2 As String
-	
-	Private _Pay2 As System.Nullable(Of Decimal)
-	
-	Private _ReasonForLeaving2 As String
-	
-	Private _Manager2 As String
-	
-	Private _RefAvailable2 As System.Nullable(Of Boolean)
-	
-	Private _Passport As System.Nullable(Of Boolean)
-	
-	Private _NatIDCard As System.Nullable(Of Boolean)
-	
-	Private _ProofOfNi As System.Nullable(Of Boolean)
-	
-	Private _BirthCert As System.Nullable(Of Boolean)
-	
-	Private _NiCard As System.Nullable(Of Boolean)
-	
-	Private _UtilityBill As System.Nullable(Of Boolean)
-	
-	Private _CV As System.Nullable(Of Boolean)
-	
-	Private _Visa As System.Nullable(Of Boolean)
-	
-	Private _CSCSCard As System.Nullable(Of Boolean)
-	
-	Private _CPCSCard As System.Nullable(Of Boolean)
-	
-	Private _DrivingLic As System.Nullable(Of Boolean)
-	
-	Private _DigiCard As System.Nullable(Of Boolean)
-	
-	Private _CPCM1 As System.Nullable(Of Boolean)
-	
-	Private _CPCM2 As System.Nullable(Of Boolean)
-	
-	Private _CPCM3 As System.Nullable(Of Boolean)
-	
-	Private _CPCM4 As System.Nullable(Of Boolean)
-	
-	Private _CPCM5 As System.Nullable(Of Boolean)
-	
-	Private _Assembler As System.Nullable(Of Boolean)
-	
-	Private _Production As System.Nullable(Of Boolean)
-	
-	Private _Warehouse As System.Nullable(Of Boolean)
-	
-	Private _Groundwork As System.Nullable(Of Boolean)
-	
-	Private _TrafficMngt As System.Nullable(Of Boolean)
-	
-	Private _MigWelder As System.Nullable(Of Boolean)
-	
-	Private _GeneralOp As System.Nullable(Of Boolean)
-	
-	Private _MachineOp As System.Nullable(Of Boolean)
-	
-	Private _PressOp As System.Nullable(Of Boolean)
-	
-	Private _OrderPicker As System.Nullable(Of Boolean)
-	
-	Private _Labourer As System.Nullable(Of Boolean)
-	
-	Private _Joiner As System.Nullable(Of Boolean)
-	
-	Private _TigWelder As System.Nullable(Of Boolean)
-	
-	Private _QInspector As System.Nullable(Of Boolean)
-	
-	Private _Setter As System.Nullable(Of Boolean)
-	
-	Private _Driving As System.Nullable(Of Boolean)
-	
-	Private _Packer As System.Nullable(Of Boolean)
-	
-	Private _Cleaner As System.Nullable(Of Boolean)
-	
-	Private _Admin As System.Nullable(Of Boolean)
-	
-	Private _Braize As System.Nullable(Of Boolean)
-	
-	Private _FSA As System.Nullable(Of Boolean)
-	
-	Private _FLTCB As System.Nullable(Of Boolean)
-	
-	Private _FLTRT As System.Nullable(Of Boolean)
-	
-	Private _FLTNA As System.Nullable(Of Boolean)
-	
-	Private _FLTBendi As System.Nullable(Of Boolean)
-	
-	Private _CE As System.Nullable(Of Boolean)
-	
-	Private _C As System.Nullable(Of Boolean)
-	
-	Private __7_5Tonn As System.Nullable(Of Boolean)
-	
-	Private _Van As System.Nullable(Of Boolean)
-	
-	Private _Hiab As System.Nullable(Of Boolean)
-	
-	Private _Moffat As System.Nullable(Of Boolean)
-	
-	Private _Tipper1 As System.Nullable(Of Boolean)
-	
-	Private _Tipper2 As System.Nullable(Of Boolean)
-	
-	Private _Tipper75T As System.Nullable(Of Boolean)
-	
-	Private _RollOnOff As System.Nullable(Of Boolean)
-	
-	Private _MultiLift As System.Nullable(Of Boolean)
-	
-	Private _PVC As System.Nullable(Of Boolean)
-	
-	Private _MB As System.Nullable(Of Boolean)
-	
-	Private _AFrame As System.Nullable(Of Boolean)
-	
-	Private _CloseCoupled As System.Nullable(Of Boolean)
-	
-	Private _CurtainBox As System.Nullable(Of Boolean)
-	
-	Private _FlatFridge As System.Nullable(Of Boolean)
-	
-	Private _Lowloader As System.Nullable(Of Boolean)
-	
-	Private _Container As System.Nullable(Of Boolean)
-	
-	Private _DeMounts As System.Nullable(Of Boolean)
-	
-	Private _DoubleDeck As System.Nullable(Of Boolean)
-	
-	Private _WalkingFloor As System.Nullable(Of Boolean)
-	
-	Private _ChainnDog As System.Nullable(Of Boolean)
-	
-	Private _Strap As System.Nullable(Of Boolean)
-	
-	Private _Rope As System.Nullable(Of Boolean)
-	
-	Private _Sheet As System.Nullable(Of Boolean)
-	
-	Private _SteelShunter As System.Nullable(Of Boolean)
-	
-	Private _HBall As System.Nullable(Of Boolean)
-	
-	Private _TLift As System.Nullable(Of Boolean)
-	
-	Private _FLT As System.Nullable(Of Boolean)
-	
-	Private _ADRTanks As System.Nullable(Of Boolean)
-	
-	Private _ADRPackages As System.Nullable(Of Boolean)
-	
-	Private _LtdCompanyname As String
-	
-	Private _CoRegistrationNumber As String
-	
-	Private _CorporationCertCopied As System.Nullable(Of Boolean)
-	
-	Private _VatRegistered As System.Nullable(Of Boolean)
-	
-	Private _VatNumber As String
-	
-	Private _Communication As String
-	
-	Private _Interviewer As String
-	
-	Private _DateRegistered As Date
-	
-	Private _Status As String
-	
-	Private _StatusReason As String
-	
-	Private _Notes As String
-	
-	Private _Taxdetails As String
-	
-	Private _TaxCategory As String
-	
-	Private _LastModifiedUser As String
-	
-	Private _LastModifiedDate As System.Nullable(Of Date)
-	
-	Private _CreatedUser As String
-	
-	Private _CreatedDate As System.Nullable(Of Date)
-	
-	Private _MaritalStatus As String
-	
-	Private _Gender As String
-	
-	Private _StudentLoan As System.Nullable(Of Boolean)
-	
-	Private _TaxCode As String
-	
-	Private _SystemType As String
-	
-	Private _PaymentFrequency As String
-	
-	Private _CardArchived As System.Nullable(Of Boolean)
-	
-	Private _LastWorkedDate As System.Nullable(Of Date)
-	
-	Private _SageRef As String
-	
-	Private _DriverLicenseCheckConsentFormComplete As System.Nullable(Of Boolean)
-	
-	Private _DateDrivingLicenceChecked As System.Nullable(Of Date)
-	
-	Private _PreviousReference As String
-	
-	Private _StatusChangeDate As System.Nullable(Of Date)
-	
-	Private _BankReference As String
-	
-	Private _DrivingLicenceExpiryDate As System.Nullable(Of Date)
-	
-	Private _VisaExpiryDate As System.Nullable(Of Date)
-	
-	Private _PassportExpiryDate As System.Nullable(Of Date)
-	
-	Private _DriversQualificationCardExpiryDate As System.Nullable(Of Date)
-	
-	Private _DigicardExpiryDate As System.Nullable(Of Date)
-	
-	Private _LoyaltyCard As System.Nullable(Of Boolean)
-	
-	Private _LoyaltyPoints As System.Nullable(Of Long)
-	
-	Private _LoyaltyRank As String
-	
-	Public Sub New()
-		MyBase.New
-	End Sub
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmployeeID", DbType:="BigInt NOT NULL")>  _
-	Public Property EmployeeID() As Long
-		Get
-			Return Me._EmployeeID
-		End Get
-		Set
-			If ((Me._EmployeeID = value)  _
-						= false) Then
-				Me._EmployeeID = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NINumber", DbType:="NVarChar(9) NOT NULL", CanBeNull:=false)>  _
-	Public Property NINumber() As String
-		Get
-			Return Me._NINumber
-		End Get
-		Set
-			If (String.Equals(Me._NINumber, value) = false) Then
-				Me._NINumber = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SchemeID", DbType:="BigInt NOT NULL")>  _
-	Public Property SchemeID() As Long
-		Get
-			Return Me._SchemeID
-		End Get
-		Set
-			If ((Me._SchemeID = value)  _
-						= false) Then
-				Me._SchemeID = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Scheme", DbType:="NVarChar(50)")>  _
-	Public Property Scheme() As String
-		Get
-			Return Me._Scheme
-		End Get
-		Set
-			If (String.Equals(Me._Scheme, value) = false) Then
-				Me._Scheme = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_BranchID", DbType:="BigInt NOT NULL")>  _
-	Public Property BranchID() As Long
-		Get
-			Return Me._BranchID
-		End Get
-		Set
-			If ((Me._BranchID = value)  _
-						= false) Then
-				Me._BranchID = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Branch", DbType:="NVarChar(10)")>  _
-	Public Property Branch() As String
-		Get
-			Return Me._Branch
-		End Get
-		Set
-			If (String.Equals(Me._Branch, value) = false) Then
-				Me._Branch = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmployeeCode", DbType:="NVarChar(100)")>  _
-	Public Property EmployeeCode() As String
-		Get
-			Return Me._EmployeeCode
-		End Get
-		Set
-			If (String.Equals(Me._EmployeeCode, value) = false) Then
-				Me._EmployeeCode = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Title", DbType:="NVarChar(10) NOT NULL", CanBeNull:=false)>  _
-	Public Property Title() As String
-		Get
-			Return Me._Title
-		End Get
-		Set
-			If (String.Equals(Me._Title, value) = false) Then
-				Me._Title = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Forename", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
-	Public Property Forename() As String
-		Get
-			Return Me._Forename
-		End Get
-		Set
-			If (String.Equals(Me._Forename, value) = false) Then
-				Me._Forename = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Surname", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
-	Public Property Surname() As String
-		Get
-			Return Me._Surname
-		End Get
-		Set
-			If (String.Equals(Me._Surname, value) = false) Then
-				Me._Surname = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Address1", DbType:="NVarChar(200) NOT NULL", CanBeNull:=false)>  _
-	Public Property Address1() As String
-		Get
-			Return Me._Address1
-		End Get
-		Set
-			If (String.Equals(Me._Address1, value) = false) Then
-				Me._Address1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Address2", DbType:="NVarChar(200)")>  _
-	Public Property Address2() As String
-		Get
-			Return Me._Address2
-		End Get
-		Set
-			If (String.Equals(Me._Address2, value) = false) Then
-				Me._Address2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Town", DbType:="NVarChar(200) NOT NULL", CanBeNull:=false)>  _
-	Public Property Town() As String
-		Get
-			Return Me._Town
-		End Get
-		Set
-			If (String.Equals(Me._Town, value) = false) Then
-				Me._Town = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_County", DbType:="NVarChar(200)")>  _
-	Public Property County() As String
-		Get
-			Return Me._County
-		End Get
-		Set
-			If (String.Equals(Me._County, value) = false) Then
-				Me._County = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PostCode", DbType:="NVarChar(11) NOT NULL", CanBeNull:=false)>  _
-	Public Property PostCode() As String
-		Get
-			Return Me._PostCode
-		End Get
-		Set
-			If (String.Equals(Me._PostCode, value) = false) Then
-				Me._PostCode = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DOB", DbType:="Date NOT NULL")>  _
-	Public Property DOB() As Date
-		Get
-			Return Me._DOB
-		End Get
-		Set
-			If ((Me._DOB = value)  _
-						= false) Then
-				Me._DOB = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Telephone", DbType:="NVarChar(11)")>  _
-	Public Property Telephone() As String
-		Get
-			Return Me._Telephone
-		End Get
-		Set
-			If (String.Equals(Me._Telephone, value) = false) Then
-				Me._Telephone = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Mobile", DbType:="NVarChar(11) NOT NULL", CanBeNull:=false)>  _
-	Public Property Mobile() As String
-		Get
-			Return Me._Mobile
-		End Get
-		Set
-			If (String.Equals(Me._Mobile, value) = false) Then
-				Me._Mobile = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmergencyContact", DbType:="NVarChar(50)")>  _
-	Public Property EmergencyContact() As String
-		Get
-			Return Me._EmergencyContact
-		End Get
-		Set
-			If (String.Equals(Me._EmergencyContact, value) = false) Then
-				Me._EmergencyContact = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmergencyContactTel", DbType:="NVarChar(11)")>  _
-	Public Property EmergencyContactTel() As String
-		Get
-			Return Me._EmergencyContactTel
-		End Get
-		Set
-			If (String.Equals(Me._EmergencyContactTel, value) = false) Then
-				Me._EmergencyContactTel = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EthnicOrigin", DbType:="NVarChar(50)")>  _
-	Public Property EthnicOrigin() As String
-		Get
-			Return Me._EthnicOrigin
-		End Get
-		Set
-			If (String.Equals(Me._EthnicOrigin, value) = false) Then
-				Me._EthnicOrigin = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SortCode", DbType:="NVarChar(6)")>  _
-	Public Property SortCode() As String
-		Get
-			Return Me._SortCode
-		End Get
-		Set
-			If (String.Equals(Me._SortCode, value) = false) Then
-				Me._SortCode = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AccountNo", DbType:="NVarChar(50)")>  _
-	Public Property AccountNo() As String
-		Get
-			Return Me._AccountNo
-		End Get
-		Set
-			If (String.Equals(Me._AccountNo, value) = false) Then
-				Me._AccountNo = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AccountInTheNameOf", DbType:="NVarChar(100)")>  _
-	Public Property AccountInTheNameOf() As String
-		Get
-			Return Me._AccountInTheNameOf
-		End Get
-		Set
-			If (String.Equals(Me._AccountInTheNameOf, value) = false) Then
-				Me._AccountInTheNameOf = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Bank", DbType:="NVarChar(50)")>  _
-	Public Property Bank() As String
-		Get
-			Return Me._Bank
-		End Get
-		Set
-			If (String.Equals(Me._Bank, value) = false) Then
-				Me._Bank = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmailPayslip", DbType:="Bit NOT NULL")>  _
-	Public Property EmailPayslip() As Boolean
-		Get
-			Return Me._EmailPayslip
-		End Get
-		Set
-			If ((Me._EmailPayslip = value)  _
-						= false) Then
-				Me._EmailPayslip = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Email", DbType:="NVarChar(100)")>  _
-	Public Property Email() As String
-		Get
-			Return Me._Email
-		End Get
-		Set
-			If (String.Equals(Me._Email, value) = false) Then
-				Me._Email = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkFrom", DbType:="Date")>  _
-	Public Property WorkFrom() As System.Nullable(Of Date)
-		Get
-			Return Me._WorkFrom
-		End Get
-		Set
-			If (Me._WorkFrom.Equals(value) = false) Then
-				Me._WorkFrom = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkTo", DbType:="Date")>  _
-	Public Property WorkTo() As System.Nullable(Of Date)
-		Get
-			Return Me._WorkTo
-		End Get
-		Set
-			If (Me._WorkTo.Equals(value) = false) Then
-				Me._WorkTo = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkedVia", DbType:="NVarChar(20)")>  _
-	Public Property WorkedVia() As String
-		Get
-			Return Me._WorkedVia
-		End Get
-		Set
-			If (String.Equals(Me._WorkedVia, value) = false) Then
-				Me._WorkedVia = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AgencyName", DbType:="NVarChar(50)")>  _
-	Public Property AgencyName() As String
-		Get
-			Return Me._AgencyName
-		End Get
-		Set
-			If (String.Equals(Me._AgencyName, value) = false) Then
-				Me._AgencyName = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CompanyName", DbType:="NVarChar(50)")>  _
-	Public Property CompanyName() As String
-		Get
-			Return Me._CompanyName
-		End Get
-		Set
-			If (String.Equals(Me._CompanyName, value) = false) Then
-				Me._CompanyName = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Location", DbType:="NVarChar(50)")>  _
-	Public Property Location() As String
-		Get
-			Return Me._Location
-		End Get
-		Set
-			If (String.Equals(Me._Location, value) = false) Then
-				Me._Location = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_JobTitle", DbType:="NVarChar(50)")>  _
-	Public Property JobTitle() As String
-		Get
-			Return Me._JobTitle
-		End Get
-		Set
-			If (String.Equals(Me._JobTitle, value) = false) Then
-				Me._JobTitle = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Shift", DbType:="NVarChar(50)")>  _
-	Public Property Shift() As String
-		Get
-			Return Me._Shift
-		End Get
-		Set
-			If (String.Equals(Me._Shift, value) = false) Then
-				Me._Shift = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Pay", DbType:="Decimal(18,5)")>  _
-	Public Property Pay() As System.Nullable(Of Decimal)
-		Get
-			Return Me._Pay
-		End Get
-		Set
-			If (Me._Pay.Equals(value) = false) Then
-				Me._Pay = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ReasonForLeaving", DbType:="NVarChar(50)")>  _
-	Public Property ReasonForLeaving() As String
-		Get
-			Return Me._ReasonForLeaving
-		End Get
-		Set
-			If (String.Equals(Me._ReasonForLeaving, value) = false) Then
-				Me._ReasonForLeaving = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Manager", DbType:="NVarChar(50)")>  _
-	Public Property Manager() As String
-		Get
-			Return Me._Manager
-		End Get
-		Set
-			If (String.Equals(Me._Manager, value) = false) Then
-				Me._Manager = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RefAvailable", DbType:="Bit")>  _
-	Public Property RefAvailable() As System.Nullable(Of Boolean)
-		Get
-			Return Me._RefAvailable
-		End Get
-		Set
-			If (Me._RefAvailable.Equals(value) = false) Then
-				Me._RefAvailable = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ContactNumber", DbType:="NVarChar(50)")>  _
-	Public Property ContactNumber() As String
-		Get
-			Return Me._ContactNumber
-		End Get
-		Set
-			If (String.Equals(Me._ContactNumber, value) = false) Then
-				Me._ContactNumber = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ContactNumber1", DbType:="NVarChar(50)")>  _
-	Public Property ContactNumber1() As String
-		Get
-			Return Me._ContactNumber1
-		End Get
-		Set
-			If (String.Equals(Me._ContactNumber1, value) = false) Then
-				Me._ContactNumber1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkFrom1", DbType:="Date")>  _
-	Public Property WorkFrom1() As System.Nullable(Of Date)
-		Get
-			Return Me._WorkFrom1
-		End Get
-		Set
-			If (Me._WorkFrom1.Equals(value) = false) Then
-				Me._WorkFrom1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkTo1", DbType:="Date")>  _
-	Public Property WorkTo1() As System.Nullable(Of Date)
-		Get
-			Return Me._WorkTo1
-		End Get
-		Set
-			If (Me._WorkTo1.Equals(value) = false) Then
-				Me._WorkTo1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkedVia1", DbType:="NVarChar(20)")>  _
-	Public Property WorkedVia1() As String
-		Get
-			Return Me._WorkedVia1
-		End Get
-		Set
-			If (String.Equals(Me._WorkedVia1, value) = false) Then
-				Me._WorkedVia1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AgencyName1", DbType:="NVarChar(50)")>  _
-	Public Property AgencyName1() As String
-		Get
-			Return Me._AgencyName1
-		End Get
-		Set
-			If (String.Equals(Me._AgencyName1, value) = false) Then
-				Me._AgencyName1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CompanyName1", DbType:="NVarChar(50)")>  _
-	Public Property CompanyName1() As String
-		Get
-			Return Me._CompanyName1
-		End Get
-		Set
-			If (String.Equals(Me._CompanyName1, value) = false) Then
-				Me._CompanyName1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Location1", DbType:="NVarChar(50)")>  _
-	Public Property Location1() As String
-		Get
-			Return Me._Location1
-		End Get
-		Set
-			If (String.Equals(Me._Location1, value) = false) Then
-				Me._Location1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_JobTitle1", DbType:="NVarChar(50)")>  _
-	Public Property JobTitle1() As String
-		Get
-			Return Me._JobTitle1
-		End Get
-		Set
-			If (String.Equals(Me._JobTitle1, value) = false) Then
-				Me._JobTitle1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Shift1", DbType:="NVarChar(50)")>  _
-	Public Property Shift1() As String
-		Get
-			Return Me._Shift1
-		End Get
-		Set
-			If (String.Equals(Me._Shift1, value) = false) Then
-				Me._Shift1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Pay1", DbType:="Decimal(18,5)")>  _
-	Public Property Pay1() As System.Nullable(Of Decimal)
-		Get
-			Return Me._Pay1
-		End Get
-		Set
-			If (Me._Pay1.Equals(value) = false) Then
-				Me._Pay1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ReasonForLeaving1", DbType:="NVarChar(50)")>  _
-	Public Property ReasonForLeaving1() As String
-		Get
-			Return Me._ReasonForLeaving1
-		End Get
-		Set
-			If (String.Equals(Me._ReasonForLeaving1, value) = false) Then
-				Me._ReasonForLeaving1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Manager1", DbType:="NVarChar(50)")>  _
-	Public Property Manager1() As String
-		Get
-			Return Me._Manager1
-		End Get
-		Set
-			If (String.Equals(Me._Manager1, value) = false) Then
-				Me._Manager1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RefAvailable1", DbType:="Bit")>  _
-	Public Property RefAvailable1() As System.Nullable(Of Boolean)
-		Get
-			Return Me._RefAvailable1
-		End Get
-		Set
-			If (Me._RefAvailable1.Equals(value) = false) Then
-				Me._RefAvailable1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ContactNumber2", DbType:="NVarChar(50)")>  _
-	Public Property ContactNumber2() As String
-		Get
-			Return Me._ContactNumber2
-		End Get
-		Set
-			If (String.Equals(Me._ContactNumber2, value) = false) Then
-				Me._ContactNumber2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkFrom2", DbType:="Date")>  _
-	Public Property WorkFrom2() As System.Nullable(Of Date)
-		Get
-			Return Me._WorkFrom2
-		End Get
-		Set
-			If (Me._WorkFrom2.Equals(value) = false) Then
-				Me._WorkFrom2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkTo2", DbType:="Date")>  _
-	Public Property WorkTo2() As System.Nullable(Of Date)
-		Get
-			Return Me._WorkTo2
-		End Get
-		Set
-			If (Me._WorkTo2.Equals(value) = false) Then
-				Me._WorkTo2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkedVia2", DbType:="NVarChar(20)")>  _
-	Public Property WorkedVia2() As String
-		Get
-			Return Me._WorkedVia2
-		End Get
-		Set
-			If (String.Equals(Me._WorkedVia2, value) = false) Then
-				Me._WorkedVia2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AgencyName2", DbType:="NVarChar(50)")>  _
-	Public Property AgencyName2() As String
-		Get
-			Return Me._AgencyName2
-		End Get
-		Set
-			If (String.Equals(Me._AgencyName2, value) = false) Then
-				Me._AgencyName2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CompanyName2", DbType:="NVarChar(50)")>  _
-	Public Property CompanyName2() As String
-		Get
-			Return Me._CompanyName2
-		End Get
-		Set
-			If (String.Equals(Me._CompanyName2, value) = false) Then
-				Me._CompanyName2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Location2", DbType:="NVarChar(50)")>  _
-	Public Property Location2() As String
-		Get
-			Return Me._Location2
-		End Get
-		Set
-			If (String.Equals(Me._Location2, value) = false) Then
-				Me._Location2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_JobTitle2", DbType:="NVarChar(50)")>  _
-	Public Property JobTitle2() As String
-		Get
-			Return Me._JobTitle2
-		End Get
-		Set
-			If (String.Equals(Me._JobTitle2, value) = false) Then
-				Me._JobTitle2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Shift2", DbType:="NVarChar(50)")>  _
-	Public Property Shift2() As String
-		Get
-			Return Me._Shift2
-		End Get
-		Set
-			If (String.Equals(Me._Shift2, value) = false) Then
-				Me._Shift2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Pay2", DbType:="Decimal(18,5)")>  _
-	Public Property Pay2() As System.Nullable(Of Decimal)
-		Get
-			Return Me._Pay2
-		End Get
-		Set
-			If (Me._Pay2.Equals(value) = false) Then
-				Me._Pay2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ReasonForLeaving2", DbType:="NVarChar(50)")>  _
-	Public Property ReasonForLeaving2() As String
-		Get
-			Return Me._ReasonForLeaving2
-		End Get
-		Set
-			If (String.Equals(Me._ReasonForLeaving2, value) = false) Then
-				Me._ReasonForLeaving2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Manager2", DbType:="NVarChar(50)")>  _
-	Public Property Manager2() As String
-		Get
-			Return Me._Manager2
-		End Get
-		Set
-			If (String.Equals(Me._Manager2, value) = false) Then
-				Me._Manager2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RefAvailable2", DbType:="Bit")>  _
-	Public Property RefAvailable2() As System.Nullable(Of Boolean)
-		Get
-			Return Me._RefAvailable2
-		End Get
-		Set
-			If (Me._RefAvailable2.Equals(value) = false) Then
-				Me._RefAvailable2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Passport", DbType:="Bit")>  _
-	Public Property Passport() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Passport
-		End Get
-		Set
-			If (Me._Passport.Equals(value) = false) Then
-				Me._Passport = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NatIDCard", DbType:="Bit")>  _
-	Public Property NatIDCard() As System.Nullable(Of Boolean)
-		Get
-			Return Me._NatIDCard
-		End Get
-		Set
-			If (Me._NatIDCard.Equals(value) = false) Then
-				Me._NatIDCard = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ProofOfNi", DbType:="Bit")>  _
-	Public Property ProofOfNi() As System.Nullable(Of Boolean)
-		Get
-			Return Me._ProofOfNi
-		End Get
-		Set
-			If (Me._ProofOfNi.Equals(value) = false) Then
-				Me._ProofOfNi = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_BirthCert", DbType:="Bit")>  _
-	Public Property BirthCert() As System.Nullable(Of Boolean)
-		Get
-			Return Me._BirthCert
-		End Get
-		Set
-			If (Me._BirthCert.Equals(value) = false) Then
-				Me._BirthCert = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NiCard", DbType:="Bit")>  _
-	Public Property NiCard() As System.Nullable(Of Boolean)
-		Get
-			Return Me._NiCard
-		End Get
-		Set
-			If (Me._NiCard.Equals(value) = false) Then
-				Me._NiCard = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_UtilityBill", DbType:="Bit")>  _
-	Public Property UtilityBill() As System.Nullable(Of Boolean)
-		Get
-			Return Me._UtilityBill
-		End Get
-		Set
-			If (Me._UtilityBill.Equals(value) = false) Then
-				Me._UtilityBill = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CV", DbType:="Bit")>  _
-	Public Property CV() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CV
-		End Get
-		Set
-			If (Me._CV.Equals(value) = false) Then
-				Me._CV = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Visa", DbType:="Bit")>  _
-	Public Property Visa() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Visa
-		End Get
-		Set
-			If (Me._Visa.Equals(value) = false) Then
-				Me._Visa = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CSCSCard", DbType:="Bit")>  _
-	Public Property CSCSCard() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CSCSCard
-		End Get
-		Set
-			If (Me._CSCSCard.Equals(value) = false) Then
-				Me._CSCSCard = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCSCard", DbType:="Bit")>  _
-	Public Property CPCSCard() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CPCSCard
-		End Get
-		Set
-			If (Me._CPCSCard.Equals(value) = false) Then
-				Me._CPCSCard = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DrivingLic", DbType:="Bit")>  _
-	Public Property DrivingLic() As System.Nullable(Of Boolean)
-		Get
-			Return Me._DrivingLic
-		End Get
-		Set
-			If (Me._DrivingLic.Equals(value) = false) Then
-				Me._DrivingLic = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DigiCard", DbType:="Bit")>  _
-	Public Property DigiCard() As System.Nullable(Of Boolean)
-		Get
-			Return Me._DigiCard
-		End Get
-		Set
-			If (Me._DigiCard.Equals(value) = false) Then
-				Me._DigiCard = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM1", DbType:="Bit")>  _
-	Public Property CPCM1() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CPCM1
-		End Get
-		Set
-			If (Me._CPCM1.Equals(value) = false) Then
-				Me._CPCM1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM2", DbType:="Bit")>  _
-	Public Property CPCM2() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CPCM2
-		End Get
-		Set
-			If (Me._CPCM2.Equals(value) = false) Then
-				Me._CPCM2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM3", DbType:="Bit")>  _
-	Public Property CPCM3() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CPCM3
-		End Get
-		Set
-			If (Me._CPCM3.Equals(value) = false) Then
-				Me._CPCM3 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM4", DbType:="Bit")>  _
-	Public Property CPCM4() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CPCM4
-		End Get
-		Set
-			If (Me._CPCM4.Equals(value) = false) Then
-				Me._CPCM4 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM5", DbType:="Bit")>  _
-	Public Property CPCM5() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CPCM5
-		End Get
-		Set
-			If (Me._CPCM5.Equals(value) = false) Then
-				Me._CPCM5 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Assembler", DbType:="Bit")>  _
-	Public Property Assembler() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Assembler
-		End Get
-		Set
-			If (Me._Assembler.Equals(value) = false) Then
-				Me._Assembler = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Production", DbType:="Bit")>  _
-	Public Property Production() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Production
-		End Get
-		Set
-			If (Me._Production.Equals(value) = false) Then
-				Me._Production = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Warehouse", DbType:="Bit")>  _
-	Public Property Warehouse() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Warehouse
-		End Get
-		Set
-			If (Me._Warehouse.Equals(value) = false) Then
-				Me._Warehouse = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Groundwork", DbType:="Bit")>  _
-	Public Property Groundwork() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Groundwork
-		End Get
-		Set
-			If (Me._Groundwork.Equals(value) = false) Then
-				Me._Groundwork = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TrafficMngt", DbType:="Bit")>  _
-	Public Property TrafficMngt() As System.Nullable(Of Boolean)
-		Get
-			Return Me._TrafficMngt
-		End Get
-		Set
-			If (Me._TrafficMngt.Equals(value) = false) Then
-				Me._TrafficMngt = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MigWelder", DbType:="Bit")>  _
-	Public Property MigWelder() As System.Nullable(Of Boolean)
-		Get
-			Return Me._MigWelder
-		End Get
-		Set
-			If (Me._MigWelder.Equals(value) = false) Then
-				Me._MigWelder = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_GeneralOp", DbType:="Bit")>  _
-	Public Property GeneralOp() As System.Nullable(Of Boolean)
-		Get
-			Return Me._GeneralOp
-		End Get
-		Set
-			If (Me._GeneralOp.Equals(value) = false) Then
-				Me._GeneralOp = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MachineOp", DbType:="Bit")>  _
-	Public Property MachineOp() As System.Nullable(Of Boolean)
-		Get
-			Return Me._MachineOp
-		End Get
-		Set
-			If (Me._MachineOp.Equals(value) = false) Then
-				Me._MachineOp = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PressOp", DbType:="Bit")>  _
-	Public Property PressOp() As System.Nullable(Of Boolean)
-		Get
-			Return Me._PressOp
-		End Get
-		Set
-			If (Me._PressOp.Equals(value) = false) Then
-				Me._PressOp = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_OrderPicker", DbType:="Bit")>  _
-	Public Property OrderPicker() As System.Nullable(Of Boolean)
-		Get
-			Return Me._OrderPicker
-		End Get
-		Set
-			If (Me._OrderPicker.Equals(value) = false) Then
-				Me._OrderPicker = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Labourer", DbType:="Bit")>  _
-	Public Property Labourer() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Labourer
-		End Get
-		Set
-			If (Me._Labourer.Equals(value) = false) Then
-				Me._Labourer = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Joiner", DbType:="Bit")>  _
-	Public Property Joiner() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Joiner
-		End Get
-		Set
-			If (Me._Joiner.Equals(value) = false) Then
-				Me._Joiner = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TigWelder", DbType:="Bit")>  _
-	Public Property TigWelder() As System.Nullable(Of Boolean)
-		Get
-			Return Me._TigWelder
-		End Get
-		Set
-			If (Me._TigWelder.Equals(value) = false) Then
-				Me._TigWelder = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_QInspector", DbType:="Bit")>  _
-	Public Property QInspector() As System.Nullable(Of Boolean)
-		Get
-			Return Me._QInspector
-		End Get
-		Set
-			If (Me._QInspector.Equals(value) = false) Then
-				Me._QInspector = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Setter", DbType:="Bit")>  _
-	Public Property Setter() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Setter
-		End Get
-		Set
-			If (Me._Setter.Equals(value) = false) Then
-				Me._Setter = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Driving", DbType:="Bit")>  _
-	Public Property Driving() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Driving
-		End Get
-		Set
-			If (Me._Driving.Equals(value) = false) Then
-				Me._Driving = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Packer", DbType:="Bit")>  _
-	Public Property Packer() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Packer
-		End Get
-		Set
-			If (Me._Packer.Equals(value) = false) Then
-				Me._Packer = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Cleaner", DbType:="Bit")>  _
-	Public Property Cleaner() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Cleaner
-		End Get
-		Set
-			If (Me._Cleaner.Equals(value) = false) Then
-				Me._Cleaner = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Admin", DbType:="Bit")>  _
-	Public Property Admin() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Admin
-		End Get
-		Set
-			If (Me._Admin.Equals(value) = false) Then
-				Me._Admin = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Braize", DbType:="Bit")>  _
-	Public Property Braize() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Braize
-		End Get
-		Set
-			If (Me._Braize.Equals(value) = false) Then
-				Me._Braize = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FSA", DbType:="Bit")>  _
-	Public Property FSA() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FSA
-		End Get
-		Set
-			If (Me._FSA.Equals(value) = false) Then
-				Me._FSA = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTCB", DbType:="Bit")>  _
-	Public Property FLTCB() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FLTCB
-		End Get
-		Set
-			If (Me._FLTCB.Equals(value) = false) Then
-				Me._FLTCB = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTRT", DbType:="Bit")>  _
-	Public Property FLTRT() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FLTRT
-		End Get
-		Set
-			If (Me._FLTRT.Equals(value) = false) Then
-				Me._FLTRT = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTNA", DbType:="Bit")>  _
-	Public Property FLTNA() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FLTNA
-		End Get
-		Set
-			If (Me._FLTNA.Equals(value) = false) Then
-				Me._FLTNA = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTBendi", DbType:="Bit")>  _
-	Public Property FLTBendi() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FLTBendi
-		End Get
-		Set
-			If (Me._FLTBendi.Equals(value) = false) Then
-				Me._FLTBendi = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CE", DbType:="Bit")>  _
-	Public Property CE() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CE
-		End Get
-		Set
-			If (Me._CE.Equals(value) = false) Then
-				Me._CE = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_C", DbType:="Bit")>  _
-	Public Property C() As System.Nullable(Of Boolean)
-		Get
-			Return Me._C
-		End Get
-		Set
-			If (Me._C.Equals(value) = false) Then
-				Me._C = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Name:="[7.5Tonn]", Storage:="__7_5Tonn", DbType:="Bit")>  _
-	Public Property _7_5Tonn() As System.Nullable(Of Boolean)
-		Get
-			Return Me.__7_5Tonn
-		End Get
-		Set
-			If (Me.__7_5Tonn.Equals(value) = false) Then
-				Me.__7_5Tonn = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Van", DbType:="Bit")>  _
-	Public Property Van() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Van
-		End Get
-		Set
-			If (Me._Van.Equals(value) = false) Then
-				Me._Van = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Hiab", DbType:="Bit")>  _
-	Public Property Hiab() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Hiab
-		End Get
-		Set
-			If (Me._Hiab.Equals(value) = false) Then
-				Me._Hiab = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Moffat", DbType:="Bit")>  _
-	Public Property Moffat() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Moffat
-		End Get
-		Set
-			If (Me._Moffat.Equals(value) = false) Then
-				Me._Moffat = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Tipper1", DbType:="Bit")>  _
-	Public Property Tipper1() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Tipper1
-		End Get
-		Set
-			If (Me._Tipper1.Equals(value) = false) Then
-				Me._Tipper1 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Tipper2", DbType:="Bit")>  _
-	Public Property Tipper2() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Tipper2
-		End Get
-		Set
-			If (Me._Tipper2.Equals(value) = false) Then
-				Me._Tipper2 = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Tipper75T", DbType:="Bit")>  _
-	Public Property Tipper75T() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Tipper75T
-		End Get
-		Set
-			If (Me._Tipper75T.Equals(value) = false) Then
-				Me._Tipper75T = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RollOnOff", DbType:="Bit")>  _
-	Public Property RollOnOff() As System.Nullable(Of Boolean)
-		Get
-			Return Me._RollOnOff
-		End Get
-		Set
-			If (Me._RollOnOff.Equals(value) = false) Then
-				Me._RollOnOff = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MultiLift", DbType:="Bit")>  _
-	Public Property MultiLift() As System.Nullable(Of Boolean)
-		Get
-			Return Me._MultiLift
-		End Get
-		Set
-			If (Me._MultiLift.Equals(value) = false) Then
-				Me._MultiLift = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PVC", DbType:="Bit")>  _
-	Public Property PVC() As System.Nullable(Of Boolean)
-		Get
-			Return Me._PVC
-		End Get
-		Set
-			If (Me._PVC.Equals(value) = false) Then
-				Me._PVC = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MB", DbType:="Bit")>  _
-	Public Property MB() As System.Nullable(Of Boolean)
-		Get
-			Return Me._MB
-		End Get
-		Set
-			If (Me._MB.Equals(value) = false) Then
-				Me._MB = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AFrame", DbType:="Bit")>  _
-	Public Property AFrame() As System.Nullable(Of Boolean)
-		Get
-			Return Me._AFrame
-		End Get
-		Set
-			If (Me._AFrame.Equals(value) = false) Then
-				Me._AFrame = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CloseCoupled", DbType:="Bit")>  _
-	Public Property CloseCoupled() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CloseCoupled
-		End Get
-		Set
-			If (Me._CloseCoupled.Equals(value) = false) Then
-				Me._CloseCoupled = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CurtainBox", DbType:="Bit")>  _
-	Public Property CurtainBox() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CurtainBox
-		End Get
-		Set
-			If (Me._CurtainBox.Equals(value) = false) Then
-				Me._CurtainBox = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FlatFridge", DbType:="Bit")>  _
-	Public Property FlatFridge() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FlatFridge
-		End Get
-		Set
-			If (Me._FlatFridge.Equals(value) = false) Then
-				Me._FlatFridge = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Lowloader", DbType:="Bit")>  _
-	Public Property Lowloader() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Lowloader
-		End Get
-		Set
-			If (Me._Lowloader.Equals(value) = false) Then
-				Me._Lowloader = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Container", DbType:="Bit")>  _
-	Public Property Container() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Container
-		End Get
-		Set
-			If (Me._Container.Equals(value) = false) Then
-				Me._Container = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DeMounts", DbType:="Bit")>  _
-	Public Property DeMounts() As System.Nullable(Of Boolean)
-		Get
-			Return Me._DeMounts
-		End Get
-		Set
-			If (Me._DeMounts.Equals(value) = false) Then
-				Me._DeMounts = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DoubleDeck", DbType:="Bit")>  _
-	Public Property DoubleDeck() As System.Nullable(Of Boolean)
-		Get
-			Return Me._DoubleDeck
-		End Get
-		Set
-			If (Me._DoubleDeck.Equals(value) = false) Then
-				Me._DoubleDeck = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WalkingFloor", DbType:="Bit")>  _
-	Public Property WalkingFloor() As System.Nullable(Of Boolean)
-		Get
-			Return Me._WalkingFloor
-		End Get
-		Set
-			If (Me._WalkingFloor.Equals(value) = false) Then
-				Me._WalkingFloor = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ChainnDog", DbType:="Bit")>  _
-	Public Property ChainnDog() As System.Nullable(Of Boolean)
-		Get
-			Return Me._ChainnDog
-		End Get
-		Set
-			If (Me._ChainnDog.Equals(value) = false) Then
-				Me._ChainnDog = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Strap", DbType:="Bit")>  _
-	Public Property Strap() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Strap
-		End Get
-		Set
-			If (Me._Strap.Equals(value) = false) Then
-				Me._Strap = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Rope", DbType:="Bit")>  _
-	Public Property Rope() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Rope
-		End Get
-		Set
-			If (Me._Rope.Equals(value) = false) Then
-				Me._Rope = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Sheet", DbType:="Bit")>  _
-	Public Property Sheet() As System.Nullable(Of Boolean)
-		Get
-			Return Me._Sheet
-		End Get
-		Set
-			If (Me._Sheet.Equals(value) = false) Then
-				Me._Sheet = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SteelShunter", DbType:="Bit")>  _
-	Public Property SteelShunter() As System.Nullable(Of Boolean)
-		Get
-			Return Me._SteelShunter
-		End Get
-		Set
-			If (Me._SteelShunter.Equals(value) = false) Then
-				Me._SteelShunter = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_HBall", DbType:="Bit")>  _
-	Public Property HBall() As System.Nullable(Of Boolean)
-		Get
-			Return Me._HBall
-		End Get
-		Set
-			If (Me._HBall.Equals(value) = false) Then
-				Me._HBall = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TLift", DbType:="Bit")>  _
-	Public Property TLift() As System.Nullable(Of Boolean)
-		Get
-			Return Me._TLift
-		End Get
-		Set
-			If (Me._TLift.Equals(value) = false) Then
-				Me._TLift = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLT", DbType:="Bit")>  _
-	Public Property FLT() As System.Nullable(Of Boolean)
-		Get
-			Return Me._FLT
-		End Get
-		Set
-			If (Me._FLT.Equals(value) = false) Then
-				Me._FLT = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ADRTanks", DbType:="Bit")>  _
-	Public Property ADRTanks() As System.Nullable(Of Boolean)
-		Get
-			Return Me._ADRTanks
-		End Get
-		Set
-			If (Me._ADRTanks.Equals(value) = false) Then
-				Me._ADRTanks = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ADRPackages", DbType:="Bit")>  _
-	Public Property ADRPackages() As System.Nullable(Of Boolean)
-		Get
-			Return Me._ADRPackages
-		End Get
-		Set
-			If (Me._ADRPackages.Equals(value) = false) Then
-				Me._ADRPackages = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LtdCompanyname", DbType:="NVarChar(50)")>  _
-	Public Property LtdCompanyname() As String
-		Get
-			Return Me._LtdCompanyname
-		End Get
-		Set
-			If (String.Equals(Me._LtdCompanyname, value) = false) Then
-				Me._LtdCompanyname = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CoRegistrationNumber", DbType:="NVarChar(20)")>  _
-	Public Property CoRegistrationNumber() As String
-		Get
-			Return Me._CoRegistrationNumber
-		End Get
-		Set
-			If (String.Equals(Me._CoRegistrationNumber, value) = false) Then
-				Me._CoRegistrationNumber = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CorporationCertCopied", DbType:="Bit")>  _
-	Public Property CorporationCertCopied() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CorporationCertCopied
-		End Get
-		Set
-			If (Me._CorporationCertCopied.Equals(value) = false) Then
-				Me._CorporationCertCopied = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_VatRegistered", DbType:="Bit")>  _
-	Public Property VatRegistered() As System.Nullable(Of Boolean)
-		Get
-			Return Me._VatRegistered
-		End Get
-		Set
-			If (Me._VatRegistered.Equals(value) = false) Then
-				Me._VatRegistered = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_VatNumber", DbType:="NVarChar(50)")>  _
-	Public Property VatNumber() As String
-		Get
-			Return Me._VatNumber
-		End Get
-		Set
-			If (String.Equals(Me._VatNumber, value) = false) Then
-				Me._VatNumber = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Communication", DbType:="NVarChar(1) NOT NULL", CanBeNull:=false)>  _
-	Public Property Communication() As String
-		Get
-			Return Me._Communication
-		End Get
-		Set
-			If (String.Equals(Me._Communication, value) = false) Then
-				Me._Communication = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Interviewer", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
-	Public Property Interviewer() As String
-		Get
-			Return Me._Interviewer
-		End Get
-		Set
-			If (String.Equals(Me._Interviewer, value) = false) Then
-				Me._Interviewer = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DateRegistered", DbType:="Date NOT NULL")>  _
-	Public Property DateRegistered() As Date
-		Get
-			Return Me._DateRegistered
-		End Get
-		Set
-			If ((Me._DateRegistered = value)  _
-						= false) Then
-				Me._DateRegistered = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Status", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
-	Public Property Status() As String
-		Get
-			Return Me._Status
-		End Get
-		Set
-			If (String.Equals(Me._Status, value) = false) Then
-				Me._Status = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_StatusReason", DbType:="NVarChar(200)")>  _
-	Public Property StatusReason() As String
-		Get
-			Return Me._StatusReason
-		End Get
-		Set
-			If (String.Equals(Me._StatusReason, value) = false) Then
-				Me._StatusReason = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Notes", DbType:="Text NOT NULL", CanBeNull:=false, UpdateCheck:=UpdateCheck.Never)>  _
-	Public Property Notes() As String
-		Get
-			Return Me._Notes
-		End Get
-		Set
-			If (String.Equals(Me._Notes, value) = false) Then
-				Me._Notes = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Taxdetails", DbType:="NVarChar(10) NOT NULL", CanBeNull:=false)>  _
-	Public Property Taxdetails() As String
-		Get
-			Return Me._Taxdetails
-		End Get
-		Set
-			If (String.Equals(Me._Taxdetails, value) = false) Then
-				Me._Taxdetails = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TaxCategory", DbType:="NVarChar(4) NOT NULL", CanBeNull:=false)>  _
-	Public Property TaxCategory() As String
-		Get
-			Return Me._TaxCategory
-		End Get
-		Set
-			If (String.Equals(Me._TaxCategory, value) = false) Then
-				Me._TaxCategory = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LastModifiedUser", DbType:="NVarChar(200)")>  _
-	Public Property LastModifiedUser() As String
-		Get
-			Return Me._LastModifiedUser
-		End Get
-		Set
-			If (String.Equals(Me._LastModifiedUser, value) = false) Then
-				Me._LastModifiedUser = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LastModifiedDate", DbType:="DateTime")>  _
-	Public Property LastModifiedDate() As System.Nullable(Of Date)
-		Get
-			Return Me._LastModifiedDate
-		End Get
-		Set
-			If (Me._LastModifiedDate.Equals(value) = false) Then
-				Me._LastModifiedDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CreatedUser", DbType:="NVarChar(200)")>  _
-	Public Property CreatedUser() As String
-		Get
-			Return Me._CreatedUser
-		End Get
-		Set
-			If (String.Equals(Me._CreatedUser, value) = false) Then
-				Me._CreatedUser = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CreatedDate", DbType:="Date")>  _
-	Public Property CreatedDate() As System.Nullable(Of Date)
-		Get
-			Return Me._CreatedDate
-		End Get
-		Set
-			If (Me._CreatedDate.Equals(value) = false) Then
-				Me._CreatedDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MaritalStatus", DbType:="NVarChar(50)")>  _
-	Public Property MaritalStatus() As String
-		Get
-			Return Me._MaritalStatus
-		End Get
-		Set
-			If (String.Equals(Me._MaritalStatus, value) = false) Then
-				Me._MaritalStatus = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Gender", DbType:="NVarChar(50)")>  _
-	Public Property Gender() As String
-		Get
-			Return Me._Gender
-		End Get
-		Set
-			If (String.Equals(Me._Gender, value) = false) Then
-				Me._Gender = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_StudentLoan", DbType:="Bit")>  _
-	Public Property StudentLoan() As System.Nullable(Of Boolean)
-		Get
-			Return Me._StudentLoan
-		End Get
-		Set
-			If (Me._StudentLoan.Equals(value) = false) Then
-				Me._StudentLoan = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TaxCode", DbType:="NVarChar(50)")>  _
-	Public Property TaxCode() As String
-		Get
-			Return Me._TaxCode
-		End Get
-		Set
-			If (String.Equals(Me._TaxCode, value) = false) Then
-				Me._TaxCode = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SystemType", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
-	Public Property SystemType() As String
-		Get
-			Return Me._SystemType
-		End Get
-		Set
-			If (String.Equals(Me._SystemType, value) = false) Then
-				Me._SystemType = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PaymentFrequency", DbType:="NVarChar(50)")>  _
-	Public Property PaymentFrequency() As String
-		Get
-			Return Me._PaymentFrequency
-		End Get
-		Set
-			If (String.Equals(Me._PaymentFrequency, value) = false) Then
-				Me._PaymentFrequency = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CardArchived", DbType:="Bit")>  _
-	Public Property CardArchived() As System.Nullable(Of Boolean)
-		Get
-			Return Me._CardArchived
-		End Get
-		Set
-			If (Me._CardArchived.Equals(value) = false) Then
-				Me._CardArchived = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LastWorkedDate", DbType:="Date")>  _
-	Public Property LastWorkedDate() As System.Nullable(Of Date)
-		Get
-			Return Me._LastWorkedDate
-		End Get
-		Set
-			If (Me._LastWorkedDate.Equals(value) = false) Then
-				Me._LastWorkedDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SageRef", DbType:="NVarChar(250)")>  _
-	Public Property SageRef() As String
-		Get
-			Return Me._SageRef
-		End Get
-		Set
-			If (String.Equals(Me._SageRef, value) = false) Then
-				Me._SageRef = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DriverLicenseCheckConsentFormComplete", DbType:="Bit")>  _
-	Public Property DriverLicenseCheckConsentFormComplete() As System.Nullable(Of Boolean)
-		Get
-			Return Me._DriverLicenseCheckConsentFormComplete
-		End Get
-		Set
-			If (Me._DriverLicenseCheckConsentFormComplete.Equals(value) = false) Then
-				Me._DriverLicenseCheckConsentFormComplete = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DateDrivingLicenceChecked", DbType:="Date")>  _
-	Public Property DateDrivingLicenceChecked() As System.Nullable(Of Date)
-		Get
-			Return Me._DateDrivingLicenceChecked
-		End Get
-		Set
-			If (Me._DateDrivingLicenceChecked.Equals(value) = false) Then
-				Me._DateDrivingLicenceChecked = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PreviousReference", DbType:="NVarChar(250)")>  _
-	Public Property PreviousReference() As String
-		Get
-			Return Me._PreviousReference
-		End Get
-		Set
-			If (String.Equals(Me._PreviousReference, value) = false) Then
-				Me._PreviousReference = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_StatusChangeDate", DbType:="DateTime")>  _
-	Public Property StatusChangeDate() As System.Nullable(Of Date)
-		Get
-			Return Me._StatusChangeDate
-		End Get
-		Set
-			If (Me._StatusChangeDate.Equals(value) = false) Then
-				Me._StatusChangeDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_BankReference", DbType:="NVarChar(250)")>  _
-	Public Property BankReference() As String
-		Get
-			Return Me._BankReference
-		End Get
-		Set
-			If (String.Equals(Me._BankReference, value) = false) Then
-				Me._BankReference = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DrivingLicenceExpiryDate", DbType:="Date")>  _
-	Public Property DrivingLicenceExpiryDate() As System.Nullable(Of Date)
-		Get
-			Return Me._DrivingLicenceExpiryDate
-		End Get
-		Set
-			If (Me._DrivingLicenceExpiryDate.Equals(value) = false) Then
-				Me._DrivingLicenceExpiryDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_VisaExpiryDate", DbType:="Date")>  _
-	Public Property VisaExpiryDate() As System.Nullable(Of Date)
-		Get
-			Return Me._VisaExpiryDate
-		End Get
-		Set
-			If (Me._VisaExpiryDate.Equals(value) = false) Then
-				Me._VisaExpiryDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PassportExpiryDate", DbType:="Date")>  _
-	Public Property PassportExpiryDate() As System.Nullable(Of Date)
-		Get
-			Return Me._PassportExpiryDate
-		End Get
-		Set
-			If (Me._PassportExpiryDate.Equals(value) = false) Then
-				Me._PassportExpiryDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DriversQualificationCardExpiryDate", DbType:="Date")>  _
-	Public Property DriversQualificationCardExpiryDate() As System.Nullable(Of Date)
-		Get
-			Return Me._DriversQualificationCardExpiryDate
-		End Get
-		Set
-			If (Me._DriversQualificationCardExpiryDate.Equals(value) = false) Then
-				Me._DriversQualificationCardExpiryDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DigicardExpiryDate", DbType:="Date")>  _
-	Public Property DigicardExpiryDate() As System.Nullable(Of Date)
-		Get
-			Return Me._DigicardExpiryDate
-		End Get
-		Set
-			If (Me._DigicardExpiryDate.Equals(value) = false) Then
-				Me._DigicardExpiryDate = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyCard", DbType:="Bit")>  _
-	Public Property LoyaltyCard() As System.Nullable(Of Boolean)
-		Get
-			Return Me._LoyaltyCard
-		End Get
-		Set
-			If (Me._LoyaltyCard.Equals(value) = false) Then
-				Me._LoyaltyCard = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyPoints", DbType:="BigInt")>  _
-	Public Property LoyaltyPoints() As System.Nullable(Of Long)
-		Get
-			Return Me._LoyaltyPoints
-		End Get
-		Set
-			If (Me._LoyaltyPoints.Equals(value) = false) Then
-				Me._LoyaltyPoints = value
-			End If
-		End Set
-	End Property
-	
-	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyRank", DbType:="NChar(10)")>  _
-	Public Property LoyaltyRank() As String
-		Get
-			Return Me._LoyaltyRank
-		End Get
-		Set
-			If (String.Equals(Me._LoyaltyRank, value) = false) Then
-				Me._LoyaltyRank = value
-			End If
-		End Set
-	End Property
 End Class
 
 <Global.System.Data.Linq.Mapping.TableAttribute(Name:="dbo.Sites")>  _
@@ -16723,7 +14219,7 @@ Partial Public Class LinqScheme
 		End Set
 	End Property
 	
-	<Global.System.Data.Linq.Mapping.AssociationAttribute(Name:="Scheme_LinqEmployee", Storage:="_LinqEmployees", ThisKey:="SchemeID", OtherKey:="SchemeID")>  _
+	<Global.System.Data.Linq.Mapping.AssociationAttribute(Name:="LinqScheme_LinqEmployee", Storage:="_LinqEmployees", ThisKey:="SchemeID", OtherKey:="SchemeID")>  _
 	Public Property LinqEmployees() As EntitySet(Of LinqEmployee)
 		Get
 			Return Me._LinqEmployees
@@ -16760,4 +14256,2566 @@ Partial Public Class LinqScheme
 		Me.SendPropertyChanging
 		entity.LinqScheme = Nothing
 	End Sub
+End Class
+
+<Global.System.Data.Linq.Mapping.TableAttribute(Name:="dbo.employeeModify")>  _
+Partial Public Class LinqEmployeeModify
+	
+	Private _EmployeeID As Long
+	
+	Private _NINumber As String
+	
+	Private _SchemeID As Long
+	
+	Private _Scheme As String
+	
+	Private _BranchID As Long
+	
+	Private _Branch As String
+	
+	Private _EmployeeCode As String
+	
+	Private _Title As String
+	
+	Private _Forename As String
+	
+	Private _Surname As String
+	
+	Private _Address1 As String
+	
+	Private _Address2 As String
+	
+	Private _Town As String
+	
+	Private _County As String
+	
+	Private _PostCode As String
+	
+	Private _DOB As Date
+	
+	Private _Telephone As String
+	
+	Private _Mobile As String
+	
+	Private _EmergencyContact As String
+	
+	Private _EmergencyContactTel As String
+	
+	Private _EthnicOrigin As String
+	
+	Private _SortCode As String
+	
+	Private _AccountNo As String
+	
+	Private _AccountInTheNameOf As String
+	
+	Private _Bank As String
+	
+	Private _EmailPayslip As Boolean
+	
+	Private _Email As String
+	
+	Private _WorkFrom As System.Nullable(Of Date)
+	
+	Private _WorkTo As System.Nullable(Of Date)
+	
+	Private _WorkedVia As String
+	
+	Private _AgencyName As String
+	
+	Private _CompanyName As String
+	
+	Private _Location As String
+	
+	Private _JobTitle As String
+	
+	Private _Shift As String
+	
+	Private _Pay As System.Nullable(Of Decimal)
+	
+	Private _ReasonForLeaving As String
+	
+	Private _Manager As String
+	
+	Private _RefAvailable As System.Nullable(Of Boolean)
+	
+	Private _ContactNumber As String
+	
+	Private _ContactNumber1 As String
+	
+	Private _WorkFrom1 As System.Nullable(Of Date)
+	
+	Private _WorkTo1 As System.Nullable(Of Date)
+	
+	Private _WorkedVia1 As String
+	
+	Private _AgencyName1 As String
+	
+	Private _CompanyName1 As String
+	
+	Private _Location1 As String
+	
+	Private _JobTitle1 As String
+	
+	Private _Shift1 As String
+	
+	Private _Pay1 As System.Nullable(Of Decimal)
+	
+	Private _ReasonForLeaving1 As String
+	
+	Private _Manager1 As String
+	
+	Private _RefAvailable1 As System.Nullable(Of Boolean)
+	
+	Private _ContactNumber2 As String
+	
+	Private _WorkFrom2 As System.Nullable(Of Date)
+	
+	Private _WorkTo2 As System.Nullable(Of Date)
+	
+	Private _WorkedVia2 As String
+	
+	Private _AgencyName2 As String
+	
+	Private _CompanyName2 As String
+	
+	Private _Location2 As String
+	
+	Private _JobTitle2 As String
+	
+	Private _Shift2 As String
+	
+	Private _Pay2 As System.Nullable(Of Decimal)
+	
+	Private _ReasonForLeaving2 As String
+	
+	Private _Manager2 As String
+	
+	Private _RefAvailable2 As System.Nullable(Of Boolean)
+	
+	Private _Passport As System.Nullable(Of Boolean)
+	
+	Private _NatIDCard As System.Nullable(Of Boolean)
+	
+	Private _ProofOfNi As System.Nullable(Of Boolean)
+	
+	Private _BirthCert As System.Nullable(Of Boolean)
+	
+	Private _NiCard As System.Nullable(Of Boolean)
+	
+	Private _UtilityBill As System.Nullable(Of Boolean)
+	
+	Private _CV As System.Nullable(Of Boolean)
+	
+	Private _Visa As System.Nullable(Of Boolean)
+	
+	Private _CSCSCard As System.Nullable(Of Boolean)
+	
+	Private _CPCSCard As System.Nullable(Of Boolean)
+	
+	Private _DrivingLic As System.Nullable(Of Boolean)
+	
+	Private _DigiCard As System.Nullable(Of Boolean)
+	
+	Private _CPCM1 As System.Nullable(Of Boolean)
+	
+	Private _CPCM2 As System.Nullable(Of Boolean)
+	
+	Private _CPCM3 As System.Nullable(Of Boolean)
+	
+	Private _CPCM4 As System.Nullable(Of Boolean)
+	
+	Private _CPCM5 As System.Nullable(Of Boolean)
+	
+	Private _Assembler As System.Nullable(Of Boolean)
+	
+	Private _Production As System.Nullable(Of Boolean)
+	
+	Private _Warehouse As System.Nullable(Of Boolean)
+	
+	Private _Groundwork As System.Nullable(Of Boolean)
+	
+	Private _TrafficMngt As System.Nullable(Of Boolean)
+	
+	Private _MigWelder As System.Nullable(Of Boolean)
+	
+	Private _GeneralOp As System.Nullable(Of Boolean)
+	
+	Private _MachineOp As System.Nullable(Of Boolean)
+	
+	Private _PressOp As System.Nullable(Of Boolean)
+	
+	Private _OrderPicker As System.Nullable(Of Boolean)
+	
+	Private _Labourer As System.Nullable(Of Boolean)
+	
+	Private _Joiner As System.Nullable(Of Boolean)
+	
+	Private _TigWelder As System.Nullable(Of Boolean)
+	
+	Private _QInspector As System.Nullable(Of Boolean)
+	
+	Private _Setter As System.Nullable(Of Boolean)
+	
+	Private _Driving As System.Nullable(Of Boolean)
+	
+	Private _Packer As System.Nullable(Of Boolean)
+	
+	Private _Cleaner As System.Nullable(Of Boolean)
+	
+	Private _Admin As System.Nullable(Of Boolean)
+	
+	Private _Braize As System.Nullable(Of Boolean)
+	
+	Private _FSA As System.Nullable(Of Boolean)
+	
+	Private _FLTCB As System.Nullable(Of Boolean)
+	
+	Private _FLTRT As System.Nullable(Of Boolean)
+	
+	Private _FLTNA As System.Nullable(Of Boolean)
+	
+	Private _FLTBendi As System.Nullable(Of Boolean)
+	
+	Private _CE As System.Nullable(Of Boolean)
+	
+	Private _C As System.Nullable(Of Boolean)
+	
+	Private __7_5Tonn As System.Nullable(Of Boolean)
+	
+	Private _Van As System.Nullable(Of Boolean)
+	
+	Private _Hiab As System.Nullable(Of Boolean)
+	
+	Private _Moffat As System.Nullable(Of Boolean)
+	
+	Private _Tipper1 As System.Nullable(Of Boolean)
+	
+	Private _Tipper2 As System.Nullable(Of Boolean)
+	
+	Private _Tipper75T As System.Nullable(Of Boolean)
+	
+	Private _RollOnOff As System.Nullable(Of Boolean)
+	
+	Private _MultiLift As System.Nullable(Of Boolean)
+	
+	Private _PVC As System.Nullable(Of Boolean)
+	
+	Private _MB As System.Nullable(Of Boolean)
+	
+	Private _AFrame As System.Nullable(Of Boolean)
+	
+	Private _CloseCoupled As System.Nullable(Of Boolean)
+	
+	Private _CurtainBox As System.Nullable(Of Boolean)
+	
+	Private _FlatFridge As System.Nullable(Of Boolean)
+	
+	Private _Lowloader As System.Nullable(Of Boolean)
+	
+	Private _Container As System.Nullable(Of Boolean)
+	
+	Private _DeMounts As System.Nullable(Of Boolean)
+	
+	Private _DoubleDeck As System.Nullable(Of Boolean)
+	
+	Private _WalkingFloor As System.Nullable(Of Boolean)
+	
+	Private _ChainnDog As System.Nullable(Of Boolean)
+	
+	Private _Strap As System.Nullable(Of Boolean)
+	
+	Private _Rope As System.Nullable(Of Boolean)
+	
+	Private _Sheet As System.Nullable(Of Boolean)
+	
+	Private _SteelShunter As System.Nullable(Of Boolean)
+	
+	Private _HBall As System.Nullable(Of Boolean)
+	
+	Private _TLift As System.Nullable(Of Boolean)
+	
+	Private _FLT As System.Nullable(Of Boolean)
+	
+	Private _ADRTanks As System.Nullable(Of Boolean)
+	
+	Private _ADRPackages As System.Nullable(Of Boolean)
+	
+	Private _LtdCompanyname As String
+	
+	Private _CoRegistrationNumber As String
+	
+	Private _CorporationCertCopied As System.Nullable(Of Boolean)
+	
+	Private _VatRegistered As System.Nullable(Of Boolean)
+	
+	Private _VatNumber As String
+	
+	Private _Communication As String
+	
+	Private _Interviewer As String
+	
+	Private _DateRegistered As Date
+	
+	Private _Status As String
+	
+	Private _StatusReason As String
+	
+	Private _Notes As String
+	
+	Private _Taxdetails As String
+	
+	Private _TaxCategory As String
+	
+	Private _LastModifiedUser As String
+	
+	Private _LastModifiedDate As System.Nullable(Of Date)
+	
+	Private _CreatedUser As String
+	
+	Private _CreatedDate As System.Nullable(Of Date)
+	
+	Private _MaritalStatus As String
+	
+	Private _Gender As String
+	
+	Private _StudentLoan As System.Nullable(Of Boolean)
+	
+	Private _TaxCode As String
+	
+	Private _SystemType As String
+	
+	Private _PaymentFrequency As String
+	
+	Private _CardArchived As System.Nullable(Of Boolean)
+	
+	Private _LastWorkedDate As System.Nullable(Of Date)
+	
+	Private _SageRef As String
+	
+	Private _DriverLicenseCheckConsentFormComplete As System.Nullable(Of Boolean)
+	
+	Private _DateDrivingLicenceChecked As System.Nullable(Of Date)
+	
+	Private _PreviousReference As String
+	
+	Private _StatusChangeDate As System.Nullable(Of Date)
+	
+	Private _BankReference As String
+	
+	Private _DrivingLicenceExpiryDate As System.Nullable(Of Date)
+	
+	Private _VisaExpiryDate As System.Nullable(Of Date)
+	
+	Private _PassportExpiryDate As System.Nullable(Of Date)
+	
+	Private _DriversQualificationCardExpiryDate As System.Nullable(Of Date)
+	
+	Private _DigicardExpiryDate As System.Nullable(Of Date)
+	
+	Private _LoyaltyCard As System.Nullable(Of Boolean)
+	
+	Private _LoyaltyPoints As System.Nullable(Of Long)
+	
+	Private _LoyaltyRank As String
+	
+	Private _LoyaltyEnrollmentDate As System.Nullable(Of Date)
+	
+	Private _LtdComapnyChecked As System.Nullable(Of Boolean)
+	
+	Private _LtdCompanyCheckedDate As System.Nullable(Of Date)
+	
+	Public Sub New()
+		MyBase.New
+	End Sub
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmployeeID", DbType:="BigInt NOT NULL")>  _
+	Public Property EmployeeID() As Long
+		Get
+			Return Me._EmployeeID
+		End Get
+		Set
+			If ((Me._EmployeeID = value)  _
+						= false) Then
+				Me._EmployeeID = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NINumber", DbType:="NVarChar(9) NOT NULL", CanBeNull:=false)>  _
+	Public Property NINumber() As String
+		Get
+			Return Me._NINumber
+		End Get
+		Set
+			If (String.Equals(Me._NINumber, value) = false) Then
+				Me._NINumber = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SchemeID", DbType:="BigInt NOT NULL")>  _
+	Public Property SchemeID() As Long
+		Get
+			Return Me._SchemeID
+		End Get
+		Set
+			If ((Me._SchemeID = value)  _
+						= false) Then
+				Me._SchemeID = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Scheme", DbType:="NVarChar(50)")>  _
+	Public Property Scheme() As String
+		Get
+			Return Me._Scheme
+		End Get
+		Set
+			If (String.Equals(Me._Scheme, value) = false) Then
+				Me._Scheme = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_BranchID", DbType:="BigInt NOT NULL")>  _
+	Public Property BranchID() As Long
+		Get
+			Return Me._BranchID
+		End Get
+		Set
+			If ((Me._BranchID = value)  _
+						= false) Then
+				Me._BranchID = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Branch", DbType:="NVarChar(10)")>  _
+	Public Property Branch() As String
+		Get
+			Return Me._Branch
+		End Get
+		Set
+			If (String.Equals(Me._Branch, value) = false) Then
+				Me._Branch = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmployeeCode", DbType:="NVarChar(100)")>  _
+	Public Property EmployeeCode() As String
+		Get
+			Return Me._EmployeeCode
+		End Get
+		Set
+			If (String.Equals(Me._EmployeeCode, value) = false) Then
+				Me._EmployeeCode = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Title", DbType:="NVarChar(10) NOT NULL", CanBeNull:=false)>  _
+	Public Property Title() As String
+		Get
+			Return Me._Title
+		End Get
+		Set
+			If (String.Equals(Me._Title, value) = false) Then
+				Me._Title = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Forename", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property Forename() As String
+		Get
+			Return Me._Forename
+		End Get
+		Set
+			If (String.Equals(Me._Forename, value) = false) Then
+				Me._Forename = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Surname", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property Surname() As String
+		Get
+			Return Me._Surname
+		End Get
+		Set
+			If (String.Equals(Me._Surname, value) = false) Then
+				Me._Surname = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Address1", DbType:="NVarChar(200) NOT NULL", CanBeNull:=false)>  _
+	Public Property Address1() As String
+		Get
+			Return Me._Address1
+		End Get
+		Set
+			If (String.Equals(Me._Address1, value) = false) Then
+				Me._Address1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Address2", DbType:="NVarChar(200)")>  _
+	Public Property Address2() As String
+		Get
+			Return Me._Address2
+		End Get
+		Set
+			If (String.Equals(Me._Address2, value) = false) Then
+				Me._Address2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Town", DbType:="NVarChar(200) NOT NULL", CanBeNull:=false)>  _
+	Public Property Town() As String
+		Get
+			Return Me._Town
+		End Get
+		Set
+			If (String.Equals(Me._Town, value) = false) Then
+				Me._Town = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_County", DbType:="NVarChar(200)")>  _
+	Public Property County() As String
+		Get
+			Return Me._County
+		End Get
+		Set
+			If (String.Equals(Me._County, value) = false) Then
+				Me._County = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PostCode", DbType:="NVarChar(11) NOT NULL", CanBeNull:=false)>  _
+	Public Property PostCode() As String
+		Get
+			Return Me._PostCode
+		End Get
+		Set
+			If (String.Equals(Me._PostCode, value) = false) Then
+				Me._PostCode = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DOB", DbType:="Date NOT NULL")>  _
+	Public Property DOB() As Date
+		Get
+			Return Me._DOB
+		End Get
+		Set
+			If ((Me._DOB = value)  _
+						= false) Then
+				Me._DOB = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Telephone", DbType:="NVarChar(11)")>  _
+	Public Property Telephone() As String
+		Get
+			Return Me._Telephone
+		End Get
+		Set
+			If (String.Equals(Me._Telephone, value) = false) Then
+				Me._Telephone = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Mobile", DbType:="NVarChar(11) NOT NULL", CanBeNull:=false)>  _
+	Public Property Mobile() As String
+		Get
+			Return Me._Mobile
+		End Get
+		Set
+			If (String.Equals(Me._Mobile, value) = false) Then
+				Me._Mobile = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmergencyContact", DbType:="NVarChar(50)")>  _
+	Public Property EmergencyContact() As String
+		Get
+			Return Me._EmergencyContact
+		End Get
+		Set
+			If (String.Equals(Me._EmergencyContact, value) = false) Then
+				Me._EmergencyContact = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmergencyContactTel", DbType:="NVarChar(11)")>  _
+	Public Property EmergencyContactTel() As String
+		Get
+			Return Me._EmergencyContactTel
+		End Get
+		Set
+			If (String.Equals(Me._EmergencyContactTel, value) = false) Then
+				Me._EmergencyContactTel = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EthnicOrigin", DbType:="NVarChar(50)")>  _
+	Public Property EthnicOrigin() As String
+		Get
+			Return Me._EthnicOrigin
+		End Get
+		Set
+			If (String.Equals(Me._EthnicOrigin, value) = false) Then
+				Me._EthnicOrigin = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SortCode", DbType:="NVarChar(6)")>  _
+	Public Property SortCode() As String
+		Get
+			Return Me._SortCode
+		End Get
+		Set
+			If (String.Equals(Me._SortCode, value) = false) Then
+				Me._SortCode = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AccountNo", DbType:="NVarChar(50)")>  _
+	Public Property AccountNo() As String
+		Get
+			Return Me._AccountNo
+		End Get
+		Set
+			If (String.Equals(Me._AccountNo, value) = false) Then
+				Me._AccountNo = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AccountInTheNameOf", DbType:="NVarChar(100)")>  _
+	Public Property AccountInTheNameOf() As String
+		Get
+			Return Me._AccountInTheNameOf
+		End Get
+		Set
+			If (String.Equals(Me._AccountInTheNameOf, value) = false) Then
+				Me._AccountInTheNameOf = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Bank", DbType:="NVarChar(50)")>  _
+	Public Property Bank() As String
+		Get
+			Return Me._Bank
+		End Get
+		Set
+			If (String.Equals(Me._Bank, value) = false) Then
+				Me._Bank = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_EmailPayslip", DbType:="Bit NOT NULL")>  _
+	Public Property EmailPayslip() As Boolean
+		Get
+			Return Me._EmailPayslip
+		End Get
+		Set
+			If ((Me._EmailPayslip = value)  _
+						= false) Then
+				Me._EmailPayslip = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Email", DbType:="NVarChar(100)")>  _
+	Public Property Email() As String
+		Get
+			Return Me._Email
+		End Get
+		Set
+			If (String.Equals(Me._Email, value) = false) Then
+				Me._Email = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkFrom", DbType:="Date")>  _
+	Public Property WorkFrom() As System.Nullable(Of Date)
+		Get
+			Return Me._WorkFrom
+		End Get
+		Set
+			If (Me._WorkFrom.Equals(value) = false) Then
+				Me._WorkFrom = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkTo", DbType:="Date")>  _
+	Public Property WorkTo() As System.Nullable(Of Date)
+		Get
+			Return Me._WorkTo
+		End Get
+		Set
+			If (Me._WorkTo.Equals(value) = false) Then
+				Me._WorkTo = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkedVia", DbType:="NVarChar(20)")>  _
+	Public Property WorkedVia() As String
+		Get
+			Return Me._WorkedVia
+		End Get
+		Set
+			If (String.Equals(Me._WorkedVia, value) = false) Then
+				Me._WorkedVia = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AgencyName", DbType:="NVarChar(50)")>  _
+	Public Property AgencyName() As String
+		Get
+			Return Me._AgencyName
+		End Get
+		Set
+			If (String.Equals(Me._AgencyName, value) = false) Then
+				Me._AgencyName = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CompanyName", DbType:="NVarChar(50)")>  _
+	Public Property CompanyName() As String
+		Get
+			Return Me._CompanyName
+		End Get
+		Set
+			If (String.Equals(Me._CompanyName, value) = false) Then
+				Me._CompanyName = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Location", DbType:="NVarChar(50)")>  _
+	Public Property Location() As String
+		Get
+			Return Me._Location
+		End Get
+		Set
+			If (String.Equals(Me._Location, value) = false) Then
+				Me._Location = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_JobTitle", DbType:="NVarChar(50)")>  _
+	Public Property JobTitle() As String
+		Get
+			Return Me._JobTitle
+		End Get
+		Set
+			If (String.Equals(Me._JobTitle, value) = false) Then
+				Me._JobTitle = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Shift", DbType:="NVarChar(50)")>  _
+	Public Property Shift() As String
+		Get
+			Return Me._Shift
+		End Get
+		Set
+			If (String.Equals(Me._Shift, value) = false) Then
+				Me._Shift = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Pay", DbType:="Decimal(18,5)")>  _
+	Public Property Pay() As System.Nullable(Of Decimal)
+		Get
+			Return Me._Pay
+		End Get
+		Set
+			If (Me._Pay.Equals(value) = false) Then
+				Me._Pay = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ReasonForLeaving", DbType:="NVarChar(50)")>  _
+	Public Property ReasonForLeaving() As String
+		Get
+			Return Me._ReasonForLeaving
+		End Get
+		Set
+			If (String.Equals(Me._ReasonForLeaving, value) = false) Then
+				Me._ReasonForLeaving = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Manager", DbType:="NVarChar(50)")>  _
+	Public Property Manager() As String
+		Get
+			Return Me._Manager
+		End Get
+		Set
+			If (String.Equals(Me._Manager, value) = false) Then
+				Me._Manager = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RefAvailable", DbType:="Bit")>  _
+	Public Property RefAvailable() As System.Nullable(Of Boolean)
+		Get
+			Return Me._RefAvailable
+		End Get
+		Set
+			If (Me._RefAvailable.Equals(value) = false) Then
+				Me._RefAvailable = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ContactNumber", DbType:="NVarChar(50)")>  _
+	Public Property ContactNumber() As String
+		Get
+			Return Me._ContactNumber
+		End Get
+		Set
+			If (String.Equals(Me._ContactNumber, value) = false) Then
+				Me._ContactNumber = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ContactNumber1", DbType:="NVarChar(50)")>  _
+	Public Property ContactNumber1() As String
+		Get
+			Return Me._ContactNumber1
+		End Get
+		Set
+			If (String.Equals(Me._ContactNumber1, value) = false) Then
+				Me._ContactNumber1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkFrom1", DbType:="Date")>  _
+	Public Property WorkFrom1() As System.Nullable(Of Date)
+		Get
+			Return Me._WorkFrom1
+		End Get
+		Set
+			If (Me._WorkFrom1.Equals(value) = false) Then
+				Me._WorkFrom1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkTo1", DbType:="Date")>  _
+	Public Property WorkTo1() As System.Nullable(Of Date)
+		Get
+			Return Me._WorkTo1
+		End Get
+		Set
+			If (Me._WorkTo1.Equals(value) = false) Then
+				Me._WorkTo1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkedVia1", DbType:="NVarChar(20)")>  _
+	Public Property WorkedVia1() As String
+		Get
+			Return Me._WorkedVia1
+		End Get
+		Set
+			If (String.Equals(Me._WorkedVia1, value) = false) Then
+				Me._WorkedVia1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AgencyName1", DbType:="NVarChar(50)")>  _
+	Public Property AgencyName1() As String
+		Get
+			Return Me._AgencyName1
+		End Get
+		Set
+			If (String.Equals(Me._AgencyName1, value) = false) Then
+				Me._AgencyName1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CompanyName1", DbType:="NVarChar(50)")>  _
+	Public Property CompanyName1() As String
+		Get
+			Return Me._CompanyName1
+		End Get
+		Set
+			If (String.Equals(Me._CompanyName1, value) = false) Then
+				Me._CompanyName1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Location1", DbType:="NVarChar(50)")>  _
+	Public Property Location1() As String
+		Get
+			Return Me._Location1
+		End Get
+		Set
+			If (String.Equals(Me._Location1, value) = false) Then
+				Me._Location1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_JobTitle1", DbType:="NVarChar(50)")>  _
+	Public Property JobTitle1() As String
+		Get
+			Return Me._JobTitle1
+		End Get
+		Set
+			If (String.Equals(Me._JobTitle1, value) = false) Then
+				Me._JobTitle1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Shift1", DbType:="NVarChar(50)")>  _
+	Public Property Shift1() As String
+		Get
+			Return Me._Shift1
+		End Get
+		Set
+			If (String.Equals(Me._Shift1, value) = false) Then
+				Me._Shift1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Pay1", DbType:="Decimal(18,5)")>  _
+	Public Property Pay1() As System.Nullable(Of Decimal)
+		Get
+			Return Me._Pay1
+		End Get
+		Set
+			If (Me._Pay1.Equals(value) = false) Then
+				Me._Pay1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ReasonForLeaving1", DbType:="NVarChar(50)")>  _
+	Public Property ReasonForLeaving1() As String
+		Get
+			Return Me._ReasonForLeaving1
+		End Get
+		Set
+			If (String.Equals(Me._ReasonForLeaving1, value) = false) Then
+				Me._ReasonForLeaving1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Manager1", DbType:="NVarChar(50)")>  _
+	Public Property Manager1() As String
+		Get
+			Return Me._Manager1
+		End Get
+		Set
+			If (String.Equals(Me._Manager1, value) = false) Then
+				Me._Manager1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RefAvailable1", DbType:="Bit")>  _
+	Public Property RefAvailable1() As System.Nullable(Of Boolean)
+		Get
+			Return Me._RefAvailable1
+		End Get
+		Set
+			If (Me._RefAvailable1.Equals(value) = false) Then
+				Me._RefAvailable1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ContactNumber2", DbType:="NVarChar(50)")>  _
+	Public Property ContactNumber2() As String
+		Get
+			Return Me._ContactNumber2
+		End Get
+		Set
+			If (String.Equals(Me._ContactNumber2, value) = false) Then
+				Me._ContactNumber2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkFrom2", DbType:="Date")>  _
+	Public Property WorkFrom2() As System.Nullable(Of Date)
+		Get
+			Return Me._WorkFrom2
+		End Get
+		Set
+			If (Me._WorkFrom2.Equals(value) = false) Then
+				Me._WorkFrom2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkTo2", DbType:="Date")>  _
+	Public Property WorkTo2() As System.Nullable(Of Date)
+		Get
+			Return Me._WorkTo2
+		End Get
+		Set
+			If (Me._WorkTo2.Equals(value) = false) Then
+				Me._WorkTo2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WorkedVia2", DbType:="NVarChar(20)")>  _
+	Public Property WorkedVia2() As String
+		Get
+			Return Me._WorkedVia2
+		End Get
+		Set
+			If (String.Equals(Me._WorkedVia2, value) = false) Then
+				Me._WorkedVia2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AgencyName2", DbType:="NVarChar(50)")>  _
+	Public Property AgencyName2() As String
+		Get
+			Return Me._AgencyName2
+		End Get
+		Set
+			If (String.Equals(Me._AgencyName2, value) = false) Then
+				Me._AgencyName2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CompanyName2", DbType:="NVarChar(50)")>  _
+	Public Property CompanyName2() As String
+		Get
+			Return Me._CompanyName2
+		End Get
+		Set
+			If (String.Equals(Me._CompanyName2, value) = false) Then
+				Me._CompanyName2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Location2", DbType:="NVarChar(50)")>  _
+	Public Property Location2() As String
+		Get
+			Return Me._Location2
+		End Get
+		Set
+			If (String.Equals(Me._Location2, value) = false) Then
+				Me._Location2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_JobTitle2", DbType:="NVarChar(50)")>  _
+	Public Property JobTitle2() As String
+		Get
+			Return Me._JobTitle2
+		End Get
+		Set
+			If (String.Equals(Me._JobTitle2, value) = false) Then
+				Me._JobTitle2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Shift2", DbType:="NVarChar(50)")>  _
+	Public Property Shift2() As String
+		Get
+			Return Me._Shift2
+		End Get
+		Set
+			If (String.Equals(Me._Shift2, value) = false) Then
+				Me._Shift2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Pay2", DbType:="Decimal(18,5)")>  _
+	Public Property Pay2() As System.Nullable(Of Decimal)
+		Get
+			Return Me._Pay2
+		End Get
+		Set
+			If (Me._Pay2.Equals(value) = false) Then
+				Me._Pay2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ReasonForLeaving2", DbType:="NVarChar(50)")>  _
+	Public Property ReasonForLeaving2() As String
+		Get
+			Return Me._ReasonForLeaving2
+		End Get
+		Set
+			If (String.Equals(Me._ReasonForLeaving2, value) = false) Then
+				Me._ReasonForLeaving2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Manager2", DbType:="NVarChar(50)")>  _
+	Public Property Manager2() As String
+		Get
+			Return Me._Manager2
+		End Get
+		Set
+			If (String.Equals(Me._Manager2, value) = false) Then
+				Me._Manager2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RefAvailable2", DbType:="Bit")>  _
+	Public Property RefAvailable2() As System.Nullable(Of Boolean)
+		Get
+			Return Me._RefAvailable2
+		End Get
+		Set
+			If (Me._RefAvailable2.Equals(value) = false) Then
+				Me._RefAvailable2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Passport", DbType:="Bit")>  _
+	Public Property Passport() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Passport
+		End Get
+		Set
+			If (Me._Passport.Equals(value) = false) Then
+				Me._Passport = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NatIDCard", DbType:="Bit")>  _
+	Public Property NatIDCard() As System.Nullable(Of Boolean)
+		Get
+			Return Me._NatIDCard
+		End Get
+		Set
+			If (Me._NatIDCard.Equals(value) = false) Then
+				Me._NatIDCard = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ProofOfNi", DbType:="Bit")>  _
+	Public Property ProofOfNi() As System.Nullable(Of Boolean)
+		Get
+			Return Me._ProofOfNi
+		End Get
+		Set
+			If (Me._ProofOfNi.Equals(value) = false) Then
+				Me._ProofOfNi = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_BirthCert", DbType:="Bit")>  _
+	Public Property BirthCert() As System.Nullable(Of Boolean)
+		Get
+			Return Me._BirthCert
+		End Get
+		Set
+			If (Me._BirthCert.Equals(value) = false) Then
+				Me._BirthCert = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NiCard", DbType:="Bit")>  _
+	Public Property NiCard() As System.Nullable(Of Boolean)
+		Get
+			Return Me._NiCard
+		End Get
+		Set
+			If (Me._NiCard.Equals(value) = false) Then
+				Me._NiCard = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_UtilityBill", DbType:="Bit")>  _
+	Public Property UtilityBill() As System.Nullable(Of Boolean)
+		Get
+			Return Me._UtilityBill
+		End Get
+		Set
+			If (Me._UtilityBill.Equals(value) = false) Then
+				Me._UtilityBill = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CV", DbType:="Bit")>  _
+	Public Property CV() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CV
+		End Get
+		Set
+			If (Me._CV.Equals(value) = false) Then
+				Me._CV = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Visa", DbType:="Bit")>  _
+	Public Property Visa() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Visa
+		End Get
+		Set
+			If (Me._Visa.Equals(value) = false) Then
+				Me._Visa = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CSCSCard", DbType:="Bit")>  _
+	Public Property CSCSCard() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CSCSCard
+		End Get
+		Set
+			If (Me._CSCSCard.Equals(value) = false) Then
+				Me._CSCSCard = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCSCard", DbType:="Bit")>  _
+	Public Property CPCSCard() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CPCSCard
+		End Get
+		Set
+			If (Me._CPCSCard.Equals(value) = false) Then
+				Me._CPCSCard = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DrivingLic", DbType:="Bit")>  _
+	Public Property DrivingLic() As System.Nullable(Of Boolean)
+		Get
+			Return Me._DrivingLic
+		End Get
+		Set
+			If (Me._DrivingLic.Equals(value) = false) Then
+				Me._DrivingLic = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DigiCard", DbType:="Bit")>  _
+	Public Property DigiCard() As System.Nullable(Of Boolean)
+		Get
+			Return Me._DigiCard
+		End Get
+		Set
+			If (Me._DigiCard.Equals(value) = false) Then
+				Me._DigiCard = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM1", DbType:="Bit")>  _
+	Public Property CPCM1() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CPCM1
+		End Get
+		Set
+			If (Me._CPCM1.Equals(value) = false) Then
+				Me._CPCM1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM2", DbType:="Bit")>  _
+	Public Property CPCM2() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CPCM2
+		End Get
+		Set
+			If (Me._CPCM2.Equals(value) = false) Then
+				Me._CPCM2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM3", DbType:="Bit")>  _
+	Public Property CPCM3() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CPCM3
+		End Get
+		Set
+			If (Me._CPCM3.Equals(value) = false) Then
+				Me._CPCM3 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM4", DbType:="Bit")>  _
+	Public Property CPCM4() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CPCM4
+		End Get
+		Set
+			If (Me._CPCM4.Equals(value) = false) Then
+				Me._CPCM4 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CPCM5", DbType:="Bit")>  _
+	Public Property CPCM5() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CPCM5
+		End Get
+		Set
+			If (Me._CPCM5.Equals(value) = false) Then
+				Me._CPCM5 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Assembler", DbType:="Bit")>  _
+	Public Property Assembler() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Assembler
+		End Get
+		Set
+			If (Me._Assembler.Equals(value) = false) Then
+				Me._Assembler = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Production", DbType:="Bit")>  _
+	Public Property Production() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Production
+		End Get
+		Set
+			If (Me._Production.Equals(value) = false) Then
+				Me._Production = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Warehouse", DbType:="Bit")>  _
+	Public Property Warehouse() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Warehouse
+		End Get
+		Set
+			If (Me._Warehouse.Equals(value) = false) Then
+				Me._Warehouse = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Groundwork", DbType:="Bit")>  _
+	Public Property Groundwork() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Groundwork
+		End Get
+		Set
+			If (Me._Groundwork.Equals(value) = false) Then
+				Me._Groundwork = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TrafficMngt", DbType:="Bit")>  _
+	Public Property TrafficMngt() As System.Nullable(Of Boolean)
+		Get
+			Return Me._TrafficMngt
+		End Get
+		Set
+			If (Me._TrafficMngt.Equals(value) = false) Then
+				Me._TrafficMngt = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MigWelder", DbType:="Bit")>  _
+	Public Property MigWelder() As System.Nullable(Of Boolean)
+		Get
+			Return Me._MigWelder
+		End Get
+		Set
+			If (Me._MigWelder.Equals(value) = false) Then
+				Me._MigWelder = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_GeneralOp", DbType:="Bit")>  _
+	Public Property GeneralOp() As System.Nullable(Of Boolean)
+		Get
+			Return Me._GeneralOp
+		End Get
+		Set
+			If (Me._GeneralOp.Equals(value) = false) Then
+				Me._GeneralOp = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MachineOp", DbType:="Bit")>  _
+	Public Property MachineOp() As System.Nullable(Of Boolean)
+		Get
+			Return Me._MachineOp
+		End Get
+		Set
+			If (Me._MachineOp.Equals(value) = false) Then
+				Me._MachineOp = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PressOp", DbType:="Bit")>  _
+	Public Property PressOp() As System.Nullable(Of Boolean)
+		Get
+			Return Me._PressOp
+		End Get
+		Set
+			If (Me._PressOp.Equals(value) = false) Then
+				Me._PressOp = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_OrderPicker", DbType:="Bit")>  _
+	Public Property OrderPicker() As System.Nullable(Of Boolean)
+		Get
+			Return Me._OrderPicker
+		End Get
+		Set
+			If (Me._OrderPicker.Equals(value) = false) Then
+				Me._OrderPicker = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Labourer", DbType:="Bit")>  _
+	Public Property Labourer() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Labourer
+		End Get
+		Set
+			If (Me._Labourer.Equals(value) = false) Then
+				Me._Labourer = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Joiner", DbType:="Bit")>  _
+	Public Property Joiner() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Joiner
+		End Get
+		Set
+			If (Me._Joiner.Equals(value) = false) Then
+				Me._Joiner = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TigWelder", DbType:="Bit")>  _
+	Public Property TigWelder() As System.Nullable(Of Boolean)
+		Get
+			Return Me._TigWelder
+		End Get
+		Set
+			If (Me._TigWelder.Equals(value) = false) Then
+				Me._TigWelder = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_QInspector", DbType:="Bit")>  _
+	Public Property QInspector() As System.Nullable(Of Boolean)
+		Get
+			Return Me._QInspector
+		End Get
+		Set
+			If (Me._QInspector.Equals(value) = false) Then
+				Me._QInspector = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Setter", DbType:="Bit")>  _
+	Public Property Setter() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Setter
+		End Get
+		Set
+			If (Me._Setter.Equals(value) = false) Then
+				Me._Setter = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Driving", DbType:="Bit")>  _
+	Public Property Driving() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Driving
+		End Get
+		Set
+			If (Me._Driving.Equals(value) = false) Then
+				Me._Driving = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Packer", DbType:="Bit")>  _
+	Public Property Packer() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Packer
+		End Get
+		Set
+			If (Me._Packer.Equals(value) = false) Then
+				Me._Packer = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Cleaner", DbType:="Bit")>  _
+	Public Property Cleaner() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Cleaner
+		End Get
+		Set
+			If (Me._Cleaner.Equals(value) = false) Then
+				Me._Cleaner = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Admin", DbType:="Bit")>  _
+	Public Property Admin() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Admin
+		End Get
+		Set
+			If (Me._Admin.Equals(value) = false) Then
+				Me._Admin = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Braize", DbType:="Bit")>  _
+	Public Property Braize() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Braize
+		End Get
+		Set
+			If (Me._Braize.Equals(value) = false) Then
+				Me._Braize = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FSA", DbType:="Bit")>  _
+	Public Property FSA() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FSA
+		End Get
+		Set
+			If (Me._FSA.Equals(value) = false) Then
+				Me._FSA = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTCB", DbType:="Bit")>  _
+	Public Property FLTCB() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FLTCB
+		End Get
+		Set
+			If (Me._FLTCB.Equals(value) = false) Then
+				Me._FLTCB = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTRT", DbType:="Bit")>  _
+	Public Property FLTRT() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FLTRT
+		End Get
+		Set
+			If (Me._FLTRT.Equals(value) = false) Then
+				Me._FLTRT = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTNA", DbType:="Bit")>  _
+	Public Property FLTNA() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FLTNA
+		End Get
+		Set
+			If (Me._FLTNA.Equals(value) = false) Then
+				Me._FLTNA = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLTBendi", DbType:="Bit")>  _
+	Public Property FLTBendi() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FLTBendi
+		End Get
+		Set
+			If (Me._FLTBendi.Equals(value) = false) Then
+				Me._FLTBendi = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CE", DbType:="Bit")>  _
+	Public Property CE() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CE
+		End Get
+		Set
+			If (Me._CE.Equals(value) = false) Then
+				Me._CE = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_C", DbType:="Bit")>  _
+	Public Property C() As System.Nullable(Of Boolean)
+		Get
+			Return Me._C
+		End Get
+		Set
+			If (Me._C.Equals(value) = false) Then
+				Me._C = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Name:="[7.5Tonn]", Storage:="__7_5Tonn", DbType:="Bit")>  _
+	Public Property _7_5Tonn() As System.Nullable(Of Boolean)
+		Get
+			Return Me.__7_5Tonn
+		End Get
+		Set
+			If (Me.__7_5Tonn.Equals(value) = false) Then
+				Me.__7_5Tonn = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Van", DbType:="Bit")>  _
+	Public Property Van() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Van
+		End Get
+		Set
+			If (Me._Van.Equals(value) = false) Then
+				Me._Van = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Hiab", DbType:="Bit")>  _
+	Public Property Hiab() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Hiab
+		End Get
+		Set
+			If (Me._Hiab.Equals(value) = false) Then
+				Me._Hiab = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Moffat", DbType:="Bit")>  _
+	Public Property Moffat() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Moffat
+		End Get
+		Set
+			If (Me._Moffat.Equals(value) = false) Then
+				Me._Moffat = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Tipper1", DbType:="Bit")>  _
+	Public Property Tipper1() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Tipper1
+		End Get
+		Set
+			If (Me._Tipper1.Equals(value) = false) Then
+				Me._Tipper1 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Tipper2", DbType:="Bit")>  _
+	Public Property Tipper2() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Tipper2
+		End Get
+		Set
+			If (Me._Tipper2.Equals(value) = false) Then
+				Me._Tipper2 = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Tipper75T", DbType:="Bit")>  _
+	Public Property Tipper75T() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Tipper75T
+		End Get
+		Set
+			If (Me._Tipper75T.Equals(value) = false) Then
+				Me._Tipper75T = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_RollOnOff", DbType:="Bit")>  _
+	Public Property RollOnOff() As System.Nullable(Of Boolean)
+		Get
+			Return Me._RollOnOff
+		End Get
+		Set
+			If (Me._RollOnOff.Equals(value) = false) Then
+				Me._RollOnOff = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MultiLift", DbType:="Bit")>  _
+	Public Property MultiLift() As System.Nullable(Of Boolean)
+		Get
+			Return Me._MultiLift
+		End Get
+		Set
+			If (Me._MultiLift.Equals(value) = false) Then
+				Me._MultiLift = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PVC", DbType:="Bit")>  _
+	Public Property PVC() As System.Nullable(Of Boolean)
+		Get
+			Return Me._PVC
+		End Get
+		Set
+			If (Me._PVC.Equals(value) = false) Then
+				Me._PVC = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MB", DbType:="Bit")>  _
+	Public Property MB() As System.Nullable(Of Boolean)
+		Get
+			Return Me._MB
+		End Get
+		Set
+			If (Me._MB.Equals(value) = false) Then
+				Me._MB = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_AFrame", DbType:="Bit")>  _
+	Public Property AFrame() As System.Nullable(Of Boolean)
+		Get
+			Return Me._AFrame
+		End Get
+		Set
+			If (Me._AFrame.Equals(value) = false) Then
+				Me._AFrame = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CloseCoupled", DbType:="Bit")>  _
+	Public Property CloseCoupled() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CloseCoupled
+		End Get
+		Set
+			If (Me._CloseCoupled.Equals(value) = false) Then
+				Me._CloseCoupled = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CurtainBox", DbType:="Bit")>  _
+	Public Property CurtainBox() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CurtainBox
+		End Get
+		Set
+			If (Me._CurtainBox.Equals(value) = false) Then
+				Me._CurtainBox = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FlatFridge", DbType:="Bit")>  _
+	Public Property FlatFridge() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FlatFridge
+		End Get
+		Set
+			If (Me._FlatFridge.Equals(value) = false) Then
+				Me._FlatFridge = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Lowloader", DbType:="Bit")>  _
+	Public Property Lowloader() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Lowloader
+		End Get
+		Set
+			If (Me._Lowloader.Equals(value) = false) Then
+				Me._Lowloader = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Container", DbType:="Bit")>  _
+	Public Property Container() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Container
+		End Get
+		Set
+			If (Me._Container.Equals(value) = false) Then
+				Me._Container = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DeMounts", DbType:="Bit")>  _
+	Public Property DeMounts() As System.Nullable(Of Boolean)
+		Get
+			Return Me._DeMounts
+		End Get
+		Set
+			If (Me._DeMounts.Equals(value) = false) Then
+				Me._DeMounts = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DoubleDeck", DbType:="Bit")>  _
+	Public Property DoubleDeck() As System.Nullable(Of Boolean)
+		Get
+			Return Me._DoubleDeck
+		End Get
+		Set
+			If (Me._DoubleDeck.Equals(value) = false) Then
+				Me._DoubleDeck = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_WalkingFloor", DbType:="Bit")>  _
+	Public Property WalkingFloor() As System.Nullable(Of Boolean)
+		Get
+			Return Me._WalkingFloor
+		End Get
+		Set
+			If (Me._WalkingFloor.Equals(value) = false) Then
+				Me._WalkingFloor = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ChainnDog", DbType:="Bit")>  _
+	Public Property ChainnDog() As System.Nullable(Of Boolean)
+		Get
+			Return Me._ChainnDog
+		End Get
+		Set
+			If (Me._ChainnDog.Equals(value) = false) Then
+				Me._ChainnDog = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Strap", DbType:="Bit")>  _
+	Public Property Strap() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Strap
+		End Get
+		Set
+			If (Me._Strap.Equals(value) = false) Then
+				Me._Strap = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Rope", DbType:="Bit")>  _
+	Public Property Rope() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Rope
+		End Get
+		Set
+			If (Me._Rope.Equals(value) = false) Then
+				Me._Rope = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Sheet", DbType:="Bit")>  _
+	Public Property Sheet() As System.Nullable(Of Boolean)
+		Get
+			Return Me._Sheet
+		End Get
+		Set
+			If (Me._Sheet.Equals(value) = false) Then
+				Me._Sheet = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SteelShunter", DbType:="Bit")>  _
+	Public Property SteelShunter() As System.Nullable(Of Boolean)
+		Get
+			Return Me._SteelShunter
+		End Get
+		Set
+			If (Me._SteelShunter.Equals(value) = false) Then
+				Me._SteelShunter = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_HBall", DbType:="Bit")>  _
+	Public Property HBall() As System.Nullable(Of Boolean)
+		Get
+			Return Me._HBall
+		End Get
+		Set
+			If (Me._HBall.Equals(value) = false) Then
+				Me._HBall = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TLift", DbType:="Bit")>  _
+	Public Property TLift() As System.Nullable(Of Boolean)
+		Get
+			Return Me._TLift
+		End Get
+		Set
+			If (Me._TLift.Equals(value) = false) Then
+				Me._TLift = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_FLT", DbType:="Bit")>  _
+	Public Property FLT() As System.Nullable(Of Boolean)
+		Get
+			Return Me._FLT
+		End Get
+		Set
+			If (Me._FLT.Equals(value) = false) Then
+				Me._FLT = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ADRTanks", DbType:="Bit")>  _
+	Public Property ADRTanks() As System.Nullable(Of Boolean)
+		Get
+			Return Me._ADRTanks
+		End Get
+		Set
+			If (Me._ADRTanks.Equals(value) = false) Then
+				Me._ADRTanks = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ADRPackages", DbType:="Bit")>  _
+	Public Property ADRPackages() As System.Nullable(Of Boolean)
+		Get
+			Return Me._ADRPackages
+		End Get
+		Set
+			If (Me._ADRPackages.Equals(value) = false) Then
+				Me._ADRPackages = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LtdCompanyname", DbType:="NVarChar(50)")>  _
+	Public Property LtdCompanyname() As String
+		Get
+			Return Me._LtdCompanyname
+		End Get
+		Set
+			If (String.Equals(Me._LtdCompanyname, value) = false) Then
+				Me._LtdCompanyname = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CoRegistrationNumber", DbType:="NVarChar(20)")>  _
+	Public Property CoRegistrationNumber() As String
+		Get
+			Return Me._CoRegistrationNumber
+		End Get
+		Set
+			If (String.Equals(Me._CoRegistrationNumber, value) = false) Then
+				Me._CoRegistrationNumber = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CorporationCertCopied", DbType:="Bit")>  _
+	Public Property CorporationCertCopied() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CorporationCertCopied
+		End Get
+		Set
+			If (Me._CorporationCertCopied.Equals(value) = false) Then
+				Me._CorporationCertCopied = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_VatRegistered", DbType:="Bit")>  _
+	Public Property VatRegistered() As System.Nullable(Of Boolean)
+		Get
+			Return Me._VatRegistered
+		End Get
+		Set
+			If (Me._VatRegistered.Equals(value) = false) Then
+				Me._VatRegistered = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_VatNumber", DbType:="NVarChar(50)")>  _
+	Public Property VatNumber() As String
+		Get
+			Return Me._VatNumber
+		End Get
+		Set
+			If (String.Equals(Me._VatNumber, value) = false) Then
+				Me._VatNumber = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Communication", DbType:="NVarChar(1) NOT NULL", CanBeNull:=false)>  _
+	Public Property Communication() As String
+		Get
+			Return Me._Communication
+		End Get
+		Set
+			If (String.Equals(Me._Communication, value) = false) Then
+				Me._Communication = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Interviewer", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property Interviewer() As String
+		Get
+			Return Me._Interviewer
+		End Get
+		Set
+			If (String.Equals(Me._Interviewer, value) = false) Then
+				Me._Interviewer = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DateRegistered", DbType:="Date NOT NULL")>  _
+	Public Property DateRegistered() As Date
+		Get
+			Return Me._DateRegistered
+		End Get
+		Set
+			If ((Me._DateRegistered = value)  _
+						= false) Then
+				Me._DateRegistered = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Status", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property Status() As String
+		Get
+			Return Me._Status
+		End Get
+		Set
+			If (String.Equals(Me._Status, value) = false) Then
+				Me._Status = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_StatusReason", DbType:="NVarChar(200)")>  _
+	Public Property StatusReason() As String
+		Get
+			Return Me._StatusReason
+		End Get
+		Set
+			If (String.Equals(Me._StatusReason, value) = false) Then
+				Me._StatusReason = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Notes", DbType:="Text NOT NULL", CanBeNull:=false, UpdateCheck:=UpdateCheck.Never)>  _
+	Public Property Notes() As String
+		Get
+			Return Me._Notes
+		End Get
+		Set
+			If (String.Equals(Me._Notes, value) = false) Then
+				Me._Notes = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Taxdetails", DbType:="NVarChar(10) NOT NULL", CanBeNull:=false)>  _
+	Public Property Taxdetails() As String
+		Get
+			Return Me._Taxdetails
+		End Get
+		Set
+			If (String.Equals(Me._Taxdetails, value) = false) Then
+				Me._Taxdetails = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TaxCategory", DbType:="NVarChar(4) NOT NULL", CanBeNull:=false)>  _
+	Public Property TaxCategory() As String
+		Get
+			Return Me._TaxCategory
+		End Get
+		Set
+			If (String.Equals(Me._TaxCategory, value) = false) Then
+				Me._TaxCategory = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LastModifiedUser", DbType:="NVarChar(200)")>  _
+	Public Property LastModifiedUser() As String
+		Get
+			Return Me._LastModifiedUser
+		End Get
+		Set
+			If (String.Equals(Me._LastModifiedUser, value) = false) Then
+				Me._LastModifiedUser = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LastModifiedDate", DbType:="DateTime")>  _
+	Public Property LastModifiedDate() As System.Nullable(Of Date)
+		Get
+			Return Me._LastModifiedDate
+		End Get
+		Set
+			If (Me._LastModifiedDate.Equals(value) = false) Then
+				Me._LastModifiedDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CreatedUser", DbType:="NVarChar(200)")>  _
+	Public Property CreatedUser() As String
+		Get
+			Return Me._CreatedUser
+		End Get
+		Set
+			If (String.Equals(Me._CreatedUser, value) = false) Then
+				Me._CreatedUser = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CreatedDate", DbType:="Date")>  _
+	Public Property CreatedDate() As System.Nullable(Of Date)
+		Get
+			Return Me._CreatedDate
+		End Get
+		Set
+			If (Me._CreatedDate.Equals(value) = false) Then
+				Me._CreatedDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_MaritalStatus", DbType:="NVarChar(50)")>  _
+	Public Property MaritalStatus() As String
+		Get
+			Return Me._MaritalStatus
+		End Get
+		Set
+			If (String.Equals(Me._MaritalStatus, value) = false) Then
+				Me._MaritalStatus = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_Gender", DbType:="NVarChar(50)")>  _
+	Public Property Gender() As String
+		Get
+			Return Me._Gender
+		End Get
+		Set
+			If (String.Equals(Me._Gender, value) = false) Then
+				Me._Gender = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_StudentLoan", DbType:="Bit")>  _
+	Public Property StudentLoan() As System.Nullable(Of Boolean)
+		Get
+			Return Me._StudentLoan
+		End Get
+		Set
+			If (Me._StudentLoan.Equals(value) = false) Then
+				Me._StudentLoan = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_TaxCode", DbType:="NVarChar(50)")>  _
+	Public Property TaxCode() As String
+		Get
+			Return Me._TaxCode
+		End Get
+		Set
+			If (String.Equals(Me._TaxCode, value) = false) Then
+				Me._TaxCode = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SystemType", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property SystemType() As String
+		Get
+			Return Me._SystemType
+		End Get
+		Set
+			If (String.Equals(Me._SystemType, value) = false) Then
+				Me._SystemType = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PaymentFrequency", DbType:="NVarChar(50)")>  _
+	Public Property PaymentFrequency() As String
+		Get
+			Return Me._PaymentFrequency
+		End Get
+		Set
+			If (String.Equals(Me._PaymentFrequency, value) = false) Then
+				Me._PaymentFrequency = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CardArchived", DbType:="Bit")>  _
+	Public Property CardArchived() As System.Nullable(Of Boolean)
+		Get
+			Return Me._CardArchived
+		End Get
+		Set
+			If (Me._CardArchived.Equals(value) = false) Then
+				Me._CardArchived = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LastWorkedDate", DbType:="Date")>  _
+	Public Property LastWorkedDate() As System.Nullable(Of Date)
+		Get
+			Return Me._LastWorkedDate
+		End Get
+		Set
+			If (Me._LastWorkedDate.Equals(value) = false) Then
+				Me._LastWorkedDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SageRef", DbType:="NVarChar(250)")>  _
+	Public Property SageRef() As String
+		Get
+			Return Me._SageRef
+		End Get
+		Set
+			If (String.Equals(Me._SageRef, value) = false) Then
+				Me._SageRef = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DriverLicenseCheckConsentFormComplete", DbType:="Bit")>  _
+	Public Property DriverLicenseCheckConsentFormComplete() As System.Nullable(Of Boolean)
+		Get
+			Return Me._DriverLicenseCheckConsentFormComplete
+		End Get
+		Set
+			If (Me._DriverLicenseCheckConsentFormComplete.Equals(value) = false) Then
+				Me._DriverLicenseCheckConsentFormComplete = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DateDrivingLicenceChecked", DbType:="Date")>  _
+	Public Property DateDrivingLicenceChecked() As System.Nullable(Of Date)
+		Get
+			Return Me._DateDrivingLicenceChecked
+		End Get
+		Set
+			If (Me._DateDrivingLicenceChecked.Equals(value) = false) Then
+				Me._DateDrivingLicenceChecked = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PreviousReference", DbType:="NVarChar(250)")>  _
+	Public Property PreviousReference() As String
+		Get
+			Return Me._PreviousReference
+		End Get
+		Set
+			If (String.Equals(Me._PreviousReference, value) = false) Then
+				Me._PreviousReference = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_StatusChangeDate", DbType:="DateTime")>  _
+	Public Property StatusChangeDate() As System.Nullable(Of Date)
+		Get
+			Return Me._StatusChangeDate
+		End Get
+		Set
+			If (Me._StatusChangeDate.Equals(value) = false) Then
+				Me._StatusChangeDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_BankReference", DbType:="NVarChar(250)")>  _
+	Public Property BankReference() As String
+		Get
+			Return Me._BankReference
+		End Get
+		Set
+			If (String.Equals(Me._BankReference, value) = false) Then
+				Me._BankReference = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DrivingLicenceExpiryDate", DbType:="Date")>  _
+	Public Property DrivingLicenceExpiryDate() As System.Nullable(Of Date)
+		Get
+			Return Me._DrivingLicenceExpiryDate
+		End Get
+		Set
+			If (Me._DrivingLicenceExpiryDate.Equals(value) = false) Then
+				Me._DrivingLicenceExpiryDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_VisaExpiryDate", DbType:="Date")>  _
+	Public Property VisaExpiryDate() As System.Nullable(Of Date)
+		Get
+			Return Me._VisaExpiryDate
+		End Get
+		Set
+			If (Me._VisaExpiryDate.Equals(value) = false) Then
+				Me._VisaExpiryDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PassportExpiryDate", DbType:="Date")>  _
+	Public Property PassportExpiryDate() As System.Nullable(Of Date)
+		Get
+			Return Me._PassportExpiryDate
+		End Get
+		Set
+			If (Me._PassportExpiryDate.Equals(value) = false) Then
+				Me._PassportExpiryDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DriversQualificationCardExpiryDate", DbType:="Date")>  _
+	Public Property DriversQualificationCardExpiryDate() As System.Nullable(Of Date)
+		Get
+			Return Me._DriversQualificationCardExpiryDate
+		End Get
+		Set
+			If (Me._DriversQualificationCardExpiryDate.Equals(value) = false) Then
+				Me._DriversQualificationCardExpiryDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DigicardExpiryDate", DbType:="Date")>  _
+	Public Property DigicardExpiryDate() As System.Nullable(Of Date)
+		Get
+			Return Me._DigicardExpiryDate
+		End Get
+		Set
+			If (Me._DigicardExpiryDate.Equals(value) = false) Then
+				Me._DigicardExpiryDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyCard", DbType:="Bit")>  _
+	Public Property LoyaltyCard() As System.Nullable(Of Boolean)
+		Get
+			Return Me._LoyaltyCard
+		End Get
+		Set
+			If (Me._LoyaltyCard.Equals(value) = false) Then
+				Me._LoyaltyCard = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyPoints", DbType:="BigInt")>  _
+	Public Property LoyaltyPoints() As System.Nullable(Of Long)
+		Get
+			Return Me._LoyaltyPoints
+		End Get
+		Set
+			If (Me._LoyaltyPoints.Equals(value) = false) Then
+				Me._LoyaltyPoints = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyRank", DbType:="NVarChar(50)")>  _
+	Public Property LoyaltyRank() As String
+		Get
+			Return Me._LoyaltyRank
+		End Get
+		Set
+			If (String.Equals(Me._LoyaltyRank, value) = false) Then
+				Me._LoyaltyRank = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LoyaltyEnrollmentDate", DbType:="Date")>  _
+	Public Property LoyaltyEnrollmentDate() As System.Nullable(Of Date)
+		Get
+			Return Me._LoyaltyEnrollmentDate
+		End Get
+		Set
+			If (Me._LoyaltyEnrollmentDate.Equals(value) = false) Then
+				Me._LoyaltyEnrollmentDate = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LtdComapnyChecked", DbType:="Bit")>  _
+	Public Property LtdComapnyChecked() As System.Nullable(Of Boolean)
+		Get
+			Return Me._LtdComapnyChecked
+		End Get
+		Set
+			If (Me._LtdComapnyChecked.Equals(value) = false) Then
+				Me._LtdComapnyChecked = value
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_LtdCompanyCheckedDate", DbType:="DateTime")>  _
+	Public Property LtdCompanyCheckedDate() As System.Nullable(Of Date)
+		Get
+			Return Me._LtdCompanyCheckedDate
+		End Get
+		Set
+			If (Me._LtdCompanyCheckedDate.Equals(value) = false) Then
+				Me._LtdCompanyCheckedDate = value
+			End If
+		End Set
+	End Property
 End Class

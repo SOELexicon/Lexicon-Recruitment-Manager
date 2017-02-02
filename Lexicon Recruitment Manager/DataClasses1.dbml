@@ -549,7 +549,116 @@
       <Column Name="LoyaltyCard" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
       <Column Name="LoyaltyPoints" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
       <Column Name="LoyaltyRank" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
-      <Association Name="Scheme_LinqEmployee" Member="LinqScheme" ThisKey="SchemeID" OtherKey="SchemeID" Type="LinqScheme" IsForeignKey="true" />
+      <Association Name="LinqScheme_LinqEmployee" Member="LinqScheme" ThisKey="SchemeID" OtherKey="SchemeID" Type="LinqScheme" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sites" Member="LinqSites">
+    <Type Name="LinqSite">
+      <Column Name="CompanyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BranchID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Ltd" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PLC" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SoleTrader" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="VarChar(1100)" CanBeNull="true" />
+      <Column Name="SwedishderogationPureContracted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PayParityPureEmbrace" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="StartOfWeek" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Other" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConvertedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CompanyRegNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ClientsVatRegNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BaseLocation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Department" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telephone1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telephone2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Address2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Town" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="County" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvoiceTo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="InvAddress2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvTown" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvCounty" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvCountry" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvPostCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="InvoicingMethod" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OrderNumberReq" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SpecialInvoiceInstructions" Type="System.String" DbType="VarChar(550)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CreditLimit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Terms" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CanteenAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SmokingAreaAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParkingAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OtherFacilities" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="HolidayEntitlement" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HowArePermanentVacanciesDisplayed" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[H&amp;SContact]" Member="H_SContact" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[H&amp;SPosition]" Member="H_SPosition" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[H&amp;SMobile]" Member="H_SMobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[H&amp;SEmail]" Member="H_SEmail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[H&amp;SRisks]" Member="H_SRisks" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="[H&amp;SSteps]" Member="H_SSteps" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="[H&amp;SBasicInduction]" Member="H_SBasicInduction" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SInstructionGiven]" Member="H_SInstructionGiven" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SFirstAidAvailable]" Member="H_SFirstAidAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SAccidentsReported]" Member="H_SAccidentsReported" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SMinAge]" Member="H_SMinAge" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[H&amp;SSaftyBoots]" Member="H_SSaftyBoots" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SHiVizVest]" Member="H_SHiVizVest" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SSaftyGoggles]" Member="H_SSaftyGoggles" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SHardHat]" Member="H_SHardHat" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SHiVisTrousers]" Member="H_SHiVisTrousers" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SEarDefenders]" Member="H_SEarDefenders" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="[H&amp;SOtherEqupment]" Member="H_SOtherEqupment" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="TempsUsed" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompanySize" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NoEmployees" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AgenciesUsed" Type="System.String" DbType="VarChar(550)" CanBeNull="true" />
+      <Column Name="Memo" Type="System.String" DbType="VarChar(550)" CanBeNull="true" />
+      <Column Name="Archive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="String001" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="String002" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ClientStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ClientStatusReason" Type="System.String" DbType="NVarChar(550)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastModifiedUser" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="POType" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="BankID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="GLAClient" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Schemes" Member="LinqSchemes">
+    <Type Name="LinqScheme">
+      <Column Name="SchemeID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Scheme" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Holiday" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Address1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Address2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Town" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="County" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PostCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="EMail" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="BankAccountName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BankSortCode" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="BankAccountNumber" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="CompanyRegistrationNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VATRegistered" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="VATRegistrationNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GLAScheme" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="LinqScheme_LinqEmployee" Member="LinqEmployees" ThisKey="SchemeID" OtherKey="SchemeID" Type="LinqEmployee" />
     </Type>
   </Table>
   <Table Name="dbo.employeeModify" Member="LinqEmployeeModifies">
@@ -732,281 +841,12 @@
       <Column Name="DigicardExpiryDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="LoyaltyCard" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
       <Column Name="LoyaltyPoints" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Column Name="LoyaltyRank" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="LoyaltyRank" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LoyaltyEnrollmentDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="LtdComapnyChecked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LtdCompanyCheckedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
     </Type>
   </Table>
-  <Table Name="dbo.Sites" Member="LinqSites">
-    <Type Name="LinqSite">
-      <Column Name="CompanyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="ClientCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="CompanyName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="BranchID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Column Name="Ltd" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="PLC" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="SoleTrader" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="Notes" Type="System.String" DbType="VarChar(1100)" CanBeNull="true" />
-      <Column Name="SwedishderogationPureContracted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="PayParityPureEmbrace" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="StartOfWeek" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="Other" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="ConvertedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="CompanyRegNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="ClientsVatRegNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="BaseLocation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Category" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Department" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Telephone1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Telephone2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Fax" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="Address2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Town" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="County" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Country" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="PostalCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvoiceTo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvAddress" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
-      <Column Name="InvAddress2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvTown" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvCounty" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvCountry" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvPostCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="InvoicingMethod" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="OrderNumberReq" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="SpecialInvoiceInstructions" Type="System.String" DbType="VarChar(550)" CanBeNull="true" />
-      <Column Name="DNI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="CreditLimit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Terms" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="CanteenAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="SmokingAreaAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="ParkingAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="OtherFacilities" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
-      <Column Name="HolidayEntitlement" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="HowArePermanentVacanciesDisplayed" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="[H&amp;SContact]" Member="H_SContact" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="[H&amp;SPosition]" Member="H_SPosition" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="[H&amp;SMobile]" Member="H_SMobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="[H&amp;SEmail]" Member="H_SEmail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="[H&amp;SRisks]" Member="H_SRisks" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
-      <Column Name="[H&amp;SSteps]" Member="H_SSteps" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
-      <Column Name="[H&amp;SBasicInduction]" Member="H_SBasicInduction" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SInstructionGiven]" Member="H_SInstructionGiven" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SFirstAidAvailable]" Member="H_SFirstAidAvailable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SAccidentsReported]" Member="H_SAccidentsReported" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SMinAge]" Member="H_SMinAge" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="[H&amp;SSaftyBoots]" Member="H_SSaftyBoots" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SHiVizVest]" Member="H_SHiVizVest" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SSaftyGoggles]" Member="H_SSaftyGoggles" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SHardHat]" Member="H_SHardHat" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SHiVisTrousers]" Member="H_SHiVisTrousers" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SEarDefenders]" Member="H_SEarDefenders" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="[H&amp;SOtherEqupment]" Member="H_SOtherEqupment" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
-      <Column Name="TempsUsed" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="CompanySize" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="NoEmployees" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="AgenciesUsed" Type="System.String" DbType="VarChar(550)" CanBeNull="true" />
-      <Column Name="Memo" Type="System.String" DbType="VarChar(550)" CanBeNull="true" />
-      <Column Name="Archive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="String001" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="String002" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="ClientStatus" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="ClientStatusReason" Type="System.String" DbType="NVarChar(550)" CanBeNull="true" />
-      <Column Name="CreatedBy" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
-      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Column Name="LastModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Column Name="LastModifiedUser" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
-      <Column Name="POType" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
-      <Column Name="BankID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Column Name="GLAClient" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.Schemes" Member="LinqSchemes">
-    <Type Name="LinqScheme">
-      <Column Name="SchemeID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="Scheme" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="Holiday" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
-      <Column Name="Address1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
-      <Column Name="Address2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
-      <Column Name="Town" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="County" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="PostCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
-      <Column Name="EMail" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
-      <Column Name="BankAccountName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
-      <Column Name="BankSortCode" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
-      <Column Name="BankAccountNumber" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
-      <Column Name="CompanyRegistrationNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="VATRegistered" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Column Name="VATRegistrationNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="GLAScheme" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
-      <Association Name="Scheme_LinqEmployee" Member="LinqEmployees" ThisKey="SchemeID" OtherKey="SchemeID" Type="LinqEmployee" />
-    </Type>
-  </Table>
-  <Function Name="dbo.EmployeeAdd2" Method="LinqEmployeeAdd2">
-    <Parameter Name="EmployeeID" Parameter="employeeID" Type="System.Int64" DbType="BigInt" />
-    <Parameter Name="NINumber" Parameter="nINumber" Type="System.String" DbType="NVarChar(9)" />
-    <Parameter Name="Scheme" Parameter="scheme" Type="System.Int64" DbType="BigInt" />
-    <Parameter Name="Branch" Parameter="branch" Type="System.Int64" DbType="BigInt" />
-    <Parameter Name="EmployeeCode" Parameter="employeeCode" Type="System.String" DbType="NVarChar(100)" />
-    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(10)" />
-    <Parameter Name="Forename" Parameter="forename" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Surname" Parameter="surname" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="MaritalStatus" Parameter="maritalStatus" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Address1" Parameter="address1" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="Address2" Parameter="address2" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="Town" Parameter="town" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="County" Parameter="county" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="PostCode" Parameter="postCode" Type="System.String" DbType="NVarChar(11)" />
-    <Parameter Name="DOB" Parameter="dOB" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="Telephone" Parameter="telephone" Type="System.String" DbType="NVarChar(11)" />
-    <Parameter Name="Mobile" Parameter="mobile" Type="System.String" DbType="NVarChar(11)" />
-    <Parameter Name="EmergencyContact" Parameter="emergencyContact" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="EmergencyContactTel" Parameter="emergencyContactTel" Type="System.String" DbType="NVarChar(11)" />
-    <Parameter Name="EthnicOrigin" Parameter="ethnicOrigin" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="SortCode" Parameter="sortCode" Type="System.String" DbType="NVarChar(6)" />
-    <Parameter Name="AccountNo" Parameter="accountNo" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="AccountInTheNameOf" Parameter="accountInTheNameOf" Type="System.String" DbType="NVarChar(100)" />
-    <Parameter Name="Bank" Parameter="bank" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="EmailPayslip" Parameter="emailPayslip" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="NVarChar(100)" />
-    <Parameter Name="PaymentFrequency" Parameter="paymentFrequency" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="WorkFrom" Parameter="workFrom" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="WorkTo" Parameter="workTo" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="WorkedVia" Parameter="workedVia" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="AgencyName" Parameter="agencyName" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="CompanyName" Parameter="companyName" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Location" Parameter="location" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="JobTitle" Parameter="jobTitle" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Shift" Parameter="shift" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Pay" Parameter="pay" Type="System.Decimal" DbType="Decimal(18,5)" />
-    <Parameter Name="ReasonForLeaving" Parameter="reasonForLeaving" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Manager" Parameter="manager" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="RefAvailable" Parameter="refAvailable" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="ContactNumber" Parameter="contactNumber" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="ContactNumber1" Parameter="contactNumber1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="WorkFrom1" Parameter="workFrom1" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="WorkTo1" Parameter="workTo1" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="WorkedVia1" Parameter="workedVia1" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="AgencyName1" Parameter="agencyName1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="CompanyName1" Parameter="companyName1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Location1" Parameter="location1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="JobTitle1" Parameter="jobTitle1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Shift1" Parameter="shift1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Pay1" Parameter="pay1" Type="System.Decimal" DbType="Decimal(18,5)" />
-    <Parameter Name="ReasonForLeaving1" Parameter="reasonForLeaving1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Manager1" Parameter="manager1" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="RefAvailable1" Parameter="refAvailable1" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="ContactNumber2" Parameter="contactNumber2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="WorkFrom2" Parameter="workFrom2" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="WorkTo2" Parameter="workTo2" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="WorkedVia2" Parameter="workedVia2" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="AgencyName2" Parameter="agencyName2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="CompanyName2" Parameter="companyName2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Location2" Parameter="location2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="JobTitle2" Parameter="jobTitle2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Shift2" Parameter="shift2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Pay2" Parameter="pay2" Type="System.Decimal" DbType="Decimal(18,5)" />
-    <Parameter Name="ReasonForLeaving2" Parameter="reasonForLeaving2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Manager2" Parameter="manager2" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="RefAvailable2" Parameter="refAvailable2" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Passport" Parameter="passport" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="NatIDCard" Parameter="natIDCard" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="ProofOfNi" Parameter="proofOfNi" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="BirthCert" Parameter="birthCert" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="NiCard" Parameter="niCard" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="UtilityBill" Parameter="utilityBill" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CV" Parameter="cV" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Visa" Parameter="visa" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CSCSCard" Parameter="cSCSCard" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CPCSCard" Parameter="cPCSCard" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="DrivingLic" Parameter="drivingLic" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="DigiCard" Parameter="digiCard" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CPCM1" Parameter="cPCM1" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CPCM2" Parameter="cPCM2" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CPCM3" Parameter="cPCM3" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CPCM4" Parameter="cPCM4" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CPCM5" Parameter="cPCM5" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Assembler" Parameter="assembler" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Production" Parameter="production" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Warehouse" Parameter="warehouse" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Groundwork" Parameter="groundwork" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="TrafficMngt" Parameter="trafficMngt" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="MigWelder" Parameter="migWelder" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="GeneralOp" Parameter="generalOp" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="MachineOp" Parameter="machineOp" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="PressOp" Parameter="pressOp" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="OrderPicker" Parameter="orderPicker" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Labourer" Parameter="labourer" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Joiner" Parameter="joiner" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="TigWelder" Parameter="tigWelder" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="QInspector" Parameter="qInspector" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Setter" Parameter="setter" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Driving" Parameter="driving" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Packer" Parameter="packer" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Cleaner" Parameter="cleaner" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Admin" Parameter="admin" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Braize" Parameter="braize" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FSA" Parameter="fSA" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FLTCB" Parameter="fLTCB" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FLTRT" Parameter="fLTRT" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FLTNA" Parameter="fLTNA" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FLTBendi" Parameter="fLTBendi" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CE" Parameter="cE" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="C" Parameter="c" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Tonn75" Parameter="tonn75" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Van" Parameter="van" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Hiab" Parameter="hiab" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Moffat" Parameter="moffat" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Tipper1" Parameter="tipper1" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Tipper2" Parameter="tipper2" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Tipper75T" Parameter="tipper75T" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="RollOnOff" Parameter="rollOnOff" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="MultiLift" Parameter="multiLift" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="PVC" Parameter="pVC" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="MB" Parameter="mB" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="AFrame" Parameter="aFrame" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CloseCoupled" Parameter="closeCoupled" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CurtainBox" Parameter="curtainBox" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FlatFridge" Parameter="flatFridge" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Lowloader" Parameter="lowloader" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Container" Parameter="container" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="DeMounts" Parameter="deMounts" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="DoubleDeck" Parameter="doubleDeck" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="WalkingFloor" Parameter="walkingFloor" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="ChainnDog" Parameter="chainnDog" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Strap" Parameter="strap" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Rope" Parameter="rope" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="Sheet" Parameter="sheet" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="SteelShunter" Parameter="steelShunter" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="HBall" Parameter="hBall" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="TLift" Parameter="tLift" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="FLT" Parameter="fLT" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="ADRTanks" Parameter="aDRTanks" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="ADRPackages" Parameter="aDRPackages" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="LtdCompanyname" Parameter="ltdCompanyname" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="CoRegistrationNumber" Parameter="coRegistrationNumber" Type="System.String" DbType="NVarChar(20)" />
-    <Parameter Name="CorporationCertCopied" Parameter="corporationCertCopied" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="VatRegistered" Parameter="vatRegistered" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="VatNumber" Parameter="vatNumber" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="Communication" Parameter="communication" Type="System.String" DbType="NVarChar(1)" />
-    <Parameter Name="Interviewer" Parameter="interviewer" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="DateRegistered" Parameter="dateRegistered" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="Status" Parameter="status" Type="System.String" DbType="NVarChar(50)" />
-    <Parameter Name="StatusReason" Parameter="statusReason" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="Notes" Parameter="notes" Type="System.String" DbType="Text" />
-    <Parameter Name="Taxdetails" Parameter="taxdetails" Type="System.String" DbType="NVarChar(10)" />
-    <Parameter Name="TaxCategory" Parameter="taxCategory" Type="System.String" DbType="NVarChar(4)" />
-    <Parameter Name="LastModifiedUser" Parameter="lastModifiedUser" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="LastModifiedDate" Parameter="lastModifiedDate" Type="System.DateTime" DbType="DateTime" />
-    <Parameter Name="CreatedUser" Parameter="createdUser" Type="System.String" DbType="NVarChar(200)" />
-    <Parameter Name="CreatedDate" Parameter="createdDate" Type="System.DateTime" DbType="Date" />
-    <Parameter Name="StudentLoan" Parameter="studentLoan" Type="System.Boolean" DbType="Bit" />
-    <Parameter Name="CardArchived" Parameter="cardArchived" Type="System.Boolean" DbType="Bit" />
-    <Return Type="System.Int32" />
-  </Function>
   <Function Name="dbo.UnArchiveHolidayPlan" Method="UnArchiveHolidayPlan">
     <Parameter Name="Weekendingdate" Parameter="weekendingdate" Type="System.DateTime" DbType="Date" />
     <Parameter Name="BranchID" Parameter="branchID" Type="System.Int64" DbType="BigInt" />
@@ -1792,6 +1632,185 @@
     <Parameter Name="LoyaltyCard" Parameter="loyaltyCard" Type="System.Boolean" DbType="Bit" />
     <Parameter Name="LoyaltyPoints" Parameter="loyaltyPoints" Type="System.Int64" DbType="BigInt" />
     <Parameter Name="LoyaltyRank" Parameter="loyaltyRank" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.EmployeeAdd2" Method="LinqEmployeeAdd2">
+    <Parameter Name="EmployeeID" Parameter="employeeID" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="NINumber" Parameter="nINumber" Type="System.String" DbType="NVarChar(9)" />
+    <Parameter Name="Scheme" Parameter="scheme" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="Branch" Parameter="branch" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="EmployeeCode" Parameter="employeeCode" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="Forename" Parameter="forename" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Surname" Parameter="surname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="MaritalStatus" Parameter="maritalStatus" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Address1" Parameter="address1" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Address2" Parameter="address2" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Town" Parameter="town" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="County" Parameter="county" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="PostCode" Parameter="postCode" Type="System.String" DbType="NVarChar(11)" />
+    <Parameter Name="DOB" Parameter="dOB" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Telephone" Parameter="telephone" Type="System.String" DbType="NVarChar(11)" />
+    <Parameter Name="Mobile" Parameter="mobile" Type="System.String" DbType="NVarChar(11)" />
+    <Parameter Name="EmergencyContact" Parameter="emergencyContact" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="EmergencyContactTel" Parameter="emergencyContactTel" Type="System.String" DbType="NVarChar(11)" />
+    <Parameter Name="EthnicOrigin" Parameter="ethnicOrigin" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="SortCode" Parameter="sortCode" Type="System.String" DbType="NVarChar(6)" />
+    <Parameter Name="AccountNo" Parameter="accountNo" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="AccountInTheNameOf" Parameter="accountInTheNameOf" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Bank" Parameter="bank" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="EmailPayslip" Parameter="emailPayslip" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="PaymentFrequency" Parameter="paymentFrequency" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="WorkFrom" Parameter="workFrom" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="WorkTo" Parameter="workTo" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="WorkedVia" Parameter="workedVia" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="AgencyName" Parameter="agencyName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CompanyName" Parameter="companyName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Location" Parameter="location" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="JobTitle" Parameter="jobTitle" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Shift" Parameter="shift" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Pay" Parameter="pay" Type="System.Decimal" DbType="Decimal(18,5)" />
+    <Parameter Name="ReasonForLeaving" Parameter="reasonForLeaving" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Manager" Parameter="manager" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="RefAvailable" Parameter="refAvailable" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ContactNumber" Parameter="contactNumber" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ContactNumber1" Parameter="contactNumber1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="WorkFrom1" Parameter="workFrom1" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="WorkTo1" Parameter="workTo1" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="WorkedVia1" Parameter="workedVia1" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="AgencyName1" Parameter="agencyName1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CompanyName1" Parameter="companyName1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Location1" Parameter="location1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="JobTitle1" Parameter="jobTitle1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Shift1" Parameter="shift1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Pay1" Parameter="pay1" Type="System.Decimal" DbType="Decimal(18,5)" />
+    <Parameter Name="ReasonForLeaving1" Parameter="reasonForLeaving1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Manager1" Parameter="manager1" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="RefAvailable1" Parameter="refAvailable1" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ContactNumber2" Parameter="contactNumber2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="WorkFrom2" Parameter="workFrom2" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="WorkTo2" Parameter="workTo2" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="WorkedVia2" Parameter="workedVia2" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="AgencyName2" Parameter="agencyName2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CompanyName2" Parameter="companyName2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Location2" Parameter="location2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="JobTitle2" Parameter="jobTitle2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Shift2" Parameter="shift2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Pay2" Parameter="pay2" Type="System.Decimal" DbType="Decimal(18,5)" />
+    <Parameter Name="ReasonForLeaving2" Parameter="reasonForLeaving2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Manager2" Parameter="manager2" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="RefAvailable2" Parameter="refAvailable2" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Passport" Parameter="passport" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="NatIDCard" Parameter="natIDCard" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ProofOfNi" Parameter="proofOfNi" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="BirthCert" Parameter="birthCert" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="NiCard" Parameter="niCard" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UtilityBill" Parameter="utilityBill" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CV" Parameter="cV" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Visa" Parameter="visa" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CSCSCard" Parameter="cSCSCard" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CPCSCard" Parameter="cPCSCard" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DrivingLic" Parameter="drivingLic" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DigiCard" Parameter="digiCard" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CPCM1" Parameter="cPCM1" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CPCM2" Parameter="cPCM2" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CPCM3" Parameter="cPCM3" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CPCM4" Parameter="cPCM4" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CPCM5" Parameter="cPCM5" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Assembler" Parameter="assembler" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Production" Parameter="production" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Warehouse" Parameter="warehouse" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Groundwork" Parameter="groundwork" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="TrafficMngt" Parameter="trafficMngt" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="MigWelder" Parameter="migWelder" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="GeneralOp" Parameter="generalOp" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="MachineOp" Parameter="machineOp" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PressOp" Parameter="pressOp" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="OrderPicker" Parameter="orderPicker" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Labourer" Parameter="labourer" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Joiner" Parameter="joiner" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="TigWelder" Parameter="tigWelder" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="QInspector" Parameter="qInspector" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Setter" Parameter="setter" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Driving" Parameter="driving" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Packer" Parameter="packer" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Cleaner" Parameter="cleaner" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Admin" Parameter="admin" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Braize" Parameter="braize" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FSA" Parameter="fSA" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FLTCB" Parameter="fLTCB" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FLTRT" Parameter="fLTRT" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FLTNA" Parameter="fLTNA" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FLTBendi" Parameter="fLTBendi" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CE" Parameter="cE" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="C" Parameter="c" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Tonn75" Parameter="tonn75" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Van" Parameter="van" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Hiab" Parameter="hiab" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Moffat" Parameter="moffat" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Tipper1" Parameter="tipper1" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Tipper2" Parameter="tipper2" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Tipper75T" Parameter="tipper75T" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="RollOnOff" Parameter="rollOnOff" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="MultiLift" Parameter="multiLift" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PVC" Parameter="pVC" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="MB" Parameter="mB" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AFrame" Parameter="aFrame" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CloseCoupled" Parameter="closeCoupled" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CurtainBox" Parameter="curtainBox" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FlatFridge" Parameter="flatFridge" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Lowloader" Parameter="lowloader" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Container" Parameter="container" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DeMounts" Parameter="deMounts" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DoubleDeck" Parameter="doubleDeck" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="WalkingFloor" Parameter="walkingFloor" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ChainnDog" Parameter="chainnDog" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Strap" Parameter="strap" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Rope" Parameter="rope" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Sheet" Parameter="sheet" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="SteelShunter" Parameter="steelShunter" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="HBall" Parameter="hBall" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="TLift" Parameter="tLift" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FLT" Parameter="fLT" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ADRTanks" Parameter="aDRTanks" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ADRPackages" Parameter="aDRPackages" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="LtdCompanyname" Parameter="ltdCompanyname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CoRegistrationNumber" Parameter="coRegistrationNumber" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="CorporationCertCopied" Parameter="corporationCertCopied" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="VatRegistered" Parameter="vatRegistered" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="VatNumber" Parameter="vatNumber" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Communication" Parameter="communication" Type="System.String" DbType="NVarChar(1)" />
+    <Parameter Name="Interviewer" Parameter="interviewer" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="DateRegistered" Parameter="dateRegistered" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Status" Parameter="status" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="StatusReason" Parameter="statusReason" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Notes" Parameter="notes" Type="System.String" DbType="Text" />
+    <Parameter Name="Taxdetails" Parameter="taxdetails" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="TaxCategory" Parameter="taxCategory" Type="System.String" DbType="NVarChar(4)" />
+    <Parameter Name="LastModifiedUser" Parameter="lastModifiedUser" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="LastModifiedDate" Parameter="lastModifiedDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="CreatedUser" Parameter="createdUser" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="CreatedDate" Parameter="createdDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="StudentLoan" Parameter="studentLoan" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CardArchived" Parameter="cardArchived" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DriverLicenseCheckConsentFormComplete" Parameter="driverLicenseCheckConsentFormComplete" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DateDrivingLicenceChecked" Parameter="dateDrivingLicenceChecked" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="SageRef" Parameter="sageRef" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="PreviousReference" Parameter="previousReference" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="StatusChangeDate" Parameter="statusChangeDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="BankReference" Parameter="bankReference" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="DrivingLicenceExpiryDate" Parameter="drivingLicenceExpiryDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="VisaExpiryDate" Parameter="visaExpiryDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="PassportExpiryDate" Parameter="passportExpiryDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DigiCardExpiryDate" Parameter="digiCardExpiryDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="DQCExpiryDate" Parameter="dQCExpiryDate" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="LoyaltyCard" Parameter="loyaltyCard" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="LoyaltyPoints" Parameter="loyaltyPoints" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="LoyaltyRank" Parameter="loyaltyRank" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="LtdCompanyChecked" Parameter="ltdCompanyChecked" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="LtdCompanyCheckedDate" Parameter="ltdCompanyCheckedDate" Type="System.DateTime" DbType="DateTime" />
     <Return Type="System.Int32" />
   </Function>
 </Database>
