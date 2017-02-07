@@ -176,4 +176,10 @@ Public Class Web
         updategauge()
         '  ArcScaleComponent1.AppearanceScale.Brush = New SolidBrushObject(Color.OrangeRed)
     End Sub
+
+    Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
+        Me.CountOfEmployeesPriorWeekTableAdapter.Fill(Me.Sites3.CountOfEmployeesPriorWeek)
+        CountOfEmployeesCurrentWeekTableAdapter1.Fill(Sites2.CountOfEmployeesCurrentWeek)
+        updategauge()
+    End Sub
 End Class
