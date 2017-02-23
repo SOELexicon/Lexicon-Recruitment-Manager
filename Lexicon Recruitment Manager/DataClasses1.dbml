@@ -1813,4 +1813,8 @@
     <Parameter Name="LtdCompanyCheckedDate" Parameter="ltdCompanyCheckedDate" Type="System.DateTime" DbType="DateTime" />
     <Return Type="System.Int32" />
   </Function>
+  <Function Name="dbo.ArchiveJobcatByCompanyId" Method="LinqArchiveJobcatByCompanyId">
+    <Parameter Name="CompanyID" Parameter="companyID" Type="System.Int64" DbType="BigInt" />
+    <Return Type="System.Int32" />
+  </Function>
 </Database>

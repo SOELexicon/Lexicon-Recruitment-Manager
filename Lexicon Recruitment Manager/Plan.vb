@@ -98,9 +98,12 @@ endofsave:
         Me.EmployeesTableAdapter.Fill(Me.Sites.Employees)
         Me.PlanTableAdapter1.Fill(Me.Sites.Plan)
         Me.PlanTypesTableAdapter1.Fill(Me.Sites.PlanTypes)
+
         Me.JobCategoryTableAdapter.Fill(Me.LexiconRecManagerDataSet.JobCategory)
         Me.SitesTableAdapter.Fill(Me.Sites._Sites)
         Me.PlanTypesTableAdapter.Fill(Me.LexiconRecManagerDataSet.PlanTypes)
+        PlanTypesBindingSource1.Sort = "PlanName ASC"
+
         loaded = True
         Dim asdfs As String
         asdfs = GetSecurityInfo("Plan", "Lexicon")
@@ -421,7 +424,12 @@ endofsave:
     End Sub
 
     Private Sub BindingNavigatorAddNewItem_Click(sender As Object, e As EventArgs) Handles BindingNavigatorAddNewItem.Click
+        If PlanIDTextBox.Text > 0 Then
+            Me.Plan2PerRecordTableAdapter.Fill(Me.LexiconRecManagerDataSet.Plan2PerRecord, CType(0, Int64))
+        End If
+
         TextBox21.Text = ""
+
         If PlanIDTextBox.Text IsNot Nothing Then
             If PlanIDTextBox.Text = "" Then
                 PlanTypeIdComboBox.Enabled = True
@@ -449,6 +457,19 @@ endofsave:
                     ' WeekEndingDateTextBox.Enabled = False
                 End If
             End If
+            If PlanIDTextBox.Text = "" Then
+                PlanBindingSource.AddNew()
+
+            Else
+                If (PlanIDTextBox.Text < 0) Then
+                    MsgBox("YOU MUST SAVE OR DELETE PREVIOUS CREATED RECORD BEFORE ADDING A NEW ONE")
+                Else
+                    PlanBindingSource.AddNew()
+
+                End If
+
+            End If
+
         Else
             PlanTypeIdComboBox.Enabled = False
             BranchIdComboBox.Enabled = False
@@ -456,6 +477,7 @@ endofsave:
             EmployeeIdComboBox.Enabled = False
             JobCategoryIdComboBox.Enabled = False
             ' WeekEndingDateTextBox.Enabled = False
+            PlanBindingSource.AddNew()
         End If
     End Sub
 

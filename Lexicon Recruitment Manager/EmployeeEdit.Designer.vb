@@ -1097,7 +1097,6 @@ Partial Class EmployeeEdit
         'LtdCompanyCheckedDateTb
         '
         Me.LtdCompanyCheckedDateTb.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LtdCompanyCheckedDateTb.Enabled = False
         Me.LtdCompanyCheckedDateTb.Location = New System.Drawing.Point(259, 238)
         Me.LtdCompanyCheckedDateTb.Name = "LtdCompanyCheckedDateTb"
         Me.LtdCompanyCheckedDateTb.Size = New System.Drawing.Size(306, 22)

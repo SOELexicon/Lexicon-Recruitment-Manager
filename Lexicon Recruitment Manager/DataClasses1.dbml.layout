@@ -110,7 +110,7 @@
         <elementListCompartment Id="84f2e4d7-da0f-4c37-8dd3-824b0fb8f80d" absoluteBounds="10.265, 18.585, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(12.25 : 20.1642569986979); (13.625 : 20.1642569986979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <associationConnector edgePoints="[(12.25 : 20.1642569986979); (13.625 : 20.1642569986979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/DataClasses1DataContext/LinqScheme/LinqScheme_LinqEmployee" />
       <nodes>
         <classShapeMoniker Id="3386de20-345d-473f-a52a-cd4dccb0d293" />

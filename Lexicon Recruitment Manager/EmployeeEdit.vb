@@ -1600,6 +1600,7 @@ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryD
         'TODO: This line of code loads data into the 'LexiconRecManagerDataSet.Branch' table. You can move, or remove it, as needed.
         Me.BranchTableAdapter.Fill(Me.LexiconRecManagerDataSet.Branch)
 
+        
     End Sub
 
     Private Sub Status_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Status.SelectedIndexChanged
@@ -1802,8 +1803,8 @@ BankReference.Text, DrivingExpiryDate.Text, VisaExpiryDate.Text, PassportExpiryD
     End Sub
 
     Private Sub LtdCompanyLive_CheckedChanged(sender As Object, e As EventArgs) Handles LtdCompanyLive.CheckedChanged
-        If LtdCompanyLive.Checked = True Then
-            LtdCompanyCheckedDateTb.Text = Now.ToShortDateString
-        End If
+        'If LtdCompanyLive.Checked = True Then
+        '    LtdCompanyCheckedDateTb.Text = Now.ToShortDateString
+        'End If
     End Sub
 End Class

@@ -456,6 +456,7 @@ Partial Class Clients
         Me.LayoutControlItem165 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.LayoutControl6 = New DevExpress.XtraLayout.LayoutControl()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ClientStatusTextEdit = New DevExpress.XtraEditors.ComboBoxEdit()
@@ -466,6 +467,7 @@ Partial Class Clients
         Me.LayoutControlItem157 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup22 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem155 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem24 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem8 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem6 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.JobCategoryBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
@@ -812,6 +814,7 @@ Partial Class Clients
         CType(Me.LayoutControlItem157, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup22, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem155, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem24, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.JobCategoryBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -2311,7 +2314,7 @@ Partial Class Clients
         Me.HolidayEntitlementTextBox.Location = New System.Drawing.Point(258, 140)
         Me.HolidayEntitlementTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HolidayEntitlementTextBox.Name = "HolidayEntitlementTextBox"
-        Me.HolidayEntitlementTextBox.Size = New System.Drawing.Size(195, 25)
+        Me.HolidayEntitlementTextBox.Size = New System.Drawing.Size(138, 25)
         Me.HolidayEntitlementTextBox.TabIndex = 5
         '
         'HowArePermanentVacanciesDisplayedTextBox
@@ -2320,7 +2323,7 @@ Partial Class Clients
         Me.HowArePermanentVacanciesDisplayedTextBox.Location = New System.Drawing.Point(258, 171)
         Me.HowArePermanentVacanciesDisplayedTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.HowArePermanentVacanciesDisplayedTextBox.Name = "HowArePermanentVacanciesDisplayedTextBox"
-        Me.HowArePermanentVacanciesDisplayedTextBox.Size = New System.Drawing.Size(195, 25)
+        Me.HowArePermanentVacanciesDisplayedTextBox.Size = New System.Drawing.Size(138, 25)
         Me.HowArePermanentVacanciesDisplayedTextBox.TabIndex = 6
         '
         'CanteenAvailableCheckBox
@@ -2329,7 +2332,7 @@ Partial Class Clients
         Me.CanteenAvailableCheckBox.Location = New System.Drawing.Point(16, 16)
         Me.CanteenAvailableCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CanteenAvailableCheckBox.Name = "CanteenAvailableCheckBox"
-        Me.CanteenAvailableCheckBox.Size = New System.Drawing.Size(437, 25)
+        Me.CanteenAvailableCheckBox.Size = New System.Drawing.Size(380, 25)
         Me.CanteenAvailableCheckBox.TabIndex = 0
         Me.CanteenAvailableCheckBox.Text = "Canteen Available:"
         Me.CanteenAvailableCheckBox.UseVisualStyleBackColor = True
@@ -2340,7 +2343,7 @@ Partial Class Clients
         Me.OtherFacilitiesTextBox.Location = New System.Drawing.Point(258, 109)
         Me.OtherFacilitiesTextBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OtherFacilitiesTextBox.Name = "OtherFacilitiesTextBox"
-        Me.OtherFacilitiesTextBox.Size = New System.Drawing.Size(195, 25)
+        Me.OtherFacilitiesTextBox.Size = New System.Drawing.Size(138, 25)
         Me.OtherFacilitiesTextBox.TabIndex = 4
         '
         'SmokingAreaAvailableCheckBox
@@ -2349,7 +2352,7 @@ Partial Class Clients
         Me.SmokingAreaAvailableCheckBox.Location = New System.Drawing.Point(16, 47)
         Me.SmokingAreaAvailableCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SmokingAreaAvailableCheckBox.Name = "SmokingAreaAvailableCheckBox"
-        Me.SmokingAreaAvailableCheckBox.Size = New System.Drawing.Size(437, 25)
+        Me.SmokingAreaAvailableCheckBox.Size = New System.Drawing.Size(380, 25)
         Me.SmokingAreaAvailableCheckBox.TabIndex = 2
         Me.SmokingAreaAvailableCheckBox.Text = "Smoking Area Available:"
         Me.SmokingAreaAvailableCheckBox.UseVisualStyleBackColor = True
@@ -2360,7 +2363,7 @@ Partial Class Clients
         Me.ParkingAvailableCheckBox.Location = New System.Drawing.Point(16, 78)
         Me.ParkingAvailableCheckBox.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ParkingAvailableCheckBox.Name = "ParkingAvailableCheckBox"
-        Me.ParkingAvailableCheckBox.Size = New System.Drawing.Size(437, 25)
+        Me.ParkingAvailableCheckBox.Size = New System.Drawing.Size(380, 25)
         Me.ParkingAvailableCheckBox.TabIndex = 3
         Me.ParkingAvailableCheckBox.Text = "Parking Available:"
         Me.ParkingAvailableCheckBox.UseVisualStyleBackColor = True
@@ -2380,7 +2383,7 @@ Partial Class Clients
         Me.LayoutControlItem111.Control = Me.CanteenAvailableCheckBox
         Me.LayoutControlItem111.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem111.Name = "LayoutControlItem111"
-        Me.LayoutControlItem111.Size = New System.Drawing.Size(443, 31)
+        Me.LayoutControlItem111.Size = New System.Drawing.Size(386, 31)
         Me.LayoutControlItem111.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem111.TextVisible = False
         '
@@ -2389,7 +2392,7 @@ Partial Class Clients
         Me.LayoutControlItem132.Control = Me.SmokingAreaAvailableCheckBox
         Me.LayoutControlItem132.Location = New System.Drawing.Point(0, 31)
         Me.LayoutControlItem132.Name = "LayoutControlItem132"
-        Me.LayoutControlItem132.Size = New System.Drawing.Size(443, 31)
+        Me.LayoutControlItem132.Size = New System.Drawing.Size(386, 31)
         Me.LayoutControlItem132.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem132.TextVisible = False
         '
@@ -2398,7 +2401,7 @@ Partial Class Clients
         Me.LayoutControlItem133.Control = Me.ParkingAvailableCheckBox
         Me.LayoutControlItem133.Location = New System.Drawing.Point(0, 62)
         Me.LayoutControlItem133.Name = "LayoutControlItem133"
-        Me.LayoutControlItem133.Size = New System.Drawing.Size(443, 31)
+        Me.LayoutControlItem133.Size = New System.Drawing.Size(386, 31)
         Me.LayoutControlItem133.Text = "Parking Available:"
         Me.LayoutControlItem133.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem133.TextVisible = False
@@ -2408,7 +2411,7 @@ Partial Class Clients
         Me.LayoutControlItem134.Control = Me.OtherFacilitiesTextBox
         Me.LayoutControlItem134.Location = New System.Drawing.Point(0, 93)
         Me.LayoutControlItem134.Name = "LayoutControlItem134"
-        Me.LayoutControlItem134.Size = New System.Drawing.Size(443, 31)
+        Me.LayoutControlItem134.Size = New System.Drawing.Size(386, 31)
         Me.LayoutControlItem134.Text = "Other Facilities:"
         Me.LayoutControlItem134.TextSize = New System.Drawing.Size(239, 16)
         '
@@ -2417,7 +2420,7 @@ Partial Class Clients
         Me.LayoutControlItem135.Control = Me.HolidayEntitlementTextBox
         Me.LayoutControlItem135.Location = New System.Drawing.Point(0, 124)
         Me.LayoutControlItem135.Name = "LayoutControlItem135"
-        Me.LayoutControlItem135.Size = New System.Drawing.Size(443, 31)
+        Me.LayoutControlItem135.Size = New System.Drawing.Size(386, 31)
         Me.LayoutControlItem135.Text = "Holiday Entitlement:"
         Me.LayoutControlItem135.TextSize = New System.Drawing.Size(239, 16)
         '
@@ -2426,7 +2429,7 @@ Partial Class Clients
         Me.LayoutControlItem136.Control = Me.HowArePermanentVacanciesDisplayedTextBox
         Me.LayoutControlItem136.Location = New System.Drawing.Point(0, 155)
         Me.LayoutControlItem136.Name = "LayoutControlItem136"
-        Me.LayoutControlItem136.Size = New System.Drawing.Size(443, 31)
+        Me.LayoutControlItem136.Size = New System.Drawing.Size(386, 31)
         Me.LayoutControlItem136.Text = "How Are Permanent Vacancies Displayed:"
         Me.LayoutControlItem136.TextSize = New System.Drawing.Size(239, 16)
         '
@@ -2435,21 +2438,21 @@ Partial Class Clients
         Me.EmptySpaceItem3.AllowHotTrack = False
         Me.EmptySpaceItem3.Location = New System.Drawing.Point(0, 186)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(443, 441)
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(386, 441)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem4
         '
         Me.EmptySpaceItem4.AllowHotTrack = False
-        Me.EmptySpaceItem4.Location = New System.Drawing.Point(458, 0)
+        Me.EmptySpaceItem4.Location = New System.Drawing.Point(401, 0)
         Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
-        Me.EmptySpaceItem4.Size = New System.Drawing.Size(1091, 627)
+        Me.EmptySpaceItem4.Size = New System.Drawing.Size(1148, 627)
         Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
         '
         'SplitterItem3
         '
         Me.SplitterItem3.AllowHotTrack = True
-        Me.SplitterItem3.Location = New System.Drawing.Point(443, 0)
+        Me.SplitterItem3.Location = New System.Drawing.Point(386, 0)
         Me.SplitterItem3.Name = "SplitterItem3"
         Me.SplitterItem3.Size = New System.Drawing.Size(15, 627)
         '
@@ -4979,6 +4982,7 @@ Partial Class Clients
         '
         'LayoutControl6
         '
+        Me.LayoutControl6.Controls.Add(Me.SimpleButton2)
         Me.LayoutControl6.Controls.Add(Me.SimpleButton1)
         Me.LayoutControl6.Controls.Add(Me.TextBox1)
         Me.LayoutControl6.Controls.Add(Me.ClientStatusTextEdit)
@@ -4991,6 +4995,15 @@ Partial Class Clients
         Me.LayoutControl6.Size = New System.Drawing.Size(1575, 653)
         Me.LayoutControl6.TabIndex = 0
         Me.LayoutControl6.Text = "LayoutControl6"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(170, 102)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(637, 27)
+        Me.SimpleButton2.StyleController = Me.LayoutControl6
+        Me.SimpleButton2.TabIndex = 5
+        Me.SimpleButton2.Text = "Archive"
         '
         'SimpleButton1
         '
@@ -5046,7 +5059,7 @@ Partial Class Clients
         '
         'LayoutControlGroup21
         '
-        Me.LayoutControlGroup21.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem156, Me.LayoutControlItem157, Me.LayoutControlGroup22})
+        Me.LayoutControlGroup21.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem156, Me.LayoutControlItem157, Me.LayoutControlGroup22, Me.LayoutControlItem24})
         Me.LayoutControlGroup21.Location = New System.Drawing.Point(139, 0)
         Me.LayoutControlGroup21.Name = "LayoutControlGroup21"
         Me.LayoutControlGroup21.Size = New System.Drawing.Size(1410, 150)
@@ -5056,7 +5069,7 @@ Partial Class Clients
         Me.LayoutControlItem156.Control = Me.ClientStatusTextEdit
         Me.LayoutControlItem156.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem156.Name = "LayoutControlItem156"
-        Me.LayoutControlItem156.Size = New System.Drawing.Size(643, 96)
+        Me.LayoutControlItem156.Size = New System.Drawing.Size(643, 47)
         Me.LayoutControlItem156.Text = "Client Status:"
         Me.LayoutControlItem156.TextLocation = DevExpress.Utils.Locations.Top
         Me.LayoutControlItem156.TextSize = New System.Drawing.Size(123, 16)
@@ -5087,6 +5100,15 @@ Partial Class Clients
         Me.LayoutControlItem155.Size = New System.Drawing.Size(119, 42)
         Me.LayoutControlItem155.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem155.TextVisible = False
+        '
+        'LayoutControlItem24
+        '
+        Me.LayoutControlItem24.Control = Me.SimpleButton2
+        Me.LayoutControlItem24.Location = New System.Drawing.Point(0, 47)
+        Me.LayoutControlItem24.Name = "LayoutControlItem24"
+        Me.LayoutControlItem24.Size = New System.Drawing.Size(643, 49)
+        Me.LayoutControlItem24.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem24.TextVisible = False
         '
         'LayoutControlItem8
         '
@@ -5885,6 +5907,7 @@ Partial Class Clients
         CType(Me.LayoutControlItem157, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup22, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem155, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem24, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.JobCategoryBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -6445,4 +6468,6 @@ Partial Class Clients
     Friend WithEvents LayoutControlItem165 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents InvoicingMethodTextBox As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents asdas As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents LayoutControlItem24 As DevExpress.XtraLayout.LayoutControlItem
 End Class

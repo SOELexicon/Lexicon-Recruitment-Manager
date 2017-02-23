@@ -37,6 +37,7 @@ Partial Class Web
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.RichEditControl1 = New DevExpress.XtraRichEdit.RichEditControl()
         Me.LayoutControl1 = New DevExpress.XtraLayout.LayoutControl()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.ChartControl4 = New DevExpress.XtraCharts.ChartControl()
         Me.CountOfEmployeesCurrentWeekTableAdapter1 = New Lexrecmgr.SitesTableAdapters.CountOfEmployeesCurrentWeekTableAdapter()
         Me.CountOfEmployeesPriorWeekBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -128,14 +129,13 @@ Partial Class Web
         Me.LayoutControlGroup7 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem18 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem19 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem20 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.Sites1 = New Lexrecmgr.Sites()
         Me.LexiconRecManagerDataSet = New Lexrecmgr.LexiconRecManagerDataSet()
         Me.TableAdapterManager = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.TableAdapterManager()
         Me.CountOfEmployeesPriorWeekTableAdapter = New Lexrecmgr.SitesTableAdapters.CountOfEmployeesPriorWeekTableAdapter()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.LayoutControlItem20 = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl1.SuspendLayout()
         CType(Me.ChartControl4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -223,11 +223,11 @@ Partial Class Web
         CType(Me.LayoutControlGroup7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Sites1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LexiconRecManagerDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -287,6 +287,15 @@ Partial Class Web
         Me.LayoutControl1.TabIndex = 4
         Me.LayoutControl1.Text = "LayoutControl1"
         '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(31, 92)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(1397, 27)
+        Me.SimpleButton2.StyleController = Me.LayoutControl1
+        Me.SimpleButton2.TabIndex = 12
+        Me.SimpleButton2.Text = "Refresh"
+        '
         'ChartControl4
         '
         Me.ChartControl4.DataAdapter = Me.CountOfEmployeesCurrentWeekTableAdapter1
@@ -295,6 +304,7 @@ Partial Class Web
         Me.ChartControl4.Location = New System.Drawing.Point(31, 415)
         Me.ChartControl4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ChartControl4.Name = "ChartControl4"
+        Me.ChartControl4.PaletteName = "Black and White"
         Me.ChartControl4.SeriesDataMember = "Branch"
         Me.ChartControl4.SeriesSerializable = New DevExpress.XtraCharts.Series(-1) {}
         Me.ChartControl4.SeriesTemplate.ArgumentDataMember = "Expr2"
@@ -329,6 +339,7 @@ Partial Class Web
         Me.ChartControl3.Location = New System.Drawing.Point(31, 125)
         Me.ChartControl3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ChartControl3.Name = "ChartControl3"
+        Me.ChartControl3.PaletteName = "Black and White"
         Me.ChartControl3.SeriesDataMember = "Branch"
         Me.ChartControl3.SeriesSerializable = New DevExpress.XtraCharts.Series(-1) {}
         Me.ChartControl3.SeriesTemplate.ArgumentDataMember = "Expr2"
@@ -1253,6 +1264,15 @@ Partial Class Web
         Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem19.TextVisible = False
         '
+        'LayoutControlItem20
+        '
+        Me.LayoutControlItem20.Control = Me.SimpleButton2
+        Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem20.Name = "LayoutControlItem20"
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(1403, 33)
+        Me.LayoutControlItem20.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem20.TextVisible = False
+        '
         'LayoutControlGroup2
         '
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem1})
@@ -1316,24 +1336,6 @@ Partial Class Web
         'CountOfEmployeesPriorWeekTableAdapter
         '
         Me.CountOfEmployeesPriorWeekTableAdapter.ClearBeforeFill = True
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(31, 92)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(1397, 27)
-        Me.SimpleButton2.StyleController = Me.LayoutControl1
-        Me.SimpleButton2.TabIndex = 12
-        Me.SimpleButton2.Text = "Refresh"
-        '
-        'LayoutControlItem20
-        '
-        Me.LayoutControlItem20.Control = Me.SimpleButton2
-        Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(1403, 33)
-        Me.LayoutControlItem20.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem20.TextVisible = False
         '
         'Web
         '
@@ -1433,11 +1435,11 @@ Partial Class Web
         CType(Me.LayoutControlGroup7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Sites1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LexiconRecManagerDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem20, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

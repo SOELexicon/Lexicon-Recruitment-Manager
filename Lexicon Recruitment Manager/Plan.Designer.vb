@@ -25,9 +25,8 @@ Partial Class Plan
         Me.components = New System.ComponentModel.Container()
         Dim WeekLabel2 As System.Windows.Forms.Label
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Plan))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim GridLevelNode1 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
+        Dim GridLevelNode2 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
         Me.PlanTableAdapter = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.PlanTableAdapter()
         Me.PlanTypesTableAdapter = New Lexrecmgr.LexiconRecManagerDataSetTableAdapters.PlanTypesTableAdapter()
         Me.SitesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
@@ -117,7 +116,6 @@ Partial Class Plan
         Me.PayTextBox = New System.Windows.Forms.TextBox()
         Me.HoursTextBox = New System.Windows.Forms.TextBox()
         Me.PlanBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
-        Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
         Me.BindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorMovePreviousItem = New System.Windows.Forms.ToolStripButton()
@@ -127,6 +125,7 @@ Partial Class Plan
         Me.BindingNavigatorMoveNextItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.PlanBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
@@ -978,6 +977,7 @@ Partial Class Plan
         '
         Me.PlanTypesBindingSource.DataMember = "PlanTypes"
         Me.PlanTypesBindingSource.DataSource = Me.LexiconRecManagerDataSet
+        Me.PlanTypesBindingSource.Sort = "PlanName"
         '
         'EmployeesBindingSource
         '
@@ -1384,7 +1384,7 @@ Partial Class Plan
         '
         'PlanBindingNavigator
         '
-        Me.PlanBindingNavigator.AddNewItem = Me.BindingNavigatorAddNewItem
+        Me.PlanBindingNavigator.AddNewItem = Nothing
         Me.PlanBindingNavigator.AutoSize = False
         Me.PlanBindingNavigator.BackColor = System.Drawing.Color.Transparent
         Me.PlanBindingNavigator.BindingSource = Me.PlanBindingSource
@@ -1402,15 +1402,6 @@ Partial Class Plan
         Me.PlanBindingNavigator.Size = New System.Drawing.Size(1426, 38)
         Me.PlanBindingNavigator.TabIndex = 0
         Me.PlanBindingNavigator.Text = "BindingNavigator1"
-        '
-        'BindingNavigatorAddNewItem
-        '
-        Me.BindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
-        Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
-        Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
-        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 35)
-        Me.BindingNavigatorAddNewItem.Text = "Add new"
         '
         'BindingNavigatorCountItem
         '
@@ -1479,6 +1470,15 @@ Partial Class Plan
         Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator2"
         Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 38)
         '
+        'BindingNavigatorAddNewItem
+        '
+        Me.BindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
+        Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 35)
+        Me.BindingNavigatorAddNewItem.Text = "Add new"
+        '
         'ToolStripButton3
         '
         Me.ToolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
@@ -1516,21 +1516,13 @@ Partial Class Plan
         '
         'PlanViewDataGridView
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.PlanViewDataGridView.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PlanViewDataGridView.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle2
         Me.PlanViewDataGridView.AutoGenerateColumns = False
         Me.PlanViewDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.PlanViewDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.PlanViewDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Lock, Me.PlanIDDataGridViewTextBoxColumn, Me.SystemTypeDataGridViewTextBoxColumn, Me.PlanNameDataGridViewTextBoxColumn, Me.PlanTypeIdDataGridViewTextBoxColumn, Me.CompanyIdDataGridViewTextBoxColumn, Me.CompanyNameDataGridViewTextBoxColumn, Me.ForenameDataGridViewTextBoxColumn, Me.SurnameDataGridViewTextBoxColumn, Me.EmployeeIdDataGridViewTextBoxColumn, Me.EmployeeCodeDataGridViewTextBoxColumn, Me.SchemeDataGridViewTextBoxColumn, Me.JobCategoryIdDataGridViewTextBoxColumn, Me.JobCategoryDataGridViewTextBoxColumn, Me.ShiftNameDataGridViewTextBoxColumn, Me.WeekEndingDateDataGridViewTextBoxColumn, Me.WeekEndingDateIfLateDataGridViewTextBoxColumn, Me.FridayDataGridViewCheckBoxColumn, Me.SaturdayDataGridViewCheckBoxColumn, Me.SundayDataGridViewCheckBoxColumn, Me.MondayDataGridViewCheckBoxColumn, Me.TuesdayDataGridViewCheckBoxColumn, Me.WednesdayDataGridViewCheckBoxColumn, Me.ThursdayDataGridViewCheckBoxColumn, Me.Friday2DataGridViewCheckBoxColumn, Me.Saturday2DataGridViewCheckBoxColumn, Me.Sunday2DataGridViewCheckBoxColumn, Me.HoursDataGridViewTextBoxColumn, Me.PayDataGridViewTextBoxColumn, Me.HolidayPayDataGridViewTextBoxColumn, Me.ChargeDataGridViewTextBoxColumn, Me.TotalHoursDataGridViewTextBoxColumn, Me.TotalPayDataGridViewTextBoxColumn, Me.TotalChargeDataGridViewTextBoxColumn, Me.TotalHolidayPayDataGridViewTextBoxColumn, Me.TotalNiDataGridViewTextBoxColumn, Me.TotalCostDataGridViewTextBoxColumn, Me.EstMarginDataGridViewTextBoxColumn, Me.BranchIdDataGridViewTextBoxColumn, Me.PoNumberDataGridViewTextBoxColumn, Me.OrderNumberReqDataGridViewCheckBoxColumn})
         Me.PlanViewDataGridView.DataSource = Me.DataTable1BindingSource
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 7.8!)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(53, Byte), Integer))
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.PlanViewDataGridView.DefaultCellStyle = DataGridViewCellStyle2
         Me.PlanViewDataGridView.Location = New System.Drawing.Point(14, 489)
         Me.PlanViewDataGridView.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PlanViewDataGridView.MultiSelect = False
@@ -2247,8 +2239,8 @@ Partial Class Plan
         '
         Me.GridControl1.DataSource = Me.DataTable1BindingSource
         Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 5, 3, 5)
-        GridLevelNode1.RelationName = "Level1"
-        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1})
+        GridLevelNode2.RelationName = "Level1"
+        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode2})
         Me.GridControl1.Location = New System.Drawing.Point(16, 454)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)

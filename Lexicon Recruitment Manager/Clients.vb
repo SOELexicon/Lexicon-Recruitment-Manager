@@ -61,7 +61,11 @@ ByVal e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles GridView1.R
 
         'TODO: This line of code loads data into the 'LexiconRecManagerDataSet.Sites' table. You can move, or remove it, as needed.
         HoursPerShift.ReadOnly = True
-
+        Dim saveIndex As Integer = TabbedControlGroup1.SelectedTabPageIndex
+        For i As Integer = 0 To TabbedControlGroup1.TabPages.Count - 1
+            TabbedControlGroup1.SelectedTabPageIndex = i
+        Next
+        TabbedControlGroup1.SelectedTabPageIndex = saveIndex
         UserBranch = GetSecurityInfo2("Clients", "Lexicon")
         Dim UserBranch2 As String = UserBranch
         If UserBranch2 = "" Then
@@ -532,6 +536,84 @@ endofsave:
                 JobCategoryTextBox.Text = JobCategoryTextBox.Text + " (U25)"
             End If
 
+        End If
+    End Sub
+    Public Sub ArchiveClient()
+        LtdCheckBox.Checked = False
+        PLCCheckBox.Checked = False
+        SoleTraderCheckBox.Checked = False
+        TermsTextBox.Text = ""
+        CreditLimitTextBox.Text = ""
+        NotesRichTextBox.Text = ""
+        SpecialInvoiceInstructionsRichTextBox.Text = ""
+        GLAClientCheckEdit.Checked = False
+        OtherTextBox.Text = ""
+        DNICheckBox.Checked = False
+        ComboBox2.Text = ""
+        AddressTextBox.Text = ""
+        Address2TextBox.Text = ""
+        Address3TextBox.Text = ""
+        TownTextBox.Text = ""
+        CountyComboBox.Text = ""
+        CountryComboBox.Text = ""
+        PostalCodeTextBox.Text = ""
+        EmailTextBox.Text = ""
+        Telephone1TextBox.Text = ""
+        Telephone2TextBox.Text = ""
+        FaxTextBox.Text = ""
+        BankIDSpinEdit.Text = ""
+        InvoiceToTextBox.Text = ""
+        InvAddressTextBox.Text = ""
+        InvTownTextBox.Text = ""
+        InvCountyComboBox.Text = ""
+        InvCountryComboBox.Text = ""
+        InvPostCodeTextBox.Text = ""
+        InvoicingMethodTextBox.Text = ""
+        OrderNumberReq1CheckBox.Checked = False
+        POtypeTextEdit.Text = ""
+        CanteenAvailableCheckBox.Checked = False
+        SmokingAreaAvailableCheckBox.Checked = False
+        ParkingAvailableCheckBox.Checked = False
+        OtherFacilitiesTextBox.Text = ""
+        HolidayEntitlementTextBox.Text = ""
+        HowArePermanentVacanciesDisplayedTextBox.Text = ""
+        H_SContactTextBox.Text = ""
+        H_SPositionTextBox.Text = ""
+        H_SMobileTextBox.Text = ""
+        H_SEmailTextBox.Text = ""
+        H_SRisksTextBox.Text = ""
+        H_SStepsTextBox.Text = ""
+        H_SBasicInductionCheckBox.Checked = False
+        H_SInstructionGivenCheckBox.Checked = False
+        H_SFirstAidAvailableCheckBox.Checked = False
+        H_SAccidentsReportedCheckBox.Checked = False
+        H_SSaftyBootsCheckBox.Checked = False
+        H_SHiVizVestCheckBox.Checked = False
+        H_SSaftyGogglesCheckBox.Checked = False
+        H_SHardHatCheckBox.Checked = False
+        H_SHiVisTrousersCheckBox.Checked = False
+        H_SEarDefendersCheckBox.Checked = False
+        H_SOtherEqupmentTextBox.Text = ""
+
+        ClientStatusTextEdit.Text = "Archive"
+
+    End Sub
+    Private Sub ToolStripButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
+        Dim result = MsgBox("Are you sure? This will delete all jobcat & basic details", MsgBoxStyle.YesNo, "Delete Record?")
+        If result = DialogResult.Cancel Then
+
+        ElseIf result = DialogResult.No Then
+
+        ElseIf result = DialogResult.Yes Then
+            Dim dc As New DataClasses1DataContext
+            Dim planLinq = (From Plan In dc.GetTable(Of LinqPlan)() Where Plan.CompanyId = TBCompanyId.Text).Count
+            If planLinq = 0 Then
+                MsgBox("Company Doesnt Exist On Plan")
+                ArchiveClient()
+                dc.LinqArchiveJobcatByCompanyId(TBCompanyId.Text)
+            Else
+                MsgBox("Company Exist's On Plan Cannot Archive")
+            End If
         End If
     End Sub
 End Class
